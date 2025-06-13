@@ -1,0 +1,44 @@
+{
+  "INJ_START": {
+    "description": "Start scenario – initialisation event."
+  },
+  "INJ001": {
+    "description": "AIS Dashboard: Ship_Alpha disappears from tracking map."
+  },
+  "INJ002": {
+    "description": "Email: Notification about delayed packet routing sent to Tech and CEO."
+  },
+  "INJ003": {
+    "description": "CCTV Dashboard: Camera feeds experience a blackout."
+  },
+  "INJ004": {
+    "description": "Email Leak: Vendor communication leak sent to Legal and CEO."
+  },
+  "INJ005": {
+    "description": "Media Dashboard: Public tweet complains about GPS drift."
+  },
+  "INJ006": {
+    "description": "AIS Dashboard: All ships disappear from tracking system."
+  },
+  "INJ007": {
+    "description": "Container Dashboard: Configuration manipulation log appears in container scheduler."
+  },
+  "INJ008": {
+    "description": "Email: Internal memo discussing previous vendor incidents sent to Legal and CEO."
+  },
+  "INJ009": {
+    "description": "Media Dashboard: News article published claiming sabotage at the port."
+  },
+  "INJ010": {
+    "description": "Email: Insurer sends inquiry regarding risk management to Legal."
+  },
+  "INJ011": {
+    "description": "Email: Journalist sends inquiry to CEO and Media teams regarding incident response."
+  },
+  "INJ012": {
+    "description": "Media Dashboard: CEO interview airs on simulated media feed."
+  },
+  "INJ013": {
+    "description": "Email: Government sends formal request for incident summary to CEO."
+  }
+}

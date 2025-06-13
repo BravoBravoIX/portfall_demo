@@ -1,0 +1,6 @@
+scenario_name: portfall
+vm_name: VM-UI   # <-- change this depending on which machine you are setting up
+mqtt_broker: localhost  # <-- your MQTT broker IP address or hostname
+mqtt_port: 1883
+dry_run: true   # <-- true while testing (no real actions triggered)
+log_level: INFO

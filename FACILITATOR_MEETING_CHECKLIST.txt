@@ -1,0 +1,134 @@
+FACILITATOR MEETING PREPARATION CHECKLIST
+==========================================
+
+CORE DOCUMENTS TO PRINT (Already Have):
+□ Phase 1-4 master documents (for you)
+□ Team-specific facilitator guides (for each facilitator)
+
+ADDITIONAL MATERIALS TO PREPARE AND PRINT:
+
+1. TECHNICAL REFERENCE SHEETS
+□ System Access Credentials Sheet
+  - URL: http://localhost:3000 (or production URL)
+  - Team login paths (/executive, /legal, etc.)
+  - VM credentials (from VM setup scripts)
+  - Email addresses for each role
+  
+□ MQTT Topics Quick Reference
+  - Key topics each team will see
+  - Inject timing reference
+  - How to identify important vs noise injects
+
+□ VM Access Guide
+  - VM names and purposes (audit, coretech, gateway, opsnode)
+  - SSH access instructions
+  - Warning about gateway trap script
+  - Evidence collection procedures
+
+2. EXERCISE CONTROL DOCUMENTS
+□ Master Timeline (single page)
+  - All inject times across all phases
+  - Key decision points highlighted
+  - Phase transition triggers
+  
+□ Scoring Rubric Sheet
+  - Decision points by team and phase
+  - Point values for each decision
+  - Space to track actual decisions made
+  
+□ Facilitator Contact Sheet
+  - Phone numbers/communication method
+  - Team assignments
+  - Escalation procedures
+
+3. TEAM HANDOUT PACKETS
+□ Team Role Cards (1 per team)
+  - Team name and focus area
+  - Key responsibilities
+  - Email address
+  - System access permissions
+  
+□ Scenario Brief (sanitized version)
+  - Port Southgate background
+  - Recent events leading to exercise
+  - Initial situation (GPS interference reports)
+  
+□ Emergency Procedures Card
+  - What to do if systems fail
+  - How to contact facilitators
+  - Exercise pause/stop procedures
+
+4. OPERATIONAL TOOLS
+□ Inject Tracking Sheet
+  - Checklist of all injects by phase
+  - Space to note delivery confirmation
+  - Team response tracking
+  
+□ Decision Log Template
+  - Team: _____ Phase: _____
+  - Decision point and options
+  - Decision made and rationale
+  - Score achieved
+  
+□ Issue/Question Log
+  - For tracking participant questions
+  - Technical issues encountered
+  - Items for post-exercise discussion
+
+5. QUICK REFERENCE GUIDES
+□ Policy Document Map
+  - Which policies each team needs when
+  - Currently only 6 in UI - note which need manual distribution
+  
+□ Common Issues Troubleshooting
+  - Browser session management
+  - Email not showing up
+  - Can't access certain pages
+  - VM connection issues
+  
+□ Facilitator Do's and Don'ts
+  - When to provide hints vs let teams struggle
+  - How to handle off-script questions
+  - Managing team dynamics
+
+6. EXERCISE MATERIALS
+□ Name tags/tent cards with team roles
+□ Colored folders by team (visual organization)
+□ Whiteboard/flip chart for central timeline
+□ Sticky notes for dynamic updates
+□ Timer/stopwatch for phase management
+
+7. BACKUP MATERIALS
+□ Printed copies of all 24 policy documents
+  (Since only 6 are in the UI currently)
+□ Sample email templates for improvised injects
+□ Contingency plan if technical systems fail
+
+8. POST-EXERCISE MATERIALS
+□ Feedback forms for participants
+□ After Action Report template
+□ Lessons learned capture sheet
+
+FACILITATOR BRIEFING AGENDA:
+1. System walkthrough (30 min)
+2. Scenario overview and objectives (20 min)
+3. Phase-by-phase breakdown (60 min)
+4. Role-specific guidance (30 min)
+5. Technical troubleshooting (20 min)
+6. Dry run of Phase 1 (30 min)
+7. Q&A and concerns (20 min)
+
+PRE-MEETING TECHNICAL CHECKS:
+□ Verify all systems are running
+□ Test email flow through MailHog
+□ Confirm VMs are accessible
+□ Run sample inject to show MQTT flow
+□ Test each team login path
+□ Have backup plan if systems fail
+
+REMEMBER TO EMPHASIZE:
+- This is about crisis decision-making, not technical perfection
+- Facilitate learning, don't just evaluate
+- Email is primary communication method
+- Flexibility is key - adapt as needed
+- Focus on maritime context uniqueness

@@ -1,0 +1,220 @@
+[
+  {
+    "time_offset": 0,
+    "event_id": "INJ_START",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "start_scenario",
+      "parameters": {}
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ001",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "ais",
+        "change": "hide_ship",
+        "target_ships": ["Ship_Alpha"]
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "INJ002",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Delayed Packet Routing",
+        "to": ["tech@portnet.internal", "ceo@simrange.local"],
+        "body": "Team,\n\nPlease be advised of significant delays observed in packet routing across multiple systems this morning. Engineering is investigating the root cause. Expect intermittent service interruptions.\n\nRegards,\nNetwork Operations"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ003",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "cctv",
+        "change": "trigger_blackout"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 4,
+    "event_id": "INJ004",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Vendor Email Leak",
+        "to": ["legal@simrange.local", "ceo@simrange.local"],
+        "body": "URGENT - INTERNAL\n\nA vendor email chain has been leaked externally. This contains sensitive discussions regarding prior system weaknesses. Legal to advise immediately.\n\n— Vendor Support (Trusted Vendor)"
+      }
+    },
+    "manual": true
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ005",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_tweet",
+        "content": "Public complaint about GPS drift"
+      }
+    },
+    "manual": true
+  },
+  {
+    "time_offset": 6,
+    "event_id": "INJ006",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "ais",
+        "change": "hide_all_ships"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 7,
+    "event_id": "INJ007",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "container",
+        "change": "log_config_manipulation"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 8,
+    "event_id": "INJ008",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Past Vendor Incidents",
+        "to": ["legal@simrange.local", "ceo@simrange.local"],
+        "body": "FYI - Confidential\n\nA memo referencing previous vendor-related outages has been recirculated internally. This may raise questions if made public. Recommend immediate review and risk assessment.\n\n— Incident Coordination"
+      }
+    },
+    "manual": true
+  },
+  {
+    "time_offset": 9,
+    "event_id": "INJ009",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_news",
+        "headline": "Sabotage at Southgate?"
+      }
+    },
+    "manual": true
+  },
+  {
+    "time_offset": 9,
+    "event_id": "INJ010",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_news",
+        "headline": "Breaking: Unrest Reported at Southgate Port"
+      }
+    },
+    "manual": true
+  },
+  {
+    "time_offset": 10,
+    "event_id": "INJ011",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Journalist Inquiry",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "To Media/CEO,\n\nRequest for urgent comment regarding potential GPS interference affecting shipping lanes at Southgate Terminal. Is this considered a cyberattack?\n\nRegards,\nFiona Marks, Senior Reporter — Mock News"
+      }
+    },
+    "manual": true
+  },
+  {
+    "time_offset": 11,
+    "event_id": "INJ012",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "air_interview",
+        "interviewee": "CEO"
+      }
+    },
+    "manual": true
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ013",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Government Formal Request",
+        "to": ["ceo@simrange.local"],
+        "body": "TO: CEO, Southgate Maritime Terminal\n\nThe Department requires an immediate summary of the nature of the ongoing incident and all remedial actions taken. Please respond formally by COB today.\n\n— Ministerial Office, Government of Australia"
+      }
+    },
+    "manual": true
+  },
+  {
+    "time_offset": 13,
+    "event_id": "INJ014",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Final Incident Summary Required",
+        "to": ["ceo@simrange.local"],
+        "body": "This closes the incident timeline. CEO to submit final actions taken and lessons learned to Board and Government. All teams to stand down pending review."
+      }
+    },
+    "manual": true
+  }
+]

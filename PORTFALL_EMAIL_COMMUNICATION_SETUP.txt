@@ -1,0 +1,324 @@
+# PORTFALL SIMULATION EMAIL & COLLABORATION SETUP
+
+## Gmail Account Structure
+
+### Control Account
+- **portfall-control@gmail.com** - Master scenario control account
+  - Sends all inject emails using different sender names
+  - Receives all team replies
+  - Monitors all team communications
+  - Has admin access to shared Google Drive
+
+### Team Accounts
+- **portfall-executive@gmail.com** - Executive Team
+- **portfall-legal@gmail.com** - Legal/Compliance Team  
+- **portfall-technical@gmail.com** - Technical/Cyber Team
+- **portfall-media@gmail.com** - Media/Communications Team
+- **portfall-operations@gmail.com** - Operations/Logistics Team
+- **portfall-incident@gmail.com** - Incident Coordinator Team
+
+## Email Workflow
+
+### Sending Inject Emails
+The JSON scheduler controls all email timing and content:
+
+```javascript
+// Backend implementation
+const transporter = nodemailer.createTransporter({
+  service: 'gmail',
+  auth: {
+    user: 'portfall-control@gmail.com',
+    pass: process.env.GMAIL_APP_PASSWORD
+  }
+});
+
+async function sendInjectEmail(injectData) {
+  const { from_name, to, subject, body } = injectData.parameters;
+  
+  await transporter.sendMail({
+    from: `"${from_name}" <portfall-control@gmail.com>`,
+    to: to,
+    subject: subject,
+    html: body,
+    replyTo: 'portfall-control@gmail.com'
+  });
+}
+```
+
+### JSON Inject Structure
+```json
+{
+  "time_offset": 10,
+  "event_id": "INJ011",
+  "target": "VM-UI",
+  "action_type": "payload",
+  "payload": {
+    "command": "send_email",
+    "parameters": {
+      "from_name": "Fiona Marks, Senior Reporter",
+      "to": ["portfall-media@gmail.com"],
+      "subject": "Journalist Inquiry - GPS Interference",
+      "body": "Request for urgent comment regarding GPS interference..."
+    }
+  }
+}
+```
+
+### Sample Sender Names for Injects
+- "Fiona Marks, Senior Reporter" - Journalist inquiries
+- "Ministerial Office" - Government requests
+- "Vendor Support Team" - Vendor communications
+- "Insurance Claims Department" - Insurance notifications
+- "Network Operations" - Technical alerts
+- "Incident Coordinator" - Internal coordination
+- "CEO Assistant" - Executive communications
+- "Port Authority" - Regulatory communications
+
+## Google Drive Collaboration Structure
+
+### Folder Hierarchy
+```
+📁 Portfall Crisis Response Simulation/
+├── 📁 Executive Team/
+│   ├── 📁 Internal Drafts/
+│   ├── 📁 Final Submissions/
+│   └── 📁 Meeting Notes/
+├── 📁 Legal Team/
+│   ├── 📁 Internal Drafts/
+│   ├── 📁 Final Submissions/
+│   └── 📁 Compliance Checklists/
+├── 📁 Technical Team/
+│   ├── 📁 Internal Drafts/
+│   ├── 📁 Final Submissions/
+│   └── 📁 Technical Logs/
+├── 📁 Media Team/
+│   ├── 📁 Internal Drafts/
+│   ├── 📁 Final Submissions/
+│   └── 📁 Press Materials/
+├── 📁 Operations Team/
+│   ├── 📁 Internal Drafts/
+│   ├── 📁 Final Submissions/
+│   └── 📁 Operational Logs/
+├── 📁 Incident Coordinator/
+│   ├── 📁 Internal Drafts/
+│   ├── 📁 Final Submissions/
+│   └── 📁 Timeline Tracking/
+└── 📁 Cross-Team Shared/
+    ├── 📁 Draft Press Releases/
+    ├── 📁 Final Reports/
+    ├── 📁 Coordination Documents/
+    ├── 📁 Policy References/
+    └── 📁 Meeting Coordination/
+```
+
+### Folder Access Permissions
+- **Team Folders**: Full access to respective team members only
+- **Cross-Team Shared**: Full access to all team members
+- **portfall-control@gmail.com**: Admin access to all folders
+
+## Setup Instructions
+
+### 1. Gmail Account Creation
+1. Create all 7 Gmail accounts listed above
+2. Enable 2-factor authentication on portfall-control account
+3. Generate app-specific password for portfall-control account
+4. Add all team accounts to each other's contacts
+
+### 2. Google Drive Setup
+1. Using portfall-control@gmail.com, create the folder structure
+2. Share main folder with all team Gmail accounts (Editor access)
+3. Set up folder permissions as specified above
+4. Create initial welcome document with instructions
+
+### 3. Initial Setup Email
+Send this email to all teams at scenario start:
+
+```
+Subject: Portfall Crisis Response - Communication Protocols
+
+Teams,
+
+Your communication setup for this crisis simulation:
+
+EMAIL ACCOUNTS:
+- Executive: portfall-executive@gmail.com
+- Legal: portfall-legal@gmail.com  
+- Technical: portfall-technical@gmail.com
+- Media: portfall-media@gmail.com
+- Operations: portfall-operations@gmail.com
+- Incident Coordinator: portfall-incident@gmail.com
+
+DOCUMENT COLLABORATION:
+Access shared folders: [Google Drive Link]
+
+FOLDER USAGE:
+• Your Team Folder: Internal drafts and working documents
+• Cross-Team Shared: Documents requiring multi-team input
+• Final Submissions: Place completed documents with "FINAL_" prefix
+
+COMMUNICATION RULES:
+• Check email every 5 minutes during scenario
+• Share documents appropriately (some may be confidential)
+• All teams can see Cross-Team Shared folder
+• Facilitators monitor all communications
+
+SCENARIO STARTS IN 5 MINUTES
+```
+
+## Facilitator Monitoring
+
+### Email Monitoring
+- Monitor portfall-control@gmail.com inbox for all team replies
+- Use Gmail labels to organize responses by team
+- Forward critical communications to scenario control team
+- Track response times and collaboration patterns
+
+### Document Monitoring
+- Real-time visibility of all document creation/editing
+- Monitor which teams collaborate vs work in isolation
+- Track document sharing patterns and information flow
+- Observe decision-making processes through document drafts
+
+### Key Metrics to Track
+- Email response times by team
+- Cross-team collaboration frequency
+- Document sharing appropriateness
+- Quality of final submissions
+- Information security protocol adherence
+
+## Technical Implementation Notes
+
+### Email Sending Options
+
+#### Option 1: Via Gmail SMTP (Requires Gmail App Password)
+```javascript
+// Requires 2FA + App Password setup on portfall-control@gmail.com
+const emailTransporter = nodemailer.createTransporter({
+  service: 'gmail',
+  auth: {
+    user: process.env.PORTFALL_CONTROL_EMAIL,
+    pass: process.env.PORTFALL_EMAIL_PASSWORD // App-specific password
+  }
+});
+```
+
+**Setup Requirements:**
+1. Enable 2-Factor Authentication on portfall-control@gmail.com
+2. Generate App Password (Google Account → Security → App passwords)
+3. Use 16-character app password (not regular Gmail password)
+
+#### Option 2: Via Your Own SMTP Server (No Gmail Authentication Required)
+```javascript
+// Send "from" Gmail account without using Gmail's servers
+const emailTransporter = nodemailer.createTransporter({
+  host: 'your-smtp-server.com', // Or SendGrid, Mailgun, etc.
+  port: 587,
+  auth: {
+    user: 'your_smtp_user',
+    pass: 'your_smtp_password'
+  }
+});
+
+async function processEmailInject(injectData) {
+  const { from_name, to, subject, body } = injectData.parameters;
+  
+  try {
+    await emailTransporter.sendMail({
+      from: `"${from_name}" <portfall-control@gmail.com>`, // Appears from Gmail
+      to: Array.isArray(to) ? to.join(', ') : to,
+      subject: subject,
+      html: body,
+      replyTo: 'portfall-control@gmail.com' // Replies go to Gmail inbox
+    });
+    
+    console.log(`Email sent: ${subject} to ${to}`);
+  } catch (error) {
+    console.error('Email send failed:', error);
+  }
+}
+```
+
+**Benefits of Option 2:**
+- No Gmail credentials required
+- No app password setup needed
+- Emails still appear to come from portfall-control@gmail.com
+- Replies still go to Gmail inbox
+- Won't appear in Gmail "Sent" folder (which is fine for simulation)
+
+**Considerations for Option 2:**
+- May have higher spam risk without proper SPF/DKIM setup
+- Requires access to SMTP server or service (SendGrid/Mailgun)
+- For simulation purposes, deliverability is usually fine
+
+### Backend Email Integration
+```javascript
+// Add to existing backend/mqttBridge.js
+const nodemailer = require('nodemailer');
+
+// Choose one of the above transporter configurations
+const emailTransporter = nodemailer.createTransporter({
+  // Your chosen configuration here
+});
+
+async function processEmailInject(injectData) {
+  const { from_name, to, subject, body } = injectData.parameters;
+  
+  try {
+    await emailTransporter.sendMail({
+      from: `"${from_name}" <portfall-control@gmail.com>`,
+      to: Array.isArray(to) ? to.join(', ') : to,
+      subject: subject,
+      html: body,
+      replyTo: 'portfall-control@gmail.com'
+    });
+    
+    console.log(`Email sent: ${subject} to ${to}`);
+  } catch (error) {
+    console.error('Email send failed:', error);
+  }
+}
+```
+
+### Environment Variables
+Add to docker-compose.yml:
+```yaml
+environment:
+  - PORTFALL_CONTROL_EMAIL=portfall-control@gmail.com
+  # If using Option 1 (Gmail SMTP):
+  - PORTFALL_EMAIL_PASSWORD=your_app_specific_password
+  # If using Option 2 (Your SMTP):
+  - SMTP_HOST=your-smtp-server.com
+  - SMTP_USER=your_smtp_user
+  - SMTP_PASSWORD=your_smtp_password
+```
+
+## Scenario Benefits
+
+### For Participants
+- Authentic crisis communication experience
+- Real-time collaboration capabilities
+- Mobile access during scenario
+- Realistic external stakeholder interactions
+- Professional document creation and sharing
+
+### For Facilitators
+- Complete visibility of all communications
+- Real-time monitoring of team collaboration
+- Easy tracking of document creation and sharing
+- Centralized reply collection
+- Authentic assessment of crisis communication skills
+
+### For Scenario Realism
+- External stakeholder communications (media, government, vendors)
+- Information sharing decision-making
+- Cross-team coordination challenges
+- Document confidentiality considerations
+- Mobile accessibility during crisis response
+
+## Cost Analysis
+- **Gmail Accounts**: Free (7 accounts)
+- **Google Drive Storage**: Free (15GB per account = 105GB total)
+- **Google Docs/Sheets**: Free unlimited
+- **Total Additional Cost**: $0
+
+This setup provides enterprise-level collaboration capabilities at no additional cost while maintaining complete facilitator control and oversight.
