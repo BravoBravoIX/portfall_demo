@@ -1,0 +1,16 @@
+{
+  "scenario_active": true,
+  "log_frequency": 5,
+  "event_types": [
+    "access",
+    "auth",
+    "system",
+    "error"
+  ],
+  "scenario_name": "Network Security Monitoring Exercise",
+  "command": "update_dashboard",
+  "parameters": {
+    "dashboard": "ais",
+    "change": "hide_all_ships"
+  }
+}

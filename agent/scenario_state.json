@@ -1,0 +1,9 @@
+{
+  "start_time_utc": "2025-06-01T08:03:38Z",
+  "current_time_offset": 1,
+  "executed_events": [
+    "INJ_START",
+    "INJ001"
+  ],
+  "manual_events_ready": []
+}

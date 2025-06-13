@@ -66,9 +66,7 @@ pids/
 tmp/
 temp/
 
-# Scenario state files (these contain runtime state)
-scenario_state.json
-*/scenario_state.json
+# Note: scenario_state.json files are now included as they contain important configuration data
 
 # Backup files
 *.backup
