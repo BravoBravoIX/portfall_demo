@@ -4,7 +4,6 @@
 
 export const MENU_ITEMS = [
   // Common items - accessible in multiple roles
-  { name: 'Email',       path: '/email',       roles: ['admin', 'executive', 'legal', 'media', 'operations', 'technical', 'incident'], icon: 'envelope' },
   { name: 'Policies',    path: '/policies',    roles: ['admin', 'executive', 'legal', 'media', 'operations', 'technical', 'incident'], icon: 'book' },
   { name: 'Media',       path: '/media',       roles: ['admin', 'executive', 'legal', 'media', 'operations', 'technical', 'incident'], icon: 'newspaper' },
   

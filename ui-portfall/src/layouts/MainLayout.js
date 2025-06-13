@@ -4,6 +4,7 @@ import { Anchor, Clock, AlertCircle, Shield, Globe } from 'lucide-react';
 import { MENU_ITEMS } from '../config/menu';
 import { useAuth } from '../auth/AuthContext';
 import { useGlobalState } from '../state/globalState';
+import { GmailIcon, GoogleDocsIcon, GoogleDriveIcon } from '../components/icons/GoogleIcons';
 
 // Using React.memo to prevent unnecessary re-renders
 const MainLayout = memo(function MainLayout() {
@@ -148,6 +149,87 @@ const MainLayout = memo(function MainLayout() {
                       </NavLink>
                     ))
                   }
+                  
+                  {/* Google Services Icons */}
+                  <div className="d-flex align-items-center" style={{ gap: '0.5rem', marginLeft: '1rem' }}>
+                    <a 
+                      href="https://mail.google.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="d-flex align-items-center justify-content-center rounded-circle"
+                      style={{
+                        width: '36px',
+                        height: '36px',
+                        backgroundColor: 'white',
+                        borderRadius: '50%',
+                        transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                        textDecoration: 'none'
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = 'scale(1.1)';
+                        e.currentTarget.style.boxShadow = '0 4px 12px rgba(255,255,255,0.3)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = 'scale(1)';
+                        e.currentTarget.style.boxShadow = 'none';
+                      }}
+                      title="Gmail"
+                    >
+                      <GmailIcon size={20} />
+                    </a>
+                    
+                    <a 
+                      href="https://docs.google.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="d-flex align-items-center justify-content-center rounded-circle"
+                      style={{
+                        width: '36px',
+                        height: '36px',
+                        backgroundColor: 'white',
+                        borderRadius: '50%',
+                        transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                        textDecoration: 'none'
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = 'scale(1.1)';
+                        e.currentTarget.style.boxShadow = '0 4px 12px rgba(255,255,255,0.3)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = 'scale(1)';
+                        e.currentTarget.style.boxShadow = 'none';
+                      }}
+                      title="Google Docs"
+                    >
+                      <GoogleDocsIcon size={20} />
+                    </a>
+                    
+                    <a 
+                      href="https://drive.google.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="d-flex align-items-center justify-content-center rounded-circle"
+                      style={{
+                        width: '36px',
+                        height: '36px',
+                        backgroundColor: 'white',
+                        borderRadius: '50%',
+                        transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+                        textDecoration: 'none'
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = 'scale(1.1)';
+                        e.currentTarget.style.boxShadow = '0 4px 12px rgba(255,255,255,0.3)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = 'scale(1)';
+                        e.currentTarget.style.boxShadow = 'none';
+                      }}
+                      title="Google Drive"
+                    >
+                      <GoogleDriveIcon size={20} />
+                    </a>
+                  </div>
                 </nav>
               </div>
             </div>

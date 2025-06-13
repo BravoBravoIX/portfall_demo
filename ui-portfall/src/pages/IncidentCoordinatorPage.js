@@ -3,6 +3,7 @@ import { useAuth } from '../auth/AuthContext';
 import { ROLES } from '../config/menu';
 import TeamDashboard from '../components/dashboard/TeamDashboard';
 import { Mail, FileText, Newspaper, ClipboardList, BarChart } from 'lucide-react';
+import { createGoogleActions } from '../components/icons/GoogleIcons';
 
 export default function IncidentCoordinatorPage() {
   const { user, switchRole } = useAuth();
@@ -60,12 +61,7 @@ export default function IncidentCoordinatorPage() {
   );
 
   const actions = [
-    {
-      link: "/email",
-      iconName: "mail",
-      title: "Critical Communications",
-      description: "Access incident communications across all teams"
-    },
+    ...createGoogleActions(),
     {
       link: "/policies",
       iconName: "fileText",

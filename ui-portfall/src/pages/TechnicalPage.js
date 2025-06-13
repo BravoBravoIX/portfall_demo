@@ -3,6 +3,7 @@ import { useAuth } from '../auth/AuthContext';
 import { ROLES } from '../config/menu';
 import TeamDashboard from '../components/dashboard/TeamDashboard';
 import { MessageSquare, Users, Mail, FileText, Newspaper } from 'lucide-react';
+import { createGoogleActions } from '../components/icons/GoogleIcons';
 
 export default function TechnicalPage() {
   const { user, switchRole } = useAuth();
@@ -71,12 +72,7 @@ export default function TechnicalPage() {
       title: "Vendor Management",
       description: "Access vendor systems and technical documentation"
     },
-    {
-      link: "/email",
-      iconName: "mail",
-      title: "Access Email",
-      description: "View technical communications and incident reports"
-    },
+    ...createGoogleActions(),
     {
       link: "/policies",
       iconName: "fileText",

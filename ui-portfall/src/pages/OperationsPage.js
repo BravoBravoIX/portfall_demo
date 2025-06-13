@@ -3,6 +3,7 @@ import { useAuth } from '../auth/AuthContext';
 import { ROLES } from '../config/menu';
 import TeamDashboard from '../components/dashboard/TeamDashboard';
 import { Ship, Video, Package, Mail, FileText, Newspaper } from 'lucide-react';
+import { createGoogleActions } from '../components/icons/GoogleIcons';
 
 export default function OperationsPage() {
   const { user, switchRole } = useAuth();
@@ -77,12 +78,7 @@ export default function OperationsPage() {
       title: "Container Management",
       description: "Track and manage shipping container logistics"
     },
-    {
-      link: "/email",
-      iconName: "mail",
-      title: "Access Email",
-      description: "View operational communications and directives"
-    },
+    ...createGoogleActions(),
     {
       link: "/policies",
       iconName: "fileText",

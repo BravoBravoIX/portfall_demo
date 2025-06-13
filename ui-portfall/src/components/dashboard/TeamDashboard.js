@@ -104,24 +104,36 @@ export default function TeamDashboard({
                 <p className="lead mb-4">Access your critical systems:</p>
                 
                 <div className="d-grid gap-3">
-                  {actions.map((action, index) => (
-                    <Link 
-                      key={index} 
-                      to={action.link} 
-                      className="btn btn-outline-dark d-flex align-items-center rounded-3 py-2 px-3 text-start hover-shadow"
-                      style={{
+                  {actions.map((action, index) => {
+                    const buttonProps = {
+                      key: index,
+                      className: "btn btn-outline-dark d-flex align-items-center rounded-3 py-2 px-3 text-start hover-shadow",
+                      style: {
                         transition: 'all 0.2s ease',
-                        borderWidth: '1px'
-                      }}
-                      onMouseEnter={(e) => {
+                        borderWidth: '1px',
+                        textDecoration: 'none'
+                      },
+                      onMouseEnter: (e) => {
                         e.currentTarget.style.transform = 'translateY(-2px)';
                         e.currentTarget.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
-                      }}
-                      onMouseLeave={(e) => {
+                      },
+                      onMouseLeave: (e) => {
                         e.currentTarget.style.transform = 'translateY(0)';
                         e.currentTarget.style.boxShadow = 'none';
-                      }}
-                    >
+                      }
+                    };
+
+                    // Render external links as <a> tags, internal as <Link>
+                    const ButtonComponent = action.external ? 'a' : Link;
+                    const linkProps = action.external 
+                      ? { href: action.link, target: "_blank", rel: "noopener noreferrer" }
+                      : { to: action.link };
+
+                    return (
+                      <ButtonComponent 
+                        {...buttonProps}
+                        {...linkProps}
+                      >
                       <span className="me-3 d-flex align-items-center justify-content-center" 
                             style={{
                               backgroundColor: '#f8f9fa', 
@@ -134,12 +146,13 @@ export default function TeamDashboard({
                           React.createElement(iconMap[action.iconName] || Mail, { size: 20, strokeWidth: 1.5 })
                         }
                       </span>
-                      <div className="text-start">
-                        <strong className="d-block mb-0 fs-6">{action.title}</strong>
-                        <small className="text-muted">{action.description}</small>
-                      </div>
-                    </Link>
-                  ))}
+                        <div className="text-start">
+                          <strong className="d-block mb-0 fs-6">{action.title}</strong>
+                          <small className="text-muted">{action.description}</small>
+                        </div>
+                      </ButtonComponent>
+                    );
+                  })}
                 </div>
               </div>
               

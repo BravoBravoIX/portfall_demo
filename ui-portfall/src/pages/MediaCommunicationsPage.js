@@ -3,6 +3,7 @@ import { useAuth } from '../auth/AuthContext';
 import { ROLES } from '../config/menu';
 import TeamDashboard from '../components/dashboard/TeamDashboard';
 import { Newspaper, Mail, FileText, MessageCircle } from 'lucide-react';
+import { createGoogleActions } from '../components/icons/GoogleIcons';
 
 export default function MediaCommunicationsPage() {
   const { user, switchRole } = useAuth();
@@ -61,12 +62,7 @@ export default function MediaCommunicationsPage() {
       title: "Media Center",
       description: "Monitor coverage and manage press releases"
     },
-    {
-      link: "/email",
-      iconName: "mail",
-      title: "Communications",
-      description: "Access stakeholder correspondence and media inquiries"
-    },
+    ...createGoogleActions(),
     {
       link: "/policies",
       iconName: "fileText",
