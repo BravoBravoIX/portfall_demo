@@ -11,12 +11,15 @@ dist/
 */build/
 */dist/
 
-# Environment files
+# Environment files (secrets should not be committed)
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Include .env.example as a template
+!.env.example
 
 # Python
 __pycache__/
