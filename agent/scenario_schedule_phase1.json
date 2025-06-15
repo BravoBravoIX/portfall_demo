@@ -1,0 +1,252 @@
+[
+  {
+    "time_offset": 0,
+    "event_id": "INJ_START",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "start_scenario",
+      "parameters": {}
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "INJ001A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Delayed Packet Routing to Manifest System",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Hi team,\n\nWe've started observing consistent delays in packet routing to the ship manifest system over the past 15 minutes. This appears to be affecting manifest visibility across multiple terminals. We need to confirm whether this is isolated to our local switch or symptomatic of a larger upstream network degradation.\n\nPlease investigate Node-04 traffic first. If no fault found, escalate to the external gateway diagnostics.\n\nAppreciate prompt triage and a summary of findings within the next 10 minutes.\n\nRegards,\nPort Routing Coordinator"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "INJ001B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Packet queue spike – urgent trace?",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Team,\n\nWe're registering a substantial and sustained spike in the outbound packet queue originating from Node-04. Initial analysis suggests this may not be standard load-related behaviour.\n\nPlease advise urgently:\n- Is this related to any known reconfiguration or traffic redirection?\n- Does this coincide with the AIS anomalies reported earlier?\n- Do we need to initiate a trace to identify potential malicious external connections?\n\nIf confirmed abnormal, suggest escalating to cyber team and preparing logs for forensic capture.\n\nRegards,\nNetwork Monitoring Team"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "INJ001C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Code of Conduct Acknowledgement Reminder",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Friendly reminder to all staff:\n\nPlease ensure your signed Code of Conduct acknowledgement forms are submitted via the HR Portal by close of business this Friday. This is a mandatory compliance activity in line with our governance framework.\n\nFailure to complete will be flagged during next month's audit."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "INJ001E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "MarineTracker Visibility Spike",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Hi Media Team,\n\nMarineTracker has started flagging increased visibility metrics for Ship_Alpha, even though its position hasn't changed significantly.\n\nNot sure if this is a legitimate public interest spike or some automated scraping event, but in either case we should prepare a holding line and be ready to respond if it escalates.\n\nLoop in comms writers. Let's keep this one quiet unless something further develops.\n\nAngela"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "INJ001F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Insurance Visibility Concern",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Team,\n\nComms team should hold all external responses until we validate whether clause 7.4 of the policy still applies in the context of AIS-based visibility anomalies.\n\nIf this ends up in the media and we haven't confirmed our position, we risk invalidating cover. Please liaise with underwriters if in doubt.\n\nNo media activity without written legal clearance.\n\nNick"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 7,
+    "event_id": "INJ002A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "ais",
+        "change": "hide_ship",
+        "target_ships": ["Ship_Alpha"]
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 7,
+    "event_id": "INJ002B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Expired Contingency Plan?",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Hi Legal,\n\nWhile cross-referencing our policy binder this morning, I noticed the Cyber Incident Contingency Plan (v3.4) shows an expired review date of 31 March. Can you confirm whether it has been superseded or if we've lapsed into non-compliance?\n\nThere may be downstream impacts if this becomes an active event. Would appreciate confirmation and any interim recommendation.\n\nThanks,\nPolicy Officer"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 7,
+    "event_id": "INJ002C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Berth 3 Coffee Machine",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Morning team,\n\nCan we please get a replacement coffee machine installed at Berth 3? The current one is leaking badly and shorting out the socket. This has been flagged twice now with facilities.\n\nWould help morale.\n\nThanks,\nDock Supervisor"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 7,
+    "event_id": "INJ002D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "PR Photos of Ship_Alpha",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Quick one — do we still have the PR folder with last year's Ship_Alpha arrival shots? Might be useful if we need a stock image for the comms draft."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ003A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "cctv",
+        "change": "trigger_blackout"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ003B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "CCTV Blind Zone on West Perimeter",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Ops,\n\nWe've got a confirmed CCTV blind spot across the west perimeter. Footage drops out intermittently, and in some views the feed goes black entirely.\n\nThis is impacting incoming vehicle lanes and poses a safety risk. Can someone escalate with IT?\n\nThanks,\nSupervisor"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ003C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Staff PPE Policy Update",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "FYI: We've issued a revision to Policy 4.7 – Non-Critical PPE Use. It's mostly admin changes but now includes optional reusables on dry days.\n\nDistribute to area leads when practical."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ003D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Password Rotation Reminder",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Reminder:\n\nGroup Admin accounts must complete password rotation before 15th of the month. This is part of the quarterly security hygiene routine.\n\nPlease confirm when complete so we can update compliance tracking."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ003E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Staff Leave Report Broken Again",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "The online leave balance report is down again. Second time this week. Anyone else affected or is this just an HR portal issue?\n\nIf it continues through tomorrow, we may need to ask IT for an interim download.\n\nPlease let us know if we should escalate."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ003F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "CCTV Outage – Unsafe Conditions",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Team,\n\nWe've now lost visibility in a critical container zone due to camera blackout. This introduces a major safety liability if we continue operations blind.\n\nWe have three active gantry movements scheduled within the next 20 minutes in that lane. The crew are uncomfortable proceeding without visuals.\n\nIf the feed isn't restored within the next 10 minutes, I'm initiating a halt to container movement on lanes 2 and 3. Safety protocol will be cited in the report.\n\n—Frank"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ003G",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "subject": "Node-04 Isolation Warning",
+        "to": ["portfall.controller@gmail.com"],
+        "body": "Hi team,\n\nFYI, if we proceed with isolating Node-04, it will knock out the CCTV relay for the west quadrant. That includes feeds supporting lanes 1 through 3 and the inbound gate.\n\nI suggest checking in with Ops before pulling the plug unless we're confident we've got coverage via manual watch or alternate feeds. Let me know if I should coordinate that directly.\n\nHarjit"
+      }
+    },
+    "manual": false
+  }
+]

@@ -16,7 +16,9 @@ export function connectWebSocket() {
         reconnectTimer = null;
     }
 
-    socket = new WebSocket("ws://localhost:8081");
+    // Use dynamic host detection like MQTT client
+    const host = window.location.hostname;
+    socket = new WebSocket(`ws://${host}:8081`);
 
     socket.onopen = () => {
         console.log("WebSocket connected");

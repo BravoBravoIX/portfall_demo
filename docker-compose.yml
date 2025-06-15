@@ -2,7 +2,7 @@ services:
   ui-portfall:
     build: ./ui-portfall
     ports:
-      - "3000:80"
+      - "80:80"
 
   nginx-ui-proxy:
     image: nginx:latest
@@ -57,7 +57,7 @@ services:
       - MQTT_BROKER=mqtt-broker
       - GMAIL_ENABLED=true
       - GMAIL_USER=portfall.controller@gmail.com
-      - GMAIL_APP_PASSWORD=qdxo suak pwfa bmpt
+      - GMAIL_APP_PASSWORD=zknpipwlksmvjlak
     depends_on:
       - redis
       - mqtt-broker

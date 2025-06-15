@@ -12,66 +12,7 @@
   },
   {
     "time_offset": 1,
-    "event_id": "INJ001",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "ais",
-        "change": "hide_ship",
-        "target_ships": ["Ship_Alpha"]
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 2,
-    "event_id": "INJ002",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "send_email",
-      "parameters": {
-        "subject": "Delayed Packet Routing",
-        "to": ["tech@portnet.internal", "ceo@simrange.local"],
-        "body": "Team,\n\nPlease be advised of significant delays observed in packet routing across multiple systems this morning. Engineering is investigating the root cause. Expect intermittent service interruptions.\n\nRegards,\nNetwork Operations"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 3,
-    "event_id": "INJ003",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "cctv",
-        "change": "trigger_blackout"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 4,
-    "event_id": "INJ004",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "send_email",
-      "parameters": {
-        "subject": "Vendor Email Leak",
-        "to": ["legal@simrange.local", "ceo@simrange.local"],
-        "body": "URGENT - INTERNAL\n\nA vendor email chain has been leaked externally. This contains sensitive discussions regarding prior system weaknesses. Legal to advise immediately.\n\n— Vendor Support (Trusted Vendor)"
-      }
-    },
-    "manual": true
-  },
-  {
-    "time_offset": 5,
-    "event_id": "INJ005",
+    "event_id": "INJ004A",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
@@ -79,14 +20,88 @@
       "parameters": {
         "dashboard": "media",
         "change": "publish_tweet",
-        "content": "Public complaint about GPS drift"
+        "content": "Anonymous internal post criticising handling of incident response at Southgate."
       }
-    },
-    "manual": true
+    }
   },
   {
-    "time_offset": 6,
-    "event_id": "INJ006",
+    "time_offset": 1,
+    "event_id": "INJ004B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Angela Poole",
+        "subject": "Media Scraping Vendor Channels",
+        "to": ["media@simrange.local"],
+        "body": "Heads-up team,\\n\\nWe've detected automated scraping activity targeting our vendor support forums. What's strange is that the outlets involved aren't our usual suspects — a few niche tech blogs, and one aggregator with questionable sourcing practices. It looks like someone's trawling for specific phrases, possibly looking for blame assignment or policy quotes.\\n\\nI suggest we prepare a pre-approved holding statement, just in case something gets lifted out of context and starts circulating. Loop in comms writers ASAP.\\n\\nAngela"
+      }
+    }
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ004C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Finance Operations",
+        "subject": "Delay Vendor Payments?",
+        "to": ["ceo@simrange.local", "legal@simrange.local"],
+        "body": "Hi all,\\n\\nGiven the potential vendor fault with the gateway routing, do we pause payments until formal investigation concludes? We're talking $142k in this cycle, but any freeze without cause might breach contract.\\n\\nWould appreciate a steer. Happy to initiate delay, but we'll need joint sign-off from Legal and Exec.\\n\\nThanks,\\nFinance Ops"
+      }
+    }
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ004D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "HR – People & Culture",
+        "subject": "Are Your Teams Coping?",
+        "to": ["ceo@simrange.local"],
+        "body": "Hi,\\n\\nJust a quick check-in — our site HR leads are reporting visible stress among several ops crews, especially the late shift on the east quay. Some are saying they haven't had any visibility on incident progress, which adds to the anxiety.\\n\\nShould we circulate a formal comms piece to reassure and acknowledge the pressure? We're happy to draft something and keep it short and supportive.\\n\\nHR – P&C"
+      }
+    }
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ004E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Governance Risk",
+        "subject": "Vendor Email Leak",
+        "to": ["legal@simrange.local"],
+        "body": "Legal,\\n\\nA few external voices have begun referencing a vendor correspondence chain we assumed was internal-only. If even parts of that thread leaked, it raises multiple concerns — reputational risk, evidence chain integrity, and potential exposure.\\n\\nCan you initiate a rapid content review? We need to establish:\\n\\n• What was said\\n• Who had access\\n• Whether legal privilege is compromised\\n\\nAppreciate urgent triage.\\n\\nGovernance Risk"
+      }
+    }
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ004F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Port Wellness Team",
+        "subject": "Hot Day – Hydrate!",
+        "to": ["media@simrange.local", "legal@simrange.local", "tech@portnet.internal", "ceo@simrange.local", "ops@simrange.local", "incident@simrange.local"],
+        "body": "Team,\\n\\nIt's a scorcher out there. Please remind crew to hydrate, seek shade when off-shift, and wear hats/sunscreen when outdoors.\\n\\nWe've already had one heat stress case logged by First Aid on Berth 3. Don't wait for another. Supervisors should check in regularly and escalate concerns.\\n\\n—PWT"
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005A",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
@@ -95,12 +110,100 @@
         "dashboard": "ais",
         "change": "hide_all_ships"
       }
-    },
-    "manual": false
+    }
   },
   {
-    "time_offset": 7,
-    "event_id": "INJ007",
+    "time_offset": 3,
+    "event_id": "INJ005B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_ping_loss",
+        "source": "scheduler.vm"
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Legal Liaison – Policy Desk",
+        "subject": "Clause 4.7 Applicability",
+        "to": ["legal@simrange.local"],
+        "body": "Hi,\\n\\nInsurers are already on the line — they're querying whether Clause 4.7 of our cover has been triggered due to the AIS anomaly. The concern is around data inaccuracy, especially as we've not yet declared formally to external stakeholders.\\n\\nCan you confirm:\\n\\n1. Has legal threshold been crossed?\\n2. What are we required to declare and when?\\n\\nThey're pushing for answers by 1300. Need guidance.\\n\\nCheers,\\nLL – Policy"
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Frank Cossar, Dockmaster",
+        "subject": "Visibility Lost on 3 Berths",
+        "to": ["ops@simrange.local"],
+        "body": "Ops,\\n\\nWe've now lost consistent AIS signals across Berths 2–4. Crews report positional jumps and blank feeds. Three container lifts were aborted mid-task.\\n\\nThe foreman is refusing to resume work until fallback systems are verified. Please advise if you want manual override engaged. Otherwise, we'll initiate stand-down.\\n\\nFrank"
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "unauthorised_access",
+        "source": "scheduler.vm",
+        "ip": "103.22.14.3"
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Social Committee",
+        "subject": "Coffee Club Cancelled",
+        "to": ["media@simrange.local", "legal@simrange.local", "tech@portnet.internal", "ceo@simrange.local", "ops@simrange.local", "incident@simrange.local"],
+        "body": "Hi everyone,\\n\\nWe regret to inform you that Friday's Coffee Club is cancelled due to ongoing incident response activities. It's the first time in six years — we know. We'll plan something special for the recovery phase.\\n\\nAppreciate your understanding.\\n\\nSC"
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005G",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Site Operations",
+        "subject": "New Parking Policy (Effective Monday)",
+        "to": ["media@simrange.local", "legal@simrange.local", "tech@portnet.internal", "ceo@simrange.local", "ops@simrange.local", "incident@simrange.local"],
+        "body": "Reminder: the revised parking bay allocations and permit zones go live next Monday. If you haven't reviewed your area's allocation, do so before Friday COB.\\n\\nRangers have been instructed to enforce strictly from Day 1.\\n\\nSite Ops"
+      }
+    }
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ006A",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
@@ -109,112 +212,67 @@
         "dashboard": "container",
         "change": "log_config_manipulation"
       }
-    },
-    "manual": false
+    }
   },
   {
-    "time_offset": 8,
-    "event_id": "INJ008",
+    "time_offset": 5,
+    "event_id": "INJ006C",
     "target": "VM-UI",
     "action_type": "payload",
+    "manual": true,
     "payload": {
       "command": "send_email",
       "parameters": {
-        "subject": "Past Vendor Incidents",
-        "to": ["legal@simrange.local", "ceo@simrange.local"],
-        "body": "FYI - Confidential\n\nA memo referencing previous vendor-related outages has been recirculated internally. This may raise questions if made public. Recommend immediate review and risk assessment.\n\n— Incident Coordination"
-      }
-    },
-    "manual": true
-  },
-  {
-    "time_offset": 9,
-    "event_id": "INJ009",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "media",
-        "change": "publish_news",
-        "headline": "Sabotage at Southgate?"
-      }
-    },
-    "manual": true
-  },
-  {
-    "time_offset": 9,
-    "event_id": "INJ010",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "media",
-        "change": "publish_news",
-        "headline": "Breaking: Unrest Reported at Southgate Port"
-      }
-    },
-    "manual": true
-  },
-  {
-    "time_offset": 10,
-    "event_id": "INJ011",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "send_email",
-      "parameters": {
-        "subject": "Journalist Inquiry",
+        "from_name": "Angela Poole",
+        "subject": "ABC Interview Slot – Confirm?",
         "to": ["media@simrange.local", "ceo@simrange.local"],
-        "body": "To Media/CEO,\n\nRequest for urgent comment regarding potential GPS interference affecting shipping lanes at Southgate Terminal. Is this considered a cyberattack?\n\nRegards,\nFiona Marks, Senior Reporter — Mock News"
+        "body": "Urgent,\\n\\nABC are running a live news segment in 30 minutes focused on regional port disruptions. They've offered us a 3-minute slot.\\n\\nCan we get the CEO or designated spokesperson ready in time? If not, we need to respectfully decline before they fill the slot with speculation or third-party commentary.\\n\\nLet me know —\\nAngela"
       }
-    },
-    "manual": true
+    }
   },
   {
-    "time_offset": 11,
-    "event_id": "INJ012",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "media",
-        "change": "air_interview",
-        "interviewee": "CEO"
-      }
-    },
-    "manual": true
-  },
-  {
-    "time_offset": 12,
-    "event_id": "INJ013",
+    "time_offset": 5,
+    "event_id": "INJ006D",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
       "command": "send_email",
       "parameters": {
-        "subject": "Government Formal Request",
-        "to": ["ceo@simrange.local"],
-        "body": "TO: CEO, Southgate Maritime Terminal\n\nThe Department requires an immediate summary of the nature of the ongoing incident and all remedial actions taken. Please respond formally by COB today.\n\n— Ministerial Office, Government of Australia"
+        "from_name": "Harjit Mann",
+        "subject": "Config Rollback – FYI",
+        "to": ["tech@portnet.internal"],
+        "body": "Team,\\n\\nJust flagging: I manually rolled back the network config on the vendor side at 0805 hours. This should restore baseline routing, but we're still seeing intermittent packet drops.\\n\\nThe change was made without full consultation due to urgency, but I've documented the rollback procedure and will brief the team at the next standup.\\n\\nLet me know if you notice any improvement or further degradation.\\n\\nHarjit"
       }
-    },
-    "manual": true
+    }
   },
   {
-    "time_offset": 13,
-    "event_id": "INJ014",
+    "time_offset": 5,
+    "event_id": "INJ006E",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
       "command": "send_email",
       "parameters": {
-        "subject": "Final Incident Summary Required",
-        "to": ["ceo@simrange.local"],
-        "body": "This closes the incident timeline. CEO to submit final actions taken and lessons learned to Board and Government. All teams to stand down pending review."
+        "from_name": "Logistics Desk",
+        "subject": "Did We Install That New Video Wall?",
+        "to": ["ops@simrange.local"],
+        "body": "Quick query,\\n\\nSomeone from visiting media just asked about the new video wall installation. I think they meant the display upgrade in the main terminal, but I wasn't sure if that project got completed or if it's still pending.\\n\\nCan someone confirm status? Don't want to give them incorrect info.\\n\\nThanks,\\nLogistics"
       }
-    },
-    "manual": true
+    }
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ006F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Comms & Morale Team",
+        "subject": "Dog Photos Due Today!",
+        "to": ["media@simrange.local", "legal@simrange.local", "tech@portnet.internal", "ceo@simrange.local", "ops@simrange.local", "incident@simrange.local"],
+        "body": "Hi team,\\n\\nFriendly reminder that pet photos for the monthly morale slideshow are due by 5 PM today! We're still missing submissions from several departments.\\n\\nSend high-res photos with your pet's name to the usual address. We're planning to debut the slideshow during next week's all-hands meeting.\\n\\nLet's see those adorable faces!\\n\\nComms & Morale Team"
+      }
+    }
   }
 ]

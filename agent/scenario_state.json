@@ -1,9 +1,26 @@
 {
-  "start_time_utc": "2025-06-01T08:03:38Z",
-  "current_time_offset": 1,
+  "start_time_utc": "2025-06-15T08:19:06Z",
+  "current_time_offset": 5,
   "executed_events": [
     "INJ_START",
-    "INJ001"
+    "INJ004A",
+    "INJ004B",
+    "INJ004C",
+    "INJ004D",
+    "INJ004E",
+    "INJ004F",
+    "INJ005A",
+    "INJ005B",
+    "INJ005C",
+    "INJ005D",
+    "INJ005E",
+    "INJ005F",
+    "INJ005G",
+    "INJ006A",
+    "INJ006C",
+    "INJ006D",
+    "INJ006E",
+    "INJ006F"
   ],
   "manual_events_ready": []
 }

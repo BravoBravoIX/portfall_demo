@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
-import SystemInfoPage from './pages/SystemInfoPage';
 import AISPage        from './pages/AISPage';
 import CCTVPage       from './pages/CCTVPage';
 import CommsPage      from './pages/CommsPage';

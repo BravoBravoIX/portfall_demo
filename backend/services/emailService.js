@@ -5,12 +5,12 @@ class EmailService {
     this.enabled = process.env.GMAIL_ENABLED === 'true';
     this.emailMap = {
       // Internal simulation addresses → Real Gmail addresses
-      'media@simrange.local': 'portfall-media@gmail.com',
-      'legal@simrange.local': 'portfall-legal@gmail.com',
-      'tech@portnet.internal': 'portfall-technical@gmail.com',
-      'ceo@simrange.local': 'portfall-executive@gmail.com',
-      'ops@simrange.local': 'portfall-operations@gmail.com',
-      'incident@simrange.local': 'portfall-incident@gmail.com',
+      'media@simrange.local': 'portfall.mediacomms@gmail.com',
+      'legal@simrange.local': 'portfall.legal@gmail.com',
+      'tech@portnet.internal': 'portfall.technical@gmail.com',
+      'ceo@simrange.local': 'portfall.executive@gmail.com',
+      'ops@simrange.local': 'portfall.operations@gmail.com',
+      'incident@simrange.local': 'portfall.incident@gmail.com',
       // Add more mappings as needed
     };
 
@@ -60,7 +60,7 @@ class EmailService {
         from: `"${senderName}" <${process.env.GMAIL_USER}>`,
         to: realRecipients.join(', '),
         subject: subject || 'Portfall Simulation Message',
-        html: body || 'No content provided',
+        html: (body || 'No content provided').replace(/\\n/g, '\n').replace(/\n/g, '<br>'),
         replyTo: process.env.GMAIL_USER
       };
 

@@ -24,7 +24,7 @@ export const TEAM_NAMES = {
 
 // Team home pages after successful login
 export const TEAM_ROUTES = {
-  admin: "/system-info",
+  admin: "/injects",
   executive: "/executive",
   legal: "/legal",
   operations: "/operations",
