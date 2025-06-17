@@ -18,6 +18,11 @@ services:
     ports:
       - "1883:1883"
       - "9001:9001"
+    healthcheck:
+      test: ["CMD-SHELL", "mosquitto_sub -t '$$SYS/broker/uptime' -C 1 --timeout 3"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
 
   mailhog:
     image: jcalonso/mailhog:latest
@@ -42,6 +47,11 @@ services:
       - redis_data:/data
     restart: unless-stopped
     command: sh -c "redis-server --appendonly no --save '' --requirepass '' & sleep 1 && redis-cli FLUSHALL && wait"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
 
   backend:
     build:
@@ -56,8 +66,10 @@ services:
       - GMAIL_USER=portfall.controller@gmail.com
       - GMAIL_APP_PASSWORD=zknpipwlksmvjlak
     depends_on:
-      - redis
-      - mqtt-broker
+      redis:
+        condition: service_healthy
+      mqtt-broker:
+        condition: service_healthy
     restart: unless-stopped
 
   smtp-server:
@@ -75,7 +87,8 @@ services:
     environment:
       - MQTT_BROKER=mqtt-broker
     depends_on:
-      - mqtt-broker
+      mqtt-broker:
+        condition: service_healthy
     restart: unless-stopped
 
 volumes:

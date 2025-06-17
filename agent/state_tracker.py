@@ -75,5 +75,9 @@ class StateTracker:
             'executed_events': self.injected_events,
             'manual_events_ready': []  # Expand later if needed
         }
-        with open(self.state_file, 'w') as f:
-            json.dump(state, f, indent=2)
+        try:
+            with open(self.state_file, 'w') as f:
+                json.dump(state, f, indent=2)
+        except Exception as e:
+            print(f"[StateTracker] Failed to save state: {e}")
+            # Continue running even if we can't save state
