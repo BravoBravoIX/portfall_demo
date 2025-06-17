@@ -10,7 +10,7 @@ export const MENU_ITEMS = [
   // Technical-focused items
   { name: 'AIS',         path: '/ais',         roles: ['admin', 'operations'], icon: 'ship' },
   { name: 'CCTV',        path: '/cctv',        roles: ['admin', 'operations'], icon: 'video' },
-  { name: 'Comms',       path: '/comms',       roles: ['admin', 'technical'], icon: 'phone' },
+  { name: 'System Health', path: '/comms',     roles: ['admin', 'technical'], icon: 'activity' },
   { name: 'Containers',  path: '/containers',  roles: ['admin', 'operations'], icon: 'box' },
   { name: 'Vendor',      path: '/vendor',      roles: ['admin', 'technical'], icon: 'users' },
   
@@ -58,13 +58,13 @@ export const ROLE_CONFIGS = {
     label: 'Operations Team',
     homePage: '/operations',
     description: 'Access to operational systems and status information',
-    email: 'operations@portnet.internal'
+    email: 'ops@simrange.local'
   },
   [ROLES.TECHNICAL]: {
     label: 'Technical Team',
     homePage: '/technical',
     description: 'Access to technical systems, infrastructure, and security',
-    email: 'tech@portnet.internal'
+    email: 'tech@simrange.local'
   },
   [ROLES.MEDIA]: {
     label: 'Media & Communications Team',

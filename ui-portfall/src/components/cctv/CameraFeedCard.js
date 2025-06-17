@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
-export default function CameraFeedCard({ title }) {
+export default function CameraFeedCard({ title, blackoutTriggered }) {
   // Mapping title to image filenames in public folder
   const imageMap = {
     'Camera 1 – North Gate': '/north_gate.png',
@@ -9,21 +9,51 @@ export default function CameraFeedCard({ title }) {
     'Camera 4 – Storage Yard': '/storage_yard.png',
   };
 
+  const [feedState, setFeedState] = useState('normal'); // 'normal', 'flickering', 'noise'
+  
+  // Handle blackout trigger
+  useEffect(() => {
+    if (blackoutTriggered) {
+      setFeedState('flickering');
+      // After 2 seconds of flickering, switch to noise
+      const timer = setTimeout(() => {
+        setFeedState('noise');
+      }, 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [blackoutTriggered]);
+
   const imageSrc = imageMap[title] || '';
+  const displayImage = feedState === 'noise' ? '/signaltonoise.jpg' : imageSrc;
+  const isOnline = feedState === 'normal';
+  const statusText = feedState === 'noise' ? 'Signal Lost' : feedState === 'flickering' ? 'Interference' : 'Live';
 
   return (
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <div className="p-3 border-b border-gray-200 bg-gray-50 flex justify-between items-center">
         <h3 className="font-medium text-gray-700">{title}</h3>
         <div className="flex items-center">
-          <span className="inline-block w-2 h-2 rounded-full bg-green-500 mr-1"></span>
-          <span className="text-xs text-gray-500">Live</span>
+          <span className={`inline-block w-2 h-2 rounded-full mr-1 ${
+            isOnline ? 'bg-green-500' : 
+            feedState === 'flickering' ? 'bg-yellow-500' : 'bg-red-500'
+          }`}></span>
+          <span className="text-xs text-gray-500">{statusText}</span>
         </div>
       </div>
       <div className="p-0">
         <div className="relative h-64 bg-gray-900">
-          {imageSrc ? (
-            <img src={imageSrc} alt={title} className="object-cover w-full h-full" />
+          {displayImage ? (
+            <img 
+              src={displayImage} 
+              alt={title} 
+              className={`object-cover w-full h-full ${
+                feedState === 'flickering' ? 'animate-pulse' : ''
+              }`}
+              style={{
+                filter: feedState === 'flickering' ? 'brightness(0.5) contrast(1.5)' : 'none',
+                animation: feedState === 'flickering' ? 'flicker 0.2s infinite' : 'none'
+              }}
+            />
           ) : (
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-gray-600 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -32,10 +62,22 @@ export default function CameraFeedCard({ title }) {
               <p className="text-sm text-gray-500">No video signal</p>
             </div>
           )}
+          
+          {/* CSS Animation for flicker effect */}
+          <style jsx>{`
+            @keyframes flicker {
+              0%, 50%, 100% { opacity: 1; }
+              25%, 75% { opacity: 0.3; }
+            }
+          `}</style>
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-2">
             <div className="flex justify-between text-white text-xs">
               <span>{title}</span>
-              <span>Live • 12:42:15</span>
+              <span className={feedState === 'noise' ? 'text-red-400' : feedState === 'flickering' ? 'text-yellow-400' : ''}>
+                {feedState === 'noise' ? 'SIGNAL LOST' : 
+                 feedState === 'flickering' ? 'INTERFERENCE' : 
+                 'Live • 12:42:15'}
+              </span>
             </div>
           </div>
         </div>

@@ -2,13 +2,11 @@ import React from 'react';
 import CameraFeedCard from '../components/cctv/CameraFeedCard';
 import CameraStatusCard from '../components/cctv/CameraStatusCard';
 import CCTVEventLogCard from '../components/cctv/CCTVEventLogCard';
-import CCTVTimelineCard from '../components/cctv/CCTVTimelineCard';
-import CCTVMQTTCard from '../components/cctv/CCTVMQTTCard';
 import useCCTVMessages from '../components/cctv/useCCTVMessages';
 
 export default function CCTVPage() {
   // Use CCTV messages hook to get filtered data
-  const { cameras, events } = useCCTVMessages();
+  const { cameras, events, blackoutTriggered } = useCCTVMessages();
   
   return (
     <div className="p-4 space-y-4">
@@ -16,10 +14,10 @@ export default function CCTVPage() {
 
       {/* Camera Feeds Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <CameraFeedCard title="Camera 1 – North Gate" />
-        <CameraFeedCard title="Camera 2 – Dockside" />
-        <CameraFeedCard title="Camera 3 – Admin Building" />
-        <CameraFeedCard title="Camera 4 – Storage Yard" />
+        <CameraFeedCard title="Camera 1 – North Gate" blackoutTriggered={blackoutTriggered} />
+        <CameraFeedCard title="Camera 2 – Dockside" blackoutTriggered={blackoutTriggered} />
+        <CameraFeedCard title="Camera 3 – Admin Building" blackoutTriggered={blackoutTriggered} />
+        <CameraFeedCard title="Camera 4 – Storage Yard" blackoutTriggered={blackoutTriggered} />
       </div>
 
       {/* Status + Log */}
@@ -28,11 +26,6 @@ export default function CCTVPage() {
         <CCTVEventLogCard />
       </div>
 
-      {/* Timeline + Message Monitor */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <CCTVTimelineCard />
-        <CCTVMQTTCard />
-      </div>
     </div>
   );
 }

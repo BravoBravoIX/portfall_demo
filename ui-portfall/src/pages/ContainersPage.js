@@ -3,8 +3,6 @@ import ContainerVisualMapCard from '../components/containers/ContainerVisualMapC
 import ContainerTableCard from '../components/containers/ContainerTableCard';
 import ContainerLogCard from '../components/containers/ContainerLogCard';
 import ContainerErrorStatusCard from '../components/containers/ContainerErrorStatusCard';
-import ContainerTimelineCard from '../components/containers/ContainerTimelineCard';
-import ContainerMQTTCard from '../components/containers/ContainerMQTTCard';
 import useContainerMessages from '../components/containers/useContainerMessages';
 import { useGlobalState } from '../state/globalState';
 
@@ -70,14 +68,8 @@ export default function ContainersPage() {
         <ContainerErrorStatusCard />
       </div>
 
-      {/* Log and Message Monitor */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <ContainerLogCard />
-        <ContainerMQTTCard />
-      </div>
-
-      {/* Timeline reference */}
-      <ContainerTimelineCard />
+      {/* Log */}
+      <ContainerLogCard />
     </div>
   );
 }

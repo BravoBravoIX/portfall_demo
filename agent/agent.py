@@ -25,10 +25,18 @@ class ScenarioAgent:
     def control_callback(self, message):
         command = message.get('command', '').lower()
         if command == 'start':
-            print("[Agent] Start command received. Beginning scenario.")
+            print("[Agent] Start command received. Resetting state and beginning scenario.")
             self.running = True
-            self.state_tracker.start_timer()
+            self.state_tracker.reset()  # Clear previous state first
+            self.state_tracker.start_timer()  # Then start fresh
             threading.Thread(target=self.main_loop, daemon=True).start()
+        elif command == 'stop':
+            print("[Agent] Stop command received. Pausing scenario.")
+            self.running = False
+        elif command == 'reset':
+            print("[Agent] Reset command received. Stopping scenario and clearing state.")
+            self.running = False
+            self.state_tracker.reset()
 
     def main_loop(self):
         while self.running:

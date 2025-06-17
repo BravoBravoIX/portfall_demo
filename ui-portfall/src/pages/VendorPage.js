@@ -2,8 +2,6 @@ import React from 'react';
 import VendorAccessLogCard from '../components/vendor/VendorAccessLogCard';
 import VendorPatchHistoryCard from '../components/vendor/VendorPatchHistoryCard';
 import VendorRiskAlertCard from '../components/vendor/VendorRiskAlertCard';
-import VendorTimelineCard from '../components/vendor/VendorTimelineCard';
-import VendorMQTTCard from '../components/vendor/VendorMQTTCard';
 import useVendorMessages from '../components/vendor/useVendorMessages';
 
 export default function VendorPage() {
@@ -19,12 +17,7 @@ export default function VendorPage() {
         <VendorPatchHistoryCard />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <VendorRiskAlertCard />
-        <VendorMQTTCard />
-      </div>
-
-      <VendorTimelineCard />
+      <VendorRiskAlertCard />
     </div>
   );
 }

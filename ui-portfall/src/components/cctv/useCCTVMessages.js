@@ -15,6 +15,7 @@ export default function useCCTVMessages() {
   });
   
   const [events, setEvents] = useState([]);
+  const [blackoutTriggered, setBlackoutTriggered] = useState(false);
   
   // Process CCTV injects
   useEffect(() => {
@@ -102,6 +103,32 @@ export default function useCCTVMessages() {
             details: details || ''
           });
         }
+        
+        // Handle blackout trigger
+        if (change === 'trigger_blackout') {
+          setBlackoutTriggered(true);
+          
+          // Add blackout event
+          updatedEvents.push({
+            id: Date.now() + Math.random(),
+            timestamp,
+            camera: 'All Cameras',
+            event: 'Signal interference detected',
+            details: 'RF interference causing feed disruption'
+          });
+          
+          // Update all main camera statuses
+          ['Camera 1 – North Gate', 'Camera 2 – Dockside', 'Camera 3 – Admin Building', 'Camera 4 – Storage Yard'].forEach(cameraName => {
+            if (updatedCameras[cameraName]) {
+              updatedCameras[cameraName] = {
+                ...updatedCameras[cameraName],
+                status: 'Interference',
+                lastPing: 'Signal lost',
+                recording: false
+              };
+            }
+          });
+        }
       }
     });
     
@@ -119,6 +146,7 @@ export default function useCCTVMessages() {
   return {
     cameras,
     events,
+    blackoutTriggered,
     raw: cctvInjects
   };
 }

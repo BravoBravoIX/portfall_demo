@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import AISPage        from './pages/AISPage';
 import CCTVPage       from './pages/CCTVPage';
-import CommsPage      from './pages/CommsPage';
+import SystemHealthPage from './pages/SystemHealthPage';
 import EmailPage      from './pages/EmailPage';
 import ContainersPage from './pages/ContainersPage';
 import PoliciesPage   from './pages/PoliciesPage';
@@ -46,7 +46,7 @@ function AppWrapper() {
           <Route element={<ProtectedRoute><MainLayout /></ProtectedRoute>}>
             <Route path="ais"         element={<AISPage />} />
             <Route path="cctv"        element={<CCTVPage />} />
-            <Route path="comms"       element={<CommsPage />} />
+            <Route path="comms"       element={<SystemHealthPage />} />
             <Route path="email"       element={<EmailPage />} />
             <Route path="containers"  element={<ContainersPage />} />
             <Route path="policies"    element={<PoliciesPage />} />

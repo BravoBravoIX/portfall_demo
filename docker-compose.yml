@@ -71,5 +71,15 @@ services:
     environment:
       - RELAY_NETWORKS=:172.17.0.0/16:127.0.0.0/8:10.0.0.0/8:192.168.0.0/16
 
+  agent:
+    build: ./agent
+    volumes:
+      - ./agent:/app
+    environment:
+      - MQTT_BROKER=mqtt-broker
+    depends_on:
+      - mqtt-broker
+    restart: unless-stopped
+
 volumes:
   redis_data:

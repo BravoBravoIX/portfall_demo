@@ -3,7 +3,6 @@ import AISMapCard from '../components/ais/AISMapCard';
 import VesselStatusCard from '../components/ais/VesselStatusCard';
 import LastSignalLogCard from '../components/ais/LastSignalLogCard';
 import SystemHealthCard from '../components/ais/SystemHealthCard';
-import AISMQTTCard from '../components/ais/AISMQTTCard';
 import useAisState from '../components/ais/useAisState';
 import { useGlobalState } from '../state/globalState';
 
@@ -39,10 +38,7 @@ export default function AISPage() {
         <LastSignalLogCard />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <SystemHealthCard />
-        <AISMQTTCard />
-      </div>
+      <SystemHealthCard />
     </div>
   );
 }
