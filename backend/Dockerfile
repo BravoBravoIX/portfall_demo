@@ -7,5 +7,5 @@ RUN npm install
 
 COPY . .
 
-CMD ["node", "websocketServer.js"]
+CMD ["sh", "-c", "node mqttBridge.js & node websocketServer.js"]
 
