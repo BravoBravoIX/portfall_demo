@@ -4,7 +4,7 @@ import useAisState from './useAisState';
 
 // ✅ Ship configuration
 const shipsConfig = [
-  { id: 'Ship_Alpha', name: 'Pacific Voyager', x: 20, y: 30, heading: 45 },
+  { id: 'Ship_Alpha', name: 'Pacific Voyager', x: 35, y: 34, heading: 45 },
   { id: 'Ship_Bravo', name: 'Atlantic Carrier', x: 50, y: 60, heading: 90 },
   { id: 'Ship_Charlie', name: 'Southern Mariner', x: 75, y: 20, heading: 135 },
   { id: 'Ship_Delta', name: 'Northern Trader', x: 40, y: 80, heading: 270 },

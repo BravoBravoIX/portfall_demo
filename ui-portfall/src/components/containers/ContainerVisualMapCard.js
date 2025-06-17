@@ -27,6 +27,14 @@ export default function ContainerVisualMapCard() {
     }
   };
 
+  // Get animation class for flickering effect during animation
+  const getAnimationClass = (status) => {
+    if (isAnimating && status === 'error') {
+      return 'container-flicker';
+    }
+    return '';
+  };
+
   return (
     <div className="bg-white rounded-xl shadow p-4 mb-4">
       <div className="flex justify-between mb-2">
@@ -55,7 +63,7 @@ export default function ContainerVisualMapCard() {
           {containerGrid && containerGrid.map((container) => (
             <div
               key={container.id}
-              className={`relative flex items-center justify-center h-6 border ${getContainerColor(container.status)} text-xs font-mono text-white transition-colors duration-300`}
+              className={`relative flex items-center justify-center h-6 border ${getContainerColor(container.status)} ${getAnimationClass(container.status)} text-xs font-mono text-white transition-colors duration-300`}
               title={`Container ID: ${container.id}, Status: ${container.status}`}
             >
               {container.id}

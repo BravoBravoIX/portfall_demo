@@ -29,7 +29,7 @@ export default function CriticalAlertsCard({ alerts }) {
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-lg h-full">
+    <div className="bg-white rounded-xl shadow-lg">
       <div className="bg-gray-800 text-white p-4 rounded-t-xl">
         <h3 className="text-lg font-semibold flex items-center">
           <span className="mr-2">▲</span>
@@ -37,7 +37,7 @@ export default function CriticalAlertsCard({ alerts }) {
           <span className="ml-2 bg-red-500 text-white px-2 py-1 rounded text-sm">{alerts.length}</span>
         </h3>
       </div>
-      <div className="p-0 max-h-96 overflow-y-auto">
+      <div className="overflow-y-auto">
         {alerts.length === 0 ? (
           <div className="p-6 text-center text-gray-500">
             <div className="text-4xl mb-2 text-green-500">✓</div>
@@ -46,7 +46,7 @@ export default function CriticalAlertsCard({ alerts }) {
         ) : (
           <div className="divide-y divide-gray-200">
             {alerts.map((alert) => (
-              <div key={alert.id} className={`p-3 border-l-4 ${getSeverityColors(alert.severity)}`}>
+              <div key={alert.id} className={`p-4 border-l-4 ${getSeverityColors(alert.severity)}`}>
                 <div className="flex justify-between items-start">
                   <div className="flex-grow">
                     <div className="flex items-center mb-1">

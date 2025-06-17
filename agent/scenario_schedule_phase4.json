@@ -1,0 +1,288 @@
+[
+  {
+    "time_offset": 80,
+    "event_id": "INJ013",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Ministerial Office",
+        "subject": "Government Formal Request",
+        "to": ["ceo@simrange.local"],
+        "body": "TO: CEO, Southgate Maritime Terminal\\n\\nThe Department requires an immediate summary of the nature of the ongoing incident and all remedial actions taken.\\n\\nThis request comes directly from the Minister's office following media reports of significant operational disruption.\\n\\nPlease respond formally by COB today with comprehensive incident timeline and recovery measures."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 85,
+    "event_id": "INJ014",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Incident Commander",
+        "subject": "Final Incident Summary Required",
+        "to": ["ceo@simrange.local"],
+        "body": "This closes the active incident timeline.\\n\\nCEO to submit final actions taken and lessons learned to Board and Government within 24 hours.\\n\\nAll teams to stand down pending comprehensive security review and system hardening."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 87,
+    "event_id": "INJ015",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Vendor Support Engineering",
+        "subject": "URGENT: Login Required – Southgate Ops VM",
+        "to": ["tech@portnet.internal"],
+        "body": "Technical Team,\\n\\nAs part of our ongoing triage, please log into the following system for cross-checking:\\n\\nHostname: vm-secure1.southgate.local\\nUsername: support\\nPassword: Trust3dV3ndor\\n\\nPlease verify the contents of /var/log/sysinfo.log and /var/log/auth.log for anomalies in login patterns or system resource usage.\\n\\nEscalate any confirmed inconsistencies immediately."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 90,
+    "event_id": "INJ016A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "External Auditor",
+        "subject": "Immediate Log Review Request",
+        "to": ["incident@simrange.local", "tech@portnet.internal"],
+        "body": "Please provide access to all security event logs for the 0900–1100 window.\n\nWe're initiating the first phase of external audit. Screenshots of any anomalies appreciated.\n\nThis request is time-sensitive and required for compliance purposes."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 91,
+    "event_id": "INJ016B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_deletion_alert",
+        "user": "svc_admin",
+        "file": "/var/log/auth.log"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 92,
+    "event_id": "INJ016C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Tech Lead",
+        "subject": "Suspicious Log Edit",
+        "to": ["tech@portnet.internal", "legal@simrange.local"],
+        "body": "While reviewing auth logs, we detected timestamp anomalies and deletion attempts tied to the crane override script.\n\nThese irregularities suggest deliberate log tampering has occurred. Requesting immediate legal guidance on breach reporting obligations.\n\nPlease advise on next steps within the hour."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 100,
+    "event_id": "INJ017A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "cronjob_detected",
+        "source": "audit.vm",
+        "task": "/usr/bin/override_crane.sh"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 101,
+    "event_id": "INJ017B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "CEO's Office",
+        "subject": "Data Retention Policy Enquiry",
+        "to": ["legal@simrange.local"],
+        "body": "Legal – we need immediate confirmation that our data retention policy has been met re: crane telemetry and audit logs.\n\nMinisterial review pending. Government officials are requesting comprehensive documentation.\n\nPlease provide written confirmation of compliance status urgently."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 102,
+    "event_id": "INJ017C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Legal Team",
+        "subject": "Chain of Custody Request",
+        "to": ["tech@portnet.internal"],
+        "body": "We require a signed chain of custody document for any logs or systems accessed during investigation.\n\nThis is critical for post-incident compliance and potential legal proceedings.\n\nPlease ensure all forensic evidence handling is properly documented."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 103,
+    "event_id": "INJ019A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Crane Supervisor",
+        "subject": "Crane Override Detected",
+        "to": ["ops@simrange.local", "incident@simrange.local"],
+        "body": "Manual override was *not* triggered by crew. Control systems briefly locked out operator input.\n\nPossible malicious script involved. Crew reported complete loss of control for approximately 45 seconds.\n\nImmediate investigation required before we can resume full operations."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 104,
+    "event_id": "INJ019B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "cctv",
+        "change": "flash_crane_error",
+        "camera": "Berth3_Crane02"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 105,
+    "event_id": "INJ019C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Media Liaison",
+        "subject": "Journalist Obtained Crane Footage",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "ABC just emailed – they have crane CCTV footage leaked from vendor side.\n\nThey're asking for comment regarding unauthorised access and override incidents. The footage appears to show the exact moment of system compromise.\n\nNeed immediate decision on media response strategy."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 110,
+    "event_id": "INJ020A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "CEO",
+        "subject": "Formal Ministerial Response",
+        "to": ["legal@simrange.local", "incident@simrange.local"],
+        "body": "Drafting our formal ministerial reply now.\n\nRequest input on legal implications of override sabotage and audit anomalies. Government is demanding immediate transparency.\n\nSummary required in 20 minutes for urgent submission."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 111,
+    "event_id": "INJ020B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Legal Advisor",
+        "subject": "Statement Draft for Regulator",
+        "to": ["ceo@simrange.local"],
+        "body": "Here's our proposed language for the regulator:\n\n'We acknowledge unauthorised access attempts targeting crane automation systems. Full investigation underway with external security consultants.'\n\nLet us know if we escalate or deflect. Media pressure is mounting."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 112,
+    "event_id": "INJ021A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "cctv",
+        "change": "clear_error",
+        "camera": "Berth3_Crane02"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 113,
+    "event_id": "INJ021B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "HR",
+        "subject": "Post-Incident Support",
+        "to": ["ceo@simrange.local"],
+        "body": "We recommend debriefs for crane teams and mandatory check-ins with trauma counsellors.\n\nIncident stress flagged in team feedback. Several operators reporting anxiety about system reliability.\n\nEmployee wellness should be priority during recovery phase."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 114,
+    "event_id": "INJ021C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Ops Coordinator",
+        "subject": "End-of-Day Incident Wrap",
+        "to": ["ops@simrange.local", "incident@simrange.local"],
+        "body": "All cranes back in semi-auto mode. Staff rotations stable.\n\nManual log extraction complete. No new anomalies reported since 1110.\n\nOperational status: Systems stabilized, ready for full automation restoration pending security clearance."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 115,
+    "event_id": "INJ021D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Media Lead",
+        "subject": "Draft Public Summary",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "Attached is our proposed media summary:\n\n'Southgate Terminal experienced temporary automation disruption during morning operations. Immediate response measures implemented. Full security review underway.'\n\nPlease review and approve for public release."
+      }
+    },
+    "manual": false
+  }
+]

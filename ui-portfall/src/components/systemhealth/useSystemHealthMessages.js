@@ -1,35 +1,15 @@
-import { useState, useEffect } from 'react';
+// This hook is no longer needed since system health processing
+// has been moved to global state management in globalState.js
+// Keeping file for backward compatibility but functionality is deprecated
+
 import { useGlobalState } from '../../state/globalState';
 
 export default function useSystemHealthMessages() {
   const { getInjectsForDashboard } = useGlobalState();
   const logsInjects = getInjectsForDashboard('logs');
   
-  const [logEvents, setLogEvents] = useState([]);
-
-  useEffect(() => {
-    // Process injects to extract log events
-    const events = logsInjects.map(inject => {
-      const { command, parameters, receivedAt } = inject;
-      
-      if (command === 'update_dashboard' && parameters.change) {
-        return {
-          change: parameters.change,
-          source: parameters.source,
-          user: parameters.user,
-          ip: parameters.ip,
-          file: parameters.file,
-          task: parameters.task,
-          receivedAt
-        };
-      }
-      return null;
-    }).filter(Boolean);
-    
-    setLogEvents(events);
-  }, [logsInjects]);
-
+  // Return logs for any components that might still need raw log data
   return {
-    logEvents
+    logEvents: logsInjects.map(inject => inject.parameters).filter(Boolean)
   };
 }

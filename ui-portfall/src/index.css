@@ -15,3 +15,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Container flicker animation for 8-second breach simulation */
+@keyframes containerFlicker {
+  0% { background-color: #ef4444; border-color: #b91c1c; }      /* Red */
+  20% { background-color: #f59e0b; border-color: #d97706; }     /* Yellow/Orange */
+  40% { background-color: #10b981; border-color: #059669; }     /* Green */
+  60% { background-color: #ef4444; border-color: #b91c1c; }     /* Red */
+  80% { background-color: #f59e0b; border-color: #d97706; }     /* Yellow/Orange */
+  100% { background-color: #ef4444; border-color: #b91c1c; }    /* End on Red */
+}
+
+.container-flicker {
+  animation: containerFlicker 1s infinite;
+}

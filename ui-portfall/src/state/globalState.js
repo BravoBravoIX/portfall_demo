@@ -30,12 +30,27 @@ export function GlobalStateProvider({ children }) {
   // Track processed inject IDs
   const processedInjectIds = useRef(new Set());
   
-  // Add global container state
-  const [containerGrid, setContainerGrid] = useState(() => generateContainerGrid());
+  // Add global container state with localStorage persistence check
+  const [containerGrid, setContainerGrid] = useState(() => {
+    const isTriggered = localStorage.getItem('containerTriggered') === 'true';
+    if (isTriggered) {
+      // Generate containers in error state for new browsers visiting after trigger
+      return generateContainerGrid().map(container => ({
+        ...container,
+        status: 'error'
+      }));
+    }
+    return generateContainerGrid();
+  });
   const [containerLogs, setContainerLogs] = useState([]);
   const [containerErrors, setContainerErrors] = useState([]);
-  const [containerAlarmTriggered, setContainerAlarmTriggered] = useState(false);
-  const [containerAnimationComplete, setContainerAnimationComplete] = useState(true); // Initialize as true like AIS state
+  const [containerAlarmTriggered, setContainerAlarmTriggered] = useState(() => {
+    return localStorage.getItem('containerTriggered') === 'true';
+  });
+  const [containerAnimationComplete, setContainerAnimationComplete] = useState(() => {
+    // If triggered from localStorage, animation is already complete
+    return localStorage.getItem('containerTriggered') === 'true';
+  });
   
   // Add global AIS state
   const [aisState, setAisState] = useState('initial'); // 'initial', 'alpha_missing', 'all_missing', 'restored'
@@ -55,6 +70,16 @@ export function GlobalStateProvider({ children }) {
   });
   const [aisLogs, setAisLogs] = useState([]);
   const [aisAnimationComplete, setAisAnimationComplete] = useState(true);
+  
+  // Add global system health state
+  const [systemHealthAlerts, setSystemHealthAlerts] = useState([]);
+  const [systemHealthStatus, setSystemHealthStatus] = useState({
+    ais: 'healthy',
+    cctv: 'healthy', 
+    container: 'healthy',
+    network: 'healthy',
+    auth: 'healthy'
+  });
 
   // Initialize state on component mount
   useEffect(() => {
@@ -72,7 +97,17 @@ export function GlobalStateProvider({ children }) {
       setContainerLogs([]);
       setContainerErrors([]);
 
-      console.log('Container state initialization complete, starting in normal (green) state');
+      // Reset system health state
+      setSystemHealthAlerts([]);
+      setSystemHealthStatus({
+        ais: 'healthy',
+        cctv: 'healthy', 
+        container: 'healthy',
+        network: 'healthy',
+        auth: 'healthy'
+      });
+
+      console.log('Container and system health state initialization complete, starting in normal (green) state');
     } catch (error) {
       console.error('Error during initialization:', error);
     }
@@ -181,6 +216,11 @@ export function GlobalStateProvider({ children }) {
       // Always add to injects list regardless of processing status
     }
     
+    // Handle system health log events
+    if (message.command === 'update_dashboard' && message.parameters?.dashboard === 'logs') {
+      handleSystemHealthEvent(message.parameters);
+    }
+    
     // Add message to injects list
     setInjects(prev => {
       const updated = [...prev, message];
@@ -216,11 +256,16 @@ export function GlobalStateProvider({ children }) {
     setContainerAlarmTriggered(true);
     setContainerAnimationComplete(false);
 
-    // Ensure containers are in normal state to start animation from fresh state
-    setContainerGrid(generateContainerGrid());
+    // OPTION 3: Set containers to red immediately (they'll flicker via CSS during animation)
+    setContainerGrid(current =>
+      current.map(container => ({
+        ...container,
+        status: 'error'  // Red immediately
+      }))
+    );
 
     // Do NOT set localStorage here - only after animation completes
-    console.log('CONTAINER TRIGGER: Successfully triggered, animation should start');
+    console.log('CONTAINER TRIGGER: Successfully triggered, containers set to red with animation starting');
     return true;
   }, [containerAlarmTriggered, containerAnimationComplete]);
 
@@ -228,11 +273,12 @@ export function GlobalStateProvider({ children }) {
     console.log('Container animation complete - setting final state');
     setContainerAnimationComplete(true);
 
-    // Set all containers to error state
+    // Containers are already in error state from triggerContainerAlarm(),
+    // but ensure they stay that way and stop flickering
     setContainerGrid(current =>
       current.map(container => ({
         ...container,
-        status: 'error'
+        status: 'error'  // Ensure final red state
       }))
     );
 
@@ -291,6 +337,112 @@ export function GlobalStateProvider({ children }) {
     setAisAnimationComplete(true);
   }, []);
   
+  // System health functions
+  const handleSystemHealthEvent = useCallback((parameters) => {
+    const timestamp = new Date().toLocaleTimeString();
+    let alertMessage = '';
+    let severity = 'warning';
+    let systemAffected = '';
+
+    switch (parameters.change) {
+      case 'log_auth_failure':
+        alertMessage = `CRITICAL: Authentication failures detected on ${parameters.user || 'system'} from ${parameters.source}`;
+        severity = 'danger';
+        systemAffected = 'auth';
+        break;
+      case 'log_ping_loss':
+        alertMessage = `WARNING: Network connectivity lost to ${parameters.source}`;
+        severity = 'warning';
+        systemAffected = 'network';
+        break;
+      case 'cronjob_detected':
+        alertMessage = `CRITICAL: Suspicious automated task detected: ${parameters.task}`;
+        severity = 'danger';
+        systemAffected = 'network';
+        break;
+      case 'log_container_reroute':
+        alertMessage = `ALERT: Container routing configuration compromised`;
+        severity = 'warning';
+        systemAffected = 'container';
+        break;
+      case 'unauthorised_access':
+        alertMessage = `CRITICAL: Unauthorized access attempt from ${parameters.ip} to ${parameters.source}`;
+        severity = 'danger';
+        systemAffected = 'network';
+        break;
+      case 'log_deletion_alert':
+        alertMessage = `CRITICAL: Log tampering detected - ${parameters.file} modified by ${parameters.user}`;
+        severity = 'danger';
+        systemAffected = 'auth';
+        break;
+      default:
+        alertMessage = `SYSTEM: ${parameters.change} detected on ${parameters.source || 'system'}`;
+        severity = 'info';
+        systemAffected = 'network';
+    }
+
+    // Check for duplicate alert message and update instead of creating new
+    setSystemHealthAlerts(prev => {
+      const existingAlertIndex = prev.findIndex(alert => alert.message === alertMessage);
+      
+      if (existingAlertIndex !== -1) {
+        // Update existing alert with new timestamp (refresh it)
+        const updatedAlerts = [...prev];
+        updatedAlerts[existingAlertIndex] = {
+          ...updatedAlerts[existingAlertIndex],
+          timestamp,
+          id: Date.now() // Update ID to trigger re-render
+        };
+        return updatedAlerts;
+      } else {
+        // Create new alert if no duplicate found
+        const newAlert = {
+          id: Date.now(),
+          timestamp,
+          message: alertMessage,
+          severity,
+          system: systemAffected
+        };
+        return [newAlert, ...prev.slice(0, 19)]; // Keep last 20 alerts
+      }
+    });
+
+    // Update system status
+    setSystemHealthStatus(prev => ({
+      ...prev,
+      [systemAffected]: severity === 'danger' ? 'critical' : 'degraded'
+    }));
+  }, []);
+
+  // Get overall system status based on all dashboard states
+  const getOverallSystemStatus = useCallback(() => {
+    // Check AIS status
+    const aisDown = aisState === 'all_missing' || aisState === 'alpha_missing';
+    
+    // Check Container status  
+    const containerDown = containerAlarmTriggered;
+    
+    // Check for CCTV issues from injects
+    const cctvIssues = injects.some(inject => 
+      inject.command === 'update_dashboard' && 
+      inject.parameters?.dashboard === 'cctv' && 
+      inject.parameters?.change === 'trigger_blackout'
+    );
+    
+    // Check system health alerts for network/auth issues
+    const criticalAlerts = systemHealthAlerts.filter(alert => alert.severity === 'danger');
+    const networkDown = criticalAlerts.some(alert => alert.system === 'network');
+    const authDown = criticalAlerts.some(alert => alert.system === 'auth');
+    
+    return {
+      ais: aisDown ? 'critical' : 'healthy',
+      cctv: cctvIssues ? 'critical' : 'healthy', 
+      container: containerDown ? 'critical' : 'healthy',
+      network: networkDown ? 'critical' : 'healthy',
+      auth: authDown ? 'critical' : 'healthy'
+    };
+  }, [aisState, containerAlarmTriggered, injects, systemHealthAlerts]);
+  
   // Reset functions
   const resetContainerState = useCallback(() => {
     console.log('Resetting container state');
@@ -328,6 +480,18 @@ export function GlobalStateProvider({ children }) {
     setAisLogs([]);
   }, []);
 
+  const resetSystemHealthState = useCallback(() => {
+    console.log('Resetting system health state');
+    setSystemHealthAlerts([]);
+    setSystemHealthStatus({
+      ais: 'healthy',
+      cctv: 'healthy', 
+      container: 'healthy',
+      network: 'healthy',
+      auth: 'healthy'
+    });
+  }, []);
+
   return (
     <GlobalStateContext.Provider value={{ 
       injects, 
@@ -354,7 +518,13 @@ export function GlobalStateProvider({ children }) {
       aisAnimationComplete,
       changeAisState,
       completeAisAnimation,
-      resetAisState
+      resetAisState,
+      
+      // System Health state
+      systemHealthAlerts,
+      systemHealthStatus,
+      getOverallSystemStatus,
+      resetSystemHealthState
     }}>
       {children}
     </GlobalStateContext.Provider>

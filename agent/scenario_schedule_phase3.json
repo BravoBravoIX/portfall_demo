@@ -1,0 +1,470 @@
+[
+  {
+    "time_offset": 0,
+    "event_id": "INJ007A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "start_scenario",
+      "parameters": {}
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ007B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "ais",
+        "change": "hide_ship",
+        "target_ships": ["Ship_Bravo"]
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ007C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Operations Coordinator",
+        "subject": "Crane Sync Issue – Bravo Berth",
+        "to": ["ops@simrange.local"],
+        "body": "Ops,\\n\\nWe've lost telemetry sync on Bravo Berth crane systems – indicators are frozen mid-cycle. No container drop occurred yet, but crew have gone to fallback mode. This may relate to earlier GPS distortions. Please review and advise if escalation needed.\\n\\n– Ops Coordination"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "INJ007D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Angela Poole",
+        "subject": "SatNav Drift – External Ping",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "Team,\\n\\nA freelance journalist just asked if the SatNav interference here is linked to known satellite spoofing incidents overseas. That term hasn't come from us – assume they've spoken to vendors. We need an aligned position before this gets picked up.\\n\\nAngela"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ008A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_auth_failure",
+        "source": "coretech.vm",
+        "user": "svc_gantry"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ008B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Gantry Maintenance",
+        "subject": "Auth Failures – svc_gantry",
+        "to": ["tech@portnet.internal"],
+        "body": "Tech team,\\n\\nWe're seeing a pattern of failed auth attempts on svc_gantry user, originating from coretech.vm. Could be config mismatch or credential bleed – needs eyes urgently. Ops are getting nervous about redundancy fallback.\\n\\nCheers,\\nGantry Maint."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 4,
+    "event_id": "INJ008C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_news",
+        "headline": "Exclusive: Gantry Systems Experiencing Unexplained Glitches at Southgate"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ009A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Legal Liaison – Policy Desk",
+        "subject": "Escalation Risk – Gantry Incidents",
+        "to": ["legal@simrange.local"],
+        "body": "Legal,\\n\\nThe system anomalies now affecting gantry operations could invoke our Class B hazard protocols under WorkSafe maritime regs. If logs show user/system errors, we may be liable. Recommend we begin internal legal review in case incident triggers external review.\\n\\n– Policy Desk"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ009B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "CEO's Office",
+        "subject": "Informal Inquiry – Board Alert",
+        "to": ["legal@simrange.local"],
+        "body": "Heads up – informal board outreach has begun. They're asking if the anomalies might trace to software or vendor negligence. They also flagged prior delays in replacing gateway firmware as a risk.\\n\\nWe need a clean timeline and responsibility chain ready.\\n\\n– Office of the CEO"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 6,
+    "event_id": "INJ009C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Dockside Scheduler",
+        "subject": "Manual Overrides Triggered",
+        "to": ["ops@simrange.local"],
+        "body": "Ops,\\n\\nFYI – two of our Berth 3 teams have activated manual overrides due to the gantry sync errors. This puts stress on remaining automation queues. Unless resolved, we may need to suspend all lift ops until diagnostics complete.\\n\\n– Scheduler"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 7,
+    "event_id": "INJ009D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "cronjob_detected",
+        "source": "audit.vm",
+        "task": "/usr/bin/override_crane.sh"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 8,
+    "event_id": "INJ010A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_container_reroute"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 8,
+    "event_id": "INJ010B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Transport Scheduler",
+        "subject": "Container Misrouted – Client Furious",
+        "to": ["ops@simrange.local", "ceo@simrange.local"],
+        "body": "Two containers were delivered to the wrong berth – 3B instead of 2A. Client is demanding an explanation and claiming time penalties. Please investigate routing logic ASAP."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 8,
+    "event_id": "INJ010C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Finance",
+        "subject": "Updated Q4 Cost Centre Codes",
+        "to": ["legal@simrange.local", "ceo@simrange.local"],
+        "body": "Reminder that Q4 cost centre codes have changed – please ensure uploads reflect the latest mapping. Updated spreadsheet attached."
+      }
+    },
+    "manual": false
+  },
+    {
+    "time_offset": 9,
+    "event_id": "INJ010D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_news",
+        "headline": "Breaking: Unrest Reported at Southgate Port"
+      }
+    },
+    "manual": true
+  },
+  {
+    "time_offset": 8,
+    "event_id": "INJ010D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Legal Intern",
+        "subject": "Do We Notify Port Authority?",
+        "to": ["legal@simrange.local", "ceo@simrange.local"],
+        "body": "Given the misrouted cargo, are we obligated to notify the Port Authority under the logistics disclosure clauses? Can you confirm applicable protocol?"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 8,
+    "event_id": "INJ010E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Media Team",
+        "subject": "Radio Station Requests Comment",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "Local radio wants a short comment on port delays – they're citing 'technical reasons' and waiting on our confirmation. Should we prepare a holding line?"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 8,
+    "event_id": "INJ010F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Staff Feedback Portal",
+        "subject": "Leave Days Glitch",
+        "to": ["ceo@simrange.local", "incident@simrange.local"],
+        "body": "One of the forms for staff feedback is reporting disappearing leave days. Could be frontend glitch, but morale issue if not acknowledged."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 10,
+    "event_id": "INJ011A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Anonymous Tip",
+        "subject": "Leaked HR Memo: Leadership Confusion",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "Internal HR memo circulated online: 'Staff complaining about unclear leadership structure during blackout.' This could get press traction."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 10,
+    "event_id": "INJ011B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_news",
+        "headline": "Sabotage suspected in Southgate systems blackout"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 10,
+    "event_id": "INJ011C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Comms Team",
+        "subject": "Trivia Friday Moved",
+        "to": ["media@simrange.local"],
+        "body": "Due to ongoing system instability, Trivia Friday is now rescheduled to next month."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 10,
+    "event_id": "INJ011D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "External Legal Counsel",
+        "subject": "Clause 12.4 – Log Retention",
+        "to": ["legal@simrange.local", "incident@simrange.local"],
+        "body": "Can you confirm all system logs are archived per clause 12.4? If not, we have a compliance exposure risk."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 10,
+    "event_id": "INJ011E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_tweet",
+        "content": "Union retweet: 'We warned them. Safety matters.' #Southgate #PortSafety"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 10,
+    "event_id": "INJ011F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Internal Comms",
+        "subject": "Pet Photo Contest Reminder",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "Last call for the Pet Photo Contest! Upload deadline extended to Friday."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ012A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Insurer Liaison",
+        "subject": "Request for Risk Logs",
+        "to": ["legal@simrange.local", "incident@simrange.local"],
+        "body": "We require all logs and correspondence related to operational risk since 0500 today. Formal letter follows, but please confirm receipt."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ012B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Journalist Fiona Marks",
+        "subject": "Interview Follow-Up – Southgate Incident",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "Following up on our earlier request. We're going live shortly – do you have a spokesperson available for a short statement?"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ012C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Port Café",
+        "subject": "New Menu Next Week",
+        "to": ["ceo@simrange.local"],
+        "body": "New vegetarian options launching Monday! Preview menu attached."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ012D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Dock Supervisor",
+        "subject": "Can We Halt Night Shift?",
+        "to": ["ops@simrange.local", "ceo@simrange.local"],
+        "body": "Morale's tanking. Teams are on edge and some haven't rested. If this isn't resolved by 1900, I'm requesting authority to pause the night shift."
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ012E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "CEO's PA",
+        "subject": "TV Crew Waiting Outside",
+        "to": ["ceo@simrange.local", "media@simrange.local"],
+        "body": "Journalist Fiona Marks is outside with a crew – they're ready to shoot a live segment. Do we engage or decline?"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "INJ012F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Facilities",
+        "subject": "Coffee Grinder Broken Again",
+        "to": ["incident@simrange.local"],
+        "body": "The grinder in Briefing Lounge 2 has stopped again. Spare parts on order."
+      }
+    },
+    "manual": false
+  }
+]

@@ -1,0 +1,326 @@
+{
+  "scenario_definition": {
+    "id": "portfall-maritime-incident-001",
+    "name": "Portfall Maritime Cyber Incident Response",
+    "version": "1.0.0",
+    "category": "maritime_security",
+    "metadata": {
+      "description": "A comprehensive maritime port cybersecurity incident simulation involving systems failures, CCTV interference, and multi-stakeholder crisis response. Teams must coordinate across technical, legal, media, and operational domains while managing escalating RF interference effects on critical infrastructure.",
+      "difficulty": "intermediate",
+      "duration_estimate": "4-6 hours",
+      "max_instances": 3,
+      "prerequisites": [
+        "Port operations fundamentals",
+        "Incident response procedures",
+        "Crisis communication protocols",
+        "Basic RF/EW concepts"
+      ],
+      "learning_objectives": [
+        "Coordinate multi-team incident response in maritime environment",
+        "Manage cascading technical failures and their operational impacts",
+        "Handle media and stakeholder communications during crisis",
+        "Apply legal and compliance frameworks under pressure",
+        "Understand RF interference effects on critical infrastructure",
+        "Execute decision-making under uncertainty and time pressure"
+      ],
+      "scenario_context": {
+        "setting": "Southgate Maritime Terminal - Major container port facility",
+        "initial_conditions": "Normal port operations, multiple ships in berths, routine system monitoring",
+        "threat_vector": "Sophisticated cyber attack targeting port infrastructure with RF interference component",
+        "stakeholders": ["Port Authority", "Shipping Companies", "Government Regulators", "Media", "Insurance", "Legal Counsel"]
+      }
+    },
+    "topology": {
+      "assets": {
+        "portfall_ui": {
+          "type": "web_application",
+          "base_image": "portfall-ui:latest",
+          "description": "Main port operations dashboard and team interfaces",
+          "network_interfaces": ["port_ops_network"],
+          "resource_requirements": {
+            "cpu_cores": 2,
+            "memory_gb": 4,
+            "storage_gb": 10
+          }
+        },
+        "portfall_agent": {
+          "type": "scenario_controller",
+          "base_image": "portfall-agent:latest", 
+          "description": "Scenario inject executor and system state manager",
+          "network_interfaces": ["port_ops_network"],
+          "resource_requirements": {
+            "cpu_cores": 1,
+            "memory_gb": 2,
+            "storage_gb": 5
+          }
+        },
+        "mqtt_broker": {
+          "type": "message_broker",
+          "base_image": "eclipse-mosquitto:latest",
+          "description": "MQTT message broker for real-time system communications",
+          "network_interfaces": ["port_ops_network"],
+          "resource_requirements": {
+            "cpu_cores": 1,
+            "memory_gb": 1,
+            "storage_gb": 2
+          }
+        },
+        "rf_simulator": {
+          "type": "rf_effects_processor",
+          "base_image": "rf-range:latest",
+          "description": "Real-time RF channel effects processor for CCTV interference simulation",
+          "network_interfaces": ["port_ops_network", "rf_network"],
+          "resource_requirements": {
+            "cpu_cores": 2,
+            "memory_gb": 4,
+            "storage_gb": 8
+          }
+        }
+      },
+      "connections": [
+        {
+          "name": "port_ops_network",
+          "from": "*",
+          "to": "*",
+          "type": "ethernet",
+          "parameters": {
+            "subnet": "192.168.100.0/24",
+            "gateway": "192.168.100.1"
+          }
+        },
+        {
+          "name": "mqtt_control",
+          "from": "scip_range",
+          "to": "portfall_agent",
+          "type": "mqtt",
+          "parameters": {
+            "topic": "scenario/control",
+            "protocol": "tcp",
+            "port": 1883
+          }
+        }
+      ]
+    },
+    "stages": [
+      {
+        "name": "Initial Response and Assessment",
+        "description": "Teams respond to initial system anomalies and begin incident assessment",
+        "completion_criteria": "All teams have acknowledged incident and begun initial response procedures",
+        "duration_estimate": "30-45 minutes",
+        "tasks": [
+          {
+            "id": "assess_network_issues",
+            "task": "Investigate packet routing delays to manifest system",
+            "description": "Technical teams analyze reported network performance issues affecting ship manifest visibility",
+            "verification": "Technical team reports analysis of Node-04 traffic and gateway diagnostics",
+            "time_window": "0-10 minutes",
+            "inject_events": ["INJ001A", "INJ001B"]
+          },
+          {
+            "id": "initial_stakeholder_comms",
+            "task": "Prepare initial stakeholder communications",
+            "description": "Media and legal teams prepare holding statements and assess communication requirements",
+            "verification": "Draft communications prepared and legal implications assessed",
+            "time_window": "0-15 minutes", 
+            "inject_events": ["INJ001E", "INJ001F"]
+          },
+          {
+            "id": "establish_incident_structure",
+            "task": "Activate incident response procedures",
+            "description": "Incident coordination team establishes command structure and communication protocols",
+            "verification": "Incident response structure activated with clear role assignments",
+            "time_window": "5-20 minutes",
+            "inject_events": ["INJ002B"]
+          }
+        ]
+      },
+      {
+        "name": "System Failures and CCTV Interference", 
+        "description": "Critical infrastructure failures begin affecting operations with RF interference on surveillance systems",
+        "completion_criteria": "Teams have identified and begun responding to CCTV blackout and AIS anomalies",
+        "duration_estimate": "45-75 minutes",
+        "tasks": [
+          {
+            "id": "respond_to_cctv_blackout",
+            "task": "Address CCTV system failures and safety implications",
+            "description": "Operations and technical teams respond to camera blackouts affecting safety monitoring",
+            "verification": "Alternative monitoring procedures implemented and safety protocols activated",
+            "time_window": "60-90 seconds",
+            "inject_events": ["INJ003A", "INJ003B", "INJ003F", "INJ003G"],
+            "critical_event": true
+          },
+          {
+            "id": "manage_ais_disruption", 
+            "task": "Respond to AIS tracking anomalies",
+            "description": "Technical and operations teams address ship tracking system failures",
+            "verification": "AIS issues documented and alternative tracking measures implemented",
+            "time_window": "60-120 seconds",
+            "inject_events": ["INJ002A", "INJ005A", "INJ007B"]
+          },
+          {
+            "id": "coordinate_media_response",
+            "task": "Manage emerging media attention and public communications",
+            "description": "Media team handles increasing external interest and prepares public messaging",
+            "verification": "Media strategy developed and spokesperson prepared for external communications",
+            "time_window": "120-180 seconds",
+            "inject_events": ["INJ004A", "INJ004B"]
+          }
+        ]
+      },
+      {
+        "name": "Escalation and External Pressure",
+        "description": "Incident escalates with crane automation issues, media exposure, and regulatory attention",
+        "completion_criteria": "Teams managing multiple concurrent issues while maintaining operational safety",
+        "duration_estimate": "75-150 minutes", 
+        "tasks": [
+          {
+            "id": "address_crane_anomalies",
+            "task": "Investigate and respond to gantry system failures",
+            "description": "Technical teams analyze authentication failures and automation issues affecting crane operations",
+            "verification": "Crane safety protocols engaged and technical root cause analysis initiated",
+            "time_window": "180-240 seconds",
+            "inject_events": ["INJ008A", "INJ008B", "INJ009C", "INJ019A"]
+          },
+          {
+            "id": "manage_public_exposure",
+            "task": "Handle media leaks and public disclosure requirements",
+            "description": "Legal and media teams manage unauthorized information disclosure and media requests",
+            "verification": "Legal disclosure obligations assessed and media response strategy implemented",
+            "time_window": "180-240 seconds", 
+            "inject_events": ["INJ008C", "INJ011B", "INJ019C"]
+          },
+          {
+            "id": "coordinate_executive_response",
+            "task": "Support executive decision-making under pressure", 
+            "description": "Executive team makes critical decisions about operations continuity and external communications",
+            "verification": "Executive decisions documented and communicated to all stakeholders",
+            "time_window": "180-300 seconds",
+            "inject_events": ["INJ009B", "INJ020A", "INJ020B"]
+          }
+        ]
+      },
+      {
+        "name": "Crisis Resolution and Recovery Planning",
+        "description": "Teams work toward incident containment while managing ongoing external pressures",
+        "completion_criteria": "Incident contained, systems stabilized, and recovery planning initiated",
+        "duration_estimate": "60-90 minutes",
+        "tasks": [
+          {
+            "id": "achieve_system_stabilization",
+            "task": "Restore critical system functionality and safety monitoring",
+            "description": "Technical teams implement fixes and restore operational capability",
+            "verification": "Critical systems restored to operational status with appropriate monitoring",
+            "time_window": "240-300 seconds",
+            "inject_events": ["INJ021A", "INJ021C"]
+          },
+          {
+            "id": "manage_regulatory_response",
+            "task": "Address government and regulatory requirements",
+            "description": "Legal and executive teams respond to ministerial inquiries and regulatory obligations",
+            "verification": "Regulatory requirements met and formal response submitted",
+            "time_window": "240-300 seconds",
+            "inject_events": ["INJ013", "INJ014"]
+          },
+          {
+            "id": "initiate_recovery_planning",
+            "task": "Develop comprehensive recovery and lessons learned process",
+            "description": "All teams contribute to post-incident recovery planning and process improvement",
+            "verification": "Recovery plan developed with clear actions and accountability",
+            "time_window": "240-300 seconds",
+            "inject_events": ["INJ021B", "INJ021D"]
+          }
+        ]
+      }
+    ],
+    "inject_timeline": {
+      "total_duration": "300 seconds",
+      "time_compression": "60:1 ratio (5 minutes represents 5 hours of real-time incident)",
+      "critical_decision_points": [
+        {
+          "time": "60 seconds",
+          "event": "CCTV blackout triggers safety protocols",
+          "decision_required": "Continue operations or halt container movements"
+        },
+        {
+          "time": "180 seconds", 
+          "event": "Media exposure and crane system compromise",
+          "decision_required": "Public disclosure level and operational continuity"
+        },
+        {
+          "time": "240 seconds",
+          "event": "Government inquiry and regulatory pressure",
+          "decision_required": "Formal response strategy and accountability framework"
+        }
+      ]
+    },
+    "teams": {
+      "executive": {
+        "name": "Executive Leadership",
+        "members": 2,
+        "responsibilities": ["Strategic decision-making", "Stakeholder management", "Risk assessment", "Resource allocation"],
+        "kpis": ["Decision speed", "Stakeholder satisfaction", "Risk mitigation", "Recovery timeline"]
+      },
+      "incident_coordinator": {
+        "name": "Incident Coordination", 
+        "members": 2,
+        "responsibilities": ["Incident command", "Team coordination", "Status tracking", "Escalation management"],
+        "kpis": ["Response coordination", "Information flow", "Timeline management", "Team effectiveness"]
+      },
+      "technical_cyber": {
+        "name": "Technical & Cyber Response",
+        "members": 3,
+        "responsibilities": ["System analysis", "Technical remediation", "Forensic investigation", "Security restoration"],
+        "kpis": ["System restoration", "Root cause identification", "Security posture", "Technical communication"]
+      },
+      "operations": {
+        "name": "Operational Logistics",
+        "members": 2, 
+        "responsibilities": ["Safety management", "Operations continuity", "Resource coordination", "Physical security"],
+        "kpis": ["Safety compliance", "Operational continuity", "Resource efficiency", "Risk management"]
+      },
+      "legal_compliance": {
+        "name": "Legal & Compliance",
+        "members": 2,
+        "responsibilities": ["Regulatory compliance", "Legal risk assessment", "Disclosure obligations", "Liability management"],
+        "kpis": ["Compliance adherence", "Legal risk mitigation", "Regulatory satisfaction", "Documentation quality"]
+      },
+      "media_communications": {
+        "name": "Media & Communications",
+        "members": 2,
+        "responsibilities": ["Media relations", "Public communications", "Stakeholder messaging", "Reputation management"],
+        "kpis": ["Media sentiment", "Message consistency", "Stakeholder confidence", "Communication speed"]
+      }
+    },
+    "rf_configuration": {
+      "interference_progression": {
+        "phase_1": {
+          "time_range": "0-60 seconds",
+          "snr_level": "12dB",
+          "description": "Clear CCTV feeds with minimal interference"
+        },
+        "phase_2": {
+          "time_range": "60-120 seconds", 
+          "snr_level": "9dB",
+          "description": "Slight noise and occasional pixelation"
+        },
+        "phase_3": {
+          "time_range": "120-180 seconds",
+          "snr_level": "6dB", 
+          "description": "Noticeable interference affecting image quality"
+        },
+        "phase_4": {
+          "time_range": "180-240 seconds",
+          "snr_level": "3dB",
+          "description": "Heavy static and intermittent signal loss"
+        },
+        "phase_5": {
+          "time_range": "240+ seconds",
+          "snr_level": "0dB",
+          "description": "Complete signal loss and 'SYNC LOST' errors"
+        }
+      },
+      "trigger_topic": "scenario/cctv/interference",
+      "status_topic": "scenario/rf/status"
+    }
+  }
+}

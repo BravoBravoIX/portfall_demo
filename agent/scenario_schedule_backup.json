@@ -1,0 +1,295 @@
+[
+  {
+    "time_offset": 0,
+    "event_id": "INJ_START",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "start_scenario",
+      "parameters": {}
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ004A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_tweet",
+        "content": "Anonymous internal post criticising handling of incident response at Southgate."
+      }
+    }
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ004B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Angela Poole",
+        "subject": "Media Scraping Vendor Channels",
+        "to": ["media@simrange.local"],
+        "body": "Heads-up – we’ve picked up automated scraping of our vendor forum posts by outlets we don’t usually track..."
+      }
+    }
+  },
+  {
+    "time_offset": 31,
+    "event_id": "INJ004C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Finance Operations",
+        "subject": "Delay Vendor Payments?",
+        "to": ["ceo@simrange.local", "legal@simrange.local"],
+        "body": "Query: Do we pause payments to the vendor involved in this gateway issue..."
+      }
+    }
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ004D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "HR – People & Culture",
+        "subject": "Are Your Teams Coping?",
+        "to": ["ceo@simrange.local"],
+        "body": "Just checking in — teams on site seem rattled..."
+      }
+    }
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ004E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Governance Risk",
+        "subject": "Vendor Email Leak",
+        "to": ["legal@simrange.local"],
+        "body": "External parties are referencing a vendor chain that wasn't public..."
+      }
+    }
+  },
+  {
+    "time_offset": 1,
+    "event_id": "INJ004F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Port Wellness Team",
+        "subject": "Hot Day – Hydrate!",
+        "to": ["media@simrange.local", "legal@simrange.local", "tech@portnet.internal", "ceo@simrange.local", "ops@simrange.local", "incident@simrange.local"],
+        "body": "Drink water. Sit in shade. You know the drill."
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "ais",
+        "change": "hide_all_ships"
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_ping_loss",
+        "source": "scheduler.vm"
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Legal Liaison – Policy Desk",
+        "subject": "Clause 4.7 Applicability",
+        "to": ["legal@simrange.local"],
+        "body": "Insurers want confirmation whether Clause 4.7 applies..."
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Frank Cossar, Dockmaster",
+        "subject": "Visibility Lost on 3 Berths",
+        "to": ["ops@simrange.local"],
+        "body": "We’ve lost reliable position data across Berths 2–4..."
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "unauthorised_access",
+        "source": "scheduler.vm",
+        "ip": "103.22.14.3"
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Social Committee",
+        "subject": "Coffee Club Cancelled",
+        "to": ["media@simrange.local", "legal@simrange.local", "tech@portnet.internal", "ceo@simrange.local", "ops@simrange.local", "incident@simrange.local"],
+        "body": "Friday coffee run is off due to incident response duties..."
+      }
+    }
+  },
+  {
+    "time_offset": 3,
+    "event_id": "INJ005G",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Site Operations",
+        "subject": "New Parking Policy (Effective Monday)",
+        "to": ["media@simrange.local", "legal@simrange.local", "tech@portnet.internal", "ceo@simrange.local", "ops@simrange.local", "incident@simrange.local"],
+        "body": "Reminder that revised bay allocations and permit zones take effect Monday..."
+      }
+    }
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ006A",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "containers",
+        "change": "log_config_manipulation"
+      }
+    }
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ006B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "add_media",
+        "media_type": "tweet",
+        "title": "@FionaMarks: Following up on reports from Southgate Port",
+        "url": "/twitter_icon.png",
+        "source": "@FionaMarks"
+      }
+    }
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ006C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "manual": true,
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Angela Poole",
+        "subject": "ABC Interview Slot – Confirm?",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "ABC just offered a 3-minute live slot in 30 mins..."
+      }
+    }
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ006D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Harjit Mann",
+        "subject": "Config Rollback – FYI",
+        "to": ["tech@portnet.internal"],
+        "body": "Just flagging: I manually rolled back the network config on the vendor side at 0805..."
+      }
+    }
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ006E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Logistics Desk",
+        "subject": "Did We Install That New Video Wall?",
+        "to": ["ops@simrange.local"],
+        "body": "Someone from visiting media asked about the new display..."
+      }
+    }
+  },
+  {
+    "time_offset": 5,
+    "event_id": "INJ006F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Comms & Morale Team",
+        "subject": "Dog Photos Due Today!",
+        "to": ["media@simrange.local", "legal@simrange.local", "tech@portnet.internal", "ceo@simrange.local", "ops@simrange.local", "incident@simrange.local"],
+        "body": "Reminder to send in your furry friend pics for the morale slideshow..."
+      }
+    }
+  }
+]
