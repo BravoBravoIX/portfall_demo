@@ -19,7 +19,7 @@ services:
       - "1883:1883"
       - "9001:9001"
     healthcheck:
-      test: ["CMD-SHELL", "mosquitto_sub -t '$$SYS/broker/uptime' -C 1 --timeout 3"]
+      test: ["CMD-SHELL", "timeout 5 nc -z localhost 1883"]
       interval: 10s
       timeout: 5s
       retries: 3
