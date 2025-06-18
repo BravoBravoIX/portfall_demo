@@ -783,7 +783,7 @@
   },
   {
     "time_offset": 2760,
-    "event_id": "INJ010F"
+    "event_id": "INJ010F",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
@@ -1323,7 +1323,7 @@
   },
   {
     "time_offset": 3360,
-    "event_id": "INJ013T"
+    "event_id": "INJ013T",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
