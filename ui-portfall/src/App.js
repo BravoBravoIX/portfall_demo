@@ -21,6 +21,7 @@ import Login from './components/Login';
 import ProtectedRoute from './components/ProtectedRoute';
 import HomeRedirect from './components/HomeRedirect';
 import PublicMediaDisplay from './pages/PublicMediaDisplay';
+import PublicSystemsDisplay from './pages/PublicSystemsDisplay';
 
 import MQTTClient from './services/MQTTClient';
 import { GlobalStateProvider } from './state/globalState';
@@ -41,6 +42,9 @@ function AppWrapper() {
           
           {/* Public media display - not protected */}
           <Route path="/public-media" element={<PublicMediaDisplay />} />
+          
+          {/* Public systems display - not protected */}
+          <Route path="/public-systems" element={<PublicSystemsDisplay />} />
           
           {/* Protected routes - require authentication */}
           <Route element={<ProtectedRoute><MainLayout /></ProtectedRoute>}>
