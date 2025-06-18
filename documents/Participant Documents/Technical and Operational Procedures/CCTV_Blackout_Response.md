@@ -26,82 +26,82 @@ This procedure provides immediate and extended response protocols for CCTV syste
 
 #### Step 1: Scope Assessment
 1. **Identify Affected Areas**
-   - [ ] Document specific cameras/zones affected
-   - [ ] Map coverage gaps for operational areas
-   - [ ] Identify critical safety zones without coverage
+ - [ ] Document specific cameras/zones affected
+ - [ ] Map coverage gaps for operational areas
+ - [ ] Identify critical safety zones without coverage
 
 2. **System Status Check**
-   - [ ] Verify CCTV control room system status
-   - [ ] Check network connectivity to camera feeds
-   - [ ] Review recent system configuration changes
+ - [ ] Verify CCTV control room system status
+ - [ ] Check network connectivity to camera feeds
+ - [ ] Review recent system configuration changes
 
 3. **Safety Evaluation**
-   - [ ] Assess crane operations in blind zones
-   - [ ] Evaluate container movement safety
-   - [ ] Check personnel working in affected areas
+ - [ ] Assess crane operations in blind zones
+ - [ ] Evaluate container movement safety
+ - [ ] Check personnel working in affected areas
 
 #### Step 2: Immediate Safety Measures (Next 5 minutes)
 1. **Personnel Deployment**
-   - [ ] Station manual spotters at affected critical zones
-   - [ ] Deploy safety personnel to blind spots
-   - [ ] Establish radio contact with all spotters
+ - [ ] Station manual spotters at affected critical zones
+ - [ ] Deploy safety personnel to blind spots
+ - [ ] Establish radio contact with all spotters
 
 2. **Operations Adjustment**
-   - [ ] Slow down operations in affected areas
-   - [ ] Implement buddy system for crane operations
-   - [ ] Increase communication frequency
+ - [ ] Slow down operations in affected areas
+ - [ ] Implement buddy system for crane operations
+ - [ ] Increase communication frequency
 
 3. **Communication Alert**
-   - [ ] Alert all crane operators to CCTV loss
-   - [ ] Notify operations team of coverage gaps
-   - [ ] Establish direct radio protocols
+ - [ ] Alert all crane operators to CCTV loss
+ - [ ] Notify operations team of coverage gaps
+ - [ ] Establish direct radio protocols
 
 ### Short-Term Response (5-30 minutes)
 
 #### Enhanced Manual Procedures
 1. **Spotter Network Establishment**
-   - [ ] Assign dedicated spotters to each blind zone
-   - [ ] Establish clear radio communication protocols
-   - [ ] Create backup spotter rotation schedule
+ - [ ] Assign dedicated spotters to each blind zone
+ - [ ] Establish clear radio communication protocols
+ - [ ] Create backup spotter rotation schedule
 
 2. **Modified Operating Procedures**
-   - [ ] Reduce crane movement speed in blind zones
-   - [ ] Require verbal confirmation for all container moves
-   - [ ] Implement double-check system for safety clearances
+ - [ ] Reduce crane movement speed in blind zones
+ - [ ] Require verbal confirmation for all container moves
+ - [ ] Implement double-check system for safety clearances
 
 3. **Alternative Monitoring**
-   - [ ] Use handheld radios for constant communication
-   - [ ] Deploy temporary mobile cameras if available
-   - [ ] Increase frequency of safety walks
+ - [ ] Use handheld radios for constant communication
+ - [ ] Deploy temporary mobile cameras if available
+ - [ ] Increase frequency of safety walks
 
 #### Cross-System Impact Assessment
 1. **Network Correlation Check**
-   - [ ] Verify if CCTV loss correlates with network issues
-   - [ ] Check if other systems affected simultaneously
-   - [ ] Document timing relationships
+ - [ ] Verify if CCTV loss correlates with network issues
+ - [ ] Check if other systems affected simultaneously
+ - [ ] Document timing relationships
 
 2. **AIS Correlation Check**
-   - [ ] Compare CCTV blackout timing with AIS anomalies
-   - [ ] Assess if vessels are visible but not tracking
-   - [ ] Note any cross-system pattern implications
+ - [ ] Compare CCTV blackout timing with AIS anomalies
+ - [ ] Assess if vessels are visible but not tracking
+ - [ ] Note any cross-system pattern implications
 
 ### Extended Response (30+ minutes)
 
 #### Sustained Operations Protocol
 1. **Workforce Adjustments**
-   - [ ] Rotate spotter personnel to prevent fatigue
-   - [ ] Brief all personnel on modified safety procedures
-   - [ ] Monitor crew stress and confidence levels
+ - [ ] Rotate spotter personnel to prevent fatigue
+ - [ ] Brief all personnel on modified safety procedures
+ - [ ] Monitor crew stress and confidence levels
 
 2. **Operational Capacity Assessment**
-   - [ ] Calculate safe operational capacity without CCTV
-   - [ ] Determine if operations should be reduced or halted
-   - [ ] Document capacity limitations for planning
+ - [ ] Calculate safe operational capacity without CCTV
+ - [ ] Determine if operations should be reduced or halted
+ - [ ] Document capacity limitations for planning
 
 3. **Alternative Solutions**
-   - [ ] Deploy temporary surveillance equipment
-   - [ ] Consider external security personnel
-   - [ ] Evaluate mobile camera options
+ - [ ] Deploy temporary surveillance equipment
+ - [ ] Consider external security personnel
+ - [ ] Evaluate mobile camera options
 
 #### Decision Points for Operations Continuation
 
@@ -179,25 +179,25 @@ This procedure provides immediate and extended response protocols for CCTV syste
 
 #### Pre-Restoration Testing
 1. **Camera Functionality**
-   - [ ] Test each camera feed individually
-   - [ ] Verify image quality and positioning
-   - [ ] Confirm recording functionality restored
+ - [ ] Test each camera feed individually
+ - [ ] Verify image quality and positioning
+ - [ ] Confirm recording functionality restored
 
 2. **Network Connectivity**
-   - [ ] Test network stability to camera systems
-   - [ ] Verify no packet loss or delay issues
-   - [ ] Confirm backup systems operational
+ - [ ] Test network stability to camera systems
+ - [ ] Verify no packet loss or delay issues
+ - [ ] Confirm backup systems operational
 
 #### Gradual Return to Automated Monitoring
 1. **Phased Restoration**
-   - [ ] Restore most critical cameras first
-   - [ ] Gradually reduce manual spotter coverage
-   - [ ] Maintain enhanced communication during transition
+ - [ ] Restore most critical cameras first
+ - [ ] Gradually reduce manual spotter coverage
+ - [ ] Maintain enhanced communication during transition
 
 2. **Extended Monitoring**
-   - [ ] Monitor system stability for first hour after restoration
-   - [ ] Keep backup spotters available
-   - [ ] Document any recurring issues
+ - [ ] Monitor system stability for first hour after restoration
+ - [ ] Keep backup spotters available
+ - [ ] Document any recurring issues
 
 ### Success Criteria
 - Safe operations maintained despite CCTV loss

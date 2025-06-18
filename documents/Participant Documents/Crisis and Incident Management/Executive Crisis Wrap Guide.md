@@ -18,10 +18,10 @@ Begin using this wrap-up guide when:
 - The primary threat or disruption has been mitigated
 
 - All core teams (Legal, Tech, Ops, Media) confirm containment or
-  resolution
+resolution
 
 - Stakeholder-facing actions (e.g. insurer notifications, media
-  responses) have been initiated
+responses) have been initiated
 
 - You are within the final 15--30 minutes of the live response phase
 
@@ -45,17 +45,17 @@ Begin using this wrap-up guide when:
 
 - Review:
 
-  - What happened?
+- What happened?
 
-  - What decisions were made?
+- What decisions were made?
 
-  - Are there any gaps still unresolved?
+- Are there any gaps still unresolved?
 
 - Confirm:
 
-  - All required reports are submitted
+- All required reports are submitted
 
-  - No further team handoffs are required
+- No further team handoffs are required
 
 **3. Stakeholder Summary Preparation**
 
@@ -86,11 +86,11 @@ Reference Tools:
 
 - Decide:
 
-  - ✅ Issue final statement now
+- Issue final statement now
 
-  - ⚠️ Hold until full debrief
+- Hold until full debrief
 
-  - ❌ Withhold and prepare follow-up instead
+- ❌ Withhold and prepare follow-up instead
 
 **5. Ensure Executive Narrative Is Captured**
 
@@ -99,7 +99,7 @@ Reference Tools:
 - Clarify the intent behind any non-standard actions
 
 - Record unresolved dilemmas or constraints (e.g. conflicting
-  obligations)
+obligations)
 
 - Provide quotes or positioning for the post-incident review
 
@@ -115,24 +115,24 @@ Use the **Briefing Summary Framework** to structure this.
 
 ## Outputs to Produce
 
-- ✅ Executive Summary Document (short briefing note or PDF)
+- Executive Summary Document (short briefing note or PDF)
 
-- ✅ Final Status Update to Board / Oversight Body
+- Final Status Update to Board / Oversight Body
 
-- ✅ Closure Email to Staff or Internal Stakeholders
+- Closure Email to Staff or Internal Stakeholders
 
-- ✅ Entry into Enterprise Risk Register (if applicable)
+- Entry into Enterprise Risk Register (if applicable)
 
 ## Executive Tips
 
 - Balance optimism and realism: state outcomes clearly but acknowledge
-  ongoing risks
+ongoing risks
 
 - Reinforce leadership transparency in both internal and external
-  messaging
+messaging
 
 - Support a positive tone going into the post-incident review (even if
-  outcomes were mixed)
+outcomes were mixed)
 
 **Document Owner:** CEO or Acting Executive Lead\
 **Reference:** CIM-02\

@@ -5,9 +5,9 @@
 # Evidence Transfer and Chain-of-Custody Procedures
 
 ## Document Information
-**Document Type:** Forensic Evidence Management Framework  
-**Intended Users:** Technical Team, Legal Team, Incident Coordinator  
-**Usage Context:** Evidence collection, preservation, and transfer during cyber incidents  
+**Document Type:** Forensic Evidence Management Framework 
+**Intended Users:** Technical Team, Legal Team, Incident Coordinator 
+**Usage Context:** Evidence collection, preservation, and transfer during cyber incidents 
 **Related Scenarios:** VM investigations, log analysis, forensic chain-of-custody
 
 ---
@@ -107,19 +107,19 @@ EVIDENCE_DIR="/tmp/evidence_collection_$(date +%Y%m%d_%H%M%S)"
 
 # Preserve logs with hash generation
 for logfile in /var/log/auth.log /var/log/syslog /var/log/kern.log; do
-    if [ -f "$logfile" ]; then
-        # Generate hash before copying
-        sha256sum "$logfile" >> "$EVIDENCE_DIR/hashes/pre_collection_hashes.txt"
-        
-        # Copy with timestamp preservation
-        cp -p "$logfile" "$EVIDENCE_DIR/logs/$(basename $logfile)_$(date +%Y%m%d_%H%M%S)"
-        
-        # Generate hash after copying
-        sha256sum "$EVIDENCE_DIR/logs/$(basename $logfile)_$(date +%Y%m%d_%H%M%S)" >> "$EVIDENCE_DIR/hashes/post_collection_hashes.txt"
-        
-        # Document collection
-        echo "$(date): Collected $logfile" >> "$EVIDENCE_DIR/metadata/collection_log.txt"
-    fi
+ if [ -f "$logfile" ]; then
+   # Generate hash before copying
+   sha256sum "$logfile" >> "$EVIDENCE_DIR/hashes/pre_collection_hashes.txt"
+   
+   # Copy with timestamp preservation
+   cp -p "$logfile" "$EVIDENCE_DIR/logs/$(basename $logfile)_$(date +%Y%m%d_%H%M%S)"
+   
+   # Generate hash after copying
+   sha256sum "$EVIDENCE_DIR/logs/$(basename $logfile)_$(date +%Y%m%d_%H%M%S)" >> "$EVIDENCE_DIR/hashes/post_collection_hashes.txt"
+   
+   # Document collection
+   echo "$(date): Collected $logfile" >> "$EVIDENCE_DIR/metadata/collection_log.txt"
+ fi
 done
 ```
 
@@ -142,12 +142,12 @@ EOF
 
 # Document each piece of evidence
 find "$EVIDENCE_DIR" -type f -not -path "*/EVIDENCE_MANIFEST.txt" | while read file; do
-    echo "File: $(basename $file)" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
-    echo "Path: $file" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
-    echo "Size: $(stat -c%s $file) bytes" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
-    echo "Hash: $(sha256sum $file | cut -d' ' -f1)" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
-    echo "Collected: $(stat -c%y $file)" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
-    echo "---" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
+ echo "File: $(basename $file)" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
+ echo "Path: $file" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
+ echo "Size: $(stat -c%s $file) bytes" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
+ echo "Hash: $(sha256sum $file | cut -d' ' -f1)" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
+ echo "Collected: $(stat -c%y $file)" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
+ echo "---" >> "$EVIDENCE_DIR/EVIDENCE_MANIFEST.txt"
 done
 
 # Create chain-of-custody form
@@ -236,11 +236,11 @@ LOCAL_HASH=$(cat "${EVIDENCE_PACKAGE}.hash" | cut -d' ' -f1)
 REMOTE_HASH=$(cat /tmp/remote_hash_verification.txt | cut -d' ' -f1)
 
 if [ "$LOCAL_HASH" = "$REMOTE_HASH" ]; then
-    echo "$(date): TRANSFER SUCCESSFUL - Hash verification passed" >> /tmp/transfer_log.txt
-    TRANSFER_STATUS="SUCCESS"
+ echo "$(date): TRANSFER SUCCESSFUL - Hash verification passed" >> /tmp/transfer_log.txt
+ TRANSFER_STATUS="SUCCESS"
 else
-    echo "$(date): TRANSFER FAILED - Hash mismatch detected" >> /tmp/transfer_log.txt
-    TRANSFER_STATUS="FAILED"
+ echo "$(date): TRANSFER FAILED - Hash mismatch detected" >> /tmp/transfer_log.txt
+ TRANSFER_STATUS="FAILED"
 fi
 
 # Update chain-of-custody record
@@ -265,8 +265,8 @@ EOF
 ```bash
 # On vm-audit system - receive and verify evidence
 EVIDENCE_DIR="/incident/archive"
-RECEIVED_PACKAGE="$1"  # Package filename passed as parameter
-SOURCE_SYSTEM="$2"     # Source system name
+RECEIVED_PACKAGE="$1" # Package filename passed as parameter
+SOURCE_SYSTEM="$2"   # Source system name
 
 # Create reception record
 cat > "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt" <<EOF
@@ -290,23 +290,23 @@ echo "Calculated Hash: $LOCAL_HASH" >> "/incident/hash_records/reception_$(date 
 echo "Expected Hash: $EXPECTED_HASH" >> "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt"
 
 if [ "$LOCAL_HASH" = "$EXPECTED_HASH" ]; then
-    echo "Verification: PASSED" >> "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt"
-    echo "Status: EVIDENCE RECEIVED AND VERIFIED" >> "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt"
-    
-    # Extract evidence for analysis
-    tar -xzf "$RECEIVED_PACKAGE"
-    
-    # Generate hashes for all extracted files
-    find . -name "evidence_collection_*" -type f | while read file; do
-        sha256sum "$file" >> "/incident/hash_records/extracted_file_hashes_$(date +%Y%m%d_%H%M%S).txt"
-    done
-    
+ echo "Verification: PASSED" >> "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt"
+ echo "Status: EVIDENCE RECEIVED AND VERIFIED" >> "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt"
+ 
+ # Extract evidence for analysis
+ tar -xzf "$RECEIVED_PACKAGE"
+ 
+ # Generate hashes for all extracted files
+ find . -name "evidence_collection_*" -type f | while read file; do
+   sha256sum "$file" >> "/incident/hash_records/extracted_file_hashes_$(date +%Y%m%d_%H%M%S).txt"
+ done
+ 
 else
-    echo "Verification: FAILED" >> "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt"
-    echo "Status: EVIDENCE INTEGRITY COMPROMISED" >> "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt"
-    
-    # Alert incident coordinator
-    echo "CRITICAL: Evidence integrity failure for package $RECEIVED_PACKAGE from $SOURCE_SYSTEM" | mail -s "Evidence Integrity Alert" incident@simrange.local
+ echo "Verification: FAILED" >> "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt"
+ echo "Status: EVIDENCE INTEGRITY COMPROMISED" >> "/incident/hash_records/reception_$(date +%Y%m%d_%H%M%S).txt"
+ 
+ # Alert incident coordinator
+ echo "CRITICAL: Evidence integrity failure for package $RECEIVED_PACKAGE from $SOURCE_SYSTEM" | mail -s "Evidence Integrity Alert" incident@simrange.local
 fi
 ```
 
@@ -387,11 +387,11 @@ EOF
 # Check for missing expected evidence
 EXPECTED_SYSTEMS=("vm-coretech" "vm-gateway" "vm-opsnode")
 for system in "${EXPECTED_SYSTEMS[@]}"; do
-    if [ ! -d "/incident/archive/$system" ]; then
-        echo "MISSING: No evidence received from $system" >> "/incident/analysis/evidence_completeness_$(date +%Y%m%d_%H%M%S).txt"
-    else
-        echo "RECEIVED: Evidence package from $system" >> "/incident/analysis/evidence_completeness_$(date +%Y%m%d_%H%M%S).txt"
-    fi
+ if [ ! -d "/incident/archive/$system" ]; then
+   echo "MISSING: No evidence received from $system" >> "/incident/analysis/evidence_completeness_$(date +%Y%m%d_%H%M%S).txt"
+ else
+   echo "RECEIVED: Evidence package from $system" >> "/incident/analysis/evidence_completeness_$(date +%Y%m%d_%H%M%S).txt"
+ fi
 done
 ```
 
@@ -438,11 +438,11 @@ Signature: _________________ Date/Time: __________
 ```bash
 # Automate chain-of-custody record creation
 create_custody_record() {
-    local evidence_file="$1"
-    local custodian="$2"
-    local purpose="$3"
-    
-    cat > "/incident/custody/custody_$(basename $evidence_file)_$(date +%Y%m%d_%H%M%S).txt" <<EOF
+ local evidence_file="$1"
+ local custodian="$2"
+ local purpose="$3"
+ 
+ cat > "/incident/custody/custody_$(basename $evidence_file)_$(date +%Y%m%d_%H%M%S).txt" <<EOF
 DIGITAL CHAIN OF CUSTODY RECORD
 ==============================
 
@@ -481,11 +481,11 @@ EOF
 ```bash
 # Log all access to evidence files
 log_evidence_access() {
-    local evidence_file="$1"
-    local access_type="$2"  # READ, WRITE, TRANSFER, ANALYSIS
-    local purpose="$3"
-    
-    echo "$(date)|$(whoami)|$(hostname)|$access_type|$(basename $evidence_file)|$purpose" >> "/incident/audit/evidence_access_log.txt"
+ local evidence_file="$1"
+ local access_type="$2" # READ, WRITE, TRANSFER, ANALYSIS
+ local purpose="$3"
+ 
+ echo "$(date)|$(whoami)|$(hostname)|$access_type|$(basename $evidence_file)|$purpose" >> "/incident/audit/evidence_access_log.txt"
 }
 
 # Example usage:
@@ -497,23 +497,23 @@ log_evidence_access() {
 ```bash
 # Verify evidence integrity periodically
 verify_evidence_integrity() {
-    echo "EVIDENCE INTEGRITY CHECK - $(date)" >> "/incident/audit/integrity_check_log.txt"
-    
-    find /incident/archive -name "*.hash" | while read hashfile; do
-        evidence_file="${hashfile%.hash}"
-        if [ -f "$evidence_file" ]; then
-            expected_hash=$(cat "$hashfile" | cut -d' ' -f1)
-            current_hash=$(sha256sum "$evidence_file" | cut -d' ' -f1)
-            
-            if [ "$expected_hash" = "$current_hash" ]; then
-                echo "PASS: $(basename $evidence_file)" >> "/incident/audit/integrity_check_log.txt"
-            else
-                echo "FAIL: $(basename $evidence_file) - INTEGRITY COMPROMISED" >> "/incident/audit/integrity_check_log.txt"
-                # Alert incident coordinator immediately
-                echo "CRITICAL: Evidence integrity failure detected for $evidence_file" | mail -s "Evidence Integrity Alert" incident@simrange.local
-            fi
-        fi
-    done
+ echo "EVIDENCE INTEGRITY CHECK - $(date)" >> "/incident/audit/integrity_check_log.txt"
+ 
+ find /incident/archive -name "*.hash" | while read hashfile; do
+   evidence_file="${hashfile%.hash}"
+   if [ -f "$evidence_file" ]; then
+     expected_hash=$(cat "$hashfile" | cut -d' ' -f1)
+     current_hash=$(sha256sum "$evidence_file" | cut -d' ' -f1)
+     
+     if [ "$expected_hash" = "$current_hash" ]; then
+       echo "PASS: $(basename $evidence_file)" >> "/incident/audit/integrity_check_log.txt"
+     else
+       echo "FAIL: $(basename $evidence_file) - INTEGRITY COMPROMISED" >> "/incident/audit/integrity_check_log.txt"
+       # Alert incident coordinator immediately
+       echo "CRITICAL: Evidence integrity failure detected for $evidence_file" | mail -s "Evidence Integrity Alert" incident@simrange.local
+     fi
+   fi
+ done
 }
 
 # Schedule periodic integrity checks
@@ -536,13 +536,13 @@ echo "0 */6 * * * /usr/local/bin/verify_evidence_integrity" >> /etc/cron.d/evide
 ```bash
 # Prepare evidence for legal disclosure
 prepare_legal_disclosure() {
-    local case_number="$1"
-    local requesting_party="$2"
-    
-    mkdir -p "/incident/legal_disclosure/$case_number"
-    
-    # Create disclosure package with proper legal formatting
-    cat > "/incident/legal_disclosure/$case_number/DISCLOSURE_PACKAGE.txt" <<EOF
+ local case_number="$1"
+ local requesting_party="$2"
+ 
+ mkdir -p "/incident/legal_disclosure/$case_number"
+ 
+ # Create disclosure package with proper legal formatting
+ cat > "/incident/legal_disclosure/$case_number/DISCLOSURE_PACKAGE.txt" <<EOF
 LEGAL EVIDENCE DISCLOSURE PACKAGE
 ================================
 
@@ -577,24 +577,24 @@ EOF
 ```bash
 # Remove privileged or private information before disclosure
 sanitize_evidence() {
-    local input_file="$1"
-    local output_file="$2"
-    
-    # Remove attorney-client privileged communications
-    grep -v -i "attorney\|lawyer\|counsel\|privileged" "$input_file" > "$output_file.temp1"
-    
-    # Remove personal identifying information (basic pattern matching)
-    sed -E 's/[0-9]{3}-[0-9]{2}-[0-9]{4}/[SSN_REDACTED]/g' "$output_file.temp1" > "$output_file.temp2"
-    sed -E 's/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/[EMAIL_REDACTED]/g' "$output_file.temp2" > "$output_file"
-    
-    # Document sanitization
-    echo "$(date): Sanitized $input_file -> $output_file" >> "/incident/audit/sanitization_log.txt"
-    
-    # Clean up temporary files
-    rm "$output_file.temp1" "$output_file.temp2"
-    
-    # Generate hash of sanitized file
-    sha256sum "$output_file" > "$output_file.hash"
+ local input_file="$1"
+ local output_file="$2"
+ 
+ # Remove attorney-client privileged communications
+ grep -v -i "attorney\|lawyer\|counsel\|privileged" "$input_file" > "$output_file.temp1"
+ 
+ # Remove personal identifying information (basic pattern matching)
+ sed -E 's/[0-9]{3}-[0-9]{2}-[0-9]{4}/[SSN_REDACTED]/g' "$output_file.temp1" > "$output_file.temp2"
+ sed -E 's/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/[EMAIL_REDACTED]/g' "$output_file.temp2" > "$output_file"
+ 
+ # Document sanitization
+ echo "$(date): Sanitized $input_file -> $output_file" >> "/incident/audit/sanitization_log.txt"
+ 
+ # Clean up temporary files
+ rm "$output_file.temp1" "$output_file.temp2"
+ 
+ # Generate hash of sanitized file
+ sha256sum "$output_file" > "$output_file.hash"
 }
 ```
 
@@ -668,7 +668,7 @@ sanitize_evidence() {
 
 ---
 
-**Owner:** Technical Team Lead / Legal Counsel  
-**Reference:** TECH-EVIDENCE-01  
-**Version:** 1.0  
+**Owner:** Technical Team Lead / Legal Counsel 
+**Reference:** TECH-EVIDENCE-01 
+**Version:** 1.0 
 **Approved by:** Cyber-Ops Coordination Cell

@@ -18,49 +18,49 @@ continuous improvement.
 - The debrief or review phase has commenced
 
 - Legal, risk, or audit stakeholders have requested forward-looking
-  reform
+reform
 
 ## Step 1: Conduct Post-Breach Review
 
 - Convene a cross-role debrief involving Legal, Technical, Executive,
-  Ops, Media, and Incident Coordination
+Ops, Media, and Incident Coordination
 
 - Review:
 
-  - What went wrong and why
+- What went wrong and why
 
-  - What worked well
+- What worked well
 
-  - What decisions were constrained by unclear policy or outdated
-    procedures
+- What decisions were constrained by unclear policy or outdated
+ procedures
 
 - Use outputs from:
 
-  - Incident logs
+- Incident logs
 
-  - Final executive summary
+- Final executive summary
 
-  - Inject tracking tables or system reports
+- Inject tracking tables or system reports
 
 ## Step 2: Identify Reform Areas
 
 Categorise all lessons into the following:
 
 - **Policy Gaps**\
-  E.g. outdated escalation criteria, missing legal thresholds
+E.g. outdated escalation criteria, missing legal thresholds
 
 - **Process Failures or Bottlenecks**\
-  E.g. delayed logging, unclear comms approvals
+E.g. delayed logging, unclear comms approvals
 
 - **Control Weaknesses**\
-  E.g. lack of alerts, weak detection, poor isolation protocols
+E.g. lack of alerts, weak detection, poor isolation protocols
 
 - **Training & Awareness**\
-  E.g. misunderstanding of role responsibilities, lack of scenario
-  exposure
+E.g. misunderstanding of role responsibilities, lack of scenario
+exposure
 
 - **Technology Limitations**\
-  E.g. inaccessible logs, missing dashboards, system overload
+E.g. inaccessible logs, missing dashboards, system overload
 
 ## Step 3: Recommend and Document Reforms
 
@@ -83,7 +83,7 @@ For each item identified:
 - Engage legal advisers if reforms affect regulatory obligations
 
 - If third-party or insurer pressure is involved, prepare
-  external-facing summary
+external-facing summary
 
 - Link any policy reforms to compliance calendar or audit schedule
 

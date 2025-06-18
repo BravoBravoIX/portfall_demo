@@ -5,9 +5,9 @@
 # Safety Risk Assessment Template
 
 ## Document Information
-**Document Type:** Safety Assessment Framework  
-**Intended Users:** Operations Team, Incident Coordinators, Executive Team  
-**Usage Context:** When safety concerns arise during operational incidents  
+**Document Type:** Safety Assessment Framework 
+**Intended Users:** Operations Team, Incident Coordinators, Executive Team 
+**Usage Context:** When safety concerns arise during operational incidents 
 **Related Scenarios:** Manual operations, equipment failures, crew safety concerns
 
 ---
@@ -107,8 +107,8 @@ This template provides systematic safety risk assessment during operational inci
 - **Probability (1-5):** ___ **Consequence (1-5):** ___ **Risk Score:** ___
 
 ### Step 4: Overall Risk Assessment
-**Highest Individual Risk Score:** ___  
-**Number of High/Critical Risks:** ___  
+**Highest Individual Risk Score:** ___ 
+**Number of High/Critical Risks:** ___ 
 **Overall Risk Classification:** [ ] Low [ ] Medium [ ] High [ ] Critical
 
 ---
@@ -136,8 +136,8 @@ This template provides systematic safety risk assessment during operational inci
 
 **Actions Required:**
 - [ ] Implement enhanced safety measures (specify):
-  - ________________________________
-  - ________________________________
+- ________________________________
+- ________________________________
 - [ ] Increase monitoring frequency
 - [ ] Brief all personnel on enhanced procedures
 - [ ] Assign additional safety personnel
@@ -152,8 +152,8 @@ This template provides systematic safety risk assessment during operational inci
 **Actions Required:**
 - [ ] Reduce operational scope to: _______________
 - [ ] Implement specific safety controls:
-  - ________________________________
-  - ________________________________
+- ________________________________
+- ________________________________
 - [ ] Continuous safety monitoring required
 - [ ] Executive approval for continued operations
 

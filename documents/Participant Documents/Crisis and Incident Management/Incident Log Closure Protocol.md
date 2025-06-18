@@ -15,7 +15,7 @@ leads as the crisis response winds down.
 Use this protocol when:
 
 - The incident is being de-escalated (as confirmed by the Executive or
-  Crisis Lead)
+Crisis Lead)
 
 - The final 15--30 minutes of the response window has been reached
 
@@ -29,13 +29,13 @@ Use this protocol when:
 
 - Ensure each inject is tagged with:
 
-  - Time received
+- Time received
 
-  - Team(s) impacted
+- Team(s) impacted
 
-  - Action(s) taken
+- Action(s) taken
 
-  - Decision point (if applicable)
+- Decision point (if applicable)
 
 - Tag all major actions/decisions with final timestamps
 
@@ -45,9 +45,9 @@ Use this protocol when:
 
 - Coordinate with Tech, Legal, Ops, Media, and CEO:
 
-  - Confirm each has logged their major actions and responses
+- Confirm each has logged their major actions and responses
 
-  - Identify any "silent" or undocumented activity
+- Identify any "silent" or undocumented activity
 
 - Capture cross-role communications (e.g. joint decisions, escalations)
 
@@ -55,29 +55,29 @@ Use this protocol when:
 
 - Ensure the master log is readable and structured:
 
-  - Sort by timestamp
+- Sort by timestamp
 
-  - Group by phase (e.g. T+0 to T+30)
+- Group by phase (e.g. T+0 to T+30)
 
-  - Use standard format: \[Timestamp\] \[Team\] \[Action\] \[Outcome\]
+- Use standard format: \[Timestamp\] \[Team\] \[Action\] \[Outcome\]
 
 - Save as:
 
-  - Internal archive version (.xlsx or .csv)
+- Internal archive version (.xlsx or .csv)
 
-  - Briefing version (.pdf for Board, Debrief, and Insurance)
+- Briefing version (.pdf for Board, Debrief, and Insurance)
 
 **4. Flag Key Learning Moments**
 
 - Identify entries where:
 
-  - Teams took proactive or creative action
+- Teams took proactive or creative action
 
-  - Escalation was delayed or debated
+- Escalation was delayed or debated
 
-  - Policy conflicts or constraints arose
+- Policy conflicts or constraints arose
 
-  - Role confusion or comms breakdowns occurred
+- Role confusion or comms breakdowns occurred
 
 - Tag these for the debrief summary
 
@@ -100,7 +100,7 @@ The final log will be used to:
 - Support the internal post-incident review process
 
 - Identify opportunities for improvement in incident detection,
-  escalation, and response
+escalation, and response
 
 - Inform legal or regulatory reporting where applicable
 

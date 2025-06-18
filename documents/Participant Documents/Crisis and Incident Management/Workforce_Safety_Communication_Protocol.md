@@ -5,9 +5,9 @@
 # Workforce Safety Communication Protocol
 
 ## Document Information
-**Document Type:** Safety Communication Framework  
-**Intended Users:** Operations Team, Safety Personnel, All Team Leads  
-**Usage Context:** During incidents requiring workforce safety coordination and communication  
+**Document Type:** Safety Communication Framework 
+**Intended Users:** Operations Team, Safety Personnel, All Team Leads 
+**Usage Context:** During incidents requiring workforce safety coordination and communication 
 **Related Scenarios:** CCTV blackouts, manual operations, safety emergencies, system failures affecting personnel safety
 
 ---
@@ -27,21 +27,21 @@ This protocol establishes clear communication procedures for maintaining workfor
 ## Safety Communication Hierarchy
 
 ### Immediate Safety Communications (0-5 minutes)
-**Authority:** Any team member who identifies immediate danger  
-**Method:** Radio on emergency channel + physical presence if possible  
-**Format:** "SAFETY ALERT - [Location] - [Specific danger] - [Action required]"  
+**Authority:** Any team member who identifies immediate danger 
+**Method:** Radio on emergency channel + physical presence if possible 
+**Format:** "SAFETY ALERT - [Location] - [Specific danger] - [Action required]" 
 **Response:** All personnel in area acknowledge and take action immediately
 
 ### Safety Status Updates (Every 15 minutes during incidents)
-**Authority:** Operations Team Lead or Safety Officer  
-**Method:** Radio broadcast on all operational channels  
-**Format:** "SAFETY UPDATE - [Time] - [Current status] - [Ongoing precautions]"  
+**Authority:** Operations Team Lead or Safety Officer 
+**Method:** Radio broadcast on all operational channels 
+**Format:** "SAFETY UPDATE - [Time] - [Current status] - [Ongoing precautions]" 
 **Response:** Team leads acknowledge for their areas
 
 ### Safety Decision Communications (As required)
-**Authority:** Incident Coordinator or Executive Team  
-**Method:** Direct communication to all team leads + written follow-up  
-**Format:** "SAFETY DECISION - [Decision] - [Rationale] - [Implementation timeline]"  
+**Authority:** Incident Coordinator or Executive Team 
+**Method:** Direct communication to all team leads + written follow-up 
+**Format:** "SAFETY DECISION - [Decision] - [Rationale] - [Implementation timeline]" 
 **Response:** Team leads confirm understanding and implementation
 
 ---
@@ -176,27 +176,27 @@ This protocol establishes clear communication procedures for maintaining workfor
 ## Safety Escalation Procedures
 
 ### Level 1: Team-Level Safety Issues
-**Triggers:** Minor safety concerns, procedure clarifications, equipment anomalies  
-**Communication:** Team lead to team members and incident coordinator  
-**Timeline:** Address within 15 minutes  
+**Triggers:** Minor safety concerns, procedure clarifications, equipment anomalies 
+**Communication:** Team lead to team members and incident coordinator 
+**Timeline:** Address within 15 minutes 
 **Format:** "SAFETY ISSUE - [Description] - [Action taken] - [Status]"
 
 ### Level 2: Cross-Team Safety Coordination
-**Triggers:** Safety issues affecting multiple teams, resource conflicts, coordination needs  
-**Communication:** Incident coordinator to all team leads and safety officer  
-**Timeline:** Coordinate within 30 minutes  
+**Triggers:** Safety issues affecting multiple teams, resource conflicts, coordination needs 
+**Communication:** Incident coordinator to all team leads and safety officer 
+**Timeline:** Coordinate within 30 minutes 
 **Format:** "SAFETY COORDINATION - [Issue] - [Teams affected] - [Coordination required]"
 
 ### Level 3: Executive Safety Decisions
-**Triggers:** Operations shutdown considerations, major safety concerns, regulatory notification needs  
-**Communication:** Safety officer to executive team with immediate follow-up to all teams  
-**Timeline:** Decision within 1 hour, implementation immediate  
+**Triggers:** Operations shutdown considerations, major safety concerns, regulatory notification needs 
+**Communication:** Safety officer to executive team with immediate follow-up to all teams 
+**Timeline:** Decision within 1 hour, implementation immediate 
 **Format:** "EXECUTIVE SAFETY DECISION - [Decision] - [Effective immediately] - [Compliance required]"
 
 ### Level 4: Emergency Services Involvement
-**Triggers:** Injuries, imminent danger, environmental hazards, criminal activity  
-**Communication:** Any team member to emergency services with immediate notification to all levels  
-**Timeline:** Immediate action, coordinated response  
+**Triggers:** Injuries, imminent danger, environmental hazards, criminal activity 
+**Communication:** Any team member to emergency services with immediate notification to all levels 
+**Timeline:** Immediate action, coordinated response 
 **Format:** "EMERGENCY SERVICES - [Called] - [Reason] - [Location] - [Personnel status]"
 
 ---
@@ -204,39 +204,39 @@ This protocol establishes clear communication procedures for maintaining workfor
 ## Communication Templates
 
 ### Daily Safety Briefing Template
-**TO:** All Personnel  
-**FROM:** [Operations Lead/Safety Officer]  
+**TO:** All Personnel 
+**FROM:** [Operations Lead/Safety Officer] 
 **TIME:** [Start of shift/incident response]
 
-**SAFETY STATUS:** [Current safety level - Normal/Enhanced/Restricted]  
-**KEY SAFETY CONCERNS:** [Specific hazards or issues for the day/incident]  
-**SAFETY PROCEDURES:** [Current procedures in effect]  
-**COMMUNICATION REQUIREMENTS:** [Check-in frequency, reporting requirements]  
-**EMERGENCY PROCEDURES:** [Current emergency response information]  
+**SAFETY STATUS:** [Current safety level - Normal/Enhanced/Restricted] 
+**KEY SAFETY CONCERNS:** [Specific hazards or issues for the day/incident] 
+**SAFETY PROCEDURES:** [Current procedures in effect] 
+**COMMUNICATION REQUIREMENTS:** [Check-in frequency, reporting requirements] 
+**EMERGENCY PROCEDURES:** [Current emergency response information] 
 **QUESTIONS:** [Opportunity for safety questions or concerns]
 
 ### Incident Safety Update Template
-**TO:** All Teams  
-**FROM:** [Incident Coordinator/Safety Officer]  
+**TO:** All Teams 
+**FROM:** [Incident Coordinator/Safety Officer] 
 **SUBJECT:** Safety Update - [Timestamp]
 
-**INCIDENT STATUS:** [Current operational status]  
-**SAFETY CHANGES:** [Any changes to safety procedures]  
-**PERSONNEL REQUIREMENTS:** [Specific safety assignments or requirements]  
-**MONITORING STATUS:** [Current safety monitoring capabilities]  
-**CONCERNS:** [Any ongoing safety concerns or observations]  
+**INCIDENT STATUS:** [Current operational status] 
+**SAFETY CHANGES:** [Any changes to safety procedures] 
+**PERSONNEL REQUIREMENTS:** [Specific safety assignments or requirements] 
+**MONITORING STATUS:** [Current safety monitoring capabilities] 
+**CONCERNS:** [Any ongoing safety concerns or observations] 
 **NEXT UPDATE:** [When next safety update will be provided]
 
 ### Safety Concern Reporting Template
-**TO:** [Team Lead/Safety Officer]  
-**FROM:** [Reporting person]  
+**TO:** [Team Lead/Safety Officer] 
+**FROM:** [Reporting person] 
 **URGENT:** [If immediate attention required]
 
-**CONCERN DESCRIPTION:** [Specific safety concern observed]  
-**LOCATION:** [Precise location of concern]  
-**PERSONNEL AFFECTED:** [Who could be impacted]  
-**IMMEDIATE ACTION TAKEN:** [Any protective measures already implemented]  
-**RECOMMENDATION:** [Suggested corrective action]  
+**CONCERN DESCRIPTION:** [Specific safety concern observed] 
+**LOCATION:** [Precise location of concern] 
+**PERSONNEL AFFECTED:** [Who could be impacted] 
+**IMMEDIATE ACTION TAKEN:** [Any protective measures already implemented] 
+**RECOMMENDATION:** [Suggested corrective action] 
 **URGENCY:** [Timeline for action needed]
 
 ---

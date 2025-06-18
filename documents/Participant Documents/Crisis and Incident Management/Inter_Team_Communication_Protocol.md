@@ -5,9 +5,9 @@
 # Inter-Team Communication Protocol
 
 ## Document Information
-**Document Type:** Communication Coordination Framework  
-**Intended Users:** All Teams, Incident Coordinators, Team Leads  
-**Usage Context:** During multi-team crisis response requiring coordinated communication  
+**Document Type:** Communication Coordination Framework 
+**Intended Users:** All Teams, Incident Coordinators, Team Leads 
+**Usage Context:** During multi-team crisis response requiring coordinated communication 
 **Related Scenarios:** Multi-system failures, cross-functional incident response, resource conflicts
 
 ---
@@ -135,7 +135,7 @@ This protocol establishes structured communication channels and procedures betwe
 ### Primary Communication Channels
 **Radio Network:** For immediate operational coordination
 - Channel 1: Operations coordination
-- Channel 2: Technical coordination  
+- Channel 2: Technical coordination 
 - Channel 3: Safety/Emergency communications
 - Channel 4: Executive/Incident Commander
 
@@ -186,8 +186,8 @@ This protocol establishes structured communication channels and procedures betwe
 ## Standard Communication Templates
 
 ### Status Update Template
-**FROM:** [Team Name]  
-**TO:** [Recipient Teams]  
+**FROM:** [Team Name] 
+**TO:** [Recipient Teams] 
 **SUBJECT:** [TEAM] - [PRIORITY] - Status Update [Timestamp]
 
 **CURRENT STATUS:** [Brief overall status]
@@ -199,8 +199,8 @@ This protocol establishes structured communication channels and procedures betwe
 **NEXT UPDATE:** [When next update will be provided]
 
 ### Decision Request Template
-**FROM:** [Team Name]  
-**TO:** [Decision Authority]  
+**FROM:** [Team Name] 
+**TO:** [Decision Authority] 
 **SUBJECT:** [URGENT/HIGH] - Decision Required: [Brief Description]
 
 **DECISION NEEDED:** [Specific decision or approval required]
@@ -212,8 +212,8 @@ This protocol establishes structured communication channels and procedures betwe
 **CONSULTATION:** [Other teams or parties that should be consulted]
 
 ### Resource Request Template
-**FROM:** [Team Name]  
-**TO:** [Resource Controller/Incident Coordinator]  
+**FROM:** [Team Name] 
+**TO:** [Resource Controller/Incident Coordinator] 
 **SUBJECT:** [PRIORITY] - Resource Request: [Brief Description]
 
 **RESOURCE NEEDED:** [Specific personnel, equipment, or support needed]
@@ -224,8 +224,8 @@ This protocol establishes structured communication channels and procedures betwe
 **COORDINATION:** [How this affects other team resource needs]
 
 ### Information Request Template
-**FROM:** [Team Name]  
-**TO:** [Information Source]  
+**FROM:** [Team Name] 
+**TO:** [Information Source] 
 **SUBJECT:** [PRIORITY] - Information Request: [Brief Description]
 
 **INFORMATION NEEDED:** [Specific information or data required]

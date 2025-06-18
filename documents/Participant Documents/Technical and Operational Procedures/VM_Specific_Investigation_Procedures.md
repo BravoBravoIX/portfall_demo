@@ -5,9 +5,9 @@
 # VM-Specific Investigation Procedures
 
 ## Document Information
-**Document Type:** Technical Investigation Framework  
-**Intended Users:** Technical Team  
-**Usage Context:** Systematic investigation of compromised VM systems  
+**Document Type:** Technical Investigation Framework 
+**Intended Users:** Technical Team 
+**Usage Context:** Systematic investigation of compromised VM systems 
 **Related Scenarios:** System anomalies, suspected compromises, evidence collection
 
 ---
@@ -27,7 +27,7 @@ This document provides detailed investigation procedures for each VM system in t
 ## General Investigation Principles
 
 ### **CRITICAL WARNING: TRAP SCRIPTS AND FAKE SYSTEMS**
-⚠️ **SEVERAL VMs CONTAIN DELIBERATELY MISLEADING SCRIPTS AND SERVICES**
+**SEVERAL VMs CONTAIN DELIBERATELY MISLEADING SCRIPTS AND SERVICES**
 - **DO NOT execute scripts found in obvious locations without analysis**
 - **VERIFY the legitimacy of any "restoration" or "cleanup" scripts**
 - **PRESERVE evidence BEFORE attempting any remediation**
@@ -42,7 +42,7 @@ This document provides detailed investigation procedures for each VM system in t
 3. **Start with vm-gateway** - Most likely to contain evidence destruction traps
 
 **STREAMLINED INVESTIGATION PATH (15-20 minutes):**
-1. **Priority Order:** vm-gateway → vm-coretech → vm-opsnode
+1. **Priority Order:** vm-gateway - vm-coretech - vm-opsnode
 2. **Focus on critical files only:** Main log files, obvious script locations, /etc/cron.d/
 3. **Document trap scripts but DO NOT EXECUTE**
 4. **Skip detailed analysis - focus on evidence collection**
@@ -76,14 +76,14 @@ This document provides detailed investigation procedures for each VM system in t
 ## VM-CORETECH Investigation Procedures
 
 ### System Overview
-**Purpose:** Backend for AIS tracking and route planning system  
-**Expected Issues:** GPS jamming impacts, log tampering, fake recovery attempts  
+**Purpose:** Backend for AIS tracking and route planning system 
+**Expected Issues:** GPS jamming impacts, log tampering, fake recovery attempts 
 **Key Files:** `/var/log/sim/ais_feed.log`, `/opt/reference/ais_reference.log`
 
 ### **CRITICAL WARNING - TRAP ELEMENTS:**
-⚠️ **FAKE RESTORATION SCRIPT:** `/home/ubuntu/restore_feed.sh` appears helpful but is a trap  
-⚠️ **LOG TRUNCATION:** Cron job truncates logs every 5 minutes  
-⚠️ **FAKE SERVICE:** `ais-feed.service` is meaningless distraction
+**FAKE RESTORATION SCRIPT:** `/home/ubuntu/restore_feed.sh` appears helpful but is a trap 
+**LOG TRUNCATION:** Cron job truncates logs every 5 minutes 
+**FAKE SERVICE:** `ais-feed.service` is meaningless distraction
 
 ### Step-by-Step Investigation
 
@@ -115,12 +115,12 @@ awk '{print $1, $2}' /var/log/sim/ais_feed.log | sort | uniq -c
 ```bash
 # Check for malicious cron jobs
 crontab -l
-cat /etc/cron.d/truncate_ais  # This will likely contain the log truncation job
+cat /etc/cron.d/truncate_ais # This will likely contain the log truncation job
 ls -la /etc/cron.d/
 
 # Examine the trap script WITHOUT EXECUTING
 ls -la /home/ubuntu/restore_feed.sh
-cat /home/ubuntu/restore_feed.sh  # Will reveal it's a trap
+cat /home/ubuntu/restore_feed.sh # Will reveal it's a trap
 file /home/ubuntu/restore_feed.sh
 ```
 
@@ -186,14 +186,14 @@ sudo systemctl disable ais-feed.service
 ## VM-GATEWAY Investigation Procedures
 
 ### System Overview
-**Purpose:** Vendor-facing gateway connected to external systems  
-**Expected Issues:** Vendor session logs, suspicious authentication, evidence destruction trap  
+**Purpose:** Vendor-facing gateway connected to external systems 
+**Expected Issues:** Vendor session logs, suspicious authentication, evidence destruction trap 
 **Key Files:** `/var/log/gateway/vendor.log`, `/var/log/gateway/auth.log`
 
 ### **CRITICAL WARNING - EVIDENCE DESTRUCTION TRAP:**
-⚠️ **MALWARE REMOVAL SCRIPT:** `/opt/security/remove_malware.sh` WIPES ALL LOGS  
-⚠️ **THIS VM SHOULD NOT BE "FIXED" - ONLY INVESTIGATED**  
-⚠️ **ANY "CLEANUP" WILL DESTROY FORENSIC EVIDENCE**
+**MALWARE REMOVAL SCRIPT:** `/opt/security/remove_malware.sh` WIPES ALL LOGS 
+**THIS VM SHOULD NOT BE "FIXED" - ONLY INVESTIGATED** 
+**ANY "CLEANUP" WILL DESTROY FORENSIC EVIDENCE**
 
 ### Step-by-Step Investigation
 
@@ -224,12 +224,12 @@ grep -c "failed" /var/log/gateway/auth.log
 ```bash
 # Examine the dangerous trap script WITHOUT EXECUTING
 ls -la /opt/security/
-cat /opt/security/remove_malware.sh  # Will show it deletes all logs
+cat /opt/security/remove_malware.sh # Will show it deletes all logs
 file /opt/security/remove_malware.sh
 
 # Check reference hash for integrity verification
 cat /opt/reference/hash_expected.txt
-sha256sum /var/log/gateway/vendor.log  # Compare with expected
+sha256sum /var/log/gateway/vendor.log # Compare with expected
 ```
 
 **EXPECTED FINDINGS:**
@@ -295,8 +295,8 @@ echo "Hash comparison shows evidence of tampering" >> /tmp/vm_gateway_investigat
 ## VM-OPSNODE Investigation Procedures
 
 ### System Overview
-**Purpose:** Backend for CCTV and operational visibility  
-**Expected Issues:** Camera feed failures, signal interference, corrupted media files  
+**Purpose:** Backend for CCTV and operational visibility 
+**Expected Issues:** Camera feed failures, signal interference, corrupted media files 
 **Key Files:** `/var/log/cctv/stream.log`, `/var/cctv/archive/*.ts`, `/opt/reference/expected_layout.png`
 
 ### Step-by-Step Investigation
@@ -334,13 +334,13 @@ file /var/cctv/archive/*.ts
 # Hash archive files
 cd /var/cctv/archive/
 for file in *.ts; do
-    sha256sum "$file" > "/tmp/${file}_hash_$(date +%Y%m%d_%H%M%S).txt"
+ sha256sum "$file" > "/tmp/${file}_hash_$(date +%Y%m%d_%H%M%S).txt"
 done
 
 # Attempt to identify corrupted vs. valid files
 for file in *.ts; do
-    echo "=== $file ==="
-    head -c 100 "$file" | hexdump -C | head -5
+ echo "=== $file ==="
+ head -c 100 "$file" | hexdump -C | head -5
 done
 ```
 
@@ -393,8 +393,8 @@ EOF
 ## VM-AUDIT Investigation Procedures
 
 ### System Overview
-**Purpose:** Internal audit and evidentiary review system  
-**Expected Issues:** None - this VM is secure and used for evidence storage  
+**Purpose:** Internal audit and evidentiary review system 
+**Expected Issues:** None - this VM is secure and used for evidence storage 
 **Key Files:** Evidence received from other VMs, hash verification records
 
 ### Step-by-Step Investigation
@@ -420,8 +420,8 @@ df -h /incident/
 # When evidence is received, immediately hash it
 cd /incident/archive/coretech/
 for file in *; do
-    sha256sum "$file" >> /incident/hash_records/coretech_hashes_$(date +%Y%m%d_%H%M%S).txt
-    echo "$(date): Received and hashed $file" >> /incident/hash_records/audit_log.txt
+ sha256sum "$file" >> /incident/hash_records/coretech_hashes_$(date +%Y%m%d_%H%M%S).txt
+ echo "$(date): Received and hashed $file" >> /incident/hash_records/audit_log.txt
 done
 ```
 
@@ -554,7 +554,7 @@ For each piece of evidence, document:
 
 ---
 
-**Owner:** Technical Team Lead  
-**Reference:** TECH-VM-01  
-**Version:** 1.0  
+**Owner:** Technical Team Lead 
+**Reference:** TECH-VM-01 
+**Version:** 1.0 
 **Approved by:** Cyber-Ops Coordination Cell

@@ -95,94 +95,94 @@ This tracker provides systematic management of overlapping regulatory notificati
 
 #### Hour 0-4: Initial Assessment and Immediate Notifications
 1. **Immediate Safety Notifications**
-   - [ ] MSA if vessel safety affected
-   - [ ] WorkSafe if worker safety at risk
-   - [ ] Coast Guard if maritime emergency
+ - [ ] MSA if vessel safety affected
+ - [ ] WorkSafe if worker safety at risk
+ - [ ] Coast Guard if maritime emergency
 
 2. **Initial Legal Assessment**
-   - [ ] Determine applicable regulatory frameworks
-   - [ ] Identify potential notification triggers
-   - [ ] Assess preliminary timeline requirements
+ - [ ] Determine applicable regulatory frameworks
+ - [ ] Identify potential notification triggers
+ - [ ] Assess preliminary timeline requirements
 
 3. **Evidence Preservation**
-   - [ ] Preserve all relevant documentation
-   - [ ] Begin regulatory compliance log
-   - [ ] Assign regulatory compliance coordinator
+ - [ ] Preserve all relevant documentation
+ - [ ] Begin regulatory compliance log
+ - [ ] Assign regulatory compliance coordinator
 
 #### Hour 4-12: Detailed Analysis and Preparation
 1. **Comprehensive Regulatory Review**
-   - [ ] Complete regulatory applicability analysis
-   - [ ] Prepare preliminary notification drafts
-   - [ ] Coordinate with technical teams for evidence
+ - [ ] Complete regulatory applicability analysis
+ - [ ] Prepare preliminary notification drafts
+ - [ ] Coordinate with technical teams for evidence
 
 2. **Timeline Coordination**
-   - [ ] Map all applicable deadlines
-   - [ ] Identify deadline conflicts or overlaps
-   - [ ] Prioritise notifications by criticality
+ - [ ] Map all applicable deadlines
+ - [ ] Identify deadline conflicts or overlaps
+ - [ ] Prioritise notifications by criticality
 
 3. **Internal Coordination**
-   - [ ] Brief executive team on compliance requirements
-   - [ ] Coordinate with technical teams for technical details
-   - [ ] Align with legal strategy and messaging
+ - [ ] Brief executive team on compliance requirements
+ - [ ] Coordinate with technical teams for technical details
+ - [ ] Align with legal strategy and messaging
 
 #### Hour 12-24: Primary Notifications
 1. **Critical 24-Hour Notifications**
-   - [ ] Cybersecurity Act (if applicable)
-   - [ ] MSA operational impact notifications
-   - [ ] WorkSafe safety incident reports
+ - [ ] Cybersecurity Act (if applicable)
+ - [ ] MSA operational impact notifications
+ - [ ] WorkSafe safety incident reports
 
 2. **Notification Coordination**
-   - [ ] Ensure consistent messaging across agencies
-   - [ ] Coordinate timing to avoid conflicts
-   - [ ] Document all submissions and responses
+ - [ ] Ensure consistent messaging across agencies
+ - [ ] Coordinate timing to avoid conflicts
+ - [ ] Document all submissions and responses
 
 #### Hour 24-72: Secondary Notifications and Follow-ups
 1. **72-Hour Notifications**
-   - [ ] PIC privacy breach notifications
-   - [ ] Cybersecurity Act detailed reports
-   - [ ] MSA comprehensive incident reports
+ - [ ] PIC privacy breach notifications
+ - [ ] Cybersecurity Act detailed reports
+ - [ ] MSA comprehensive incident reports
 
 2. **Follow-up Requirements**
-   - [ ] Response to regulatory inquiries
-   - [ ] Additional information requests
-   - [ ] Ongoing compliance monitoring
+ - [ ] Response to regulatory inquiries
+ - [ ] Additional information requests
+ - [ ] Ongoing compliance monitoring
 
 ### Regulatory Notification Templates
 
 #### Cybersecurity Act Initial Notification
-**TO:** National Cybersecurity Centre  
-**SUBJECT:** Critical Infrastructure Cyber Incident - Initial Notification  
+**TO:** National Cybersecurity Centre 
+**SUBJECT:** Critical Infrastructure Cyber Incident - Initial Notification 
 **TIMELINE:** Within 24 hours of confirmation
 
-**INCIDENT SUMMARY:** [Brief technical description]  
-**SYSTEMS AFFECTED:** [Critical infrastructure systems impacted]  
-**PRELIMINARY ASSESSMENT:** [Initial scope and impact]  
-**ONGOING ACTIONS:** [Response measures implemented]  
-**CONTACT INFORMATION:** [Designated incident coordinator]  
+**INCIDENT SUMMARY:** [Brief technical description] 
+**SYSTEMS AFFECTED:** [Critical infrastructure systems impacted] 
+**PRELIMINARY ASSESSMENT:** [Initial scope and impact] 
+**ONGOING ACTIONS:** [Response measures implemented] 
+**CONTACT INFORMATION:** [Designated incident coordinator] 
 **FOLLOW-UP TIMELINE:** [Expected detailed report timing]
 
 #### Maritime Security Authority Notification
-**TO:** MSA Incident Response Team  
-**SUBJECT:** Port Operational Incident - Safety Notification  
+**TO:** MSA Incident Response Team 
+**SUBJECT:** Port Operational Incident - Safety Notification 
 **TIMELINE:** Immediate for safety issues, 24 hours for operational
 
-**INCIDENT TYPE:** [Safety/Security/Operational]  
-**LOCATION:** [Specific port areas affected]  
-**OPERATIONAL IMPACT:** [Specific impacts on maritime operations]  
-**SAFETY MEASURES:** [Immediate safety actions taken]  
-**VESSEL IMPACTS:** [Effects on vessel operations or safety]  
+**INCIDENT TYPE:** [Safety/Security/Operational] 
+**LOCATION:** [Specific port areas affected] 
+**OPERATIONAL IMPACT:** [Specific impacts on maritime operations] 
+**SAFETY MEASURES:** [Immediate safety actions taken] 
+**VESSEL IMPACTS:** [Effects on vessel operations or safety] 
 **RESTORATION TIMELINE:** [Expected resolution timeframe]
 
 #### Privacy Commissioner Notification
-**TO:** Privacy and Information Commissioner  
-**SUBJECT:** Personal Data Breach Notification  
+**TO:** Privacy and Information Commissioner 
+**SUBJECT:** Personal Data Breach Notification 
 **TIMELINE:** Within 72 hours
 
-**BREACH DESCRIPTION:** [Nature of personal data involved]  
-**INDIVIDUALS AFFECTED:** [Number and categories of individuals]  
-**DATA CATEGORIES:** [Types of personal information exposed]  
-**RISK ASSESSMENT:** [Likelihood and severity of harm]  
-**MITIGATION MEASURES:** [Steps taken to address breach]  
+**BREACH DESCRIPTION:** [Nature of personal data involved] 
+**INDIVIDUALS AFFECTED:** [Number and categories of individuals] 
+**DATA CATEGORIES:** [Types of personal information exposed] 
+**RISK ASSESSMENT:** [Likelihood and severity of harm] 
+**MITIGATION MEASURES:** [Steps taken to address breach] 
 **PREVENTION MEASURES:** [Actions to prevent recurrence]
 
 ### Compliance Monitoring Dashboard

@@ -13,29 +13,29 @@ environments.
 **When to Use**
 
 - Unexpected or conflicting signal data is detected (location, vessel
-  ID, or timing mismatch)
+ID, or timing mismatch)
 
 - Reports from on-site Ops or dashboards show movement discrepancies
 
 - Logs or monitoring tools show anomalies in feed sources (e.g. spoofed
-  coordinates, missing timestamps)
+coordinates, missing timestamps)
 
 **Signal Architecture Context**
 
 - AIS and GPS data are ingested via:
 
-  - Serial or USB interfaces (e.g. /dev/ttyUSB0)
+- Serial or USB interfaces (e.g. /dev/ttyUSB0)
 
-  - Network streams (UDP port 10110 or 2947)
+- Network streams (UDP port 10110 or 2947)
 
 - Signal processing is performed in:
 
-  - AIS Collector container or service
+- AIS Collector container or service
 
-  - GPSD daemon running on the Comms VM
+- GPSD daemon running on the Comms VM
 
 - Reference data and known vessel IDs stored in
-  /opt/reference/gps-clean.nmea and /opt/reference/ais-index.json
+/opt/reference/gps-clean.nmea and /opt/reference/ais-index.json
 
 **Immediate Detection Actions**
 
@@ -47,9 +47,9 @@ environments.
 
 - Cross-reference feeds:
 
-  - AIS: /opt/ais/logs/ais-feed.log
+- AIS: /opt/ais/logs/ais-feed.log
 
-  - GPS: /var/gps/raw-feed.nmea
+- GPS: /var/gps/raw-feed.nmea
 
 - grep -i lat /opt/ais/logs/ais-feed.log \| tail -n 20
 
@@ -60,7 +60,7 @@ environments.
 - Check for ghost or duplicate MMSI entries:
 
 - grep \"MMSI\" /opt/ais/logs/ais-feed.log \| sort \| uniq -c \| sort
-  -nr
+-nr
 
 **Feed Validation Techniques**
 
@@ -98,23 +98,23 @@ environments.
 
 - Classify:
 
-  - Position drift beyond expected margins
+- Position drift beyond expected margins
 
-  - Ghost signals (phantom vessels)
+- Ghost signals (phantom vessels)
 
-  - Duplicate or malformed NMEA sentences
+- Duplicate or malformed NMEA sentences
 
-  - Out-of-order signal bursts
+- Out-of-order signal bursts
 
 - Preserve evidence:
 
 - cp /var/gps/raw-feed.nmea /var/log/evidence/gps-anomaly-\$(date
-  +%F-%H%M).nmea
++%F-%H%M).nmea
 
 - sha256sum /var/log/evidence/\*.nmea
 
 - docker export ais_collector \>
-  /var/log/evidence/ais_collector_snapshot.tar
+/var/log/evidence/ais_collector_snapshot.tar
 
 **Red Flags & Escalation**
 
@@ -146,51 +146,51 @@ This procedure provides real-time validation steps for AIS signal integrity and 
 
 #### Phase 1: Immediate Verification (First 3 minutes)
 1. **Visual Confirmation**
-   - [ ] Check physical vessel presence through CCTV (if available)
-   - [ ] Coordinate with dock personnel for visual verification
-   - [ ] Confirm vessel should be in reported location
+ - [ ] Check physical vessel presence through CCTV (if available)
+ - [ ] Coordinate with dock personnel for visual verification
+ - [ ] Confirm vessel should be in reported location
 
 2. **System Status Check**
-   - [ ] Verify AIS receiver operational status
-   - [ ] Check antenna connections and power
-   - [ ] Review recent AIS system configuration changes
+ - [ ] Verify AIS receiver operational status
+ - [ ] Check antenna connections and power
+ - [ ] Review recent AIS system configuration changes
 
 3. **Signal Strength Analysis**
-   - [ ] Check signal strength indicators for affected area
-   - [ ] Compare with baseline signal levels
-   - [ ] Note any interference patterns
+ - [ ] Check signal strength indicators for affected area
+ - [ ] Compare with baseline signal levels
+ - [ ] Note any interference patterns
 
 #### Phase 2: Cross-System Correlation (Next 5 minutes)
 1. **Network Correlation**
-   - [ ] Compare AIS anomaly timing with network issues
-   - [ ] Check if packet routing delays affect AIS data processing
-   - [ ] Review network traffic for AIS data streams
+ - [ ] Compare AIS anomaly timing with network issues
+ - [ ] Check if packet routing delays affect AIS data processing
+ - [ ] Review network traffic for AIS data streams
 
 2. **CCTV Correlation**
-   - [ ] Compare AIS vessel positions with CCTV visual confirmation
-   - [ ] Check if CCTV blackouts coincide with AIS losses
-   - [ ] Verify independent visual tracking capability
+ - [ ] Compare AIS vessel positions with CCTV visual confirmation
+ - [ ] Check if CCTV blackouts coincide with AIS losses
+ - [ ] Verify independent visual tracking capability
 
 3. **Operational Correlation**
-   - [ ] Check if missing vessels are actively loading/unloading
-   - [ ] Verify vessel scheduling matches AIS displays
-   - [ ] Confirm harbor pilot communications with "missing" vessels
+ - [ ] Check if missing vessels are actively loading/unloading
+ - [ ] Verify vessel scheduling matches AIS displays
+ - [ ] Confirm harbor pilot communications with "missing" vessels
 
 #### Phase 3: Pattern Analysis (Next 7 minutes)
 1. **Single vs. Multiple Vessel Analysis**
-   - **Single vessel missing:** Likely equipment issue on vessel
-   - **Multiple vessels missing:** Likely shore-side AIS system issue
-   - **All vessels missing:** Likely AIS receiver or network failure
+ - **Single vessel missing:** Likely equipment issue on vessel
+ - **Multiple vessels missing:** Likely shore-side AIS system issue
+ - **All vessels missing:** Likely AIS receiver or network failure
 
 2. **Geographic Pattern Analysis**
-   - [ ] Map affected area boundaries
-   - [ ] Check if pattern suggests directional antenna issues
-   - [ ] Verify if specific berths or anchorage areas affected
+ - [ ] Map affected area boundaries
+ - [ ] Check if pattern suggests directional antenna issues
+ - [ ] Verify if specific berths or anchorage areas affected
 
 3. **Temporal Pattern Analysis**
-   - [ ] Note exact timing of signal loss
-   - [ ] Check for periodic or intermittent patterns
-   - [ ] Correlate with other system event timestamps
+ - [ ] Note exact timing of signal loss
+ - [ ] Check for periodic or intermittent patterns
+ - [ ] Correlate with other system event timestamps
 
 ### Cross-System Correlation Matrix
 

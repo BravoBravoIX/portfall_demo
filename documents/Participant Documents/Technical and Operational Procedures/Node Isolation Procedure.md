@@ -13,10 +13,10 @@ triggering unnecessary operational outages.
 **When to Use**
 
 - Suspicious activity or compromise is confirmed or strongly suspected
-  on a system
+on a system
 
 - Persistence mechanisms (e.g. hidden cron jobs, altered binaries) are
-  found
+found
 
 - Lateral movement or unauthorised access between VMs is detected
 
@@ -47,7 +47,7 @@ triggering unnecessary operational outages.
 - docker stop \[container_id\]
 
 - docker export \[container_id\] \>
-  /var/log/evidence/container-\[id\].tar
+/var/log/evidence/container-\[id\].tar
 
 - Remove from auto-restart:
 
@@ -91,9 +91,9 @@ triggering unnecessary operational outages.
 
 - Continue passive monitoring:
 
-  - Watch syslog, cron, container state
+- Watch syslog, cron, container state
 
-  - Use journalctl -f, docker logs, or auditctl if enabled
+- Use journalctl -f, docker logs, or auditctl if enabled
 
 **Do Not:**
 
@@ -120,46 +120,46 @@ This procedure provides step-by-step guidance for investigating network anomalie
 
 #### Phase 1: Initial Assessment (First 5 minutes)
 1. **Identify Scope**
-   - [ ] Note specific systems affected (manifest, AIS, CCTV, etc.)
-   - [ ] Record time of initial report
-   - [ ] Identify reporting source and reliability
+ - [ ] Note specific systems affected (manifest, AIS, CCTV, etc.)
+ - [ ] Record time of initial report
+ - [ ] Identify reporting source and reliability
 
 2. **Quick System Check**
-   - [ ] Check Node-04 traffic status and packet queues
-   - [ ] Review recent configuration changes
-   - [ ] Verify external gateway connectivity
+ - [ ] Check Node-04 traffic status and packet queues
+ - [ ] Review recent configuration changes
+ - [ ] Verify external gateway connectivity
 
 3. **Document Initial Findings**
-   - [ ] Record baseline metrics before investigation
-   - [ ] Note any obvious patterns or anomalies
+ - [ ] Record baseline metrics before investigation
+ - [ ] Note any obvious patterns or anomalies
 
 #### Phase 2: Detailed Investigation (Next 10 minutes)
 1. **Traffic Analysis**
-   - [ ] Analyze packet queue origins and destinations
-   - [ ] Check for unusual connection patterns
-   - [ ] Review bandwidth utilization trends
-   - [ ] Identify any automated traffic spikes
+ - [ ] Analyze packet queue origins and destinations
+ - [ ] Check for unusual connection patterns
+ - [ ] Review bandwidth utilization trends
+ - [ ] Identify any automated traffic spikes
 
 2. **Cross-System Correlation**
-   - [ ] Compare network event timing with AIS anomalies
-   - [ ] Check correlation with CCTV or operational disruptions
-   - [ ] Review vendor system access logs
+ - [ ] Compare network event timing with AIS anomalies
+ - [ ] Check correlation with CCTV or operational disruptions
+ - [ ] Review vendor system access logs
 
 3. **External Gateway Diagnostics**
-   - [ ] Test external connectivity and latency
-   - [ ] Review firewall and security logs
-   - [ ] Check for blocked or suspicious connections
+ - [ ] Test external connectivity and latency
+ - [ ] Review firewall and security logs
+ - [ ] Check for blocked or suspicious connections
 
 #### Phase 3: Analysis and Decision (Final 5 minutes)
 1. **Pattern Analysis**
-   - [ ] Determine if issue is isolated to local switch
-   - [ ] Assess potential for upstream network degradation
-   - [ ] Evaluate signs of external interference
+ - [ ] Determine if issue is isolated to local switch
+ - [ ] Assess potential for upstream network degradation
+ - [ ] Evaluate signs of external interference
 
 2. **Impact Assessment**
-   - [ ] Document affected systems and operations
-   - [ ] Estimate operational impact if network isolation required
-   - [ ] Consider safety implications
+ - [ ] Document affected systems and operations
+ - [ ] Estimate operational impact if network isolation required
+ - [ ] Consider safety implications
 
 ### Decision Matrix: Escalation vs. Continued Investigation
 

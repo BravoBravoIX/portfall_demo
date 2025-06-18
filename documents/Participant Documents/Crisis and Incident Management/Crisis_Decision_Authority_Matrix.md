@@ -5,9 +5,9 @@
 # Crisis Decision Authority Matrix
 
 ## Document Information
-**Document Type:** Decision Authority Framework  
-**Intended Users:** All Teams, Executive Leadership, Incident Coordinators  
-**Usage Context:** During crisis situations requiring clear decision authority  
+**Document Type:** Decision Authority Framework 
+**Intended Users:** All Teams, Executive Leadership, Incident Coordinators 
+**Usage Context:** During crisis situations requiring clear decision authority 
 **Related Scenarios:** Multi-system failures, cyber incidents, safety emergencies
 
 ---
@@ -27,27 +27,27 @@ This matrix establishes clear decision-making authority during crisis situations
 ## Decision Authority Levels
 
 ### Level 1: Team Lead Authority
-**Scope:** Normal operational decisions within team expertise  
-**Timeline:** Immediate implementation  
-**Approval:** None required  
+**Scope:** Normal operational decisions within team expertise 
+**Timeline:** Immediate implementation 
+**Approval:** None required 
 **Notification:** Incident Coordinator within 30 minutes
 
 ### Level 2: Incident Coordinator Authority
-**Scope:** Cross-team coordination and resource allocation  
-**Timeline:** Implementation within 15 minutes  
-**Approval:** None required for designated scenarios  
+**Scope:** Cross-team coordination and resource allocation 
+**Timeline:** Implementation within 15 minutes 
+**Approval:** None required for designated scenarios 
 **Notification:** Executive Team within 1 hour
 
 ### Level 3: Executive Authority
-**Scope:** Strategic decisions with significant organizational impact  
-**Timeline:** Approval required before implementation  
-**Approval:** CEO or designated executive  
+**Scope:** Strategic decisions with significant organizational impact 
+**Timeline:** Approval required before implementation 
+**Approval:** CEO or designated executive 
 **Notification:** Board/stakeholders as appropriate
 
 ### Level 4: Board/External Authority
-**Scope:** Decisions affecting organizational survival or legal status  
-**Timeline:** Formal approval process required  
-**Approval:** Board of Directors or external authorities  
+**Scope:** Decisions affecting organizational survival or legal status 
+**Timeline:** Formal approval process required 
+**Approval:** Board of Directors or external authorities 
 **Notification:** Legal counsel and stakeholders
 
 ---
@@ -196,19 +196,19 @@ This matrix establishes clear decision-making authority during crisis situations
 **For immediate safety threats or system failures:**
 
 1. **Assessment (1 minute)**
-   - Is immediate safety threatened?
-   - Is system failure expanding?
-   - Are operations at risk?
+ - Is immediate safety threatened?
+ - Is system failure expanding?
+ - Are operations at risk?
 
 2. **Authority Check (1 minute)**
-   - What authority level is required?
-   - Is proper authority available?
-   - Can decision be delegated if authority unavailable?
+ - What authority level is required?
+ - Is proper authority available?
+ - Can decision be delegated if authority unavailable?
 
 3. **Decision and Implementation (3 minutes)**
-   - Make decision based on available authority
-   - Implement immediately if safety-critical
-   - Document decision and rationale
+ - Make decision based on available authority
+ - Implement immediately if safety-critical
+ - Document decision and rationale
 
 **Post-Decision Requirements:**
 - Notify next authority level within 15 minutes
@@ -218,9 +218,9 @@ This matrix establishes clear decision-making authority during crisis situations
 ### Emergency Override Protocol
 **When normal authority is unavailable and immediate action required:**
 
-**Authority:** Any team member can invoke for immediate safety threats  
-**Process:** Take immediate action, document decision, notify all available authorities immediately  
-**Scope:** Limited to immediate safety protection and system preservation  
+**Authority:** Any team member can invoke for immediate safety threats 
+**Process:** Take immediate action, document decision, notify all available authorities immediately 
+**Scope:** Limited to immediate safety protection and system preservation 
 **Review:** All emergency override decisions reviewed within 24 hours
 
 ---

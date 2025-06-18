@@ -15,7 +15,7 @@ legal teams.
 - Any event that affects operations, safety, data, or stakeholder trust
 
 - Situations where media attention, public queries, or online visibility
-  is expected or confirmed
+is expected or confirmed
 
 - Regulatory, insurer, or legal triggers that require disclosure
 
@@ -23,10 +23,10 @@ legal teams.
 
 ### **IMMEDIATE MEDIA PRESSURE (15-30 minutes to respond)**
 **QUICK DECISION MATRIX:**
-- **Media calling for immediate comment?** → Use 5-minute holding statement template below
-- **Social media posts about incident?** → Monitor and prepare rapid response
-- **TV crew on-site?** → Activate Final Media Deadline Management procedures
-- **Regulatory deadline approaching?** → Coordinate with legal team immediately
+- **Media calling for immediate comment?** - Use 5-minute holding statement template below
+- **Social media posts about incident?** - Monitor and prepare rapid response
+- **TV crew on-site?** - Activate Final Media Deadline Management procedures
+- **Regulatory deadline approaching?** - Coordinate with legal team immediately
 
 ### **5-MINUTE HOLDING STATEMENT TEMPLATE:**
 ```
@@ -68,60 +68,60 @@ legal teams.
 - Reviews content for liability, compliance, and contractual risks
 
 - Advises on timing of statements relative to breach, insurer, or
-  regulatory triggers
+regulatory triggers
 
 ## Core Messaging Workflow
 
-1.  **Trigger Identified**
+1. **Trigger Identified**
 
-    - Media inquiry, social media mention, regulator request, or public
-      visibility spike
+ - Media inquiry, social media mention, regulator request, or public
+  visibility spike
 
-2.  **Initial Drafting (Media Lead)**
+2. **Initial Drafting (Media Lead)**
 
-    - Use Public Messaging Templates (Holding / Denial /
-      Acknowledgement)
+ - Use Public Messaging Templates (Holding / Denial /
+  Acknowledgement)
 
-    - Prepare both reactive (response) and proactive (pre-emptive)
-      drafts
+ - Prepare both reactive (response) and proactive (pre-emptive)
+  drafts
 
-3.  **Review & Input**
+3. **Review & Input**
 
-    - Legal reviews for exposure, insurer language, compliance
+ - Legal reviews for exposure, insurer language, compliance
 
-    - CEO reviews for tone, strategic alignment, and final authority
+ - CEO reviews for tone, strategic alignment, and final authority
 
-4.  **Approval**
+4. **Approval**
 
-    - Statements are not released until signed off by CEO or Crisis Lead
+ - Statements are not released until signed off by CEO or Crisis Lead
 
-5.  **Delivery Method**
+5. **Delivery Method**
 
-    - Choose appropriate channel (e.g. email, press release, website,
-      social post)
+ - Choose appropriate channel (e.g. email, press release, website,
+  social post)
 
-    - Coordinate timing with incident updates or external triggers
+ - Coordinate timing with incident updates or external triggers
 
-6.  **Monitoring & Adjustments**
+6. **Monitoring & Adjustments**
 
-    - Track feedback, media coverage, or public response
+ - Track feedback, media coverage, or public response
 
-    - Update talking points or FAQ as needed
+ - Update talking points or FAQ as needed
 
 ## Response Timing Guidance
 
-  -----------------------------------------------------------------------
-  **Scenario Type**                **Recommended Timing**
-  -------------------------------- --------------------------------------
-  Public tweet or media inquiry    Within 30 minutes
+-----------------------------------------------------------------------
+**Scenario Type**        **Recommended Timing**
+-------------------------------- --------------------------------------
+Public tweet or media inquiry  Within 30 minutes
 
-  Confirmed breach with external   Within 1 hour of internal confirmation
-  risk                             
+Confirmed breach with external  Within 1 hour of internal confirmation
+risk               
 
-  Operational disruption only      As needed; not mandatory
+Operational disruption only   As needed; not mandatory
 
-  Regulator or insurer contact     Coordinated with Legal response window
-  -----------------------------------------------------------------------
+Regulator or insurer contact   Coordinated with Legal response window
+-----------------------------------------------------------------------
 
 ## Content Do's and Don'ts
 
@@ -173,20 +173,20 @@ This procedure provides streamlined decision-making and response protocols for u
 
 #### 5-Minute Assessment Phase
 1. **Threat Level Evaluation**
-   - **GREEN:** Routine story, low risk, standard response adequate
-   - **YELLOW:** Moderate risk, potential negative angle, careful response needed
-   - **RED:** High risk, crisis angle, strategic response critical
+ - **GREEN:** Routine story, low risk, standard response adequate
+ - **YELLOW:** Moderate risk, potential negative angle, careful response needed
+ - **RED:** High risk, crisis angle, strategic response critical
 
 2. **Story Context Analysis**
-   - [ ] What information does reporter already have?
-   - [ ] What angle are they pursuing?
-   - [ ] Who else are they interviewing?
-   - [ ] What's the potential reach/impact?
+ - [ ] What information does reporter already have?
+ - [ ] What angle are they pursuing?
+ - [ ] Who else are they interviewing?
+ - [ ] What's the potential reach/impact?
 
 3. **Response Option Assessment**
-   - **PARTICIPATE:** Provide spokesperson and statement
-   - **STATEMENT ONLY:** Written response, no interview
-   - **DECLINE:** No participation, organization statement if needed
+ - **PARTICIPATE:** Provide spokesperson and statement
+ - **STATEMENT ONLY:** Written response, no interview
+ - **DECLINE:** No participation, organization statement if needed
 
 #### 10-Minute Decision Process
 
@@ -220,40 +220,40 @@ This procedure provides streamlined decision-making and response protocols for u
 #### 15-Minute Response Templates
 
 ##### PARTICIPATION DECISION TEMPLATE
-**TO:** Executive/Incident Coordinator  
-**SUBJECT:** URGENT - Media Response Decision Required  
+**TO:** Executive/Incident Coordinator 
+**SUBJECT:** URGENT - Media Response Decision Required 
 **DEADLINE:** [Time] (15 minutes)
 
-**MEDIA REQUEST:** [Outlet] requests [interview/comment] for [story angle]  
-**DEADLINE:** [Reporter's deadline]  
-**RISK LEVEL:** [Green/Yellow/Red]  
-**RECOMMENDATION:** [Participate/Statement Only/Decline]  
-**RATIONALE:** [Brief explanation]  
+**MEDIA REQUEST:** [Outlet] requests [interview/comment] for [story angle] 
+**DEADLINE:** [Reporter's deadline] 
+**RISK LEVEL:** [Green/Yellow/Red] 
+**RECOMMENDATION:** [Participate/Statement Only/Decline] 
+**RATIONALE:** [Brief explanation] 
 **PROPOSED RESPONSE:** [Key messages if participating]
 
 ##### RAPID APPROVAL REQUEST
-**IF YOU APPROVE:** Reply "APPROVED - [any modifications]"  
-**IF YOU DECLINE:** Reply "DECLINED - [use statement only/no response]"  
+**IF YOU APPROVE:** Reply "APPROVED - [any modifications]" 
+**IF YOU DECLINE:** Reply "DECLINED - [use statement only/no response]" 
 **NO RESPONSE BY [TIME] = AUTOMATIC DECLINE**
 
 ### Spokesperson Rapid Deployment
 
 #### 15-Minute Spokesperson Preparation
 1. **Key Messages (3 points maximum)**
-   - [ ] Primary message (what we want them to remember)
-   - [ ] Safety/responsibility message
-   - [ ] Next steps/resolution message
+ - [ ] Primary message (what we want them to remember)
+ - [ ] Safety/responsibility message
+ - [ ] Next steps/resolution message
 
 2. **Anticipated Questions & Responses**
-   - [ ] What happened? → [Factual, brief response]
-   - [ ] Who's responsible? → [Investigation underway, focus on resolution]
-   - [ ] What's the impact? → [Specific impacts, mitigation measures]
+ - [ ] What happened? - [Factual, brief response]
+ - [ ] Who's responsible? - [Investigation underway, focus on resolution]
+ - [ ] What's the impact? - [Specific impacts, mitigation measures]
 
 3. **Interview Guidelines**
-   - [ ] Stay calm and confident
-   - [ ] Stick to facts, avoid speculation
-   - [ ] Bridge back to key messages
-   - [ ] Acknowledge concerns, emphasize safety priority
+ - [ ] Stay calm and confident
+ - [ ] Stick to facts, avoid speculation
+ - [ ] Bridge back to key messages
+ - [ ] Acknowledge concerns, emphasize safety priority
 
 #### Emergency Spokesperson Options
 1. **PRIMARY:** CEO or designated executive spokesperson
@@ -265,14 +265,14 @@ This procedure provides streamlined decision-making and response protocols for u
 
 #### 15-Minute Social Media Assessment
 1. **Platform Monitoring**
-   - [ ] Check Twitter, Facebook, LinkedIn for mentions
-   - [ ] Identify trending hashtags or viral content
-   - [ ] Assess volume and tone of social media activity
+ - [ ] Check Twitter, Facebook, LinkedIn for mentions
+ - [ ] Identify trending hashtags or viral content
+ - [ ] Assess volume and tone of social media activity
 
 2. **Response Strategy**
-   - **ENGAGE:** Respond directly to concerns with facts
-   - **REDIRECT:** Point to official statement or information
-   - **MONITOR:** Watch but don't engage if risk of escalation
+ - **ENGAGE:** Respond directly to concerns with facts
+ - **REDIRECT:** Point to official statement or information
+ - **MONITOR:** Watch but don't engage if risk of escalation
 
 #### Social Media Response Templates
 - **Acknowledgment:** "We're aware of [situation] and are working to address it. Safety is our priority. Updates: [link]"
@@ -358,98 +358,98 @@ This procedure provides immediate response protocols when internal documents, co
 
 #### Step 1: Leak Scope Assessment
 1. **Information Identification**
-   - [ ] Document specific information that was leaked
-   - [ ] Identify classification level (confidential, internal, public)
-   - [ ] Assess potential damage or sensitivity
+ - [ ] Document specific information that was leaked
+ - [ ] Identify classification level (confidential, internal, public)
+ - [ ] Assess potential damage or sensitivity
 
 2. **Source Analysis**
-   - [ ] Identify where leak was discovered (social media, news, forum)
-   - [ ] Note time of discovery vs. estimated leak time
-   - [ ] Assess distribution scope and audience reach
+ - [ ] Identify where leak was discovered (social media, news, forum)
+ - [ ] Note time of discovery vs. estimated leak time
+ - [ ] Assess distribution scope and audience reach
 
 3. **Authenticity Verification**
-   - [ ] Confirm information is genuine organizational content
-   - [ ] Check for potential alterations or fabrications
-   - [ ] Verify source documents exist in organizational systems
+ - [ ] Confirm information is genuine organizational content
+ - [ ] Check for potential alterations or fabrications
+ - [ ] Verify source documents exist in organizational systems
 
 #### Step 2: Immediate Containment
 1. **Internal Notifications**
-   - [ ] Alert Executive team immediately
-   - [ ] Notify Legal team for privilege review
-   - [ ] Inform IT Security of potential breach
+ - [ ] Alert Executive team immediately
+ - [ ] Notify Legal team for privilege review
+ - [ ] Inform IT Security of potential breach
 
 2. **External Monitoring**
-   - [ ] Monitor for additional leaked information
-   - [ ] Track social media spread and commentary
-   - [ ] Identify media outlets picking up the story
+ - [ ] Monitor for additional leaked information
+ - [ ] Track social media spread and commentary
+ - [ ] Identify media outlets picking up the story
 
 3. **Documentation**
-   - [ ] Screenshot or preserve evidence of leak
-   - [ ] Document discovery timeline and circumstances
-   - [ ] Begin chain of custody for evidence
+ - [ ] Screenshot or preserve evidence of leak
+ - [ ] Document discovery timeline and circumstances
+ - [ ] Begin chain of custody for evidence
 
 ### Investigation Phase (10-30 minutes)
 
 #### Internal Investigation Coordination
 1. **Access Review**
-   - [ ] Identify who had access to leaked information
-   - [ ] Review recent document sharing or email forwarding
-   - [ ] Check system access logs for unusual activity
+ - [ ] Identify who had access to leaked information
+ - [ ] Review recent document sharing or email forwarding
+ - [ ] Check system access logs for unusual activity
 
 2. **Communication Chain Analysis**
-   - [ ] Trace email distribution lists and recipients
-   - [ ] Review meeting attendees who received information
-   - [ ] Identify external parties with legitimate access
+ - [ ] Trace email distribution lists and recipients
+ - [ ] Review meeting attendees who received information
+ - [ ] Identify external parties with legitimate access
 
 3. **System Security Check**
-   - [ ] Coordinate with IT to check for system compromise
-   - [ ] Review email security and external forwarding rules
-   - [ ] Assess if leak resulted from cyber incident vs. human error
+ - [ ] Coordinate with IT to check for system compromise
+ - [ ] Review email security and external forwarding rules
+ - [ ] Assess if leak resulted from cyber incident vs. human error
 
 #### Damage Assessment
 1. **Content Analysis**
-   - [ ] Assess competitive sensitivity of leaked information
-   - [ ] Evaluate legal or regulatory implications
-   - [ ] Consider reputational damage potential
+ - [ ] Assess competitive sensitivity of leaked information
+ - [ ] Evaluate legal or regulatory implications
+ - [ ] Consider reputational damage potential
 
 2. **Stakeholder Impact**
-   - [ ] Identify affected customers, partners, or vendors
-   - [ ] Assess impact on ongoing negotiations or relationships
-   - [ ] Consider employee morale and trust implications
+ - [ ] Identify affected customers, partners, or vendors
+ - [ ] Assess impact on ongoing negotiations or relationships
+ - [ ] Consider employee morale and trust implications
 
 ### Response Strategy Development (20-45 minutes)
 
 #### Response Option Analysis
 1. **NO RESPONSE STRATEGY**
-   - **When appropriate:** Low-sensitivity information, limited distribution
-   - **Risks:** May appear to confirm authenticity
-   - **Benefits:** Avoids drawing additional attention
+ - **When appropriate:** Low-sensitivity information, limited distribution
+ - **Risks:** May appear to confirm authenticity
+ - **Benefits:** Avoids drawing additional attention
 
 2. **CLARIFICATION STRATEGY**
-   - **When appropriate:** Information is taken out of context
-   - **Response:** Provide context without confirming specific details
-   - **Example:** "Recent reports mischaracterize our normal operational discussions"
+ - **When appropriate:** Information is taken out of context
+ - **Response:** Provide context without confirming specific details
+ - **Example:** "Recent reports mischaracterize our normal operational discussions"
 
 3. **CORRECTION STRATEGY**
-   - **When appropriate:** Information is inaccurate or misleading
-   - **Response:** Correct misinformation while minimizing leak confirmation
-   - **Example:** "Reports contain inaccuracies about our operational procedures"
+ - **When appropriate:** Information is inaccurate or misleading
+ - **Response:** Correct misinformation while minimizing leak confirmation
+ - **Example:** "Reports contain inaccuracies about our operational procedures"
 
 4. **ACKNOWLEDGMENT STRATEGY**
-   - **When appropriate:** High-profile leak requiring direct response
-   - **Response:** Acknowledge situation while emphasizing investigation
-   - **Example:** "We are investigating unauthorized disclosure of internal communications"
+ - **When appropriate:** High-profile leak requiring direct response
+ - **Response:** Acknowledge situation while emphasizing investigation
+ - **Example:** "We are investigating unauthorized disclosure of internal communications"
 
 #### Message Development Framework
 1. **Core Messages (Maximum 3 points)**
-   - **Primary:** We take information security seriously
-   - **Secondary:** We are investigating the source and circumstances
-   - **Tertiary:** This does not affect our operational capabilities/commitments
+ - **Primary:** We take information security seriously
+ - **Secondary:** We are investigating the source and circumstances
+ - **Tertiary:** This does not affect our operational capabilities/commitments
 
 2. **Supporting Messages**
-   - Emphasize normal business operations continuing
-   - Highlight organizational commitment to transparency where appropriate
-   - Reinforce stakeholder relationship commitments
+ - Emphasize normal business operations continuing
+ - Highlight organizational commitment to transparency where appropriate
+ - Reinforce stakeholder relationship commitments
 
 ### Communication Protocols
 
@@ -480,16 +480,16 @@ This procedure provides immediate response protocols when internal documents, co
 "We have received your inquiry and are reviewing the matter. We will respond by [specific time]."
 
 2. **Assessment Questions for Reporter**
-   - What specific information are you referring to?
-   - Where did you obtain this information?
-   - What is your publication timeline?
-   - What other sources are you consulting?
+ - What specific information are you referring to?
+ - Where did you obtain this information?
+ - What is your publication timeline?
+ - What other sources are you consulting?
 
 3. **Response Delivery**
-   - Use pre-approved response strategy
-   - Stick to key messages
-   - Avoid confirming specific details
-   - Offer background briefing if appropriate
+ - Use pre-approved response strategy
+ - Stick to key messages
+ - Avoid confirming specific details
+ - Offer background briefing if appropriate
 
 #### Escalation Triggers for Executive Involvement
 - National media interest
@@ -516,25 +516,25 @@ This procedure provides immediate response protocols when internal documents, co
 
 #### Short-term Recovery Actions
 1. **Stakeholder Communication**
-   - [ ] Contact affected partners or customers directly
-   - [ ] Provide reassurance about ongoing commitments
-   - [ ] Offer additional briefings if relationship-critical
+ - [ ] Contact affected partners or customers directly
+ - [ ] Provide reassurance about ongoing commitments
+ - [ ] Offer additional briefings if relationship-critical
 
 2. **Employee Communication**
-   - [ ] Address concerns about information security
-   - [ ] Reinforce confidentiality policies and training
-   - [ ] Provide clear reporting channels for concerns
+ - [ ] Address concerns about information security
+ - [ ] Reinforce confidentiality policies and training
+ - [ ] Provide clear reporting channels for concerns
 
 #### Long-term Prevention Measures
 1. **Information Security Review**
-   - [ ] Review document classification and handling procedures
-   - [ ] Assess email security and external sharing controls
-   - [ ] Consider additional training or technology solutions
+ - [ ] Review document classification and handling procedures
+ - [ ] Assess email security and external sharing controls
+ - [ ] Consider additional training or technology solutions
 
 2. **Communication Protocol Updates**
-   - [ ] Review what information should be documented in writing
-   - [ ] Update confidentiality markings and warnings
-   - [ ] Revise distribution list management procedures
+ - [ ] Review what information should be documented in writing
+ - [ ] Update confidentiality markings and warnings
+ - [ ] Revise distribution list management procedures
 
 ### Success Criteria
 - Rapid identification and assessment of leaked information

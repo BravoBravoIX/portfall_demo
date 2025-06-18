@@ -33,7 +33,7 @@ statements and media posture.
 - Reference the original issue clearly but without over-emphasising
 
 - Provide closure timeline (e.g. "Normal operations resumed at 13:40
-  AEDT")
+AEDT")
 
 - Acknowledge stakeholder patience and internal efforts
 
@@ -59,13 +59,13 @@ patience of our customers and the dedication of our team."
 
 - Prepare and circulate summary of final messaging to:
 
-  - Executive team
+- Executive team
 
-  - Incident Coordinator
+- Incident Coordinator
 
-  - Legal
+- Legal
 
-  - Technical and Ops leads
+- Technical and Ops leads
 
 **5. Archive Communications**
 
@@ -77,20 +77,20 @@ patience of our customers and the dedication of our team."
 
 ## Common Follow-up Topics
 
-  -----------------------------------------------------------------------
-  **Question**              **Suggested Handling**
-  ------------------------- ---------------------------------------------
-  Will there be a formal    "We are completing internal review
-  report?                   procedures."
+-----------------------------------------------------------------------
+**Question**       **Suggested Handling**
+------------------------- ---------------------------------------------
+Will there be a formal  "We are completing internal review
+report?          procedures."
 
-  Was this a cyber attack?  "We are not speculating at this time."
+Was this a cyber attack? "We are not speculating at this time."
 
-  Who was responsible?      "We are working through the investigation
-                            process."
+Who was responsible?   "We are working through the investigation
+             process."
 
-  Could this happen again?  "We are applying lessons to strengthen
-                            resilience."
-  -----------------------------------------------------------------------
+Could this happen again? "We are applying lessons to strengthen
+             resilience."
+-----------------------------------------------------------------------
 
 ## Reminders:
 
@@ -99,7 +99,7 @@ patience of our customers and the dedication of our team."
 - Focus on closure, accountability, and confidence in recovery
 
 - Final messages may shape long-term reputation --- ensure consistency
-  across channels
+across channels
 
 **Owner:** Media & Communications Lead\
 **Reference:** MED-05\

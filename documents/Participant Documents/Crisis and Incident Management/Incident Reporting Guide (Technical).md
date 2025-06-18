@@ -19,7 +19,7 @@ review, and legal/regulatory requirements.
 - On-call engineers or analysts assigned during the incident
 
 - Any team member investigating log data, system health, or dashboard
-  anomalies
+anomalies
 
 ## When to Report
 
@@ -27,13 +27,13 @@ An incident report should be submitted if any of the following are
 observed:
 
 - System anomalies affecting operations (e.g. container scheduler
-  manipulation, AIS signal loss)
+manipulation, AIS signal loss)
 
 - Security-related indicators (e.g. spoofing, jamming, unauthorised
-  access, persistence mechanisms)
+access, persistence mechanisms)
 
 - Service degradation (e.g. communication latency, system
-  unavailability)
+unavailability)
 
 - Evidence of tampering or configuration changes
 
@@ -55,7 +55,7 @@ structure:
 **2. Detection Method**
 
 - How was it discovered? (e.g. dashboard alert, log scan, external
-  report)
+report)
 
 - Time of first indication
 
@@ -94,7 +94,7 @@ structure:
 - Notify Ops if physical systems are impacted
 
 - Confirm upload via Slack/email to Incident Coordination Channel (or
-  designated comms system)
+designated comms system)
 
 ## Format Template (Recommended)
 

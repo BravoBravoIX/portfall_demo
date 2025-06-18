@@ -5,9 +5,9 @@
 # Service Account Authentication Response Procedures
 
 ## Document Information
-**Document Type:** Technical Response Framework  
-**Intended Users:** Technical Team, Operations Team  
-**Usage Context:** Service account authentication failures affecting automated systems  
+**Document Type:** Technical Response Framework 
+**Intended Users:** Technical Team, Operations Team 
+**Usage Context:** Service account authentication failures affecting automated systems 
 **Related Scenarios:** svc_gantry failures, automated system disruptions, container operations
 
 ---
@@ -172,8 +172,8 @@ ping authentication-server.local
 nslookup authentication-server.local
 
 # Check for network issues affecting authentication
-netstat -an | grep :389  # LDAP port
-netstat -an | grep :636  # LDAPS port
+netstat -an | grep :389 # LDAP port
+netstat -an | grep :636 # LDAPS port
 ```
 
 #### **Service Account Specific Investigation**
@@ -274,12 +274,12 @@ watch -n 300 'systemctl status gantry-control.service crane-control.service --no
 cat > /tmp/svc_monitor.sh <<EOF
 #!/bin/bash
 while true; do
-    echo "$(date): Service Account Status Check"
-    grep "svc_gantry.*failure" /var/log/auth.log | tail -1
-    systemctl is-active gantry-control.service
-    systemctl is-active crane-control.service
-    echo "---"
-    sleep 300
+ echo "$(date): Service Account Status Check"
+ grep "svc_gantry.*failure" /var/log/auth.log | tail -1
+ systemctl is-active gantry-control.service
+ systemctl is-active crane-control.service
+ echo "---"
+ sleep 300
 done
 EOF
 chmod +x /tmp/svc_monitor.sh
@@ -408,18 +408,18 @@ CURRENT_TIME=\$(date +%s)
 FIVE_MIN_AGO=\$((CURRENT_TIME - 300))
 
 if [ -f "\$LAST_CHECK_FILE" ]; then
-    LAST_CHECK=\$(cat \$LAST_CHECK_FILE)
+ LAST_CHECK=\$(cat \$LAST_CHECK_FILE)
 else
-    LAST_CHECK=\$FIVE_MIN_AGO
+ LAST_CHECK=\$FIVE_MIN_AGO
 fi
 
 # Count failures since last check
 FAILURE_COUNT=\$(grep "authentication failure" \$LOGFILE | grep "svc_" | awk -v start=\$LAST_CHECK '\$0 > start' | wc -l)
 
 if [ \$FAILURE_COUNT -ge \$ALERT_THRESHOLD ]; then
-    echo "ALERT: \$FAILURE_COUNT service account authentication failures detected"
-    # Send alert to incident coordinator
-    echo "Service account authentication failures: \$FAILURE_COUNT" | mail -s "URGENT: Service Account Alert" incident@simrange.local
+ echo "ALERT: \$FAILURE_COUNT service account authentication failures detected"
+ # Send alert to incident coordinator
+ echo "Service account authentication failures: \$FAILURE_COUNT" | mail -s "URGENT: Service Account Alert" incident@simrange.local
 fi
 
 echo \$CURRENT_TIME > \$LAST_CHECK_FILE
@@ -475,7 +475,7 @@ echo "*/5 * * * * root /usr/local/bin/service-account-monitor.sh" >> /etc/cron.d
 
 ---
 
-**Owner:** Technical Team Lead / Operations Manager  
-**Reference:** TECH-SVC-01  
-**Version:** 1.0  
+**Owner:** Technical Team Lead / Operations Manager 
+**Reference:** TECH-SVC-01 
+**Version:** 1.0 
 **Approved by:** Cyber-Ops Coordination Cell

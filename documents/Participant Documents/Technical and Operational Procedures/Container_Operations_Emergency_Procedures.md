@@ -5,9 +5,9 @@
 # Container Operations Emergency Procedures
 
 ## Document Information
-**Document Type:** Emergency Operations Procedure  
-**Intended Users:** Operations Team, Technical Team, Crane Operators  
-**Usage Context:** During container system failures, misrouting incidents, or crane operation emergencies  
+**Document Type:** Emergency Operations Procedure 
+**Intended Users:** Operations Team, Technical Team, Crane Operators 
+**Usage Context:** During container system failures, misrouting incidents, or crane operation emergencies 
 **Related Scenarios:** Container misrouting, gantry control failures, CCTV blackouts affecting container operations
 
 ---
@@ -55,42 +55,42 @@ Immediate Hazard: [Yes/No - Description if yes]
 
 #### Assessment and Planning Phase
 1. **Container Assessment:**
-   - [ ] Container type and contents
-   - [ ] Current position and accessibility
-   - [ ] Required lifting equipment
-   - [ ] Destination berth availability
-   - [ ] Route planning for correction move
+ - [ ] Container type and contents
+ - [ ] Current position and accessibility
+ - [ ] Required lifting equipment
+ - [ ] Destination berth availability
+ - [ ] Route planning for correction move
 
 2. **Resource Requirements:**
-   - [ ] **Crane Availability:** Verify appropriate crane capacity and availability
-   - [ ] **Personnel:** Crane operator, spotter, traffic coordinator
-   - [ ] **Equipment:** Spreaders, lifting gear appropriate for container type
-   - [ ] **Route Clearance:** Clear path from current location to correct berth
+ - [ ] **Crane Availability:** Verify appropriate crane capacity and availability
+ - [ ] **Personnel:** Crane operator, spotter, traffic coordinator
+ - [ ] **Equipment:** Spreaders, lifting gear appropriate for container type
+ - [ ] **Route Clearance:** Clear path from current location to correct berth
 
 3. **Safety Considerations:**
-   - [ ] **Load Verification:** Confirm container weight and centre of gravity
-   - [ ] **Weather Conditions:** Wind speed and direction for safe lifting
-   - [ ] **Visual Monitoring:** Spotter assignments for crane operation
-   - [ ] **Emergency Procedures:** Ensure emergency stop procedures ready
+ - [ ] **Load Verification:** Confirm container weight and centre of gravity
+ - [ ] **Weather Conditions:** Wind speed and direction for safe lifting
+ - [ ] **Visual Monitoring:** Spotter assignments for crane operation
+ - [ ] **Emergency Procedures:** Ensure emergency stop procedures ready
 
 #### Container Correction Execution
 1. **Pre-Move Safety Brief:**
-   - [ ] Brief all personnel on correction procedure
-   - [ ] Assign spotter positions and communication methods
-   - [ ] Verify emergency stop procedures
-   - [ ] Confirm crane operator competency for specific move
+ - [ ] Brief all personnel on correction procedure
+ - [ ] Assign spotter positions and communication methods
+ - [ ] Verify emergency stop procedures
+ - [ ] Confirm crane operator competency for specific move
 
 2. **Correction Move Procedure:**
-   - [ ] **Container Securing:** Ensure container properly secured before lift
-   - [ ] **Lift Execution:** Follow standard lifting procedures with enhanced safety
-   - [ ] **Transport Route:** Use predetermined safe route to correct berth
-   - [ ] **Placement Verification:** Confirm correct berth placement and securing
+ - [ ] **Container Securing:** Ensure container properly secured before lift
+ - [ ] **Lift Execution:** Follow standard lifting procedures with enhanced safety
+ - [ ] **Transport Route:** Use predetermined safe route to correct berth
+ - [ ] **Placement Verification:** Confirm correct berth placement and securing
 
 3. **Post-Move Verification:**
-   - [ ] **Location Confirmation:** Verify container in correct berth position
-   - [ ] **System Update:** Update container management system if operational
-   - [ ] **Documentation:** Complete correction documentation
-   - [ ] **Safety Clearance:** All-clear for normal operations resume
+ - [ ] **Location Confirmation:** Verify container in correct berth position
+ - [ ] **System Update:** Update container management system if operational
+ - [ ] **Documentation:** Complete correction documentation
+ - [ ] **Safety Clearance:** All-clear for normal operations resume
 
 ---
 
@@ -106,40 +106,40 @@ Immediate Hazard: [Yes/No - Description if yes]
 
 #### Emergency Container Securing
 1. **In-Transit Containers:**
-   - [ ] **Immediate Stop:** Use emergency stop if container in motion
-   - [ ] **Secure Position:** Lower container to safe position if possible
-   - [ ] **Area Clearance:** Clear personnel from beneath suspended containers
-   - [ ] **Support Measures:** Deploy additional securing if container unstable
+ - [ ] **Immediate Stop:** Use emergency stop if container in motion
+ - [ ] **Secure Position:** Lower container to safe position if possible
+ - [ ] **Area Clearance:** Clear personnel from beneath suspended containers
+ - [ ] **Support Measures:** Deploy additional securing if container unstable
 
 2. **Planned Operations:**
-   - [ ] **Hold All Moves:** Stop all planned container movements
-   - [ ] **Secure Equipment:** Ensure all lifting equipment in safe position
-   - [ ] **Personnel Accountability:** Account for all personnel in gantry areas
-   - [ ] **Alternative Routing:** Plan alternative operations if feasible
+ - [ ] **Hold All Moves:** Stop all planned container movements
+ - [ ] **Secure Equipment:** Ensure all lifting equipment in safe position
+ - [ ] **Personnel Accountability:** Account for all personnel in gantry areas
+ - [ ] **Alternative Routing:** Plan alternative operations if feasible
 
 ### Manual Override Authorization Process
 
 #### Override Readiness Assessment
 1. **Personnel Competency Verification:**
-   - [ ] **Operator Qualification:** Verify crane operator manual operation training
-   - [ ] **Recent Experience:** Confirm recent manual operation experience
-   - [ ] **Physical Condition:** Assess operator fitness for extended manual operation
-   - [ ] **Spotter Availability:** Ensure qualified spotters available
+ - [ ] **Operator Qualification:** Verify crane operator manual operation training
+ - [ ] **Recent Experience:** Confirm recent manual operation experience
+ - [ ] **Physical Condition:** Assess operator fitness for extended manual operation
+ - [ ] **Spotter Availability:** Ensure qualified spotters available
 
 2. **Equipment Safety Check:**
-   - [ ] **Manual Controls:** Verify manual control system functionality
-   - [ ] **Safety Systems:** Confirm emergency stop and safety systems operational
-   - [ ] **Communication:** Test crane operator to spotter communication
-   - [ ] **Backup Power:** Verify backup power systems if required
+ - [ ] **Manual Controls:** Verify manual control system functionality
+ - [ ] **Safety Systems:** Confirm emergency stop and safety systems operational
+ - [ ] **Communication:** Test crane operator to spotter communication
+ - [ ] **Backup Power:** Verify backup power systems if required
 
 3. **Environmental Assessment:**
-   - [ ] **Weather Conditions:** Assess wind, visibility, precipitation
-   - [ ] **Lighting:** Ensure adequate lighting for manual operations
-   - [ ] **Area Conditions:** Check for obstacles or hazards in operating area
-   - [ ] **Emergency Access:** Verify emergency vehicle access maintained
+ - [ ] **Weather Conditions:** Assess wind, visibility, precipitation
+ - [ ] **Lighting:** Ensure adequate lighting for manual operations
+ - [ ] **Area Conditions:** Check for obstacles or hazards in operating area
+ - [ ] **Emergency Access:** Verify emergency vehicle access maintained
 
 #### Manual Override Authorization
-**Authority Required:** Operations Supervisor + Safety Officer  
+**Authority Required:** Operations Supervisor + Safety Officer 
 **Documentation Required:** Manual Override Authorization Form
 
 **Authorization Checklist:**
@@ -154,22 +154,22 @@ Immediate Hazard: [Yes/No - Description if yes]
 
 #### Enhanced Safety Protocols
 1. **Continuous Communication:**
-   - [ ] **Radio Check:** Test radio communication before each move
-   - [ ] **Visual Contact:** Maintain visual contact between operator and spotter
-   - [ ] **Standard Signals:** Use standardized hand signals as backup
-   - [ ] **Emergency Signals:** Ensure all personnel know emergency stop signals
+ - [ ] **Radio Check:** Test radio communication before each move
+ - [ ] **Visual Contact:** Maintain visual contact between operator and spotter
+ - [ ] **Standard Signals:** Use standardized hand signals as backup
+ - [ ] **Emergency Signals:** Ensure all personnel know emergency stop signals
 
 2. **Reduced Operation Parameters:**
-   - [ ] **Speed Reduction:** Operate at 50% normal speed maximum
-   - [ ] **Load Limits:** Reduce maximum load capacity by 20%
-   - [ ] **Wind Limits:** Stop operations if wind exceeds 25 mph
-   - [ ] **Visibility Requirements:** Stop operations if visibility below 100 meters
+ - [ ] **Speed Reduction:** Operate at 50% normal speed maximum
+ - [ ] **Load Limits:** Reduce maximum load capacity by 20%
+ - [ ] **Wind Limits:** Stop operations if wind exceeds 25 mph
+ - [ ] **Visibility Requirements:** Stop operations if visibility below 100 meters
 
 3. **Enhanced Monitoring:**
-   - [ ] **Additional Spotters:** Deploy extra spotters for complex moves
-   - [ ] **Ground Personnel:** Ensure adequate ground personnel for coordination
-   - [ ] **Equipment Monitoring:** Continuous monitoring of crane performance
-   - [ ] **Safety Officer Presence:** Safety officer on-site during manual operations
+ - [ ] **Additional Spotters:** Deploy extra spotters for complex moves
+ - [ ] **Ground Personnel:** Ensure adequate ground personnel for coordination
+ - [ ] **Equipment Monitoring:** Continuous monitoring of crane performance
+ - [ ] **Safety Officer Presence:** Safety officer on-site during manual operations
 
 ---
 
@@ -179,43 +179,43 @@ Immediate Hazard: [Yes/No - Description if yes]
 
 #### Spotter Deployment Strategy
 1. **Critical Position Coverage:**
-   - [ ] **Crane Operator Blind Spots:** Position spotters at operator blind spots
-   - [ ] **Ground Movement Areas:** Cover areas where personnel/vehicles move
-   - [ ] **Container Landing Zones:** Monitor container placement areas
-   - [ ] **Traffic Intersection Points:** Cover vehicle and equipment intersections
+ - [ ] **Crane Operator Blind Spots:** Position spotters at operator blind spots
+ - [ ] **Ground Movement Areas:** Cover areas where personnel/vehicles move
+ - [ ] **Container Landing Zones:** Monitor container placement areas
+ - [ ] **Traffic Intersection Points:** Cover vehicle and equipment intersections
 
 2. **Spotter Assignment Protocol:**
-   - [ ] **Primary Spotter:** Assigned to specific crane for entire operation
-   - [ ] **Roving Spotter:** Covers multiple areas during different operations
-   - [ ] **Traffic Spotter:** Dedicated to vehicle and equipment movement
-   - [ ] **Safety Spotter:** Focused on personnel safety and emergency response
+ - [ ] **Primary Spotter:** Assigned to specific crane for entire operation
+ - [ ] **Roving Spotter:** Covers multiple areas during different operations
+ - [ ] **Traffic Spotter:** Dedicated to vehicle and equipment movement
+ - [ ] **Safety Spotter:** Focused on personnel safety and emergency response
 
 #### Enhanced Communication Procedures
 1. **Communication Hierarchy:**
-   - **Primary:** Radio communication on designated channel
-   - **Secondary:** Hand signals and visual signals
-   - **Emergency:** Air horn, whistle, or emergency signals
+ - **Primary:** Radio communication on designated channel
+ - **Secondary:** Hand signals and visual signals
+ - **Emergency:** Air horn, whistle, or emergency signals
 
 2. **Standard Communication Protocol:**
-   - [ ] **Move Authorization:** "Clear to move" from primary spotter
-   - [ ] **Progress Updates:** Regular position updates during move
-   - [ ] **Hazard Alerts:** Immediate communication of any hazards
-   - [ ] **Completion Confirmation:** "Move complete, all clear" signal
+ - [ ] **Move Authorization:** "Clear to move" from primary spotter
+ - [ ] **Progress Updates:** Regular position updates during move
+ - [ ] **Hazard Alerts:** Immediate communication of any hazards
+ - [ ] **Completion Confirmation:** "Move complete, all clear" signal
 
 ### Reduced Capacity Operations
 
 #### Container Operation Modifications
 1. **Operational Restrictions:**
-   - [ ] **Single Container Moves:** Only one container move at a time
-   - [ ] **Reduced Speed:** 30% normal speed during CCTV blackout
-   - [ ] **Enhanced Verification:** Double-check all container IDs and destinations
-   - [ ] **Extended Safety Zones:** Increase safety zones around operations
+ - [ ] **Single Container Moves:** Only one container move at a time
+ - [ ] **Reduced Speed:** 30% normal speed during CCTV blackout
+ - [ ] **Enhanced Verification:** Double-check all container IDs and destinations
+ - [ ] **Extended Safety Zones:** Increase safety zones around operations
 
 2. **Additional Verification Steps:**
-   - [ ] **Manual Container Check:** Physical verification of container ID
-   - [ ] **Destination Confirmation:** Multiple verification of destination berth
-   - [ ] **Route Verification:** Walk route before container movement
-   - [ ] **Personnel Clearance:** Physical verification area clear before move
+ - [ ] **Manual Container Check:** Physical verification of container ID
+ - [ ] **Destination Confirmation:** Multiple verification of destination berth
+ - [ ] **Route Verification:** Walk route before container movement
+ - [ ] **Personnel Clearance:** Physical verification area clear before move
 
 ---
 
@@ -225,45 +225,45 @@ Immediate Hazard: [Yes/No - Description if yes]
 
 #### Container Tracking System Recovery
 1. **Data Integrity Verification:**
-   - [ ] **Container Location Audit:** Physical verification of all container locations
-   - [ ] **Database Reconciliation:** Compare physical locations with system records
-   - [ ] **Discrepancy Resolution:** Investigate and resolve any location discrepancies
-   - [ ] **System Update:** Update system records to match physical reality
+ - [ ] **Container Location Audit:** Physical verification of all container locations
+ - [ ] **Database Reconciliation:** Compare physical locations with system records
+ - [ ] **Discrepancy Resolution:** Investigate and resolve any location discrepancies
+ - [ ] **System Update:** Update system records to match physical reality
 
 2. **System Functionality Testing:**
-   - [ ] **Test Container Tracking:** Verify system tracks container movements accurately
-   - [ ] **Test Crane Integration:** Confirm crane systems integrate properly
-   - [ ] **Test Safety Systems:** Verify safety interlocks and emergency stops
-   - [ ] **Test Communication:** Confirm system communication with all components
+ - [ ] **Test Container Tracking:** Verify system tracks container movements accurately
+ - [ ] **Test Crane Integration:** Confirm crane systems integrate properly
+ - [ ] **Test Safety Systems:** Verify safety interlocks and emergency stops
+ - [ ] **Test Communication:** Confirm system communication with all components
 
 #### Return to Normal Operations
 1. **Gradual Operation Resumption:**
-   - [ ] **Single Move Test:** Test system with single container move
-   - [ ] **Monitoring Period:** Enhanced monitoring for first hour of operations
-   - [ ] **Performance Verification:** Verify system performance meets standards
-   - [ ] **Full Operations:** Return to normal operational capacity
+ - [ ] **Single Move Test:** Test system with single container move
+ - [ ] **Monitoring Period:** Enhanced monitoring for first hour of operations
+ - [ ] **Performance Verification:** Verify system performance meets standards
+ - [ ] **Full Operations:** Return to normal operational capacity
 
 2. **Ongoing Monitoring:**
-   - [ ] **System Performance:** Monitor for any recurring issues
-   - [ ] **Error Logging:** Log any system errors or anomalies
-   - [ ] **Personnel Feedback:** Gather feedback from operators on system performance
-   - [ ] **Continuous Assessment:** Regular assessment of system reliability
+ - [ ] **System Performance:** Monitor for any recurring issues
+ - [ ] **Error Logging:** Log any system errors or anomalies
+ - [ ] **Personnel Feedback:** Gather feedback from operators on system performance
+ - [ ] **Continuous Assessment:** Regular assessment of system reliability
 
 ---
 
 ## Emergency Contact Information
 
 ### Container Operations Emergency Contacts
-**Operations Supervisor:** [Phone number]  
-**Crane Operations Manager:** [Phone number]  
-**Safety Officer:** [Phone number]  
-**Technical Support:** [Phone number]  
+**Operations Supervisor:** [Phone number] 
+**Crane Operations Manager:** [Phone number] 
+**Safety Officer:** [Phone number] 
+**Technical Support:** [Phone number] 
 **Emergency Services:** 911
 
 ### Equipment Emergency Contacts
-**Crane Maintenance:** [24-hour number]  
-**Container System Support:** [Phone number]  
-**Gantry Control Vendor:** [Emergency support number]  
+**Crane Maintenance:** [24-hour number] 
+**Container System Support:** [Phone number] 
+**Gantry Control Vendor:** [Emergency support number] 
 **Backup Equipment Rental:** [Phone number]
 
 ---

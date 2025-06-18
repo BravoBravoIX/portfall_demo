@@ -48,16 +48,16 @@ This decision tree provides systematic classification of security incidents to d
 #### Step 1: Initial Evidence Assessment (5 minutes)
 
 **Question 1:** Is there evidence of unauthorized access to systems?
-- **NO** → Proceed to Technical Anomaly Assessment
-- **YES** → Proceed to Step 2
+- **NO** - Proceed to Technical Anomaly Assessment
+- **YES** - Proceed to Step 2
 
 **Question 2:** Is there evidence of data exposure or system modification?
-- **NO** → Classify as Security Incident (Category 2)
-- **YES** → Proceed to Step 3
+- **NO** - Classify as Security Incident (Category 2)
+- **YES** - Proceed to Step 3
 
 **Question 3:** Is there evidence of persistent or ongoing unauthorized access?
-- **NO** → Classify as Confirmed Breach (Category 3)
-- **YES** → Classify as Persistent Access (Category 4)
+- **NO** - Classify as Confirmed Breach (Category 3)
+- **YES** - Classify as Persistent Access (Category 4)
 
 #### Step 2: Technical Anomaly Assessment
 **Indicators suggesting Category 1:**
@@ -190,9 +190,9 @@ This decision tree provides systematic classification of security incidents to d
 
 ### Decision Documentation Template
 
-**INCIDENT ID:** [Unique identifier]  
-**DATE/TIME:** [Classification decision time]  
-**DECISION MAKER:** [Name and role]  
+**INCIDENT ID:** [Unique identifier] 
+**DATE/TIME:** [Classification decision time] 
+**DECISION MAKER:** [Name and role] 
 **CLASSIFICATION:** [Category 1-4]
 
 **EVIDENCE SUMMARY:**
@@ -226,13 +226,13 @@ This decision tree provides systematic classification of security incidents to d
 ## When to Use This Checklist
 
 - A security incident has affected operations, data, systems, or
-  third-party assets
+third-party assets
 
 - Legal has been alerted to anomalies or external attention (e.g. media
-  inquiry, insurer request)
+inquiry, insurer request)
 
 - Unauthorised access, loss of control, or data/system integrity
-  compromise is suspected
+compromise is suspected
 
 ## Step 1: Confirm Potential Breach Indicators
 
@@ -241,12 +241,12 @@ Tick all that apply:
 - Unauthorised access attempt or credential misuse detected
 
 - Suspicious cron job, file modification, or system persistence
-  mechanism found
+mechanism found
 
 - Customer, shipment, or system data was manipulated or misrouted
 
 - Communications or dashboards displayed false or manipulated
-  information
+information
 
 - External party alerted or notified the organisation first
 
@@ -257,16 +257,16 @@ If **two or more indicators are present**, initiate **Step 2**.
 ## Step 2: Assess Disclosure Requirements
 
 - **Internal Policy** -- Does this meet internal breach notification
-  thresholds?
+thresholds?
 
 - **Regulatory Duty** -- Are we legally obligated to notify any
-  regulatory body?
+regulatory body?
 
 - **Contractual Obligation** -- Do any active agreements require
-  disclosure (e.g. vendors, insurers)?
+disclosure (e.g. vendors, insurers)?
 
 - **Reputational Risk** -- Would failure to disclose damage stakeholder
-  trust?
+trust?
 
 Document basis for each answer using:
 
@@ -295,25 +295,25 @@ If **any requirement is met**, proceed to **Step 3**.
 ## Step 4: Submit and Record
 
 - Send formal notification via approved channels (email or form
-  submission)
+submission)
 
 - Archive all communication threads related to the breach
 
 - Ensure incident is tagged for legal review during post-incident
-  debrief
+debrief
 
 - If regulator or insurer response is pending, assign owner to track
-  response timeframe
+response timeframe
 
 ## Additional Notes
 
 - Do not delay disclosure solely for reputational reasons if
-  legal/contractual thresholds are met
+legal/contractual thresholds are met
 
 - Always label preliminary findings as "subject to verification"
 
 - If unsure, escalate using Legal Risk Escalation Flowchart for joint
-  Executive review
+Executive review
 
 **Owner:** Legal / Compliance Lead\
 **Reference:** LEG-01\

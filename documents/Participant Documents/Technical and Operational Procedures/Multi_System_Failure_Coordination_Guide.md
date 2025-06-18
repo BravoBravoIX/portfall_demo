@@ -5,9 +5,9 @@
 # Multi-System Failure Coordination Guide
 
 ## Document Information
-**Document Type:** Technical Coordination Framework  
-**Intended Users:** Technical Team, Operations Team, Incident Coordinators  
-**Usage Context:** When multiple operational systems fail simultaneously  
+**Document Type:** Technical Coordination Framework 
+**Intended Users:** Technical Team, Operations Team, Incident Coordinators 
+**Usage Context:** When multiple operational systems fail simultaneously 
 **Related Scenarios:** Network + AIS + CCTV failures, coordinated system impacts
 
 ---
@@ -34,9 +34,9 @@ This guide provides coordination framework for incidents affecting multiple oper
 - Single root cause
 
 **Examples:**
-- Network failure → AIS data loss → Manual operations → CCTV reliance
-- Power failure → Multiple system shutdowns
-- Database corruption → Multiple application failures
+- Network failure - AIS data loss - Manual operations - CCTV reliance
+- Power failure - Multiple system shutdowns
+- Database corruption - Multiple application failures
 
 ### Type B: Coordinated Attacks
 **Characteristics:**
@@ -70,22 +70,22 @@ This guide provides coordination framework for incidents affecting multiple oper
 
 #### Multi-System Triage Process
 1. **System Impact Assessment**
-   - [ ] **Primary Systems:** AIS, CCTV, Network, Container Management
-   - [ ] **Secondary Systems:** Communications, Email, HVAC, Access Control
-   - [ ] **Safety Systems:** Emergency communications, Safety monitoring
-   - [ ] **Support Systems:** Backup power, Environmental controls
+ - [ ] **Primary Systems:** AIS, CCTV, Network, Container Management
+ - [ ] **Secondary Systems:** Communications, Email, HVAC, Access Control
+ - [ ] **Safety Systems:** Emergency communications, Safety monitoring
+ - [ ] **Support Systems:** Backup power, Environmental controls
 
 2. **Failure Pattern Analysis**
-   - [ ] **Timing:** All at once vs. sequential failures
-   - [ ] **Geography:** Localized vs. distributed
-   - [ ] **Dependencies:** Related vs. independent systems
-   - [ ] **Severity:** Complete failure vs. degraded performance
+ - [ ] **Timing:** All at once vs. sequential failures
+ - [ ] **Geography:** Localized vs. distributed
+ - [ ] **Dependencies:** Related vs. independent systems
+ - [ ] **Severity:** Complete failure vs. degraded performance
 
 3. **Safety Impact Evaluation**
-   - [ ] **Immediate Dangers:** Active operations requiring immediate attention
-   - [ ] **Safety Monitoring:** Systems critical for personnel safety
-   - [ ] **Emergency Response:** Capability to respond to emergencies
-   - [ ] **Evacuation Capability:** Ability to safely evacuate if needed
+ - [ ] **Immediate Dangers:** Active operations requiring immediate attention
+ - [ ] **Safety Monitoring:** Systems critical for personnel safety
+ - [ ] **Emergency Response:** Capability to respond to emergencies
+ - [ ] **Evacuation Capability:** Ability to safely evacuate if needed
 
 #### Priority Matrix for Multi-System Response
 
@@ -123,38 +123,38 @@ This guide provides coordination framework for incidents affecting multiple oper
 
 #### Team Coordination Protocols
 1. **Situation Briefings**
-   - [ ] Every 15 minutes for first hour
-   - [ ] Every 30 minutes thereafter
-   - [ ] Emergency briefings as required
+ - [ ] Every 15 minutes for first hour
+ - [ ] Every 30 minutes thereafter
+ - [ ] Emergency briefings as required
 
 2. **Decision Authority**
-   - [ ] Safety decisions: Operations Coordinator (immediate implementation)
-   - [ ] Resource allocation: Technical Coordinator (technical resources)
-   - [ ] Strategic decisions: Incident Commander (overall direction)
-   - [ ] External communication: Communications Coordinator
+ - [ ] Safety decisions: Operations Coordinator (immediate implementation)
+ - [ ] Resource allocation: Technical Coordinator (technical resources)
+ - [ ] Strategic decisions: Incident Commander (overall direction)
+ - [ ] External communication: Communications Coordinator
 
 3. **Information Flow**
-   - [ ] All teams report to coordinators every 15 minutes
-   - [ ] Coordinators brief Incident Commander every 30 minutes
-   - [ ] Critical updates communicated immediately
+ - [ ] All teams report to coordinators every 15 minutes
+ - [ ] Coordinators brief Incident Commander every 30 minutes
+ - [ ] Critical updates communicated immediately
 
 ### Phase 3: Integrated Response Strategy (30-60 minutes)
 
 #### System Restoration Prioritization
 1. **Critical Path Analysis**
-   - [ ] Identify systems that enable restoration of other systems
-   - [ ] Map dependencies and restoration sequences
-   - [ ] Identify parallel vs. sequential restoration opportunities
+ - [ ] Identify systems that enable restoration of other systems
+ - [ ] Map dependencies and restoration sequences
+ - [ ] Identify parallel vs. sequential restoration opportunities
 
 2. **Resource Allocation Strategy**
-   - [ ] **Concentrated Approach:** All resources on highest priority
-   - [ ] **Parallel Approach:** Resources split across critical systems
-   - [ ] **Hybrid Approach:** Staged resource reallocation
+ - [ ] **Concentrated Approach:** All resources on highest priority
+ - [ ] **Parallel Approach:** Resources split across critical systems
+ - [ ] **Hybrid Approach:** Staged resource reallocation
 
 3. **Risk vs. Benefit Assessment**
-   - [ ] **Quick Wins:** Low-effort, high-impact restorations
-   - [ ] **Foundation Systems:** Systems that enable other restorations
-   - [ ] **Safety Critical:** Systems essential for safe operations
+ - [ ] **Quick Wins:** Low-effort, high-impact restorations
+ - [ ] **Foundation Systems:** Systems that enable other restorations
+ - [ ] **Safety Critical:** Systems essential for safe operations
 
 #### Integration Challenges and Solutions
 
@@ -217,8 +217,8 @@ This guide provides coordination framework for incidents affecting multiple oper
 ### Internal Coordination Messages
 
 #### Multi-System Status Update Template
-**TO:** All Coordinators  
-**FROM:** [System Team Lead]  
+**TO:** All Coordinators 
+**FROM:** [System Team Lead] 
 **SUBJECT:** Multi-System Status - [Timestamp]
 
 **SYSTEM STATUS:**
@@ -228,8 +228,8 @@ This guide provides coordination framework for incidents affecting multiple oper
 - Coordination Requirements: [Dependencies on other teams]
 
 #### Coordinator Briefing Template
-**TO:** Incident Commander  
-**FROM:** [Coordinator]  
+**TO:** Incident Commander 
+**FROM:** [Coordinator] 
 **SUBJECT:** Coordination Status - [Timestamp]
 
 **OVERALL STATUS:** [Green/Yellow/Red]
@@ -241,7 +241,7 @@ This guide provides coordination framework for incidents affecting multiple oper
 ### External Communication
 
 #### Stakeholder Notification Template
-**TO:** [External Stakeholders]  
+**TO:** [External Stakeholders] 
 **SUBJECT:** Operational Status Update - Multi-System Incident
 
 **SITUATION:** We are managing a multi-system technical incident affecting [general description].
@@ -285,35 +285,35 @@ This guide provides coordination framework for incidents affecting multiple oper
 
 ### Restoration Verification Process
 1. **Individual System Testing**
-   - [ ] Verify each system functions independently
-   - [ ] Test core functionality before integration
-   - [ ] Document any ongoing issues or limitations
+ - [ ] Verify each system functions independently
+ - [ ] Test core functionality before integration
+ - [ ] Document any ongoing issues or limitations
 
 2. **Integration Testing**
-   - [ ] Verify cross-system communications
-   - [ ] Test dependent system functionality
-   - [ ] Confirm data synchronization and integrity
+ - [ ] Verify cross-system communications
+ - [ ] Test dependent system functionality
+ - [ ] Confirm data synchronization and integrity
 
 3. **Operational Verification**
-   - [ ] Test operational procedures with restored systems
-   - [ ] Verify safety systems and monitoring
-   - [ ] Confirm normal operational capacity
+ - [ ] Test operational procedures with restored systems
+ - [ ] Verify safety systems and monitoring
+ - [ ] Confirm normal operational capacity
 
 ### Lessons Learned Process
 1. **Immediate Debrief (Within 24 hours)**
-   - [ ] What worked well in coordination?
-   - [ ] What communication challenges occurred?
-   - [ ] Which resource allocation decisions were effective?
+ - [ ] What worked well in coordination?
+ - [ ] What communication challenges occurred?
+ - [ ] Which resource allocation decisions were effective?
 
 2. **Technical Analysis (Within 72 hours)**
-   - [ ] Root cause analysis for each system failure
-   - [ ] Dependency mapping accuracy assessment
-   - [ ] Technical response time evaluation
+ - [ ] Root cause analysis for each system failure
+ - [ ] Dependency mapping accuracy assessment
+ - [ ] Technical response time evaluation
 
 3. **Process Improvement (Within 1 week)**
-   - [ ] Update coordination procedures based on experience
-   - [ ] Revise priority matrices if needed
-   - [ ] Enhance training for multi-system scenarios
+ - [ ] Update coordination procedures based on experience
+ - [ ] Revise priority matrices if needed
+ - [ ] Enhance training for multi-system scenarios
 
 ---
 

@@ -22,45 +22,45 @@ consistency, and auditability.
 
 **1. Summary Snapshot**
 
-  -----------------------------------------------------------------------
-  **Item**                         **Entry**
-  -------------------------------- --------------------------------------
-  Incident Name                    \[e.g. Southgate Terminal Disruption\]
+-----------------------------------------------------------------------
+**Item**             **Entry**
+-------------------------------- --------------------------------------
+Incident Name          \[e.g. Southgate Terminal Disruption\]
 
-  Comms Lead                       \[Name / Role\]
+Comms Lead            \[Name / Role\]
 
-  Start Time                       \[DD/MM/YYYY HH:MM\]
+Start Time            \[DD/MM/YYYY HH:MM\]
 
-  Closure Time                     \[If applicable\]
+Closure Time           \[If applicable\]
 
-  Number of Statements Issued      \[#\]
+Number of Statements Issued   \[#\]
 
-  Media Contact Volume             \[High / Medium / Low\]
-  -----------------------------------------------------------------------
+Media Contact Volume       \[High / Medium / Low\]
+-----------------------------------------------------------------------
 
 **2. Message Log**
 
-  ------------------------------------------------------------------------------------------
-  **Time**   **Channel**   **Type**          **Summary of          **Approved   **Status**
-                                             Message**             By**         
-  ---------- ------------- ----------------- --------------------- ------------ ------------
-  09:15      Twitter       Holding Statement \"We are aware of an  CEO          Sent
-             (public)                        incident                           
-                                             affecting\...\"                    
+------------------------------------------------------------------------------------------
+**Time**  **Channel**  **Type**     **Summary of     **Approved  **Status**
+                      Message**       By**     
+---------- ------------- ----------------- --------------------- ------------ ------------
+09:15   Twitter    Holding Statement \"We are aware of an CEO     Sent
+      (public)            incident              
+                      affecting\...\"          
 
-  10:00      Press Release Acknowledgement   Confirmed disruption  CEO / Legal  Sent
-                                             & next update 12:00                
+10:00   Press Release Acknowledgement  Confirmed disruption CEO / Legal Sent
+                      & next update 12:00        
 
-  10:30      Internal      Staff Briefing    Systems down -- use   Media Lead   Delivered
-             Slack                           Manual Ops SOP                     
-  ------------------------------------------------------------------------------------------
+10:30   Internal   Staff Briefing  Systems down -- use  Media Lead  Delivered
+      Slack              Manual Ops SOP           
+------------------------------------------------------------------------------------------
 
 Use rows to track every comms item, both internal and external.
 
 **3. Public Questions / Media Themes**
 
 - Summary of common inquiries from journalists, regulators, or social
-  media
+media
 
 - Flagged areas needing legal or executive input
 
@@ -68,15 +68,15 @@ Use rows to track every comms item, both internal and external.
 
 **4. Upcoming / Planned Statements**
 
-  ------------------------------------------------------------------------------
-  **Time         **Channel**    **Purpose**                         **Status**
-  (Planned)**                                                       
-  -------------- -------------- ----------------------------------- ------------
-  12:00          Website Update Confirm containment + resolution    Drafted
-                                status                              
+------------------------------------------------------------------------------
+**Time     **Channel**  **Purpose**             **Status**
+(Planned)**                            
+-------------- -------------- ----------------------------------- ------------
+12:00     Website Update Confirm containment + resolution  Drafted
+               status               
 
-  14:00          LinkedIn       Stakeholder reassurance             Drafting
-  ------------------------------------------------------------------------------
+14:00     LinkedIn    Stakeholder reassurance       Drafting
+------------------------------------------------------------------------------
 
 ## Notes:
 

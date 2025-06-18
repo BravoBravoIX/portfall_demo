@@ -24,19 +24,19 @@ This guide provides framework for interpreting key insurance policy clauses duri
 
 **Interpretation Framework:**
 1. **Data Inaccuracy Defined:**
-   - AIS vessel position errors or missing data
-   - Navigation system discrepancies
-   - Operational system displaying incorrect information
+ - AIS vessel position errors or missing data
+ - Navigation system discrepancies
+ - Operational system displaying incorrect information
 
 2. **Operational Disruption Defined:**
-   - Container movement delays or errors
-   - Manual override requirements
-   - Reduced operational capacity
+ - Container movement delays or errors
+ - Manual override requirements
+ - Reduced operational capacity
 
 3. **Covered Cyber Events:**
-   - Unauthorized system access
-   - External interference with systems
-   - System manipulation by unauthorized parties
+ - Unauthorized system access
+ - External interference with systems
+ - System manipulation by unauthorized parties
 
 **Application to Current Scenarios:**
 - **AIS Anomalies (INJ002A, INJ005A):** Likely covered if external interference suspected
@@ -48,19 +48,19 @@ This guide provides framework for interpreting key insurance policy clauses duri
 
 **Interpretation Framework:**
 1. **Cyber Attack Defined:**
-   - Deliberate unauthorized access
-   - System manipulation with malicious intent
-   - Coordinated interference with multiple systems
+ - Deliberate unauthorized access
+ - System manipulation with malicious intent
+ - Coordinated interference with multiple systems
 
 2. **Systemic Risk Defined:**
-   - Multiple operational systems affected
-   - Cross-system dependencies compromised
-   - Overall operational capability threatened
+ - Multiple operational systems affected
+ - Cross-system dependencies compromised
+ - Overall operational capability threatened
 
 3. **Enhanced Coverage Provisions:**
-   - Higher coverage limits
-   - Reduced deductibles
-   - Extended business interruption coverage
+ - Higher coverage limits
+ - Reduced deductibles
+ - Extended business interruption coverage
 
 **Application to Current Scenarios:**
 - **Multi-System Failures:** If network, AIS, and CCTV all affected by same incident
@@ -72,14 +72,14 @@ This guide provides framework for interpreting key insurance policy clauses duri
 
 **Interpretation Framework:**
 1. **Integrated Vendor Systems:**
-   - Network infrastructure provided by vendors
-   - AIS systems with vendor components
-   - Any operational system with vendor access
+ - Network infrastructure provided by vendors
+ - AIS systems with vendor components
+ - Any operational system with vendor access
 
 2. **Vendor Cooperation Requirements:**
-   - Vendor must provide system logs and analysis
-   - Vendor must cooperate with incident investigation
-   - Vendor liability limitations must be documented
+ - Vendor must provide system logs and analysis
+ - Vendor must cooperate with incident investigation
+ - Vendor liability limitations must be documented
 
 **Application to Current Scenarios:**
 - **Network Issues (INJ001A, INJ001B):** If vendor-provided network infrastructure involved
@@ -90,35 +90,35 @@ This guide provides framework for interpreting key insurance policy clauses duri
 
 #### Step 1: Incident Characterization (10 minutes)
 1. **Technical Assessment**
-   - [ ] Document specific systems affected
-   - [ ] Identify evidence of unauthorized access
-   - [ ] Assess cross-system impact patterns
+ - [ ] Document specific systems affected
+ - [ ] Identify evidence of unauthorized access
+ - [ ] Assess cross-system impact patterns
 
 2. **Operational Impact Assessment**
-   - [ ] Quantify operational disruption
-   - [ ] Document data inaccuracy instances
-   - [ ] Calculate business interruption costs
+ - [ ] Quantify operational disruption
+ - [ ] Document data inaccuracy instances
+ - [ ] Calculate business interruption costs
 
 3. **Vendor Involvement Analysis**
-   - [ ] Identify vendor systems involved
-   - [ ] Assess vendor cooperation availability
-   - [ ] Document vendor liability positions
+ - [ ] Identify vendor systems involved
+ - [ ] Assess vendor cooperation availability
+ - [ ] Document vendor liability positions
 
 #### Step 2: Clause Applicability Analysis (15 minutes)
 1. **Clause 4.7 Assessment**
-   - **Triggered if:** Data inaccuracy + operational disruption + cyber event evidence
-   - **Evidence needed:** System logs, operational records, technical analysis
-   - **Coverage level:** Standard operational disruption coverage
+ - **Triggered if:** Data inaccuracy + operational disruption + cyber event evidence
+ - **Evidence needed:** System logs, operational records, technical analysis
+ - **Coverage level:** Standard operational disruption coverage
 
 2. **Clause 7.4 Assessment**
-   - **Triggered if:** Cyber attack + systemic risk + multiple systems
-   - **Evidence needed:** Attack attribution, cross-system analysis, risk assessment
-   - **Coverage level:** Enhanced coverage with reduced deductibles
+ - **Triggered if:** Cyber attack + systemic risk + multiple systems
+ - **Evidence needed:** Attack attribution, cross-system analysis, risk assessment
+ - **Coverage level:** Enhanced coverage with reduced deductibles
 
 3. **Clause 12.3 Assessment**
-   - **Triggered if:** Vendor system involvement + integration confirmed
-   - **Evidence needed:** Vendor system logs, cooperation confirmation
-   - **Coverage level:** Extended to vendor-related losses
+ - **Triggered if:** Vendor system involvement + integration confirmed
+ - **Evidence needed:** Vendor system logs, cooperation confirmation
+ - **Coverage level:** Extended to vendor-related losses
 
 #### Step 3: Coverage Decision Matrix
 **SCENARIO 1: Single System, Clear Technical Cause**
@@ -139,39 +139,39 @@ This guide provides framework for interpreting key insurance policy clauses duri
 ### Insurance Notification Templates
 
 #### Standard Notification (Clause 4.7)
-**TO:** [Insurance Representative]  
-**SUBJECT:** Incident Notification - Clause 4.7 Potential Coverage  
+**TO:** [Insurance Representative] 
+**SUBJECT:** Incident Notification - Clause 4.7 Potential Coverage 
 **PRIORITY:** Standard
 
-**INCIDENT SUMMARY:** [Brief description]  
-**SYSTEMS AFFECTED:** [List with operational impact]  
-**DATA INACCURACY IDENTIFIED:** [Specific examples]  
-**CYBER EVENT EVIDENCE:** [Security assessment summary]  
-**PRELIMINARY LOSS ASSESSMENT:** [Initial estimates]  
+**INCIDENT SUMMARY:** [Brief description] 
+**SYSTEMS AFFECTED:** [List with operational impact] 
+**DATA INACCURACY IDENTIFIED:** [Specific examples] 
+**CYBER EVENT EVIDENCE:** [Security assessment summary] 
+**PRELIMINARY LOSS ASSESSMENT:** [Initial estimates] 
 **ADDITIONAL INFORMATION:** Available upon request
 
 #### Enhanced Notification (Clause 7.4)
-**TO:** [Insurance Representative]  
-**SUBJECT:** URGENT - Systemic Cyber Event Notification  
+**TO:** [Insurance Representative] 
+**SUBJECT:** URGENT - Systemic Cyber Event Notification 
 **PRIORITY:** Urgent
 
-**INCIDENT SUMMARY:** [Brief description]  
-**SYSTEMIC RISK FACTORS:** [Multi-system impacts]  
-**CYBER ATTACK INDICATORS:** [Evidence of deliberate action]  
-**OPERATIONAL DISRUPTION SCOPE:** [Full impact assessment]  
-**ENHANCED COVERAGE REQUEST:** Under Clause 7.4 provisions  
+**INCIDENT SUMMARY:** [Brief description] 
+**SYSTEMIC RISK FACTORS:** [Multi-system impacts] 
+**CYBER ATTACK INDICATORS:** [Evidence of deliberate action] 
+**OPERATIONAL DISRUPTION SCOPE:** [Full impact assessment] 
+**ENHANCED COVERAGE REQUEST:** Under Clause 7.4 provisions 
 **IMMEDIATE ASSISTANCE NEEDED:** [Specific support requirements]
 
 #### Vendor Integration Notification (Clause 12.3)
-**TO:** [Insurance Representative]  
-**SUBJECT:** Vendor System Integration Incident - Clause 12.3  
+**TO:** [Insurance Representative] 
+**SUBJECT:** Vendor System Integration Incident - Clause 12.3 
 **PRIORITY:** Standard
 
-**INCIDENT SUMMARY:** [Brief description]  
-**VENDOR SYSTEMS INVOLVED:** [List with integration details]  
-**VENDOR COOPERATION STATUS:** [Confirmed/pending/declined]  
-**INTEGRATION IMPACT:** [How vendor systems affected operations]  
-**EXTENDED COVERAGE REQUEST:** Under vendor integration provisions  
+**INCIDENT SUMMARY:** [Brief description] 
+**VENDOR SYSTEMS INVOLVED:** [List with integration details] 
+**VENDOR COOPERATION STATUS:** [Confirmed/pending/declined] 
+**INTEGRATION IMPACT:** [How vendor systems affected operations] 
+**EXTENDED COVERAGE REQUEST:** Under vendor integration provisions 
 **VENDOR COORDINATION:** [Current status and needs]
 
 ### Decision Factors for Coverage Classification
@@ -230,10 +230,10 @@ This guide provides framework for interpreting key insurance policy clauses duri
 ## When to Use
 
 - There is a confirmed or suspected security, operational, or compliance
-  incident
+incident
 
 - The organisation's insurance policy requires notification of potential
-  claims or risks
+claims or risks
 
 - Insurer inquiry or policy-related questions have been received
 
@@ -242,7 +242,7 @@ This guide provides framework for interpreting key insurance policy clauses duri
 Ensure the following have been reviewed:
 
 - Active insurance policy (e.g. cyber, business continuity, professional
-  indemnity)
+indemnity)
 
 - Policy notification requirements and timeframes
 
@@ -277,7 +277,7 @@ organisation.
 **Initial Actions Taken:**
 
 - Description of internal response measures (containment, investigation,
-  notifications)
+notifications)
 
 - Involvement of any external legal, technical, or forensic advisers
 

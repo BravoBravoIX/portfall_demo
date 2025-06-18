@@ -14,7 +14,7 @@ statements, or executive briefings during a crisis event.
 - A media interview has been requested or scheduled
 
 - The CEO will be issuing a formal external update (e.g. video, press
-  conference)
+conference)
 
 - Stakeholders or government have requested executive-level comment
 
@@ -69,13 +69,13 @@ of issue\]. We take this extremely seriously.\"
 - Speak calmly and with confidence --- do not appear evasive
 
 - Avoid unnecessary technical detail; focus on leadership and
-  responsibility
+responsibility
 
 - If asked about blame, defer to facts: \"We\'re focused on resolution
-  right now.\"
+right now.\"
 
 - If asked about cause, clarify if it's under investigation: \"We're
-  still confirming root cause.\"
+still confirming root cause.\"
 
 - Keep responses short and structured
 

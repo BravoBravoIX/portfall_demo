@@ -19,19 +19,19 @@ reporting, and supporting legal or policy decisions.
 
 **Forensics Summary Header**
 
-  -----------------------------------------------------------------------
-  **Field**                       **Entry**
-  ------------------------------- ---------------------------------------
-  Incident Reference ID           \[e.g. INC-2025-042\]
+-----------------------------------------------------------------------
+**Field**            **Entry**
+------------------------------- ---------------------------------------
+Incident Reference ID      \[e.g. INC-2025-042\]
 
-  Date of Evidence Collection     \[YYYY-MM-DD\]
+Date of Evidence Collection   \[YYYY-MM-DD\]
 
-  Systems Investigated            \[List VMs or Containers\]
+Systems Investigated      \[List VMs or Containers\]
 
-  Lead Analyst / Team             \[Name or Role\]
+Lead Analyst / Team       \[Name or Role\]
 
-  Purpose of Review               \[Containment / Attribution / Audit\]
-  -----------------------------------------------------------------------
+Purpose of Review        \[Containment / Attribution / Audit\]
+-----------------------------------------------------------------------
 
 **Section 1: Initial Indicators**
 
@@ -51,24 +51,24 @@ Document what triggered the investigation, including:
 
 **Section 2: Collected Artifacts**
 
-  ---------------------------------------------------------------------------
-  **Artifact    **Location or Hash**                    **Notes**
-  Type**                                                
-  ------------- --------------------------------------- ---------------------
-  Log File      /var/log/syslog                         \[Lines extracted\]
+---------------------------------------------------------------------------
+**Artifact  **Location or Hash**          **Notes**
+Type**                        
+------------- --------------------------------------- ---------------------
+Log File   /var/log/syslog             \[Lines extracted\]
 
-  Application   /opt/app/logs/planner.log               \[Key errors noted\]
-  Log                                                   
+Application  /opt/app/logs/planner.log        \[Key errors noted\]
+Log                          
 
-  Network       /var/log/evidence/ais-signal.pcap       \[Timeframe
-  Capture                                               captured\]
+Network    /var/log/evidence/ais-signal.pcap    \[Timeframe
+Capture                        captured\]
 
-  Container     /var/log/evidence/container-ab123.tar   \[Tool used: docker
-  Image                                                 export\]
+Container   /var/log/evidence/container-ab123.tar  \[Tool used: docker
+Image                         export\]
 
-  Modified      /usr/bin/ssh -- sha256sum: abcd\...1234 \[Mismatch found\]
-  Binary                                                
-  ---------------------------------------------------------------------------
+Modified   /usr/bin/ssh -- sha256sum: abcd\...1234 \[Mismatch found\]
+Binary                        
+---------------------------------------------------------------------------
 
 **Section 3: Timeline Reconstruction**
 
@@ -92,11 +92,11 @@ Document what triggered the investigation, including:
 
 - Recommendations for:
 
-  - System hardening
+- System hardening
 
-  - Patch application
+- Patch application
 
-  - Future detection improvements
+- Future detection improvements
 
 **Submission:**\
 Attach to the final incident log archive and submit to Technical Lead +

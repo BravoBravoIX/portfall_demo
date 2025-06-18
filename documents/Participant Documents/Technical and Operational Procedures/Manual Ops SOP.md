@@ -12,25 +12,25 @@ conditions.
 
 **When to Use**
 
-• AIS, GPS, or scheduling systems are offline or compromised\
-• Physical equipment must be operated manually due to override or comms
+* AIS, GPS, or scheduling systems are offline or compromised\
+* Physical equipment must be operated manually due to override or comms
 failure\
-• Planning dashboards are inaccessible or unreliable\
-• Crane, berth, or container tasks require local coordination
+* Planning dashboards are inaccessible or unreliable\
+* Crane, berth, or container tasks require local coordination
 
 **Step 1: Confirm Degraded State**
 
-• Alert received or dashboard offline\
-• Confirm affected subsystems: AIS Aggregator, Container Scheduler,
+* Alert received or dashboard offline\
+* Confirm affected subsystems: AIS Aggregator, Container Scheduler,
 Crane Feed\
-• Log timestamp of service interruption and notify Coordinator
+* Log timestamp of service interruption and notify Coordinator
 
 **Step 2: Fallback Coordination Protocol**
 
-• Switch to physical or phone-based coordination with key terminal
+* Switch to physical or phone-based coordination with key terminal
 staff\
-• Assign a Manual Ops Lead for each shift (usually Dockside Supervisor)\
-• Use printed manifests or radio comms to:
+* Assign a Manual Ops Lead for each shift (usually Dockside Supervisor)\
+* Use printed manifests or radio comms to:
 
 - Confirm container ID and destination
 
@@ -40,26 +40,26 @@ staff\
 
 **Step 3: Manual Planning Flow**
 
-• Maintain whiteboard or paper-based record of:
+* Maintain whiteboard or paper-based record of:
 
 - Ship arrivals and departures
 
 - Crane assignments and lift cycles
 
 - Container stack movements\
-  • Record decisions with time, operator name, and authorisation source\
-  • Confirm every manual task with second party when safety-critical
-  (e.g. container override)
+* Record decisions with time, operator name, and authorisation source\
+* Confirm every manual task with second party when safety-critical
+(e.g. container override)
 
 **Step 4: Ops Log & Incident Tagging**
 
-• All manual tasks to be entered into /incident/manual-ops-log.txt\
-• Use structured format:
+* All manual tasks to be entered into /incident/manual-ops-log.txt\
+* Use structured format:
 
 \[Timestamp\] \[Operator\] \[Action Taken\] \[System Bypassed\]
 \[Confirmation Source\]
 
-• Flag any incidents involving:
+* Flag any incidents involving:
 
 - Missed clearances
 
@@ -69,16 +69,16 @@ staff\
 
 **Step 5: Restore & Reconciliation**
 
-• When system restored:
+* When system restored:
 
 - Validate manual records against recovered system state
 
 - Update container locations or berth schedules manually in planning
-  tool
+tool
 
 - Note discrepancies in Ops After-Action Log\
-  • Identify if any incorrect assumptions occurred due to loss of
-  visibility
+* Identify if any incorrect assumptions occurred due to loss of
+visibility
 
 ---
 
@@ -124,9 +124,9 @@ This procedure establishes clear authorization workflow for manual overrides dur
 **WHEN IMMEDIATE MANUAL OVERRIDE NEEDED:**
 
 **30-SECOND SAFETY DECISION:**
-- **IMMEDIATE DANGER?** → Override now, document later
-- **CREW SAFETY CONCERNS?** → Switch to manual immediately  
-- **MULTIPLE SYSTEMS FAILING?** → Implement manual procedures
+- **IMMEDIATE DANGER?** - Override now, document later
+- **CREW SAFETY CONCERNS?** - Switch to manual immediately 
+- **MULTIPLE SYSTEMS FAILING?** - Implement manual procedures
 
 **2-MINUTE EMERGENCY IMPLEMENTATION:**
 1. **Alert all operators:** "Switching to manual operations - enhanced safety protocols in effect"
@@ -146,46 +146,46 @@ This procedure establishes clear authorization workflow for manual overrides dur
 
 #### Step 1: Situation Assessment (2 minutes)
 1. **Safety Evaluation**
-   - [ ] Immediate danger present? → LEVEL 1 (proceed immediately)
-   - [ ] Equipment functioning but crew uncomfortable? → LEVEL 2
-   - [ ] Multiple systems affected? → LEVEL 3
-   - [ ] Terminal-wide impact? → LEVEL 4
+ - [ ] Immediate danger present? - LEVEL 1 (proceed immediately)
+ - [ ] Equipment functioning but crew uncomfortable? - LEVEL 2
+ - [ ] Multiple systems affected? - LEVEL 3
+ - [ ] Terminal-wide impact? - LEVEL 4
 
 2. **Impact Assessment**
-   - [ ] Document specific systems requiring manual override
-   - [ ] Estimate operational capacity under manual mode
-   - [ ] Calculate expected timeline for resolution
+ - [ ] Document specific systems requiring manual override
+ - [ ] Estimate operational capacity under manual mode
+ - [ ] Calculate expected timeline for resolution
 
 #### Step 2: Authorization Request
 **For Level 2-4:** Use standard authorization format:
 
-**TO:** [Supervisor/Operations Manager/Executive]  
-**SUBJECT:** Manual Override Authorization Request - [System]  
+**TO:** [Supervisor/Operations Manager/Executive] 
+**SUBJECT:** Manual Override Authorization Request - [System] 
 **PRIORITY:** [URGENT/HIGH/MEDIUM]
 
-**SITUATION:** [Brief description of technical issue]  
-**SAFETY IMPACT:** [Risk if continuing automated vs. manual]  
-**OPERATIONAL IMPACT:** [Capacity reduction, timeline effects]  
-**RECOMMENDED ACTION:** [Specific override request]  
-**DURATION:** [Expected time in manual mode]  
+**SITUATION:** [Brief description of technical issue] 
+**SAFETY IMPACT:** [Risk if continuing automated vs. manual] 
+**OPERATIONAL IMPACT:** [Capacity reduction, timeline effects] 
+**RECOMMENDED ACTION:** [Specific override request] 
+**DURATION:** [Expected time in manual mode] 
 **APPROVAL REQUESTED BY:** [Deadline for decision]
 
 #### Step 3: Implementation Verification
 1. **Pre-Override Checklist**
-   - [ ] Authorization received and documented
-   - [ ] Crew briefed on manual procedures
-   - [ ] Safety equipment verified operational
-   - [ ] Communication channels confirmed working
+ - [ ] Authorization received and documented
+ - [ ] Crew briefed on manual procedures
+ - [ ] Safety equipment verified operational
+ - [ ] Communication channels confirmed working
 
 2. **Override Activation**
-   - [ ] Systems switched to manual mode
-   - [ ] Automated safety systems remain active where possible
-   - [ ] Manual operation commenced with continuous monitoring
+ - [ ] Systems switched to manual mode
+ - [ ] Automated safety systems remain active where possible
+ - [ ] Manual operation commenced with continuous monitoring
 
 3. **Status Communication**
-   - [ ] Technical Team: "Manual override implemented for [system]. Estimated duration: [time]"
-   - [ ] Incident Coordinator: "Operations status: Manual mode - [capacity]% capacity"
-   - [ ] Executive (Level 3-4): "Manual operations authorized - safety verified"
+ - [ ] Technical Team: "Manual override implemented for [system]. Estimated duration: [time]"
+ - [ ] Incident Coordinator: "Operations status: Manual mode - [capacity]% capacity"
+ - [ ] Executive (Level 3-4): "Manual operations authorized - safety verified"
 
 ### Special Circumstances
 

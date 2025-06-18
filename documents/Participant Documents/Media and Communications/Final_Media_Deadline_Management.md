@@ -5,9 +5,9 @@
 # Final Media Deadline Management Procedures
 
 ## Document Information
-**Document Type:** Crisis Media Response Framework  
-**Intended Users:** Media Team, Executive Team, Legal Team  
-**Usage Context:** High-pressure final media deadlines with TV crews on-site  
+**Document Type:** Crisis Media Response Framework 
+**Intended Users:** Media Team, Executive Team, Legal Team 
+**Usage Context:** High-pressure final media deadlines with TV crews on-site 
 **Related Scenarios:** Live TV segments, urgent reporter deadlines, on-site media presence
 
 ---
@@ -394,14 +394,14 @@ OPINIONS (Generally avoid):
 DECISION FLOWCHART:
 
 Media Deadline < 15 minutes?
-├─ YES → Is CEO/Executive prepared and available?
-│  ├─ YES → Legal clearance obtained?
-│  │  ├─ YES → PROCEED with executive interview
-│  │  └─ NO → WRITTEN STATEMENT ONLY
-│  └─ NO → Qualified spokesperson available?
-│     ├─ YES → PROCEED with designated spokesperson
-│     └─ NO → WRITTEN STATEMENT or DECLINE
-└─ NO → Follow standard media response procedures
+├─ YES - Is CEO/Executive prepared and available?
+│ ├─ YES - Legal clearance obtained?
+│ │ ├─ YES - PROCEED with executive interview
+│ │ └─ NO - WRITTEN STATEMENT ONLY
+│ └─ NO - Qualified spokesperson available?
+│   ├─ YES - PROCEED with designated spokesperson
+│   └─ NO - WRITTEN STATEMENT or DECLINE
+└─ NO - Follow standard media response procedures
 ```
 
 ---
@@ -467,7 +467,7 @@ Media Deadline < 15 minutes?
 
 ---
 
-**Owner:** Media Team Lead / Chief Communications Officer  
-**Reference:** MEDIA-FINAL-01  
-**Version:** 1.0  
+**Owner:** Media Team Lead / Chief Communications Officer 
+**Reference:** MEDIA-FINAL-01 
+**Version:** 1.0 
 **Approved by:** Executive Crisis Team

@@ -5,9 +5,9 @@
 # Multi-Berth Emergency Shutdown Procedures
 
 ## Document Information
-**Document Type:** Emergency Operations Procedure  
-**Intended Users:** Operations Team, Technical Team, Incident Coordinators  
-**Usage Context:** When emergency shutdown of multiple berths is required  
+**Document Type:** Emergency Operations Procedure 
+**Intended Users:** Operations Team, Technical Team, Incident Coordinators 
+**Usage Context:** When emergency shutdown of multiple berths is required 
 **Related Scenarios:** Safety emergencies, multi-system failures, security incidents requiring area isolation
 
 ---
@@ -29,7 +29,7 @@ This procedure provides step-by-step guidance for coordinated emergency shutdown
 ### Critical Information Gathering
 **Vessels Currently Berthed:**
 - [ ] Berth 1: [Vessel name] - [Cargo type] - [Status]
-- [ ] Berth 2: [Vessel name] - [Cargo type] - [Status]  
+- [ ] Berth 2: [Vessel name] - [Cargo type] - [Status] 
 - [ ] Berth 3: [Vessel name] - [Cargo type] - [Status]
 - [ ] Berth 4: [Vessel name] - [Cargo type] - [Status]
 
@@ -296,27 +296,27 @@ Estimated duration: [timeframe]. Any assistance needed?"
 "This is Port Operations. We are implementing emergency shutdown procedures for [berths/area] due to [reason]. All personnel implement emergency protocols immediately. Vessel masters acknowledge receipt. Emergency services [have been notified/are responding]. Updates every [timeframe]."
 
 ### Vessel Coordination Template
-**TO:** [Vessel Name and Master]  
-**FROM:** Port Operations  
+**TO:** [Vessel Name and Master] 
+**FROM:** Port Operations 
 **RE:** Emergency Shutdown - [Timestamp]
 
-**SITUATION:** [Brief description of emergency requiring shutdown]  
-**REQUIRED ACTIONS:** [Specific actions vessel must take]  
-**DURATION:** [Estimated duration or "unknown at this time"]  
-**COMMUNICATION:** [How ongoing communication will be maintained]  
-**ASSISTANCE:** [Whether port can provide any assistance]  
+**SITUATION:** [Brief description of emergency requiring shutdown] 
+**REQUIRED ACTIONS:** [Specific actions vessel must take] 
+**DURATION:** [Estimated duration or "unknown at this time"] 
+**COMMUNICATION:** [How ongoing communication will be maintained] 
+**ASSISTANCE:** [Whether port can provide any assistance] 
 **NEXT UPDATE:** [When next communication will occur]
 
 ### External Notification Template
-**TO:** [External Agency]  
-**FROM:** [Port Operations/Incident Coordinator]  
+**TO:** [External Agency] 
+**FROM:** [Port Operations/Incident Coordinator] 
 **RE:** Emergency Shutdown Notification
 
-**INCIDENT:** [Description of situation requiring shutdown]  
-**SCOPE:** [Berths affected, vessels involved]  
-**SAFETY STATUS:** [Personnel safety status]  
-**ENVIRONMENTAL:** [Any environmental concerns]  
-**ASSISTANCE NEEDED:** [Specific support requested]  
+**INCIDENT:** [Description of situation requiring shutdown] 
+**SCOPE:** [Berths affected, vessels involved] 
+**SAFETY STATUS:** [Personnel safety status] 
+**ENVIRONMENTAL:** [Any environmental concerns] 
+**ASSISTANCE NEEDED:** [Specific support requested] 
 **CONTACT:** [Ongoing contact information]
 
 ---

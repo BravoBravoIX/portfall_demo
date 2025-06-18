@@ -5,9 +5,9 @@
 # Emergency Response Procedures
 
 ## Document Information
-**Document Type:** Emergency Response Framework  
-**Intended Users:** All Teams, Safety Personnel, Incident Coordinators  
-**Usage Context:** During emergency situations requiring immediate response  
+**Document Type:** Emergency Response Framework 
+**Intended Users:** All Teams, Safety Personnel, Incident Coordinators 
+**Usage Context:** During emergency situations requiring immediate response 
 **Related Scenarios:** Safety emergencies, system failures, security incidents, environmental emergencies
 
 ---
@@ -104,29 +104,29 @@ This procedure provides immediate response framework for emergency situations, e
 
 #### Medical Response Protocol
 1. **Primary Assessment:**
-   - Consciousness level
-   - Breathing status
-   - Bleeding or obvious injuries
-   - Need for immediate life support
+ - Consciousness level
+ - Breathing status
+ - Bleeding or obvious injuries
+ - Need for immediate life support
 
 2. **Emergency Medical Services:**
-   - Call 911 for serious injuries
-   - Provide clear location and access instructions
-   - Describe nature of injury and current condition
-   - Assign person to meet EMS at entrance
+ - Call 911 for serious injuries
+ - Provide clear location and access instructions
+ - Describe nature of injury and current condition
+ - Assign person to meet EMS at entrance
 
 3. **First Aid Response:**
-   - Control bleeding if present
-   - Maintain airway if trained
-   - Treat for shock if appropriate
-   - DO NOT move victim unless in immediate danger
-   - Monitor and reassure victim until help arrives
+ - Control bleeding if present
+ - Maintain airway if trained
+ - Treat for shock if appropriate
+ - DO NOT move victim unless in immediate danger
+ - Monitor and reassure victim until help arrives
 
 4. **Coordination with EMS:**
-   - Provide victim information and medical history if available
-   - Clear access routes for emergency vehicles
-   - Designate liaison person to accompany victim
-   - Document incident details for follow-up
+ - Provide victim information and medical history if available
+ - Clear access routes for emergency vehicles
+ - Designate liaison person to accompany victim
+ - Document incident details for follow-up
 
 ### Class 2: Fire Emergency Response
 
@@ -139,30 +139,30 @@ This procedure provides immediate response framework for emergency situations, e
 
 #### Fire Response Protocol
 1. **Fire Assessment:**
-   - Size and type of fire
-   - Materials involved
-   - Spread potential
-   - Personnel evacuation needs
-   - Access for fire department
+ - Size and type of fire
+ - Materials involved
+ - Spread potential
+ - Personnel evacuation needs
+ - Access for fire department
 
 2. **Suppression Decision:**
-   - **SMALL FIRE:** Use appropriate extinguisher if trained
-   - **LARGE FIRE:** Evacuate and wait for fire department
-   - **CHEMICAL FIRE:** Use appropriate suppression method
-   - **ELECTRICAL FIRE:** Shut off power if possible, use CO2 extinguisher
+ - **SMALL FIRE:** Use appropriate extinguisher if trained
+ - **LARGE FIRE:** Evacuate and wait for fire department
+ - **CHEMICAL FIRE:** Use appropriate suppression method
+ - **ELECTRICAL FIRE:** Shut off power if possible, use CO2 extinguisher
 
 3. **Evacuation Procedures:**
-   - Sound general alarm
-   - Direct personnel to assembly areas
-   - Check areas for trapped personnel
-   - Account for all personnel
-   - Prevent re-entry until all-clear given
+ - Sound general alarm
+ - Direct personnel to assembly areas
+ - Check areas for trapped personnel
+ - Account for all personnel
+ - Prevent re-entry until all-clear given
 
 4. **Fire Department Coordination:**
-   - Meet fire department at entrance
-   - Provide building layout and hazard information
-   - Identify location of utilities and shutoffs
-   - Coordinate with incident commander
+ - Meet fire department at entrance
+ - Provide building layout and hazard information
+ - Identify location of utilities and shutoffs
+ - Coordinate with incident commander
 
 ### Class 3: Security Emergency Response
 
@@ -175,30 +175,30 @@ This procedure provides immediate response framework for emergency situations, e
 
 #### Security Response Protocol
 1. **Threat Assessment:**
-   - Type of security threat
-   - Number of people involved
-   - Weapons or violence potential
-   - Area affected
-   - Immediate danger level
+ - Type of security threat
+ - Number of people involved
+ - Weapons or violence potential
+ - Area affected
+ - Immediate danger level
 
 2. **Response Actions:**
-   - **ACTIVE THREAT:** Evacuate, hide, or defend as appropriate
-   - **SUSPICIOUS ACTIVITY:** Observe and report, do not confront
-   - **UNAUTHORISED ACCESS:** Challenge if safe, alert security
-   - **CRIMINAL ACTIVITY:** Do not intervene, call police immediately
+ - **ACTIVE THREAT:** Evacuate, hide, or defend as appropriate
+ - **SUSPICIOUS ACTIVITY:** Observe and report, do not confront
+ - **UNAUTHORISED ACCESS:** Challenge if safe, alert security
+ - **CRIMINAL ACTIVITY:** Do not intervene, call police immediately
 
 3. **Law Enforcement Coordination:**
-   - Provide clear location and situation description
-   - Keep phone line open if instructed
-   - Designate person to meet police at entrance
-   - Provide any relevant information about individuals involved
-   - Follow law enforcement instructions
+ - Provide clear location and situation description
+ - Keep phone line open if instructed
+ - Designate person to meet police at entrance
+ - Provide any relevant information about individuals involved
+ - Follow law enforcement instructions
 
 4. **Personnel Protection:**
-   - Account for all personnel
-   - Establish secure communication
-   - Provide support for affected personnel
-   - Coordinate with employee assistance programs
+ - Account for all personnel
+ - Establish secure communication
+ - Provide support for affected personnel
+ - Coordinate with employee assistance programs
 
 ### Class 4: Environmental Emergency Response
 
@@ -211,30 +211,30 @@ This procedure provides immediate response framework for emergency situations, e
 
 #### Environmental Response Protocol
 1. **Spill Assessment:**
-   - Type and quantity of material released
-   - Environmental impact potential
-   - Personnel exposure risk
-   - Containment possibilities
-   - Cleanup requirements
+ - Type and quantity of material released
+ - Environmental impact potential
+ - Personnel exposure risk
+ - Containment possibilities
+ - Cleanup requirements
 
 2. **Containment Actions:**
-   - **SMALL SPILL:** Use spill kit if trained and safe
-   - **LARGE SPILL:** Contain spread, prevent drain entry
-   - **CHEMICAL SPILL:** Check SDS for specific procedures
-   - **OIL SPILL:** Deploy booms and absorbent materials
+ - **SMALL SPILL:** Use spill kit if trained and safe
+ - **LARGE SPILL:** Contain spread, prevent drain entry
+ - **CHEMICAL SPILL:** Check SDS for specific procedures
+ - **OIL SPILL:** Deploy booms and absorbent materials
 
 3. **Personnel Protection:**
-   - Evacuate affected area
-   - Provide personal protective equipment
-   - Establish decontamination procedures
-   - Monitor for exposure symptoms
-   - Arrange medical attention if needed
+ - Evacuate affected area
+ - Provide personal protective equipment
+ - Establish decontamination procedures
+ - Monitor for exposure symptoms
+ - Arrange medical attention if needed
 
 4. **Agency Notification:**
-   - Environmental Protection Agency (if required)
-   - Coast Guard (for marine spills)
-   - Local environmental authorities
-   - Regulatory compliance notifications
+ - Environmental Protection Agency (if required)
+ - Coast Guard (for marine spills)
+ - Local environmental authorities
+ - Regulatory compliance notifications
 
 ### Class 5: Structural Emergency Response
 
@@ -247,31 +247,31 @@ This procedure provides immediate response framework for emergency situations, e
 
 #### Structural Response Protocol
 1. **Damage Assessment:**
-   - Extent of structural damage
-   - Immediate collapse risk
-   - Personnel evacuation needs
-   - Equipment shutdown requirements
-   - Access restrictions needed
+ - Extent of structural damage
+ - Immediate collapse risk
+ - Personnel evacuation needs
+ - Equipment shutdown requirements
+ - Access restrictions needed
 
 2. **Area Control:**
-   - Establish safety perimeter
-   - Post warning signs
-   - Control access to affected area
-   - Shut down affected equipment
-   - Isolate utilities if necessary
+ - Establish safety perimeter
+ - Post warning signs
+ - Control access to affected area
+ - Shut down affected equipment
+ - Isolate utilities if necessary
 
 3. **Expert Consultation:**
-   - Contact structural engineers
-   - Arrange professional inspection
-   - Coordinate with insurance companies
-   - Plan for temporary repairs
-   - Develop restoration timeline
+ - Contact structural engineers
+ - Arrange professional inspection
+ - Coordinate with insurance companies
+ - Plan for temporary repairs
+ - Develop restoration timeline
 
 4. **Operations Coordination:**
-   - Assess operational impact
-   - Develop workaround procedures
-   - Coordinate with customer notifications
-   - Plan for alternative operations
+ - Assess operational impact
+ - Develop workaround procedures
+ - Coordinate with customer notifications
+ - Plan for alternative operations
 
 ---
 
@@ -309,15 +309,15 @@ This procedure provides immediate response framework for emergency situations, e
 "This is [Name]. We have a [Type] emergency at [Location]. All personnel [specific action required - evacuate/avoid area/shut down operations]. Emergency response team report immediately. Updates to follow."
 
 #### External Emergency Notification
-**TO:** [External Agency]  
-**FROM:** [Incident Commander]  
+**TO:** [External Agency] 
+**FROM:** [Incident Commander] 
 **RE:** Emergency Assistance Request
 
-**EMERGENCY TYPE:** [Description of emergency]  
-**LOCATION:** [Specific location with directions]  
-**PERSONNEL STATUS:** [Number of people involved/injured]  
-**IMMEDIATE NEEDS:** [Specific assistance required]  
-**CONTACT:** [On-scene contact person and phone]  
+**EMERGENCY TYPE:** [Description of emergency] 
+**LOCATION:** [Specific location with directions] 
+**PERSONNEL STATUS:** [Number of people involved/injured] 
+**IMMEDIATE NEEDS:** [Specific assistance required] 
+**CONTACT:** [On-scene contact person and phone] 
 **ACCESS:** [How to access location]
 
 ---

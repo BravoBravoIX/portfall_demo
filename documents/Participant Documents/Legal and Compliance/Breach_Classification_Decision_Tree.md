@@ -46,16 +46,16 @@ This decision tree provides systematic classification of security incidents to d
 #### Step 1: Initial Evidence Assessment (5 minutes)
 
 **Question 1:** Is there evidence of unauthorised access to systems?
-- **NO** → Proceed to Technical Anomaly Assessment
-- **YES** → Proceed to Step 2
+- **NO** - Proceed to Technical Anomaly Assessment
+- **YES** - Proceed to Step 2
 
 **Question 2:** Is there evidence of data exposure or system modification?
-- **NO** → Classify as Security Incident (Category 2)
-- **YES** → Proceed to Step 3
+- **NO** - Classify as Security Incident (Category 2)
+- **YES** - Proceed to Step 3
 
 **Question 3:** Is there evidence of persistent or ongoing unauthorised access?
-- **NO** → Classify as Confirmed Breach (Category 3)
-- **YES** → Classify as Persistent Access (Category 4)
+- **NO** - Classify as Confirmed Breach (Category 3)
+- **YES** - Classify as Persistent Access (Category 4)
 
 #### Step 2: Technical Anomaly Assessment
 **Indicators suggesting Category 1:**
@@ -188,9 +188,9 @@ This decision tree provides systematic classification of security incidents to d
 
 ### Decision Documentation Template
 
-**INCIDENT ID:** [Unique identifier]  
-**DATE/TIME:** [Classification decision time]  
-**DECISION MAKER:** [Name and role]  
+**INCIDENT ID:** [Unique identifier] 
+**DATE/TIME:** [Classification decision time] 
+**DECISION MAKER:** [Name and role] 
 **CLASSIFICATION:** [Category 1-4]
 
 **EVIDENCE SUMMARY:**

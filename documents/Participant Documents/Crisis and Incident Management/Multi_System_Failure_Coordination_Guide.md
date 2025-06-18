@@ -5,9 +5,9 @@
 # Multi-System Failure Coordination Guide
 
 ## Document Information
-**Document Type:** Crisis Response Framework  
-**Intended Users:** All Teams - Coordinated Response  
-**Usage Context:** When multiple critical systems fail simultaneously  
+**Document Type:** Crisis Response Framework 
+**Intended Users:** All Teams - Coordinated Response 
+**Usage Context:** When multiple critical systems fail simultaneously 
 **Related Scenarios:** AIS + CCTV + Network failures, Container + Authentication + CCTV failures
 
 ---
@@ -73,12 +73,12 @@ This guide provides systematic coordination procedures when multiple critical sy
 #### **RAPID DECISION TREE (Use when under time pressure)**
 ```
 Multiple systems failing?
-├─ YES → Are they safety-critical systems?
-│   ├─ YES → Can safety be maintained with manual procedures?
-│   │   ├─ YES → Continue with enhanced manual operations
-│   │   └─ NO → Consider operations halt → Escalate to executive
-│   └─ NO → Implement enhanced procedures → Continue investigation
-└─ NO → Standard incident response procedures
+├─ YES - Are they safety-critical systems?
+│  ├─ YES - Can safety be maintained with manual procedures?
+│  │  ├─ YES - Continue with enhanced manual operations
+│  │  └─ NO - Consider operations halt - Escalate to executive
+│  └─ NO - Implement enhanced procedures - Continue investigation
+└─ NO - Standard incident response procedures
 ```
 
 #### **10-MINUTE ASSESSMENT CHECKLIST**
@@ -522,7 +522,7 @@ Multiple systems failing?
 
 ---
 
-**Owner:** Incident Coordinator  
-**Reference:** CRISIS-01  
-**Version:** 1.0  
+**Owner:** Incident Coordinator 
+**Reference:** CRISIS-01 
+**Version:** 1.0 
 **Approved by:** Executive Crisis Team

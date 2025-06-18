@@ -5,9 +5,9 @@
 # Legal Risk Escalation Flowchart
 
 ## Document Information
-**Document Type:** Legal Decision Framework  
-**Intended Users:** Legal Team, Executive Team, Incident Coordinators  
-**Usage Context:** When legal implications arise during operational incidents  
+**Document Type:** Legal Decision Framework 
+**Intended Users:** Legal Team, Executive Team, Incident Coordinators 
+**Usage Context:** When legal implications arise during operational incidents 
 **Related Scenarios:** Cyber incidents, regulatory compliance, safety incidents, contract disputes
 
 ---
@@ -124,20 +124,20 @@ This flowchart provides systematic decision-making framework for identifying, as
 **Assess Legal Indicators:**
 ```
 Does incident involve suspected criminal activity?
-├─ YES → Proceed to Criminal Activity Protocol (Risk Level 4)
-└─ NO → Continue to Step 2
+├─ YES - Proceed to Criminal Activity Protocol (Risk Level 4)
+└─ NO - Continue to Step 2
 
 Are there immediate safety or environmental concerns?
-├─ YES → Assess regulatory implications (Consider Risk Level 3)
-└─ NO → Continue to Step 3
+├─ YES - Assess regulatory implications (Consider Risk Level 3)
+└─ NO - Continue to Step 3
 
 Is there potential for significant liability exposure?
-├─ YES → Assess scope and impact (Risk Level 2 or 3)
-└─ NO → Continue to Step 4
+├─ YES - Assess scope and impact (Risk Level 2 or 3)
+└─ NO - Continue to Step 4
 
 Are there contract or vendor disputes requiring legal action?
-├─ YES → Standard legal process (Risk Level 1 or 2)
-└─ NO → Monitor for developing legal issues
+├─ YES - Standard legal process (Risk Level 1 or 2)
+└─ NO - Monitor for developing legal issues
 ```
 
 ### Step 2: Criminal Activity Protocol
@@ -451,8 +451,8 @@ This section provides systematic procedures for coordinating with international 
 #### International Notification Templates
 
 ##### Flag State Maritime Authority Notification
-**TO:** [Flag State Maritime Authority]  
-**FROM:** [Legal/Compliance Team]  
+**TO:** [Flag State Maritime Authority] 
+**FROM:** [Legal/Compliance Team] 
 **SUBJECT:** Incident Notification - Vessel [Vessel Name] - [Flag State Registration]
 
 **VESSEL INFORMATION:**
@@ -478,8 +478,8 @@ This section provides systematic procedures for coordinating with international 
 - 24/7 Contact: [Emergency contact information]
 
 ##### International Data Protection Authority Notification
-**TO:** [Data Protection Authority]  
-**FROM:** [Data Protection Officer/Legal Team]  
+**TO:** [Data Protection Authority] 
+**FROM:** [Data Protection Officer/Legal Team] 
 **SUBJECT:** Cross-Border Data Breach Notification
 
 **BREACH INFORMATION:**

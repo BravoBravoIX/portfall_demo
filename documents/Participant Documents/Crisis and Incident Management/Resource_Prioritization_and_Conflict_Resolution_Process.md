@@ -5,9 +5,9 @@
 # Resource Prioritization and Conflict Resolution Process
 
 ## Document Information
-**Document Type:** Resource Management Framework  
-**Intended Users:** Incident Coordinators, Team Leads, Executive Team  
-**Usage Context:** During crisis situations requiring resource allocation and conflict resolution  
+**Document Type:** Resource Management Framework 
+**Intended Users:** Incident Coordinators, Team Leads, Executive Team 
+**Usage Context:** During crisis situations requiring resource allocation and conflict resolution 
 **Related Scenarios:** Multi-system failures, competing priorities, limited resources, emergency response
 
 ---
@@ -56,9 +56,9 @@ This process provides systematic framework for prioritizing resource allocation 
 ## Priority Matrix Framework
 
 ### Priority Level 1: Life Safety
-**Definition:** Resources needed to prevent injury, death, or immediate physical harm  
-**Decision Authority:** Any team member can claim, Incident Coordinator confirms  
-**Timeline:** Immediate allocation  
+**Definition:** Resources needed to prevent injury, death, or immediate physical harm 
+**Decision Authority:** Any team member can claim, Incident Coordinator confirms 
+**Timeline:** Immediate allocation 
 **Examples:**
 - Personnel for emergency response
 - Equipment for rescue operations
@@ -66,9 +66,9 @@ This process provides systematic framework for prioritizing resource allocation 
 - Evacuation support resources
 
 ### Priority Level 2: Operational Safety
-**Definition:** Resources needed to maintain safe operational conditions  
-**Decision Authority:** Operations Lead or Incident Coordinator  
-**Timeline:** Within 15 minutes  
+**Definition:** Resources needed to maintain safe operational conditions 
+**Decision Authority:** Operations Lead or Incident Coordinator 
+**Timeline:** Within 15 minutes 
 **Examples:**
 - Personnel for manual operations safety
 - Equipment for system monitoring
@@ -76,9 +76,9 @@ This process provides systematic framework for prioritizing resource allocation 
 - Environmental monitoring resources
 
 ### Priority Level 3: System Restoration
-**Definition:** Resources needed to restore critical operational systems  
-**Decision Authority:** Incident Coordinator with technical consultation  
-**Timeline:** Within 30 minutes  
+**Definition:** Resources needed to restore critical operational systems 
+**Decision Authority:** Incident Coordinator with technical consultation 
+**Timeline:** Within 30 minutes 
 **Examples:**
 - Technical personnel for system repair
 - Replacement equipment and parts
@@ -86,9 +86,9 @@ This process provides systematic framework for prioritizing resource allocation 
 - Diagnostic and testing equipment
 
 ### Priority Level 4: Operational Continuity
-**Definition:** Resources needed to maintain reduced operations  
-**Decision Authority:** Incident Coordinator  
-**Timeline:** Within 1 hour  
+**Definition:** Resources needed to maintain reduced operations 
+**Decision Authority:** Incident Coordinator 
+**Timeline:** Within 1 hour 
 **Examples:**
 - Personnel for manual procedures
 - Equipment for workaround solutions
@@ -96,9 +96,9 @@ This process provides systematic framework for prioritizing resource allocation 
 - Administrative support resources
 
 ### Priority Level 5: Administrative Support
-**Definition:** Resources for documentation, communication, and planning  
-**Decision Authority:** Team Leads  
-**Timeline:** Within 4 hours  
+**Definition:** Resources for documentation, communication, and planning 
+**Decision Authority:** Team Leads 
+**Timeline:** Within 4 hours 
 **Examples:**
 - Personnel for documentation
 - Communication resources for external relations
@@ -131,10 +131,10 @@ This process provides systematic framework for prioritizing resource allocation 
 **Decision Process:**
 1. **Highest Priority Wins:** Resource goes to highest priority level need
 2. **Tie-Breaking Criteria:** When priorities are equal:
-   - Safety impact (prefer higher safety impact)
-   - Time sensitivity (prefer more urgent needs)
-   - Team capability (prefer team with best capability to use resource)
-   - Overall incident benefit (prefer use with greatest overall benefit)
+ - Safety impact (prefer higher safety impact)
+ - Time sensitivity (prefer more urgent needs)
+ - Team capability (prefer team with best capability to use resource)
+ - Overall incident benefit (prefer use with greatest overall benefit)
 
 **Documentation Required:**
 - [ ] Decision made and rationale
@@ -147,7 +147,7 @@ This process provides systematic framework for prioritizing resource allocation 
 ## Conflict Resolution Procedures
 
 ### Level 1: Team Lead Resolution (15 minutes)
-**Scope:** Resource conflicts within or between 2 teams  
+**Scope:** Resource conflicts within or between 2 teams 
 **Process:**
 1. **Direct Negotiation:** Team leads discuss and negotiate solution
 2. **Alternative Identification:** Explore workarounds and alternatives
@@ -157,7 +157,7 @@ This process provides systematic framework for prioritizing resource allocation 
 **Success Criteria:** Teams reach mutually acceptable solution
 
 ### Level 2: Incident Coordinator Arbitration (30 minutes)
-**Scope:** Conflicts unresolved at team level or involving 3+ teams  
+**Scope:** Conflicts unresolved at team level or involving 3+ teams 
 **Process:**
 1. **Information Gathering:** Collect resource needs and justifications from all teams
 2. **Priority Assessment:** Apply priority matrix to all requests
@@ -172,7 +172,7 @@ This process provides systematic framework for prioritizing resource allocation 
 - Timeline and urgency considerations
 
 ### Level 3: Executive Escalation (60 minutes)
-**Scope:** High-value resources, policy decisions, external resources  
+**Scope:** High-value resources, policy decisions, external resources 
 **Process:**
 1. **Executive Briefing:** Present resource conflict and recommended solution
 2. **Strategic Assessment:** Consider broader organizational implications
@@ -310,28 +310,28 @@ This process provides systematic framework for prioritizing resource allocation 
 ### Conflict Communication Templates
 
 #### Resource Request Template
-**TO:** [Resource Controller/Incident Coordinator]  
-**FROM:** [Requesting Team]  
+**TO:** [Resource Controller/Incident Coordinator] 
+**FROM:** [Requesting Team] 
 **SUBJECT:** Resource Request - [Resource Type] - [Priority Level]
 
-**RESOURCE NEEDED:** [Specific resource description]  
-**JUSTIFICATION:** [Why this resource is needed]  
-**PRIORITY:** [Priority level and rationale]  
-**DURATION:** [How long resource will be needed]  
-**ALTERNATIVES:** [Other options considered]  
-**IMPACT OF DELAY:** [Consequences if resource not provided]  
+**RESOURCE NEEDED:** [Specific resource description] 
+**JUSTIFICATION:** [Why this resource is needed] 
+**PRIORITY:** [Priority level and rationale] 
+**DURATION:** [How long resource will be needed] 
+**ALTERNATIVES:** [Other options considered] 
+**IMPACT OF DELAY:** [Consequences if resource not provided] 
 **PROPOSED SCHEDULE:** [When resource is needed]
 
 #### Resource Allocation Decision Template
-**TO:** [All Requesting Teams]  
-**FROM:** [Decision Authority]  
+**TO:** [All Requesting Teams] 
+**FROM:** [Decision Authority] 
 **SUBJECT:** Resource Allocation Decision - [Resource Type]
 
-**DECISION:** [Resource allocated to which team]  
-**RATIONALE:** [Key factors in decision]  
-**DURATION:** [Time allocation for primary user]  
-**ALTERNATIVES:** [Alternative arrangements for other teams]  
-**REVIEW SCHEDULE:** [When allocation will be reassessed]  
+**DECISION:** [Resource allocated to which team] 
+**RATIONALE:** [Key factors in decision] 
+**DURATION:** [Time allocation for primary user] 
+**ALTERNATIVES:** [Alternative arrangements for other teams] 
+**REVIEW SCHEDULE:** [When allocation will be reassessed] 
 **APPEALS PROCESS:** [How to appeal decision if necessary]
 
 ---

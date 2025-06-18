@@ -5,9 +5,9 @@
 # Crisis Communications SOP
 
 ## Document Information
-**Document Type:** Standard Operating Procedure  
-**Intended Users:** Media Team, Executive Team, Legal Team, Incident Coordinators  
-**Usage Context:** During crisis situations requiring external communications  
+**Document Type:** Standard Operating Procedure 
+**Intended Users:** Media Team, Executive Team, Legal Team, Incident Coordinators 
+**Usage Context:** During crisis situations requiring external communications 
 **Related Scenarios:** Cyber incidents, safety emergencies, operational disruptions, regulatory compliance
 
 ---
@@ -112,7 +112,7 @@ This SOP provides standardized procedures for managing external communications d
 
 **[Organization Name] Addresses [Incident Type] at [Location]**
 
-[CITY, Date] – [Organization Name] is currently managing a [incident description] that occurred at [time] today at our [location] facility.
+[CITY, Date] - [Organization Name] is currently managing a [incident description] that occurred at [time] today at our [location] facility.
 
 **Current Status:** [Brief factual description of current situation]
 
@@ -133,7 +133,7 @@ For more information, contact: [Media contact information]
 
 **[Organization Name] Resolves [Incident Type] at [Location]**
 
-[CITY, Date] – [Organization Name] has successfully resolved the [incident description] that occurred on [date] at our [location] facility.
+[CITY, Date] - [Organization Name] has successfully resolved the [incident description] that occurred on [date] at our [location] facility.
 
 **Resolution Summary:** [Description of how incident was resolved]
 
@@ -160,15 +160,15 @@ For more information, contact: [Media contact information]
 - Periodic reporting: Ongoing incidents, resolution progress
 
 **Regulatory Communication Template:**
-**TO:** [Regulatory Agency]  
-**FROM:** [Legal/Compliance Team]  
+**TO:** [Regulatory Agency] 
+**FROM:** [Legal/Compliance Team] 
 **RE:** [Regulation Reference] - Incident Notification
 
-**INCIDENT SUMMARY:** [Factual description of incident]  
-**REGULATORY RELEVANCE:** [Specific regulations that apply]  
-**COMPLIANCE STATUS:** [Current compliance status]  
-**CORRECTIVE ACTIONS:** [Actions taken and planned]  
-**TIMELINE:** [Timeline for resolution and compliance]  
+**INCIDENT SUMMARY:** [Factual description of incident] 
+**REGULATORY RELEVANCE:** [Specific regulations that apply] 
+**COMPLIANCE STATUS:** [Current compliance status] 
+**CORRECTIVE ACTIONS:** [Actions taken and planned] 
+**TIMELINE:** [Timeline for resolution and compliance] 
 **CONTACT:** [Regulatory liaison contact information]
 
 ### Customer Communications
@@ -185,10 +185,10 @@ Dear Valued Customer,
 
 We are writing to inform you of a [brief incident description] that may affect our services to you.
 
-**Current Impact:** [Specific impact on customer's services]  
-**Expected Duration:** [Timeline for resolution]  
-**Alternative Arrangements:** [What we're doing to minimize impact]  
-**Updates:** [How and when we'll provide updates]  
+**Current Impact:** [Specific impact on customer's services] 
+**Expected Duration:** [Timeline for resolution] 
+**Alternative Arrangements:** [What we're doing to minimize impact] 
+**Updates:** [How and when we'll provide updates] 
 **Contact:** [Customer service contact for questions]
 
 We apologize for any inconvenience and appreciate your patience as we work to resolve this matter.
@@ -201,16 +201,16 @@ We apologize for any inconvenience and appreciate your patience as we work to re
 - Coordination of vendor support resources
 
 **Vendor Communication Template:**
-**TO:** [Vendor/Partner]  
-**FROM:** [Operations/Procurement]  
+**TO:** [Vendor/Partner] 
+**FROM:** [Operations/Procurement] 
 **RE:** Operational Status Update
 
 We are currently managing [brief incident description] that may affect our operations and your services.
 
-**Operational Changes:** [Changes affecting vendor operations]  
-**Coordination Needs:** [Specific coordination requirements]  
-**Communication Protocol:** [How we'll maintain communication]  
-**Support Needs:** [Any support we may need from vendor]  
+**Operational Changes:** [Changes affecting vendor operations] 
+**Coordination Needs:** [Specific coordination requirements] 
+**Communication Protocol:** [How we'll maintain communication] 
+**Support Needs:** [Any support we may need from vendor] 
 **Timeline:** [Expected duration and milestones]
 
 We will keep you informed of developments and coordinate closely on any adjustments needed.
@@ -221,28 +221,28 @@ We will keep you informed of developments and coordinate closely on any adjustme
 
 ### Media Inquiry Response Process
 1. **Initial Response (Within 1 hour):**
-   - Acknowledge receipt of inquiry
-   - Provide timeline for substantive response
-   - Offer holding statement if appropriate
-   - Gather details about specific information requested
+ - Acknowledge receipt of inquiry
+ - Provide timeline for substantive response
+ - Offer holding statement if appropriate
+ - Gather details about specific information requested
 
 2. **Information Gathering (Within 2 hours):**
-   - Collect relevant facts from incident response teams
-   - Verify accuracy of information
-   - Identify sensitive or confidential information
-   - Prepare response options and recommendations
+ - Collect relevant facts from incident response teams
+ - Verify accuracy of information
+ - Identify sensitive or confidential information
+ - Prepare response options and recommendations
 
 3. **Response Approval (Within 3 hours):**
-   - Submit response for appropriate approval level
-   - Incorporate legal and executive feedback
-   - Finalize approved response
-   - Coordinate timing of response delivery
+ - Submit response for appropriate approval level
+ - Incorporate legal and executive feedback
+ - Finalize approved response
+ - Coordinate timing of response delivery
 
 4. **Response Delivery:**
-   - Deliver response via appropriate channel
-   - Document response and media outlet information
-   - Monitor for follow-up questions
-   - Coordinate with other media inquiries on same topic
+ - Deliver response via appropriate channel
+ - Document response and media outlet information
+ - Monitor for follow-up questions
+ - Coordinate with other media inquiries on same topic
 
 ### Press Conference Management
 **Decision Criteria for Press Conference:**
@@ -417,16 +417,16 @@ This section provides detailed procedures for monitoring, managing, and respondi
 
 #### Immediate Response (0-15 minutes)
 1. **Content Assessment:**
-   - [ ] Identify source of social media content
-   - [ ] Assess accuracy of information being shared
-   - [ ] Determine reach and engagement levels
-   - [ ] Evaluate potential for viral spread
+ - [ ] Identify source of social media content
+ - [ ] Assess accuracy of information being shared
+ - [ ] Determine reach and engagement levels
+ - [ ] Evaluate potential for viral spread
 
 2. **Response Decision Matrix:**
-   - **Ignore:** Minor mentions, accurate information, positive content
-   - **Monitor:** Moderate mentions, mixed accuracy, contained spread
-   - **Engage:** High visibility, inaccurate information, significant reach
-   - **Escalate:** Viral content, major inaccuracies, coordinated attacks
+ - **Ignore:** Minor mentions, accurate information, positive content
+ - **Monitor:** Moderate mentions, mixed accuracy, contained spread
+ - **Engage:** High visibility, inaccurate information, significant reach
+ - **Escalate:** Viral content, major inaccuracies, coordinated attacks
 
 #### Active Response Procedures (15-30 minutes)
 
@@ -461,22 +461,22 @@ becomes available. For official information: [website link]
 
 #### Proactive Content Framework
 1. **Information Posts:**
-   - Factual updates about incident status
-   - Safety measures being implemented
-   - Timeline for next updates
-   - Links to official information sources
+ - Factual updates about incident status
+ - Safety measures being implemented
+ - Timeline for next updates
+ - Links to official information sources
 
 2. **Engagement Posts:**
-   - Responses to direct questions
-   - Corrections of misinformation
-   - Appreciation for community support
-   - Coordination with local authorities
+ - Responses to direct questions
+ - Corrections of misinformation
+ - Appreciation for community support
+ - Coordination with local authorities
 
 3. **Behind-the-Scenes Content:**
-   - Safety measures in action (if appropriate)
-   - Team response efforts (if appropriate)
-   - Community partnerships during response
-   - Recovery progress updates
+ - Safety measures in action (if appropriate)
+ - Team response efforts (if appropriate)
+ - Community partnerships during response
+ - Recovery progress updates
 
 #### Message Consistency Framework
 **Core Messages for Social Media:**
@@ -561,16 +561,16 @@ Official info: [link] 1/3
 
 #### Social Media-Traditional Media Integration
 1. **Information Sharing:**
-   - Social media mentions inform traditional media strategy
-   - Traditional media responses adapted for social platforms
-   - Coordinated timing of announcements
-   - Consistent messaging across all channels
+ - Social media mentions inform traditional media strategy
+ - Traditional media responses adapted for social platforms
+ - Coordinated timing of announcements
+ - Consistent messaging across all channels
 
 2. **Response Coordination:**
-   - Social media team briefs traditional media team on online sentiment
-   - Traditional media statements adapted for social platforms
-   - Interview content coordinated with social media posts
-   - Crisis messaging unified across all platforms
+ - Social media team briefs traditional media team on online sentiment
+ - Traditional media statements adapted for social platforms
+ - Interview content coordinated with social media posts
+ - Crisis messaging unified across all platforms
 
 ### Influencer and Stakeholder Management
 
@@ -599,16 +599,16 @@ Official info: [link] 1/3
 #### Viral Content Management
 **When Content Goes Viral:**
 1. **Immediate Assessment (0-30 minutes):**
-   - Assess content accuracy and impact
-   - Determine response strategy
-   - Coordinate with legal team
-   - Prepare rapid response content
+ - Assess content accuracy and impact
+ - Determine response strategy
+ - Coordinate with legal team
+ - Prepare rapid response content
 
 2. **Rapid Response (30-60 minutes):**
-   - Deploy prepared response content
-   - Engage with high-reach shares
-   - Coordinate with traditional media
-   - Monitor for further escalation
+ - Deploy prepared response content
+ - Engage with high-reach shares
+ - Coordinate with traditional media
+ - Monitor for further escalation
 
 #### Coordinated Attack Response
 **Signs of Coordinated Social Media Attacks:**

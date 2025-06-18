@@ -5,8 +5,8 @@
 # Quick Reference Action Cards
 
 ## Document Information
-**Purpose:** Rapid reference cards for time-critical scenarios  
-**Usage:** Keep accessible during incidents for quick decision-making  
+**Purpose:** Rapid reference cards for time-critical scenarios 
+**Usage:** Keep accessible during incidents for quick decision-making 
 **Format:** Print and cut into individual cards for team reference
 
 ---
@@ -113,16 +113,16 @@
 **WHEN:** Evidence of unauthorised access, system compromise, data breach
 
 **IMMEDIATE ASSESSMENT (0-10 min):**
-- [ ] Criminal activity suspected? → Escalate to executive immediately
-- [ ] Safety systems compromised? → Priority regulatory review
-- [ ] Data breach indicators? → Start breach classification
-- [ ] Multiple systems affected? → Consider major incident protocols
+- [ ] Criminal activity suspected? - Escalate to executive immediately
+- [ ] Safety systems compromised? - Priority regulatory review
+- [ ] Data breach indicators? - Start breach classification
+- [ ] Multiple systems affected? - Consider major incident protocols
 
 **NOTIFICATION DECISION TREE:**
-- Personal data affected? → GDPR/privacy law notifications
-- Safety systems down? → Maritime authority notifications  
-- Criminal activity? → Law enforcement coordination
-- Insurance claims likely? → Insurer notifications
+- Personal data affected? - GDPR/privacy law notifications
+- Safety systems down? - Maritime authority notifications 
+- Criminal activity? - Law enforcement coordination
+- Insurance claims likely? - Insurer notifications
 
 **EVIDENCE COORDINATION:**
 - [ ] Implement legal hold for investigation evidence
@@ -175,10 +175,10 @@
 - [ ] Coordinate with incident coordinator on messaging
 
 **DECISION MATRIX:**
-- Anonymous posts? → Monitor, don't engage directly
-- Media requests? → Prepared statement or brief interview
-- TV crew on-site? → Activate Final Media Deadline procedures
-- Factual errors spreading? → Prepare corrective statement
+- Anonymous posts? - Monitor, don't engage directly
+- Media requests? - Prepared statement or brief interview
+- TV crew on-site? - Activate Final Media Deadline procedures
+- Factual errors spreading? - Prepare corrective statement
 
 **KEY PRINCIPLE:** Better to provide accurate information than let speculation spread
 
@@ -340,7 +340,7 @@
 
 ---
 
-**Owner:** All Teams  
-**Reference:** QRC-01  
-**Version:** 1.0  
+**Owner:** All Teams 
+**Reference:** QRC-01 
+**Version:** 1.0 
 **Approved by:** Cyber-Ops Coordination Cell

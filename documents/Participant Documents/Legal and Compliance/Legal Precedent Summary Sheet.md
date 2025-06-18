@@ -14,11 +14,11 @@ support consistency and defensibility in high-pressure legal scenarios.
 
 - During or after a major incident when:
 
-  - Disclosure obligations are unclear or contested
+- Disclosure obligations are unclear or contested
 
-  - Decision-makers request legal grounding for chosen actions
+- Decision-makers request legal grounding for chosen actions
 
-  - Insurers or regulators request precedent or justification
+- Insurers or regulators request precedent or justification
 
 ## Format & Usage
 
@@ -56,27 +56,27 @@ increases risk to insurance claims)*
 
 ## Sample Table Format
 
-  ------------------------------------------------------------------------
-  **Precedent**     **Key Issue**    **Outcome**     **Implication**
-  ----------------- ---------------- --------------- ---------------------
-  *XYZ Maritime Ltd Failure to       Breach          Disclosure timing
-  v Regulator       notify within 48 confirmed; fine must be prioritised
-  (2020)*           hrs              applied         
+------------------------------------------------------------------------
+**Precedent**   **Key Issue**  **Outcome**   **Implication**
+----------------- ---------------- --------------- ---------------------
+*XYZ Maritime Ltd Failure to    Breach     Disclosure timing
+v Regulator    notify within 48 confirmed; fine must be prioritised
+(2020)*      hrs       applied     
 
-  *Insurance Code   Delayed legal    Claim voided    Early legal
-  Interpretation    advice caused                    engagement required
-  12.3*             claim denial                     for insurer contact
-  ------------------------------------------------------------------------
+*Insurance Code  Delayed legal  Claim voided  Early legal
+Interpretation  advice caused          engagement required
+12.3*       claim denial           for insurer contact
+------------------------------------------------------------------------
 
 ## Notes:
 
 - Legal Precedent Summaries must be reviewed by in-house legal counsel
-  before inclusion in any external communications
+before inclusion in any external communications
 
 - This document is for internal reference only unless otherwise cleared
 
 - When in doubt, apply principles in favour of transparency,
-  defensibility, and regulatory alignment
+defensibility, and regulatory alignment
 
 **Owner:** Legal / Compliance Lead\
 **Reference:** LEG-05\
