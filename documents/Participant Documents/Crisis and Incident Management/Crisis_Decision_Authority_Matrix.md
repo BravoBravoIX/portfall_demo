@@ -196,19 +196,19 @@ This matrix establishes clear decision-making authority during crisis situations
 **For immediate safety threats or system failures:**
 
 1. **Assessment (1 minute)**
- - Is immediate safety threatened?
- - Is system failure expanding?
- - Are operations at risk?
+- Is immediate safety threatened?
+- Is system failure expanding?
+- Are operations at risk?
 
 2. **Authority Check (1 minute)**
- - What authority level is required?
- - Is proper authority available?
- - Can decision be delegated if authority unavailable?
+- What authority level is required?
+- Is proper authority available?
+- Can decision be delegated if authority unavailable?
 
 3. **Decision and Implementation (3 minutes)**
- - Make decision based on available authority
- - Implement immediately if safety-critical
- - Document decision and rationale
+- Make decision based on available authority
+- Implement immediately if safety-critical
+- Document decision and rationale
 
 **Post-Decision Requirements:**
 - Notify next authority level within 15 minutes

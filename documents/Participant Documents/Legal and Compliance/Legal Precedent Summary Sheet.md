@@ -57,15 +57,15 @@ increases risk to insurance claims)*
 ## Sample Table Format
 
 ------------------------------------------------------------------------
-**Precedent**   **Key Issue**  **Outcome**   **Implication**
+**Precedent**  **Key Issue** **Outcome**  **Implication**
 ----------------- ---------------- --------------- ---------------------
-*XYZ Maritime Ltd Failure to    Breach     Disclosure timing
-v Regulator    notify within 48 confirmed; fine must be prioritised
-(2020)*      hrs       applied     
+*XYZ Maritime Ltd Failure to  Breach   Disclosure timing
+v Regulator  notify within 48 confirmed; fine must be prioritised
+(2020)*   hrs    applied   
 
-*Insurance Code  Delayed legal  Claim voided  Early legal
-Interpretation  advice caused          engagement required
-12.3*       claim denial           for insurer contact
+*Insurance Code Delayed legal Claim voided Early legal
+Interpretation advice caused     engagement required
+12.3*    claim denial      for insurer contact
 ------------------------------------------------------------------------
 
 ## Notes:

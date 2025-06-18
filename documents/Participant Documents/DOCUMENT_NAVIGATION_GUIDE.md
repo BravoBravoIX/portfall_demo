@@ -229,36 +229,36 @@
 ## How This Guide Works With Quick Reference Cards
 
 1. **Start with Quick Reference Cards** (`QUICK_REFERENCE_CARDS.md`)
- - Use cards for immediate 0-30 minute response
- - Cards tell you WHAT to do quickly
+- Use cards for immediate 0-30 minute response
+- Cards tell you WHAT to do quickly
 
 2. **Then Use This Navigation Guide**
- - Find detailed procedures for HOW to do it thoroughly
- - Get comprehensive guidance for complex situations
+- Find detailed procedures for HOW to do it thoroughly
+- Get comprehensive guidance for complex situations
 
 3. **Document References**
- - Quick Reference Cards - Immediate action
- - This Guide - Detailed procedures
- - Individual Documents - Complete instructions
+- Quick Reference Cards - Immediate action
+- This Guide - Detailed procedures
+- Individual Documents - Complete instructions
 
 ## Example Usage Flow
 
 **Scenario: CCTV Blackout Detected**
 
 1. **Use Card O1: CCTV Blackout Response** (Quick Reference)
- - Deploy manual spotters (0-5 min)
- - Slow crane operations (immediate)
- - Establish radio contact (immediate)
+- Deploy manual spotters (0-5 min)
+- Slow crane operations (immediate)
+- Establish radio contact (immediate)
 
 2. **Then Use This Guide** (Operations Team Navigator)
- - Find `CCTV_Blackout_Response.md` under "OPERATIONAL PRIORITY"
- - Follow detailed manual procedures
- - Coordinate with technical team using full procedures
+- Find `CCTV_Blackout_Response.md` under "OPERATIONAL PRIORITY"
+- Follow detailed manual procedures
+- Coordinate with technical team using full procedures
 
 3. **Cross-Team Coordination**
- - Technical team uses `CCTV_Blackout_Response.md` (technical sections)
- - Incident Coordinator uses `Multi_System_Failure_Coordination_Guide.md`
- - Executive team briefs using `Executive_Briefing_Template_and_Schedule.md`
+- Technical team uses `CCTV_Blackout_Response.md` (technical sections)
+- Incident Coordinator uses `Multi_System_Failure_Coordination_Guide.md`
+- Executive team briefs using `Executive_Briefing_Template_and_Schedule.md`
 
 ---
 

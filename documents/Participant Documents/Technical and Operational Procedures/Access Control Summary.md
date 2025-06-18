@@ -20,18 +20,18 @@ monitored\
 **Active Admin Credentials**
 
 -------------------------------------------------------------------------
-**Username**  **System / VM**   **Role/Scope**  **Notes**
+**Username** **System / VM**  **Role/Scope** **Notes**
 -------------- -------------------- ---------------- --------------------
-admin     All VMs       Root shell    Primary access via
-                  access      SSH
+admin   All VMs    Root shell  Primary access via
+        access   SSH
 
-ops_user    Physical Ops VM   Docker/service  Limited sudo rights
-                  ops       
+ops_user  Physical Ops VM  Docker/service Limited sudo rights
+        ops    
 
-vendor_ro   Vendor Gateway    Read-only    Contractual limits
-                           apply
+vendor_ro  Vendor Gateway  Read-only  Contractual limits
+             apply
 
-tech_monitor  AIS & GPS Containers Log access only No write permissions
+tech_monitor AIS & GPS Containers Log access only No write permissions
 -------------------------------------------------------------------------
 
 Access keys and passwords stored in secure /creds/ directory on
@@ -40,14 +40,14 @@ Coordination VM (read-only).
 **Temporary or Elevated Access Granted**
 
 -----------------------------------------------------------------------------
-**Timestamp**  **Account**  **Change   **Authorised  **Notes**
-               Type**    By**      
+**Timestamp** **Account** **Change  **Authorised **Notes**
+       Type**  By**   
 --------------- ------------- ------------- -------------- ------------------
-2025-06-04   ops_user   Temporary   Tech Lead   Needed for node
-10:35             sudo             isolation
+2025-06-04  ops_user  Temporary  Tech Lead  Needed for node
+10:35       sudo       isolation
 
-2025-06-04   admin (GPS  Password   Coordinator  Suspected key
-11:20      VM)      changed           reuse
+2025-06-04  admin (GPS Password  Coordinator Suspected key
+11:20   VM)   changed      reuse
 -----------------------------------------------------------------------------
 
 **Recent Access Logs to Review**
@@ -96,19 +96,19 @@ This section provides specific scenarios and detailed procedures for access cont
 
 **Investigation Steps:**
 1. **Authentication Log Analysis:**
- - Check authentication server logs for failure patterns
- - Review account activity prior to failure
- - Identify any unusual access attempts or patterns
+- Check authentication server logs for failure patterns
+- Review account activity prior to failure
+- Identify any unusual access attempts or patterns
 
 2. **System Dependency Mapping:**
- - Document all systems dependent on failing service account
- - Assess operational impact of each system failure
- - Prioritize restoration based on operational criticality
+- Document all systems dependent on failing service account
+- Assess operational impact of each system failure
+- Prioritize restoration based on operational criticality
 
 3. **Security Assessment:**
- - Determine if failure is technical or security-related
- - Check for evidence of credential compromise
- - Review concurrent security events
+- Determine if failure is technical or security-related
+- Check for evidence of credential compromise
+- Review concurrent security events
 
 **Resolution Process:**
 - [ ] **Account Recovery:** Reset/unlock account following security procedures
@@ -127,19 +127,19 @@ This section provides specific scenarios and detailed procedures for access cont
 
 **Investigation Procedures:**
 1. **Attack Analysis:**
- - Document attack vectors and methods used
- - Identify accounts being targeted
- - Assess whether any attempts were successful
+- Document attack vectors and methods used
+- Identify accounts being targeted
+- Assess whether any attempts were successful
 
 2. **Intelligence Gathering:**
- - Cross-reference attacking IPs with threat intelligence
- - Check for known attack campaigns or threat actors
- - Assess potential for escalation or persistence
+- Cross-reference attacking IPs with threat intelligence
+- Check for known attack campaigns or threat actors
+- Assess potential for escalation or persistence
 
 3. **Impact Assessment:**
- - Determine if any accounts were compromised
- - Assess potential access to sensitive systems or data
- - Evaluate need for broader security measures
+- Determine if any accounts were compromised
+- Assess potential access to sensitive systems or data
+- Evaluate need for broader security measures
 
 **Response Actions:**
 - [ ] **Defensive Measures:** Enhance monitoring, implement rate limiting
@@ -158,19 +158,19 @@ This section provides specific scenarios and detailed procedures for access cont
 
 **Investigation Process:**
 1. **Privilege Audit:**
- - Review all accounts with administrative privileges
- - Verify authorization for all privilege grants
- - Identify any unauthorized or unexplained changes
+- Review all accounts with administrative privileges
+- Verify authorization for all privilege grants
+- Identify any unauthorized or unexplained changes
 
 2. **Activity Analysis:**
- - Review activities performed with elevated privileges
- - Check for unauthorized system changes or data access
- - Assess potential damage or compromise
+- Review activities performed with elevated privileges
+- Check for unauthorized system changes or data access
+- Assess potential damage or compromise
 
 3. **Authorization Verification:**
- - Verify legitimacy of all recent privilege changes
- - Review authorization documentation and approvals
- - Identify any gaps in authorization processes
+- Verify legitimacy of all recent privilege changes
+- Review authorization documentation and approvals
+- Identify any gaps in authorization processes
 
 **Containment Actions:**
 - [ ] **Privilege Reset:** Reset all accounts to minimum required privileges
@@ -189,19 +189,19 @@ This section provides specific scenarios and detailed procedures for access cont
 
 **Investigation Coordination:**
 1. **Legal Framework:**
- - Ensure investigation complies with employment law
- - Coordinate with HR on personnel matters
- - Consider privacy implications of monitoring
+- Ensure investigation complies with employment law
+- Coordinate with HR on personnel matters
+- Consider privacy implications of monitoring
 
 2. **Technical Investigation:**
- - Review detailed access logs and patterns
- - Analyze data access and system usage
- - Look for evidence of policy violations
+- Review detailed access logs and patterns
+- Analyze data access and system usage
+- Look for evidence of policy violations
 
 3. **Risk Mitigation:**
- - Assess need for immediate access restrictions
- - Consider data protection measures
- - Evaluate operational security implications
+- Assess need for immediate access restrictions
+- Consider data protection measures
+- Evaluate operational security implications
 
 **Response Framework:**
 - [ ] **Evidence Collection:** Preserve digital evidence following legal requirements
@@ -216,19 +216,19 @@ This section provides specific scenarios and detailed procedures for access cont
 
 **Immediate Emergency Access (0-15 minutes):**
 1. **Emergency Account Activation:**
- - Activate pre-configured emergency administrative accounts
- - Use secure emergency credential distribution process
- - Document all emergency access granted
+- Activate pre-configured emergency administrative accounts
+- Use secure emergency credential distribution process
+- Document all emergency access granted
 
 2. **Manual Verification Process:**
- - Implement manual identity verification procedures
- - Use alternative authentication methods (phone verification, in-person)
- - Require dual authorization for sensitive access
+- Implement manual identity verification procedures
+- Use alternative authentication methods (phone verification, in-person)
+- Require dual authorization for sensitive access
 
 3. **Temporary Access Management:**
- - Grant minimum necessary access for critical functions
- - Set automatic expiration for all temporary access
- - Implement enhanced monitoring of emergency access usage
+- Grant minimum necessary access for critical functions
+- Set automatic expiration for all temporary access
+- Implement enhanced monitoring of emergency access usage
 
 #### Access Control System Restoration
 **Recovery Process for Access Control Infrastructure:**

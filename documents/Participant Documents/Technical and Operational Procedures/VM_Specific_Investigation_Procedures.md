@@ -334,13 +334,13 @@ file /var/cctv/archive/*.ts
 # Hash archive files
 cd /var/cctv/archive/
 for file in *.ts; do
- sha256sum "$file" > "/tmp/${file}_hash_$(date +%Y%m%d_%H%M%S).txt"
+sha256sum "$file" > "/tmp/${file}_hash_$(date +%Y%m%d_%H%M%S).txt"
 done
 
 # Attempt to identify corrupted vs. valid files
 for file in *.ts; do
- echo "=== $file ==="
- head -c 100 "$file" | hexdump -C | head -5
+echo "=== $file ==="
+head -c 100 "$file" | hexdump -C | head -5
 done
 ```
 
@@ -420,8 +420,8 @@ df -h /incident/
 # When evidence is received, immediately hash it
 cd /incident/archive/coretech/
 for file in *; do
- sha256sum "$file" >> /incident/hash_records/coretech_hashes_$(date +%Y%m%d_%H%M%S).txt
- echo "$(date): Received and hashed $file" >> /incident/hash_records/audit_log.txt
+sha256sum "$file" >> /incident/hash_records/coretech_hashes_$(date +%Y%m%d_%H%M%S).txt
+echo "$(date): Received and hashed $file" >> /incident/hash_records/audit_log.txt
 done
 ```
 

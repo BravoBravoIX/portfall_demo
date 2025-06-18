@@ -146,15 +146,15 @@ This procedure establishes clear authorization workflow for manual overrides dur
 
 #### Step 1: Situation Assessment (2 minutes)
 1. **Safety Evaluation**
- - [ ] Immediate danger present? - LEVEL 1 (proceed immediately)
- - [ ] Equipment functioning but crew uncomfortable? - LEVEL 2
- - [ ] Multiple systems affected? - LEVEL 3
- - [ ] Terminal-wide impact? - LEVEL 4
+- [ ] Immediate danger present? - LEVEL 1 (proceed immediately)
+- [ ] Equipment functioning but crew uncomfortable? - LEVEL 2
+- [ ] Multiple systems affected? - LEVEL 3
+- [ ] Terminal-wide impact? - LEVEL 4
 
 2. **Impact Assessment**
- - [ ] Document specific systems requiring manual override
- - [ ] Estimate operational capacity under manual mode
- - [ ] Calculate expected timeline for resolution
+- [ ] Document specific systems requiring manual override
+- [ ] Estimate operational capacity under manual mode
+- [ ] Calculate expected timeline for resolution
 
 #### Step 2: Authorization Request
 **For Level 2-4:** Use standard authorization format:
@@ -172,20 +172,20 @@ This procedure establishes clear authorization workflow for manual overrides dur
 
 #### Step 3: Implementation Verification
 1. **Pre-Override Checklist**
- - [ ] Authorization received and documented
- - [ ] Crew briefed on manual procedures
- - [ ] Safety equipment verified operational
- - [ ] Communication channels confirmed working
+- [ ] Authorization received and documented
+- [ ] Crew briefed on manual procedures
+- [ ] Safety equipment verified operational
+- [ ] Communication channels confirmed working
 
 2. **Override Activation**
- - [ ] Systems switched to manual mode
- - [ ] Automated safety systems remain active where possible
- - [ ] Manual operation commenced with continuous monitoring
+- [ ] Systems switched to manual mode
+- [ ] Automated safety systems remain active where possible
+- [ ] Manual operation commenced with continuous monitoring
 
 3. **Status Communication**
- - [ ] Technical Team: "Manual override implemented for [system]. Estimated duration: [time]"
- - [ ] Incident Coordinator: "Operations status: Manual mode - [capacity]% capacity"
- - [ ] Executive (Level 3-4): "Manual operations authorized - safety verified"
+- [ ] Technical Team: "Manual override implemented for [system]. Estimated duration: [time]"
+- [ ] Incident Coordinator: "Operations status: Manual mode - [capacity]% capacity"
+- [ ] Executive (Level 3-4): "Manual operations authorized - safety verified"
 
 ### Special Circumstances
 

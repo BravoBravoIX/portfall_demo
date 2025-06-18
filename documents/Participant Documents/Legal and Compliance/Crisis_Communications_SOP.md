@@ -221,28 +221,28 @@ We will keep you informed of developments and coordinate closely on any adjustme
 
 ### Media Inquiry Response Process
 1. **Initial Response (Within 1 hour):**
- - Acknowledge receipt of inquiry
- - Provide timeline for substantive response
- - Offer holding statement if appropriate
- - Gather details about specific information requested
+- Acknowledge receipt of inquiry
+- Provide timeline for substantive response
+- Offer holding statement if appropriate
+- Gather details about specific information requested
 
 2. **Information Gathering (Within 2 hours):**
- - Collect relevant facts from incident response teams
- - Verify accuracy of information
- - Identify sensitive or confidential information
- - Prepare response options and recommendations
+- Collect relevant facts from incident response teams
+- Verify accuracy of information
+- Identify sensitive or confidential information
+- Prepare response options and recommendations
 
 3. **Response Approval (Within 3 hours):**
- - Submit response for appropriate approval level
- - Incorporate legal and executive feedback
- - Finalize approved response
- - Coordinate timing of response delivery
+- Submit response for appropriate approval level
+- Incorporate legal and executive feedback
+- Finalize approved response
+- Coordinate timing of response delivery
 
 4. **Response Delivery:**
- - Deliver response via appropriate channel
- - Document response and media outlet information
- - Monitor for follow-up questions
- - Coordinate with other media inquiries on same topic
+- Deliver response via appropriate channel
+- Document response and media outlet information
+- Monitor for follow-up questions
+- Coordinate with other media inquiries on same topic
 
 ### Press Conference Management
 **Decision Criteria for Press Conference:**
@@ -417,16 +417,16 @@ This section provides detailed procedures for monitoring, managing, and respondi
 
 #### Immediate Response (0-15 minutes)
 1. **Content Assessment:**
- - [ ] Identify source of social media content
- - [ ] Assess accuracy of information being shared
- - [ ] Determine reach and engagement levels
- - [ ] Evaluate potential for viral spread
+- [ ] Identify source of social media content
+- [ ] Assess accuracy of information being shared
+- [ ] Determine reach and engagement levels
+- [ ] Evaluate potential for viral spread
 
 2. **Response Decision Matrix:**
- - **Ignore:** Minor mentions, accurate information, positive content
- - **Monitor:** Moderate mentions, mixed accuracy, contained spread
- - **Engage:** High visibility, inaccurate information, significant reach
- - **Escalate:** Viral content, major inaccuracies, coordinated attacks
+- **Ignore:** Minor mentions, accurate information, positive content
+- **Monitor:** Moderate mentions, mixed accuracy, contained spread
+- **Engage:** High visibility, inaccurate information, significant reach
+- **Escalate:** Viral content, major inaccuracies, coordinated attacks
 
 #### Active Response Procedures (15-30 minutes)
 
@@ -461,22 +461,22 @@ becomes available. For official information: [website link]
 
 #### Proactive Content Framework
 1. **Information Posts:**
- - Factual updates about incident status
- - Safety measures being implemented
- - Timeline for next updates
- - Links to official information sources
+- Factual updates about incident status
+- Safety measures being implemented
+- Timeline for next updates
+- Links to official information sources
 
 2. **Engagement Posts:**
- - Responses to direct questions
- - Corrections of misinformation
- - Appreciation for community support
- - Coordination with local authorities
+- Responses to direct questions
+- Corrections of misinformation
+- Appreciation for community support
+- Coordination with local authorities
 
 3. **Behind-the-Scenes Content:**
- - Safety measures in action (if appropriate)
- - Team response efforts (if appropriate)
- - Community partnerships during response
- - Recovery progress updates
+- Safety measures in action (if appropriate)
+- Team response efforts (if appropriate)
+- Community partnerships during response
+- Recovery progress updates
 
 #### Message Consistency Framework
 **Core Messages for Social Media:**
@@ -561,16 +561,16 @@ Official info: [link] 1/3
 
 #### Social Media-Traditional Media Integration
 1. **Information Sharing:**
- - Social media mentions inform traditional media strategy
- - Traditional media responses adapted for social platforms
- - Coordinated timing of announcements
- - Consistent messaging across all channels
+- Social media mentions inform traditional media strategy
+- Traditional media responses adapted for social platforms
+- Coordinated timing of announcements
+- Consistent messaging across all channels
 
 2. **Response Coordination:**
- - Social media team briefs traditional media team on online sentiment
- - Traditional media statements adapted for social platforms
- - Interview content coordinated with social media posts
- - Crisis messaging unified across all platforms
+- Social media team briefs traditional media team on online sentiment
+- Traditional media statements adapted for social platforms
+- Interview content coordinated with social media posts
+- Crisis messaging unified across all platforms
 
 ### Influencer and Stakeholder Management
 
@@ -599,16 +599,16 @@ Official info: [link] 1/3
 #### Viral Content Management
 **When Content Goes Viral:**
 1. **Immediate Assessment (0-30 minutes):**
- - Assess content accuracy and impact
- - Determine response strategy
- - Coordinate with legal team
- - Prepare rapid response content
+- Assess content accuracy and impact
+- Determine response strategy
+- Coordinate with legal team
+- Prepare rapid response content
 
 2. **Rapid Response (30-60 minutes):**
- - Deploy prepared response content
- - Engage with high-reach shares
- - Coordinate with traditional media
- - Monitor for further escalation
+- Deploy prepared response content
+- Engage with high-reach shares
+- Coordinate with traditional media
+- Monitor for further escalation
 
 #### Coordinated Attack Response
 **Signs of Coordinated Social Media Attacks:**

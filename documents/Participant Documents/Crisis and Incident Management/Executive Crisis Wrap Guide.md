@@ -90,7 +90,7 @@ Reference Tools:
 
 - Hold until full debrief
 
-- ❌ Withhold and prepare follow-up instead
+- Withhold and prepare follow-up instead
 
 **5. Ensure Executive Narrative Is Captured**
 

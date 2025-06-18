@@ -22,19 +22,19 @@ This guide provides framework for interpreting key insurance policy clauses duri
 
 **Interpretation Framework:**
 1. **Data Inaccuracy Defined:**
- - AIS vessel position errors or missing data
- - Navigation system discrepancies
- - Operational system displaying incorrect information
+- AIS vessel position errors or missing data
+- Navigation system discrepancies
+- Operational system displaying incorrect information
 
 2. **Operational Disruption Defined:**
- - Container movement delays or errors
- - Manual override requirements
- - Reduced operational capacity
+- Container movement delays or errors
+- Manual override requirements
+- Reduced operational capacity
 
 3. **Covered Cyber Events:**
- - Unauthorised system access
- - External interference with systems
- - System manipulation by unauthorised parties
+- Unauthorised system access
+- External interference with systems
+- System manipulation by unauthorised parties
 
 **Application to Current Scenarios:**
 - **AIS Anomalies (INJ002A, INJ005A):** Likely covered if external interference suspected
@@ -46,19 +46,19 @@ This guide provides framework for interpreting key insurance policy clauses duri
 
 **Interpretation Framework:**
 1. **Cyber Attack Defined:**
- - Deliberate unauthorised access
- - System manipulation with malicious intent
- - Coordinated interference with multiple systems
+- Deliberate unauthorised access
+- System manipulation with malicious intent
+- Coordinated interference with multiple systems
 
 2. **Systemic Risk Defined:**
- - Multiple operational systems affected
- - Cross-system dependencies compromised
- - Overall operational capability threatened
+- Multiple operational systems affected
+- Cross-system dependencies compromised
+- Overall operational capability threatened
 
 3. **Enhanced Coverage Provisions:**
- - Higher coverage limits
- - Reduced deductibles
- - Extended business interruption coverage
+- Higher coverage limits
+- Reduced deductibles
+- Extended business interruption coverage
 
 **Application to Current Scenarios:**
 - **Multi-System Failures:** If network, AIS, and CCTV all affected by same incident
@@ -70,14 +70,14 @@ This guide provides framework for interpreting key insurance policy clauses duri
 
 **Interpretation Framework:**
 1. **Integrated Vendor Systems:**
- - Network infrastructure provided by vendors
- - AIS systems with vendor components
- - Any operational system with vendor access
+- Network infrastructure provided by vendors
+- AIS systems with vendor components
+- Any operational system with vendor access
 
 2. **Vendor Cooperation Requirements:**
- - Vendor must provide system logs and analysis
- - Vendor must cooperate with incident investigation
- - Vendor liability limitations must be documented
+- Vendor must provide system logs and analysis
+- Vendor must cooperate with incident investigation
+- Vendor liability limitations must be documented
 
 **Application to Current Scenarios:**
 - **Network Issues (INJ001A, INJ001B):** If vendor-provided network infrastructure involved
@@ -88,35 +88,35 @@ This guide provides framework for interpreting key insurance policy clauses duri
 
 #### Step 1: Incident Characterisation (10 minutes)
 1. **Technical Assessment**
- - [ ] Document specific systems affected
- - [ ] Identify evidence of unauthorised access
- - [ ] Assess cross-system impact patterns
+- [ ] Document specific systems affected
+- [ ] Identify evidence of unauthorised access
+- [ ] Assess cross-system impact patterns
 
 2. **Operational Impact Assessment**
- - [ ] Quantify operational disruption
- - [ ] Document data inaccuracy instances
- - [ ] Calculate business interruption costs
+- [ ] Quantify operational disruption
+- [ ] Document data inaccuracy instances
+- [ ] Calculate business interruption costs
 
 3. **Vendor Involvement Analysis**
- - [ ] Identify vendor systems involved
- - [ ] Assess vendor cooperation availability
- - [ ] Document vendor liability positions
+- [ ] Identify vendor systems involved
+- [ ] Assess vendor cooperation availability
+- [ ] Document vendor liability positions
 
 #### Step 2: Clause Applicability Analysis (15 minutes)
 1. **Clause 4.7 Assessment**
- - **Triggered if:** Data inaccuracy + operational disruption + cyber event evidence
- - **Evidence needed:** System logs, operational records, technical analysis
- - **Coverage level:** Standard operational disruption coverage
+- **Triggered if:** Data inaccuracy + operational disruption + cyber event evidence
+- **Evidence needed:** System logs, operational records, technical analysis
+- **Coverage level:** Standard operational disruption coverage
 
 2. **Clause 7.4 Assessment**
- - **Triggered if:** Cyber attack + systemic risk + multiple systems
- - **Evidence needed:** Attack attribution, cross-system analysis, risk assessment
- - **Coverage level:** Enhanced coverage with reduced deductibles
+- **Triggered if:** Cyber attack + systemic risk + multiple systems
+- **Evidence needed:** Attack attribution, cross-system analysis, risk assessment
+- **Coverage level:** Enhanced coverage with reduced deductibles
 
 3. **Clause 12.3 Assessment**
- - **Triggered if:** Vendor system involvement + integration confirmed
- - **Evidence needed:** Vendor system logs, cooperation confirmation
- - **Coverage level:** Extended to vendor-related losses
+- **Triggered if:** Vendor system involvement + integration confirmed
+- **Evidence needed:** Vendor system logs, cooperation confirmation
+- **Coverage level:** Extended to vendor-related losses
 
 #### Step 3: Coverage Decision Matrix
 **SCENARIO 1: Single System, Clear Technical Cause**

@@ -32,7 +32,7 @@ Ops, Media, and Incident Coordination
 - What worked well
 
 - What decisions were constrained by unclear policy or outdated
- procedures
+procedures
 
 - Use outputs from:
 

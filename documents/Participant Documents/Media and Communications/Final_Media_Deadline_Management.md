@@ -399,8 +399,8 @@ Media Deadline < 15 minutes?
 │ │ ├─ YES - PROCEED with executive interview
 │ │ └─ NO - WRITTEN STATEMENT ONLY
 │ └─ NO - Qualified spokesperson available?
-│   ├─ YES - PROCEED with designated spokesperson
-│   └─ NO - WRITTEN STATEMENT or DECLINE
+│  ├─ YES - PROCEED with designated spokesperson
+│  └─ NO - WRITTEN STATEMENT or DECLINE
 └─ NO - Follow standard media response procedures
 ```
 

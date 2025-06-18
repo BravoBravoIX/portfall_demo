@@ -62,12 +62,12 @@ stakeholders
 - Problem crosses into multiple teams or unclear root cause
 
 - Visibility increasing outside (e.g. media contact, vendor chain
- implications)
+implications)
 
 - Safety, compliance, or continuity concerns surfacing
 
 - **Action:** Activate limited structured response (lead appointed,
- internal updates)
+internal updates)
 
 - **Risk level:** Moderate (Class B)
 
@@ -92,17 +92,17 @@ If Threshold C is met:
 2. **Notify all team leads immediately**
 
 3. **Incident Coordinator launches master incident log and timestamps
- events**
+events**
 
 4. **Appoint official spokesperson** (usually CEO or Media Lead)
 
 5. **Use Crisis Communications SOP and templates for messaging**
 
 6. **Begin 30-minute update cadence with leadership / Workshop
- Control**
+Control**
 
 7. **Capture artefacts for debrief, legal, insurer, and audit
- purposes**
+purposes**
 
 *Scenario Guidance Example:*\
 If ship tracking has failed, multiple teams have flagged issues, and

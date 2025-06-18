@@ -146,51 +146,51 @@ This procedure provides real-time validation steps for AIS signal integrity and 
 
 #### Phase 1: Immediate Verification (First 3 minutes)
 1. **Visual Confirmation**
- - [ ] Check physical vessel presence through CCTV (if available)
- - [ ] Coordinate with dock personnel for visual verification
- - [ ] Confirm vessel should be in reported location
+- [ ] Check physical vessel presence through CCTV (if available)
+- [ ] Coordinate with dock personnel for visual verification
+- [ ] Confirm vessel should be in reported location
 
 2. **System Status Check**
- - [ ] Verify AIS receiver operational status
- - [ ] Check antenna connections and power
- - [ ] Review recent AIS system configuration changes
+- [ ] Verify AIS receiver operational status
+- [ ] Check antenna connections and power
+- [ ] Review recent AIS system configuration changes
 
 3. **Signal Strength Analysis**
- - [ ] Check signal strength indicators for affected area
- - [ ] Compare with baseline signal levels
- - [ ] Note any interference patterns
+- [ ] Check signal strength indicators for affected area
+- [ ] Compare with baseline signal levels
+- [ ] Note any interference patterns
 
 #### Phase 2: Cross-System Correlation (Next 5 minutes)
 1. **Network Correlation**
- - [ ] Compare AIS anomaly timing with network issues
- - [ ] Check if packet routing delays affect AIS data processing
- - [ ] Review network traffic for AIS data streams
+- [ ] Compare AIS anomaly timing with network issues
+- [ ] Check if packet routing delays affect AIS data processing
+- [ ] Review network traffic for AIS data streams
 
 2. **CCTV Correlation**
- - [ ] Compare AIS vessel positions with CCTV visual confirmation
- - [ ] Check if CCTV blackouts coincide with AIS losses
- - [ ] Verify independent visual tracking capability
+- [ ] Compare AIS vessel positions with CCTV visual confirmation
+- [ ] Check if CCTV blackouts coincide with AIS losses
+- [ ] Verify independent visual tracking capability
 
 3. **Operational Correlation**
- - [ ] Check if missing vessels are actively loading/unloading
- - [ ] Verify vessel scheduling matches AIS displays
- - [ ] Confirm harbor pilot communications with "missing" vessels
+- [ ] Check if missing vessels are actively loading/unloading
+- [ ] Verify vessel scheduling matches AIS displays
+- [ ] Confirm harbor pilot communications with "missing" vessels
 
 #### Phase 3: Pattern Analysis (Next 7 minutes)
 1. **Single vs. Multiple Vessel Analysis**
- - **Single vessel missing:** Likely equipment issue on vessel
- - **Multiple vessels missing:** Likely shore-side AIS system issue
- - **All vessels missing:** Likely AIS receiver or network failure
+- **Single vessel missing:** Likely equipment issue on vessel
+- **Multiple vessels missing:** Likely shore-side AIS system issue
+- **All vessels missing:** Likely AIS receiver or network failure
 
 2. **Geographic Pattern Analysis**
- - [ ] Map affected area boundaries
- - [ ] Check if pattern suggests directional antenna issues
- - [ ] Verify if specific berths or anchorage areas affected
+- [ ] Map affected area boundaries
+- [ ] Check if pattern suggests directional antenna issues
+- [ ] Verify if specific berths or anchorage areas affected
 
 3. **Temporal Pattern Analysis**
- - [ ] Note exact timing of signal loss
- - [ ] Check for periodic or intermittent patterns
- - [ ] Correlate with other system event timestamps
+- [ ] Note exact timing of signal loss
+- [ ] Check for periodic or intermittent patterns
+- [ ] Correlate with other system event timestamps
 
 ### Cross-System Correlation Matrix
 

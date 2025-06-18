@@ -78,18 +78,18 @@ patience of our customers and the dedication of our team."
 ## Common Follow-up Topics
 
 -----------------------------------------------------------------------
-**Question**       **Suggested Handling**
+**Question**    **Suggested Handling**
 ------------------------- ---------------------------------------------
-Will there be a formal  "We are completing internal review
-report?          procedures."
+Will there be a formal "We are completing internal review
+report?     procedures."
 
 Was this a cyber attack? "We are not speculating at this time."
 
-Who was responsible?   "We are working through the investigation
-             process."
+Who was responsible?  "We are working through the investigation
+      process."
 
 Could this happen again? "We are applying lessons to strengthen
-             resilience."
+      resilience."
 -----------------------------------------------------------------------
 
 ## Reminders:

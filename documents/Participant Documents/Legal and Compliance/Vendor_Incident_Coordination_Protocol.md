@@ -60,16 +60,16 @@ This protocol provides systematic procedures for coordinating with vendors durin
 **When vendor leaks internal information (e.g., email forwarding incidents):**
 
 1. **Immediate Containment:**
- - [ ] **Stop Further Communication:** Cease sensitive communications with vendor immediately
- - [ ] **Information Assessment:** Determine what information was exposed
- - [ ] **Exposure Scope:** Identify who received leaked information
- - [ ] **Damage Assessment:** Evaluate potential damage from leak
+- [ ] **Stop Further Communication:** Cease sensitive communications with vendor immediately
+- [ ] **Information Assessment:** Determine what information was exposed
+- [ ] **Exposure Scope:** Identify who received leaked information
+- [ ] **Damage Assessment:** Evaluate potential damage from leak
 
 2. **Vendor Notification and Response:**
- - [ ] **Immediate Contact:** Contact vendor executive leadership immediately
- - [ ] **Breach Notification:** Formally notify vendor of security breach
- - [ ] **Corrective Action Demand:** Require immediate corrective action
- - [ ] **Investigation Cooperation:** Demand vendor cooperation in investigation
+- [ ] **Immediate Contact:** Contact vendor executive leadership immediately
+- [ ] **Breach Notification:** Formally notify vendor of security breach
+- [ ] **Corrective Action Demand:** Require immediate corrective action
+- [ ] **Investigation Cooperation:** Demand vendor cooperation in investigation
 
 #### Vendor Communication Security Protocol
 **Enhanced Security Measures:**
@@ -82,16 +82,16 @@ This protocol provides systematic procedures for coordinating with vendors durin
 
 #### When Vendor Systems Are Compromised
 1. **Immediate Actions:**
- - [ ] **Network Isolation:** Isolate vendor network connections if possible
- - [ ] **Access Review:** Review all vendor access to our systems
- - [ ] **Credential Changes:** Change any shared credentials or access codes
- - [ ] **Security Assessment:** Assess potential impact on our systems
+- [ ] **Network Isolation:** Isolate vendor network connections if possible
+- [ ] **Access Review:** Review all vendor access to our systems
+- [ ] **Credential Changes:** Change any shared credentials or access codes
+- [ ] **Security Assessment:** Assess potential impact on our systems
 
 2. **Vendor Coordination:**
- - [ ] **Incident Notification:** Formal notification to vendor of security concerns
- - [ ] **Cooperation Demand:** Require vendor cooperation in security response
- - [ ] **Evidence Preservation:** Ensure vendor preserves evidence of compromise
- - [ ] **Recovery Planning:** Coordinate recovery and restoration efforts
+- [ ] **Incident Notification:** Formal notification to vendor of security concerns
+- [ ] **Cooperation Demand:** Require vendor cooperation in security response
+- [ ] **Evidence Preservation:** Ensure vendor preserves evidence of compromise
+- [ ] **Recovery Planning:** Coordinate recovery and restoration efforts
 
 ---
 
@@ -101,51 +101,51 @@ This protocol provides systematic procedures for coordinating with vendors durin
 
 #### Immediate Assessment (0-15 minutes)
 1. **System Status Check:**
- - [ ] **Payment System Status:** Verify status of payment processing systems
- - [ ] **Vendor Notification Status:** Determine if vendors have been notified
- - [ ] **Critical Vendor Impact:** Identify critical vendors affected by payment delays
- - [ ] **Service Risk Assessment:** Assess risk of service interruption
+- [ ] **Payment System Status:** Verify status of payment processing systems
+- [ ] **Vendor Notification Status:** Determine if vendors have been notified
+- [ ] **Critical Vendor Impact:** Identify critical vendors affected by payment delays
+- [ ] **Service Risk Assessment:** Assess risk of service interruption
 
 2. **Critical Vendor Prioritization:**
- - [ ] **Emergency Services:** Medical, fire, security services
- - [ ] **Operational Critical:** Vendors essential for daily operations
- - [ ] **Safety Critical:** Vendors providing safety-related services
- - [ ] **Contractual Obligations:** Vendors with strict payment timing requirements
+- [ ] **Emergency Services:** Medical, fire, security services
+- [ ] **Operational Critical:** Vendors essential for daily operations
+- [ ] **Safety Critical:** Vendors providing safety-related services
+- [ ] **Contractual Obligations:** Vendors with strict payment timing requirements
 
 #### Emergency Payment Procedures
 1. **Alternative Payment Methods:**
- - [ ] **Emergency Check Authorization:** Expedited check processing for critical vendors
- - [ ] **Wire Transfer Authorization:** Direct wire transfers for urgent payments
- - [ ] **Credit Card Processing:** Emergency credit card payments where applicable
- - [ ] **Cash Advance:** Petty cash advances for immediate vendor needs
+- [ ] **Emergency Check Authorization:** Expedited check processing for critical vendors
+- [ ] **Wire Transfer Authorization:** Direct wire transfers for urgent payments
+- [ ] **Credit Card Processing:** Emergency credit card payments where applicable
+- [ ] **Cash Advance:** Petty cash advances for immediate vendor needs
 
 2. **Vendor Communication:**
- - [ ] **Immediate Notification:** Contact critical vendors about payment delays
- - [ ] **Alternative Arrangements:** Offer alternative payment methods
- - [ ] **Timeline Communication:** Provide realistic timeline for payment resolution
- - [ ] **Service Continuity:** Negotiate continued service during payment delays
+- [ ] **Immediate Notification:** Contact critical vendors about payment delays
+- [ ] **Alternative Arrangements:** Offer alternative payment methods
+- [ ] **Timeline Communication:** Provide realistic timeline for payment resolution
+- [ ] **Service Continuity:** Negotiate continued service during payment delays
 
 ### Vendor Payment Dispute Resolution
 
 #### Dispute Assessment Process
 1. **Dispute Analysis:**
- - [ ] **Invoice Verification:** Verify accuracy of disputed invoice
- - [ ] **Service Verification:** Confirm services were provided as invoiced
- - [ ] **Contract Review:** Review contract terms for payment and dispute procedures
- - [ ] **Documentation Review:** Examine all relevant documentation
+- [ ] **Invoice Verification:** Verify accuracy of disputed invoice
+- [ ] **Service Verification:** Confirm services were provided as invoiced
+- [ ] **Contract Review:** Review contract terms for payment and dispute procedures
+- [ ] **Documentation Review:** Examine all relevant documentation
 
 2. **Resolution Authority:**
- - **Under $10,000:** Operations Manager authority
- - **$10,000-$50,000:** Executive approval required
- - **Over $50,000:** Legal review and executive approval required
- - **Disputed liability:** Legal team handles with external counsel
+- **Under $10,000:** Operations Manager authority
+- **$10,000-$50,000:** Executive approval required
+- **Over $50,000:** Legal review and executive approval required
+- **Disputed liability:** Legal team handles with external counsel
 
 #### Emergency Procurement During Payment Issues
 1. **Alternative Vendor Coordination:**
- - [ ] **Backup Vendor Activation:** Activate backup vendors for critical services
- - [ ] **Emergency Procurement:** Use emergency procurement procedures
- - [ ] **Service Continuity:** Ensure no interruption in critical services
- - [ ] **Cost Authorization:** Obtain appropriate authorization for alternative vendors
+- [ ] **Backup Vendor Activation:** Activate backup vendors for critical services
+- [ ] **Emergency Procurement:** Use emergency procurement procedures
+- [ ] **Service Continuity:** Ensure no interruption in critical services
+- [ ] **Cost Authorization:** Obtain appropriate authorization for alternative vendors
 
 ---
 
@@ -155,44 +155,44 @@ This protocol provides systematic procedures for coordinating with vendors durin
 
 #### Performance Issue Assessment
 1. **Service Impact Analysis:**
- - [ ] **Operational Impact:** How vendor failure affects our operations
- - [ ] **Safety Impact:** Any safety implications of vendor service failure
- - [ ] **Timeline Impact:** Effect on incident response timeline
- - [ ] **Alternative Options:** Available alternatives for vendor services
+- [ ] **Operational Impact:** How vendor failure affects our operations
+- [ ] **Safety Impact:** Any safety implications of vendor service failure
+- [ ] **Timeline Impact:** Effect on incident response timeline
+- [ ] **Alternative Options:** Available alternatives for vendor services
 
 2. **Contractual Review:**
- - [ ] **Performance Standards:** Review contractual performance requirements
- - [ ] **Force Majeure:** Assess if force majeure clauses apply
- - [ ] **Penalties:** Determine applicable penalties for non-performance
- - [ ] **Termination Rights:** Review termination and replacement rights
+- [ ] **Performance Standards:** Review contractual performance requirements
+- [ ] **Force Majeure:** Assess if force majeure clauses apply
+- [ ] **Penalties:** Determine applicable penalties for non-performance
+- [ ] **Termination Rights:** Review termination and replacement rights
 
 #### Vendor Performance Escalation
 1. **Escalation Sequence:**
- - **Level 1:** Direct contact with vendor project manager
- - **Level 2:** Escalation to vendor account executive
- - **Level 3:** Escalation to vendor senior management
- - **Level 4:** Legal enforcement and contract termination
+- **Level 1:** Direct contact with vendor project manager
+- **Level 2:** Escalation to vendor account executive
+- **Level 3:** Escalation to vendor senior management
+- **Level 4:** Legal enforcement and contract termination
 
 2. **Performance Requirements:**
- - [ ] **Service Level Restoration:** Immediate restoration to contracted levels
- - [ ] **Enhanced Monitoring:** Increased performance monitoring
- - [ ] **Corrective Action Plan:** Detailed plan to prevent recurrence
- - [ ] **Compensation:** Appropriate compensation for performance failures
+- [ ] **Service Level Restoration:** Immediate restoration to contracted levels
+- [ ] **Enhanced Monitoring:** Increased performance monitoring
+- [ ] **Corrective Action Plan:** Detailed plan to prevent recurrence
+- [ ] **Compensation:** Appropriate compensation for performance failures
 
 ### Emergency Vendor Replacement
 
 #### Vendor Replacement Decision Process
 1. **Replacement Criteria:**
- - [ ] **Service Criticality:** How critical is the vendor service
- - [ ] **Replacement Availability:** Are suitable replacement vendors available
- - [ ] **Replacement Timeline:** How quickly can replacement vendor be deployed
- - [ ] **Cost Implications:** Financial impact of vendor replacement
+- [ ] **Service Criticality:** How critical is the vendor service
+- [ ] **Replacement Availability:** Are suitable replacement vendors available
+- [ ] **Replacement Timeline:** How quickly can replacement vendor be deployed
+- [ ] **Cost Implications:** Financial impact of vendor replacement
 
 2. **Replacement Authorization:**
- - **Critical Safety Services:** Immediate replacement authorized
- - **Operational Services:** Operations Manager with Legal review
- - **Non-critical Services:** Standard procurement procedures
- - **High-value Services:** Executive authorization required
+- **Critical Safety Services:** Immediate replacement authorized
+- **Operational Services:** Operations Manager with Legal review
+- **Non-critical Services:** Standard procurement procedures
+- **High-value Services:** Executive authorization required
 
 ---
 
@@ -202,44 +202,44 @@ This protocol provides systematic procedures for coordinating with vendors durin
 
 #### Damage Assessment and Documentation
 1. **Immediate Documentation:**
- - [ ] **Incident Description:** Detailed description of vendor-caused incident
- - [ ] **Damage Assessment:** Comprehensive assessment of all damages
- - [ ] **Evidence Preservation:** Preserve all evidence of vendor responsibility
- - [ ] **Witness Statements:** Collect statements from personnel who observed incident
+- [ ] **Incident Description:** Detailed description of vendor-caused incident
+- [ ] **Damage Assessment:** Comprehensive assessment of all damages
+- [ ] **Evidence Preservation:** Preserve all evidence of vendor responsibility
+- [ ] **Witness Statements:** Collect statements from personnel who observed incident
 
 2. **Liability Analysis:**
- - [ ] **Contract Review:** Review contract terms for liability allocation
- - [ ] **Insurance Coverage:** Assess vendor insurance coverage for damages
- - [ ] **Legal Precedent:** Review applicable legal precedents
- - [ ] **Damage Calculation:** Calculate total damages including indirect costs
+- [ ] **Contract Review:** Review contract terms for liability allocation
+- [ ] **Insurance Coverage:** Assess vendor insurance coverage for damages
+- [ ] **Legal Precedent:** Review applicable legal precedents
+- [ ] **Damage Calculation:** Calculate total damages including indirect costs
 
 #### Vendor Liability Enforcement
 1. **Formal Notification:**
- - [ ] **Damage Notice:** Formal notice to vendor of damages caused
- - [ ] **Liability Assertion:** Assert vendor liability under contract terms
- - [ ] **Compensation Demand:** Demand appropriate compensation
- - [ ] **Timeline Requirements:** Set reasonable timeline for vendor response
+- [ ] **Damage Notice:** Formal notice to vendor of damages caused
+- [ ] **Liability Assertion:** Assert vendor liability under contract terms
+- [ ] **Compensation Demand:** Demand appropriate compensation
+- [ ] **Timeline Requirements:** Set reasonable timeline for vendor response
 
 2. **Legal Enforcement:**
- - [ ] **Insurance Claim:** File claim with vendor's insurance carrier
- - [ ] **Contract Enforcement:** Enforce contract terms for vendor liability
- - [ ] **Legal Proceedings:** Initiate legal proceedings if necessary
- - [ ] **Asset Protection:** Protect our assets pending resolution
+- [ ] **Insurance Claim:** File claim with vendor's insurance carrier
+- [ ] **Contract Enforcement:** Enforce contract terms for vendor liability
+- [ ] **Legal Proceedings:** Initiate legal proceedings if necessary
+- [ ] **Asset Protection:** Protect our assets pending resolution
 
 ### Contract Disputes During Emergencies
 
 #### Emergency Contract Modification
 1. **Force Majeure Assessment:**
- - [ ] **Event Classification:** Determine if incident qualifies as force majeure
- - [ ] **Contract Language:** Review force majeure clauses in vendor contracts
- - [ ] **Performance Excuses:** Assess what performance may be excused
- - [ ] **Alternative Obligations:** Identify alternative vendor obligations
+- [ ] **Event Classification:** Determine if incident qualifies as force majeure
+- [ ] **Contract Language:** Review force majeure clauses in vendor contracts
+- [ ] **Performance Excuses:** Assess what performance may be excused
+- [ ] **Alternative Obligations:** Identify alternative vendor obligations
 
 2. **Emergency Modifications:**
- - [ ] **Scope Changes:** Modifications to service scope during emergency
- - [ ] **Performance Standards:** Temporary modifications to performance requirements
- - [ ] **Payment Terms:** Emergency modifications to payment terms
- - [ ] **Duration Changes:** Extensions or modifications to contract duration
+- [ ] **Scope Changes:** Modifications to service scope during emergency
+- [ ] **Performance Standards:** Temporary modifications to performance requirements
+- [ ] **Payment Terms:** Emergency modifications to payment terms
+- [ ] **Duration Changes:** Extensions or modifications to contract duration
 
 ---
 

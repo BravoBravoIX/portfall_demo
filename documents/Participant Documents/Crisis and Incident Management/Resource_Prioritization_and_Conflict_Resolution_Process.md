@@ -131,10 +131,10 @@ This process provides systematic framework for prioritizing resource allocation 
 **Decision Process:**
 1. **Highest Priority Wins:** Resource goes to highest priority level need
 2. **Tie-Breaking Criteria:** When priorities are equal:
- - Safety impact (prefer higher safety impact)
- - Time sensitivity (prefer more urgent needs)
- - Team capability (prefer team with best capability to use resource)
- - Overall incident benefit (prefer use with greatest overall benefit)
+- Safety impact (prefer higher safety impact)
+- Time sensitivity (prefer more urgent needs)
+- Team capability (prefer team with best capability to use resource)
+- Overall incident benefit (prefer use with greatest overall benefit)
 
 **Documentation Required:**
 - [ ] Decision made and rationale

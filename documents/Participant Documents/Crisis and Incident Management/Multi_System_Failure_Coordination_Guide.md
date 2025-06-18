@@ -74,10 +74,10 @@ This guide provides systematic coordination procedures when multiple critical sy
 ```
 Multiple systems failing?
 ├─ YES - Are they safety-critical systems?
-│  ├─ YES - Can safety be maintained with manual procedures?
-│  │  ├─ YES - Continue with enhanced manual operations
-│  │  └─ NO - Consider operations halt - Escalate to executive
-│  └─ NO - Implement enhanced procedures - Continue investigation
+│ ├─ YES - Can safety be maintained with manual procedures?
+│ │ ├─ YES - Continue with enhanced manual operations
+│ │ └─ NO - Consider operations halt - Escalate to executive
+│ └─ NO - Implement enhanced procedures - Continue investigation
 └─ NO - Standard incident response procedures
 ```
 

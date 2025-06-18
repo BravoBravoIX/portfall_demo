@@ -88,21 +88,21 @@ pause disclosure
 ## Summary Triage Table
 
 ------------------------------------------------------------------------
-**Indicator**         **Escalate to   **Include in Breach
-                Exec?**      Packet?**
+**Indicator**     **Escalate to  **Include in Breach
+       Exec?**   Packet?**
 ------------------------------ ----------------- -----------------------
-Policy breach (internal)    No, unless    No
-                repeated     
+Policy breach (internal)  No, unless  No
+       repeated   
 
-Legal-relevant external    Yes        Possibly
-contact                     
+Legal-relevant external  Yes    Possibly
+contact           
 
-Regulator or insurer      Yes        Yes
-communication                  
+Regulator or insurer   Yes    Yes
+communication         
 
-Operational anomaly only    No (log only)   No
+Operational anomaly only  No (log only)  No
 
-Confirmed contract violation  Yes        Yes
+Confirmed contract violation Yes    Yes
 ------------------------------------------------------------------------
 
 **Reminders:**
@@ -201,57 +201,57 @@ This tracker provides systematic management of overlapping regulatory notificati
 
 #### Hour 0-4: Initial Assessment and Immediate Notifications
 1. **Immediate Safety Notifications**
- - [ ] MSA if vessel safety affected
- - [ ] WorkSafe if worker safety at risk
- - [ ] Coast Guard if maritime emergency
+- [ ] MSA if vessel safety affected
+- [ ] WorkSafe if worker safety at risk
+- [ ] Coast Guard if maritime emergency
 
 2. **Initial Legal Assessment**
- - [ ] Determine applicable regulatory frameworks
- - [ ] Identify potential notification triggers
- - [ ] Assess preliminary timeline requirements
+- [ ] Determine applicable regulatory frameworks
+- [ ] Identify potential notification triggers
+- [ ] Assess preliminary timeline requirements
 
 3. **Evidence Preservation**
- - [ ] Preserve all relevant documentation
- - [ ] Begin regulatory compliance log
- - [ ] Assign regulatory compliance coordinator
+- [ ] Preserve all relevant documentation
+- [ ] Begin regulatory compliance log
+- [ ] Assign regulatory compliance coordinator
 
 #### Hour 4-12: Detailed Analysis and Preparation
 1. **Comprehensive Regulatory Review**
- - [ ] Complete regulatory applicability analysis
- - [ ] Prepare preliminary notification drafts
- - [ ] Coordinate with technical teams for evidence
+- [ ] Complete regulatory applicability analysis
+- [ ] Prepare preliminary notification drafts
+- [ ] Coordinate with technical teams for evidence
 
 2. **Timeline Coordination**
- - [ ] Map all applicable deadlines
- - [ ] Identify deadline conflicts or overlaps
- - [ ] Prioritize notifications by criticality
+- [ ] Map all applicable deadlines
+- [ ] Identify deadline conflicts or overlaps
+- [ ] Prioritize notifications by criticality
 
 3. **Internal Coordination**
- - [ ] Brief executive team on compliance requirements
- - [ ] Coordinate with technical teams for technical details
- - [ ] Align with legal strategy and messaging
+- [ ] Brief executive team on compliance requirements
+- [ ] Coordinate with technical teams for technical details
+- [ ] Align with legal strategy and messaging
 
 #### Hour 12-24: Primary Notifications
 1. **Critical 24-Hour Notifications**
- - [ ] Cybersecurity Act (if applicable)
- - [ ] MSA operational impact notifications
- - [ ] WorkSafe safety incident reports
+- [ ] Cybersecurity Act (if applicable)
+- [ ] MSA operational impact notifications
+- [ ] WorkSafe safety incident reports
 
 2. **Notification Coordination**
- - [ ] Ensure consistent messaging across agencies
- - [ ] Coordinate timing to avoid conflicts
- - [ ] Document all submissions and responses
+- [ ] Ensure consistent messaging across agencies
+- [ ] Coordinate timing to avoid conflicts
+- [ ] Document all submissions and responses
 
 #### Hour 24-72: Secondary Notifications and Follow-ups
 1. **72-Hour Notifications**
- - [ ] PIC privacy breach notifications
- - [ ] Cybersecurity Act detailed reports
- - [ ] MSA comprehensive incident reports
+- [ ] PIC privacy breach notifications
+- [ ] Cybersecurity Act detailed reports
+- [ ] MSA comprehensive incident reports
 
 2. **Follow-up Requirements**
- - [ ] Response to regulatory inquiries
- - [ ] Additional information requests
- - [ ] Ongoing compliance monitoring
+- [ ] Response to regulatory inquiries
+- [ ] Additional information requests
+- [ ] Ongoing compliance monitoring
 
 ### Regulatory Notification Templates
 

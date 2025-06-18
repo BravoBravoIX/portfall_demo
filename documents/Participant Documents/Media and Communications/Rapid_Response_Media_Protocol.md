@@ -26,20 +26,20 @@ This procedure provides streamlined decision-making and response protocols for u
 
 #### 5-Minute Assessment Phase
 1. **Threat Level Evaluation**
- - **GREEN:** Routine story, low risk, standard response adequate
- - **YELLOW:** Moderate risk, potential negative angle, careful response needed
- - **RED:** High risk, crisis angle, strategic response critical
+- **GREEN:** Routine story, low risk, standard response adequate
+- **YELLOW:** Moderate risk, potential negative angle, careful response needed
+- **RED:** High risk, crisis angle, strategic response critical
 
 2. **Story Context Analysis**
- - [ ] What information does reporter already have?
- - [ ] What angle are they pursuing?
- - [ ] Who else are they interviewing?
- - [ ] What's the potential reach/impact?
+- [ ] What information does reporter already have?
+- [ ] What angle are they pursuing?
+- [ ] Who else are they interviewing?
+- [ ] What's the potential reach/impact?
 
 3. **Response Option Assessment**
- - **PARTICIPATE:** Provide spokesperson and statement
- - **STATEMENT ONLY:** Written response, no interview
- - **DECLINE:** No participation, organisation statement if needed
+- **PARTICIPATE:** Provide spokesperson and statement
+- **STATEMENT ONLY:** Written response, no interview
+- **DECLINE:** No participation, organisation statement if needed
 
 #### 10-Minute Decision Process
 
@@ -93,20 +93,20 @@ This procedure provides streamlined decision-making and response protocols for u
 
 #### 15-Minute Spokesperson Preparation
 1. **Key Messages (3 points maximum)**
- - [ ] Primary message (what we want them to remember)
- - [ ] Safety/responsibility message
- - [ ] Next steps/resolution message
+- [ ] Primary message (what we want them to remember)
+- [ ] Safety/responsibility message
+- [ ] Next steps/resolution message
 
 2. **Anticipated Questions & Responses**
- - [ ] What happened? - [Factual, brief response]
- - [ ] Who's responsible? - [Investigation underway, focus on resolution]
- - [ ] What's the impact? - [Specific impacts, mitigation measures]
+- [ ] What happened? - [Factual, brief response]
+- [ ] Who's responsible? - [Investigation underway, focus on resolution]
+- [ ] What's the impact? - [Specific impacts, mitigation measures]
 
 3. **Interview Guidelines**
- - [ ] Stay calm and confident
- - [ ] Stick to facts, avoid speculation
- - [ ] Bridge back to key messages
- - [ ] Acknowledge concerns, emphasize safety priority
+- [ ] Stay calm and confident
+- [ ] Stick to facts, avoid speculation
+- [ ] Bridge back to key messages
+- [ ] Acknowledge concerns, emphasize safety priority
 
 #### Emergency Spokesperson Options
 1. **PRIMARY:** CEO or designated executive spokesperson
@@ -118,14 +118,14 @@ This procedure provides streamlined decision-making and response protocols for u
 
 #### 15-Minute Social Media Assessment
 1. **Platform Monitoring**
- - [ ] Check Twitter, Facebook, LinkedIn for mentions
- - [ ] Identify trending hashtags or viral content
- - [ ] Assess volume and tone of social media activity
+- [ ] Check Twitter, Facebook, LinkedIn for mentions
+- [ ] Identify trending hashtags or viral content
+- [ ] Assess volume and tone of social media activity
 
 2. **Response Strategy**
- - **ENGAGE:** Respond directly to concerns with facts
- - **REDIRECT:** Point to official statement or information
- - **MONITOR:** Watch but don't engage if risk of escalation
+- **ENGAGE:** Respond directly to concerns with facts
+- **REDIRECT:** Point to official statement or information
+- **MONITOR:** Watch but don't engage if risk of escalation
 
 #### Social Media Response Templates
 - **Acknowledgment:** "We're aware of [situation] and are working to address it. Safety is our priority. Updates: [link]"
