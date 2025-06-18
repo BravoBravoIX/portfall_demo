@@ -1,19 +1,13 @@
 # SOUTHGATE TERMINAL
-## Port Operations Security Documentation
----
-
-# Quick Reference Action Cards
-
-## Document Information
-**Purpose:** Rapid reference cards for time-critical scenarios 
-**Usage:** Keep accessible during incidents for quick decision-making 
-**Format:** Print and cut into individual cards for team reference
+## Quick Reference Action Cards
+### Print on cardstock and cut along dotted lines for individual cards
 
 ---
 
-# TECHNICAL TEAM QUICK REFERENCE CARDS
+\newpage
 
-## CARD T1: SYSTEM ANOMALY INVESTIGATION
+# **CARD T1: SYSTEM ANOMALY INVESTIGATION**
+## **TECHNICAL TEAM**
 **WHEN:** Unusual system behaviour, authentication failures, network issues
 
 **IMMEDIATE (0-5 min):**
@@ -32,11 +26,15 @@
 - [ ] Report trap scripts found to all teams
 
 **DANGER SIGNS:** restore_feed.sh, remove_malware.sh, temp_session=true
+
 **KEY PRINCIPLE:** When in doubt, preserve evidence and avoid execution
 
 ---
 
-## CARD T2: MULTI-SYSTEM FAILURE
+\newpage
+
+# **CARD T2: MULTI-SYSTEM FAILURE**
+## **TECHNICAL TEAM**
 **WHEN:** Multiple systems failing, coordinated issues, evidence of attack
 
 **DIVIDE & CONQUER (0-5 min):**
@@ -58,9 +56,10 @@
 
 ---
 
-# OPERATIONS TEAM QUICK REFERENCE CARDS
+\newpage
 
-## CARD O1: CCTV BLACKOUT RESPONSE
+# **CARD O1: CCTV BLACKOUT RESPONSE**
+## **OPERATIONS TEAM**
 **WHEN:** Camera feeds black, frozen, or showing static
 
 **IMMEDIATE SAFETY (0-5 min):**
@@ -84,7 +83,10 @@
 
 ---
 
-## CARD O2: AUTHENTICATION SYSTEM FAILURE
+\newpage
+
+# **CARD O2: AUTHENTICATION SYSTEM FAILURE**
+## **OPERATIONS TEAM**
 **WHEN:** Service accounts failing, automated systems not responding
 
 **SAFETY FIRST (0-2 min):**
@@ -107,9 +109,10 @@
 
 ---
 
-# LEGAL TEAM QUICK REFERENCE CARDS
+\newpage
 
-## CARD L1: CYBER INCIDENT ESCALATION
+# **CARD L1: CYBER INCIDENT ESCALATION**
+## **LEGAL TEAM**
 **WHEN:** Evidence of unauthorised access, system compromise, data breach
 
 **IMMEDIATE ASSESSMENT (0-10 min):**
@@ -133,7 +136,10 @@
 
 ---
 
-## CARD L2: REGULATORY COMPLIANCE CRISIS
+\newpage
+
+# **CARD L2: REGULATORY COMPLIANCE CRISIS**
+## **LEGAL TEAM**
 **WHEN:** Multiple notification deadlines, regulatory violations, compliance gaps
 
 **PRIORITY MATRIX (0-5 min):**
@@ -157,9 +163,10 @@
 
 ---
 
-# MEDIA TEAM QUICK REFERENCE CARDS
+\newpage
 
-## CARD M1: IMMEDIATE MEDIA PRESSURE
+# **CARD M1: IMMEDIATE MEDIA PRESSURE**
+## **MEDIA TEAM**
 **WHEN:** Media calls, social media posts, external visibility of incident
 
 **5-MINUTE RESPONSE:**
@@ -184,7 +191,10 @@
 
 ---
 
-## CARD M2: SOCIAL MEDIA CRISIS
+\newpage
+
+# **CARD M2: SOCIAL MEDIA CRISIS**
+## **MEDIA TEAM**
 **WHEN:** Anonymous posts, trending hashtags, viral misinformation about incident
 
 **IMMEDIATE MONITORING (0-5 min):**
@@ -209,9 +219,10 @@
 
 ---
 
-# EXECUTIVE TEAM QUICK REFERENCE CARDS
+\newpage
 
-## CARD E1: OPERATIONS HALT DECISION
+# **CARD E1: OPERATIONS HALT DECISION**
+## **EXECUTIVE TEAM**
 **WHEN:** Safety concerns, multiple system failures, crew refusing to work
 
 **30-SECOND DECISION FRAMEWORK:**
@@ -235,7 +246,10 @@
 
 ---
 
-## CARD E2: CRISIS ESCALATION DECISIONS
+\newpage
+
+# **CARD E2: CRISIS ESCALATION DECISIONS**
+## **EXECUTIVE TEAM**
 **WHEN:** Major incident, regulatory investigations, board involvement needed
 
 **STRATEGIC DECISIONS NEEDED:**
@@ -260,9 +274,10 @@
 
 ---
 
-# INCIDENT COORDINATOR QUICK REFERENCE CARDS
+\newpage
 
-## CARD IC1: MULTI-TEAM COORDINATION
+# **CARD IC1: MULTI-TEAM COORDINATION**
+## **INCIDENT COORDINATOR**
 **WHEN:** Multiple teams active, resource conflicts, complex incident
 
 **COORDINATION SETUP (0-5 min):**
@@ -287,7 +302,10 @@
 
 ---
 
-## CARD IC2: EXTERNAL PRESSURE MANAGEMENT
+\newpage
+
+# **CARD IC2: EXTERNAL PRESSURE MANAGEMENT**
+## **INCIDENT COORDINATOR**
 **WHEN:** Regulatory deadlines, media pressure, insurer demands, executive escalation
 
 **PRESSURE POINT MANAGEMENT:**
@@ -312,7 +330,9 @@
 
 ---
 
-## USAGE INSTRUCTIONS FOR CARDS
+\newpage
+
+# **USAGE INSTRUCTIONS FOR CARDS**
 
 ### **Card Distribution:**
 - Each team gets their relevant cards
