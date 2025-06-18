@@ -1,366 +1,543 @@
 # SOUTHGATE TERMINAL
 ## Quick Reference Action Cards
-### Print on cardstock and cut along dotted lines for individual cards
+### Print on cardstock, cut along page breaks for individual cards
 
 ---
 
 \newpage
 
-# **CARD T1: SYSTEM ANOMALY INVESTIGATION**
-## **TECHNICAL TEAM**
-**WHEN:** Unusual system behaviour, authentication failures, network issues
+# 🔧 SYSTEM ANOMALY INVESTIGATION
+## TECHNICAL TEAM | CARD T1
 
-**IMMEDIATE (0-5 min):**
-- [ ] Preserve evidence FIRST (hash all logs)
-- [ ] Assign team members to different systems
-- [ ] Start with highest risk systems first
+### 🚨 WHEN TO USE
+Unusual system behaviour • Authentication failures • Network issues
 
-**INVESTIGATION (5-25 min):**
-- [ ] Check vm-gateway for trap scripts (DO NOT EXECUTE)
-- [ ] Look for unauthorised cron jobs in /etc/cron.d/
-- [ ] Document but don't run scripts in /opt/security/, /home/
+---
 
-**HANDOFF (25-30 min):**
-- [ ] Package evidence with hashes for vm-audit
-- [ ] Brief incident coordinator on findings
-- [ ] Report trap scripts found to all teams
+### ⏱️ IMMEDIATE ACTIONS (0-5 minutes)
+```
+1. PRESERVE EVIDENCE FIRST
+   → Hash all logs before investigation
+   
+2. DIVIDE THE TEAM
+   → Assign one person per affected system
+   
+3. PRIORITIZE HIGH-RISK SYSTEMS
+   → Start with vm-gateway, vm-coretech first
+```
 
-**DANGER SIGNS:** restore_feed.sh, remove_malware.sh, temp_session=true
+### 🔍 INVESTIGATION PHASE (5-25 minutes)
+```
+CHECK FOR TRAPS:
+□ vm-gateway for trap scripts (DO NOT EXECUTE!)
+□ Unauthorised cron jobs in /etc/cron.d/
+□ Scripts in /opt/security/ or /home/ (DOCUMENT ONLY)
 
-**KEY PRINCIPLE:** When in doubt, preserve evidence and avoid execution
+DANGER SCRIPTS TO WATCH FOR:
+⚠️ restore_feed.sh
+⚠️ remove_malware.sh  
+⚠️ temp_session=true
+```
+
+### 📋 HANDOFF PHASE (25-30 minutes)
+```
+□ Package evidence with hashes for vm-audit
+□ Brief incident coordinator on findings
+□ Report any trap scripts found to ALL teams
+```
+
+### 🎯 KEY PRINCIPLE
+**When in doubt: PRESERVE EVIDENCE and AVOID EXECUTION**
 
 ---
 
 \newpage
 
-# **CARD T2: MULTI-SYSTEM FAILURE**
-## **TECHNICAL TEAM**
-**WHEN:** Multiple systems failing, coordinated issues, evidence of attack
+# ⚡ MULTI-SYSTEM FAILURE
+## TECHNICAL TEAM | CARD T2
 
-**DIVIDE & CONQUER (0-5 min):**
-- [ ] Assign one VM per team member
-- [ ] Start evidence preservation immediately
-- [ ] Coordinate with ops on system isolation decisions
+### 🚨 WHEN TO USE
+Multiple systems failing • Coordinated attacks • Evidence of systematic compromise
 
-**INVESTIGATION PRIORITY:**
-1. vm-gateway (evidence destruction risk)
-2. vm-coretech (GPS/AIS systems)
-3. vm-opsnode (CCTV/safety systems)
+---
 
-**CRITICAL COORDINATION:**
-- [ ] Check with ops before isolating Node-04
-- [ ] Report service account failures immediately
-- [ ] Document timeline for legal team
+### 🎯 DIVIDE & CONQUER (0-5 minutes)
+```
+□ Assign ONE VM per team member
+□ Start evidence preservation IMMEDIATELY
+□ Coordinate with ops on isolation decisions
+```
 
-**OUTPUTS NEEDED:** Evidence package, trap script warnings, system correlation analysis
+### 📊 INVESTIGATION PRIORITY ORDER
+```
+1st PRIORITY: vm-gateway
+   → Highest evidence destruction risk
+   
+2nd PRIORITY: vm-coretech  
+   → GPS/AIS navigation systems
+   
+3rd PRIORITY: vm-opsnode
+   → CCTV/safety systems
+```
+
+### ⚠️ CRITICAL COORDINATION
+```
+□ Check with OPS before isolating Node-04
+□ Report service account failures IMMEDIATELY
+□ Document timeline for LEGAL team
+```
+
+### 📦 OUTPUTS REQUIRED
+**Evidence package • Trap script warnings • System correlation analysis**
 
 ---
 
 \newpage
 
-# **CARD O1: CCTV BLACKOUT RESPONSE**
-## **OPERATIONS TEAM**
-**WHEN:** Camera feeds black, frozen, or showing static
+# 📹 CCTV BLACKOUT RESPONSE
+## OPERATIONS TEAM | CARD O1
 
-**IMMEDIATE SAFETY (0-5 min):**
-- [ ] Deploy manual spotters to blind zones
-- [ ] Slow all crane operations to 50% speed
-- [ ] Establish radio contact with all operators
-- [ ] Clear personnel from automated operation zones
+### 🚨 WHEN TO USE
+Camera feeds black • Frozen screens • Static display • Visual monitoring lost
 
-**MANUAL PROCEDURES (5-20 min):**
-- [ ] Implement spotter network per CCTV procedures
-- [ ] Brief crew on manual safety protocols
-- [ ] Calculate reduced operational capacity
-- [ ] Coordinate with technical team on restoration
+---
 
-**DECISION POINTS:**
-- Can safety be maintained with manual procedures?
-- Are adequate personnel available for spotting?
-- Is crew comfortable with manual operations?
+### 🆘 IMMEDIATE SAFETY (0-5 minutes)
+```
+□ Deploy manual spotters to ALL blind zones
+□ Reduce crane operations to 50% speed
+□ Establish radio contact with ALL operators
+□ Clear personnel from automated zones
+```
 
-**ESCALATION TRIGGER:** If safety cannot be ensured with available procedures
+### 👥 MANUAL PROCEDURES (5-20 minutes)
+```
+□ Implement full spotter network
+□ Brief ALL crew on manual safety protocols
+□ Calculate reduced operational capacity
+□ Coordinate with TECHNICAL team on restoration
+```
+
+### ❓ DECISION CHECKLIST
+```
+✓ Can safety be maintained with manual procedures?
+✓ Are adequate personnel available for spotting?
+✓ Is crew comfortable with manual operations?
+```
+
+### 🚨 ESCALATION TRIGGER
+**If safety CANNOT be ensured → HALT OPERATIONS**
 
 ---
 
 \newpage
 
-# **CARD O2: AUTHENTICATION SYSTEM FAILURE**
-## **OPERATIONS TEAM**
-**WHEN:** Service accounts failing, automated systems not responding
+# 🔐 AUTHENTICATION SYSTEM FAILURE
+## OPERATIONS TEAM | CARD O2
 
-**SAFETY FIRST (0-2 min):**
-- [ ] Complete any active container movements safely
-- [ ] Switch affected systems to manual control
-- [ ] Alert all operators to authentication issues
+### 🚨 WHEN TO USE
+Service accounts failing • Automated systems not responding • Access denied errors
 
-**MANUAL OVERRIDE (2-15 min):**
-- [ ] Implement manual authorisation procedures
-- [ ] Use alternative verification methods
-- [ ] Enhanced spotting for crane operations
-- [ ] Document all manual overrides
+---
 
-**COORDINATION:**
-- [ ] Work with technical team on service account recovery
-- [ ] Brief executive team if operations halt needed
-- [ ] Monitor crew stress and confidence levels
+### 🛡️ SAFETY FIRST (0-2 minutes)
+```
+□ Complete any active container movements SAFELY
+□ Switch affected systems to MANUAL control
+□ Alert ALL operators to authentication issues
+```
 
-**KEY PRINCIPLE:** Safety over efficiency - don't rush manual procedures
+### 🔧 MANUAL OVERRIDE (2-15 minutes)
+```
+□ Implement manual authorisation procedures
+□ Use alternative verification methods
+□ Enhanced spotting for crane operations
+□ Document ALL manual overrides
+```
+
+### 🤝 COORDINATION ACTIONS
+```
+□ Work with TECHNICAL team on recovery
+□ Brief EXECUTIVE team if halt needed
+□ Monitor crew stress and confidence levels
+```
+
+### 🎯 KEY PRINCIPLE
+**SAFETY over EFFICIENCY - Don't rush manual procedures**
 
 ---
 
 \newpage
 
-# **CARD L1: CYBER INCIDENT ESCALATION**
-## **LEGAL TEAM**
-**WHEN:** Evidence of unauthorised access, system compromise, data breach
+# ⚖️ CYBER INCIDENT ESCALATION
+## LEGAL TEAM | CARD L1
 
-**IMMEDIATE ASSESSMENT (0-10 min):**
-- [ ] Criminal activity suspected? - Escalate to executive immediately
-- [ ] Safety systems compromised? - Priority regulatory review
-- [ ] Data breach indicators? - Start breach classification
-- [ ] Multiple systems affected? - Consider major incident protocols
+### 🚨 WHEN TO USE
+Unauthorised access • System compromise • Data breach evidence
 
-**NOTIFICATION DECISION TREE:**
-- Personal data affected? - GDPR/privacy law notifications
-- Safety systems down? - Maritime authority notifications 
-- Criminal activity? - Law enforcement coordination
-- Insurance claims likely? - Insurer notifications
+---
 
-**EVIDENCE COORDINATION:**
-- [ ] Implement legal hold for investigation evidence
-- [ ] Coordinate with technical team on evidence preservation
-- [ ] Protect attorney-client privilege in documentation
+### 🔍 IMMEDIATE ASSESSMENT (0-10 minutes)
+```
+❓ Criminal activity suspected?
+   → YES: Escalate to EXECUTIVE immediately
+   
+❓ Safety systems compromised?
+   → YES: Priority regulatory review
+   
+❓ Data breach indicators?
+   → YES: Start breach classification
+   
+❓ Multiple systems affected?
+   → YES: Major incident protocols
+```
 
-**TIME-CRITICAL DECISIONS:** Breach notifications, law enforcement contact, regulatory reporting
+### 📢 NOTIFICATION DECISION TREE
+```
+• Personal data affected → GDPR/privacy notifications
+• Safety systems down → Maritime authority notifications
+• Criminal activity → Law enforcement coordination
+• Insurance claims likely → Insurer notifications
+```
+
+### 📋 EVIDENCE COORDINATION
+```
+□ Implement legal hold for investigation evidence
+□ Coordinate with TECHNICAL team on preservation
+□ Protect attorney-client privilege in documentation
+```
+
+### ⏰ TIME-CRITICAL DECISIONS
+**Breach notifications • Law enforcement contact • Regulatory reporting**
 
 ---
 
 \newpage
 
-# **CARD L2: REGULATORY COMPLIANCE CRISIS**
-## **LEGAL TEAM**
-**WHEN:** Multiple notification deadlines, regulatory violations, compliance gaps
+# 📊 REGULATORY COMPLIANCE CRISIS
+## LEGAL TEAM | CARD L2
 
-**PRIORITY MATRIX (0-5 min):**
-1. Safety-related notifications (immediate)
-2. Criminal activity reports (2 hours)
-3. Data breach notifications (24-72 hours)
-4. Insurance notifications (24 hours)
+### 🚨 WHEN TO USE
+Multiple notification deadlines • Regulatory violations • Compliance gaps
 
-**RAPID RESPONSE:**
-- [ ] Use breach classification decision tree
-- [ ] Draft notifications using templates
-- [ ] Coordinate language with technical/ops teams
-- [ ] Get executive approval for formal notifications
+---
 
-**COORDINATION POINTS:**
-- Technical team: Evidence and technical details
-- Executive team: Strategic decisions and approvals
-- Media team: Public communication coordination
+### ⚡ PRIORITY MATRIX (0-5 minutes)
+```
+1️⃣ IMMEDIATE: Safety-related notifications
+2️⃣ 2 HOURS: Criminal activity reports
+3️⃣ 24-72 HOURS: Data breach notifications
+4️⃣ 24 HOURS: Insurance notifications
+```
 
-**PRINCIPLE:** Regulatory compliance deadlines take priority over perfect language
+### 🏃 RAPID RESPONSE ACTIONS
+```
+□ Use breach classification decision tree
+□ Draft notifications using templates
+□ Coordinate language with TECHNICAL/OPS teams
+□ Get EXECUTIVE approval for formal notifications
+```
+
+### 🤝 COORDINATION POINTS
+```
+TECHNICAL TEAM → Evidence and technical details
+EXECUTIVE TEAM → Strategic decisions and approvals
+MEDIA TEAM → Public communication coordination
+```
+
+### 🎯 KEY PRINCIPLE
+**Regulatory deadlines take PRIORITY over perfect language**
 
 ---
 
 \newpage
 
-# **CARD M1: IMMEDIATE MEDIA PRESSURE**
-## **MEDIA TEAM**
-**WHEN:** Media calls, social media posts, external visibility of incident
+# 📺 IMMEDIATE MEDIA PRESSURE
+## MEDIA TEAM | CARD M1
 
-**5-MINUTE RESPONSE:**
-- [ ] Use holding statement template: "Aware of [issue], investigating, safety priority"
-- [ ] Coordinate with legal team on language approval
-- [ ] Monitor social media for spread and sentiment
-- [ ] Alert executive team to media interest
+### 🚨 WHEN TO USE
+Media calls • Social media posts • External visibility of incident
 
-**15-MINUTE SETUP:**
-- [ ] Assess severity and likely media interest
-- [ ] Prepare expanded statement if needed
-- [ ] Set up social media monitoring
-- [ ] Coordinate with incident coordinator on messaging
+---
 
-**DECISION MATRIX:**
-- Anonymous posts? - Monitor, don't engage directly
-- Media requests? - Prepared statement or brief interview
-- TV crew on-site? - Activate Final Media Deadline procedures
-- Factual errors spreading? - Prepare corrective statement
+### 🔥 5-MINUTE RESPONSE
+```
+□ Use HOLDING STATEMENT template:
+   "Aware of [issue], investigating, safety priority"
+   
+□ Coordinate with LEGAL team on language approval
+□ Monitor social media for spread and sentiment
+□ Alert EXECUTIVE team to media interest
+```
 
-**KEY PRINCIPLE:** Better to provide accurate information than let speculation spread
+### 🛠️ 15-MINUTE SETUP
+```
+□ Assess severity and likely media interest
+□ Prepare expanded statement if needed
+□ Set up social media monitoring
+□ Coordinate with INCIDENT COORDINATOR on messaging
+```
+
+### 🤔 DECISION MATRIX
+```
+• Anonymous posts? → Monitor, DON'T engage directly
+• Media requests? → Prepared statement or brief interview
+• TV crew on-site? → Activate Final Media Deadline procedures
+• Factual errors spreading? → Prepare corrective statement
+```
+
+### 🎯 KEY PRINCIPLE
+**Better to provide ACCURATE info than let speculation spread**
 
 ---
 
 \newpage
 
-# **CARD M2: SOCIAL MEDIA CRISIS**
-## **MEDIA TEAM**
-**WHEN:** Anonymous posts, trending hashtags, viral misinformation about incident
+# 📱 SOCIAL MEDIA CRISIS
+## MEDIA TEAM | CARD M2
 
-**IMMEDIATE MONITORING (0-5 min):**
-- [ ] Screenshot and document all posts
-- [ ] Track hashtags and sentiment
-- [ ] Identify if posts contain internal information
-- [ ] Alert legal team if internal leaks suspected
+### 🚨 WHEN TO USE
+Anonymous posts • Trending hashtags • Viral misinformation about incident
 
-**RESPONSE STRATEGY:**
-- [ ] Don't engage directly with anonymous posts
-- [ ] Prepare factual counter-narrative if misinformation spreading
-- [ ] Coordinate with HR if employee posts identified
-- [ ] Use official channels for authoritative information
+---
 
-**ESCALATION TRIGGERS:**
-- Posts going viral with significant inaccuracies
-- Internal information being leaked
-- Safety concerns being raised publicly
-- Media picking up social media narrative
+### 📸 IMMEDIATE MONITORING (0-5 minutes)
+```
+□ Screenshot and document ALL posts
+□ Track hashtags and sentiment
+□ Identify if posts contain INTERNAL information
+□ Alert LEGAL team if internal leaks suspected
+```
 
-**OUTPUTS:** Social media monitoring report, recommended response actions, stakeholder alerts
+### 🎯 RESPONSE STRATEGY
+```
+□ DON'T engage directly with anonymous posts
+□ Prepare factual counter-narrative if misinformation spreading
+□ Coordinate with HR if employee posts identified
+□ Use OFFICIAL channels for authoritative information
+```
+
+### 🚨 ESCALATION TRIGGERS
+```
+• Posts going VIRAL with significant inaccuracies
+• Internal information being LEAKED
+• Safety concerns being raised PUBLICLY
+• Media picking up social media narrative
+```
+
+### 📦 REQUIRED OUTPUTS
+**Social media monitoring report • Response actions • Stakeholder alerts**
 
 ---
 
 \newpage
 
-# **CARD E1: OPERATIONS HALT DECISION**
-## **EXECUTIVE TEAM**
-**WHEN:** Safety concerns, multiple system failures, crew refusing to work
+# 🏢 OPERATIONS HALT DECISION
+## EXECUTIVE TEAM | CARD E1
 
-**30-SECOND DECISION FRAMEWORK:**
-- **HALT if:** Cannot ensure safety, crew unsafe, regulatory requirement
-- **CONTINUE if:** Manual procedures adequate, crew confident, safety verified
-- **REDUCE if:** Partial capability, enhanced procedures needed
+### 🚨 WHEN TO USE
+Safety concerns • Multiple system failures • Crew refusing to work
 
-**INFORMATION NEEDED:**
-- [ ] Operations team safety assessment
-- [ ] Technical team system status
-- [ ] Legal team compliance requirements
-- [ ] Media team external visibility
+---
 
-**COMMUNICATION:**
-- [ ] Brief board if operations halted
-- [ ] Coordinate stakeholder messaging
-- [ ] Support team decisions publicly
-- [ ] Prepare for media questions
+### ⚡ 30-SECOND DECISION FRAMEWORK
+```
+🛑 HALT if:
+   • Cannot ensure safety
+   • Crew unsafe
+   • Regulatory requirement
+   
+✅ CONTINUE if:
+   • Manual procedures adequate
+   • Crew confident
+   • Safety verified
+   
+🟡 REDUCE if:
+   • Partial capability
+   • Enhanced procedures needed
+```
 
-**KEY PRINCIPLE:** Support operational team decisions while ensuring proper oversight
+### 📋 INFORMATION NEEDED
+```
+□ OPERATIONS team safety assessment
+□ TECHNICAL team system status
+□ LEGAL team compliance requirements
+□ MEDIA team external visibility
+```
+
+### 📢 COMMUNICATION ACTIONS
+```
+□ Brief BOARD if operations halted
+□ Coordinate stakeholder messaging
+□ Support team decisions PUBLICLY
+□ Prepare for media questions
+```
+
+### 🎯 KEY PRINCIPLE
+**Support operational team decisions while ensuring proper oversight**
 
 ---
 
 \newpage
 
-# **CARD E2: CRISIS ESCALATION DECISIONS**
-## **EXECUTIVE TEAM**
-**WHEN:** Major incident, regulatory investigations, board involvement needed
+# 🚀 CRISIS ESCALATION DECISIONS
+## EXECUTIVE TEAM | CARD E2
 
-**STRATEGIC DECISIONS NEEDED:**
-- [ ] External assistance (cyber forensics, crisis consultants)
-- [ ] Stakeholder communication level (customers, partners, board)
-- [ ] Legal strategy (defensive vs. transparent)
-- [ ] Business continuity priorities
+### 🚨 WHEN TO USE
+Major incident • Regulatory investigations • Board involvement needed
 
-**COORDINATION REQUIREMENTS:**
-- [ ] Legal team: Approve major legal positions
-- [ ] Media team: Approve public statements
-- [ ] Technical team: Resource prioritisation decisions
-- [ ] Operations team: Business continuity support
+---
 
-**ESCALATION TRIGGERS:**
-- Multiple system compromise confirmed
-- Regulatory investigation likely
-- Major customer/partner impact
-- Significant media attention
+### 📋 STRATEGIC DECISIONS NEEDED
+```
+□ External assistance needed?
+   → Cyber forensics, crisis consultants
+   
+□ Stakeholder communication level?
+   → Customers, partners, board
+   
+□ Legal strategy approach?
+   → Defensive vs. transparent
+   
+□ Business continuity priorities?
+   → Critical vs. non-essential operations
+```
 
-**OUTPUTS:** Strategic direction, resource authorisation, stakeholder communication approval
+### 🤝 COORDINATION REQUIREMENTS
+```
+LEGAL TEAM → Approve major legal positions
+MEDIA TEAM → Approve public statements
+TECHNICAL TEAM → Resource prioritisation decisions
+OPERATIONS TEAM → Business continuity support
+```
+
+### ⚡ ESCALATION TRIGGERS
+```
+• Multiple system compromise CONFIRMED
+• Regulatory investigation LIKELY
+• Major customer/partner IMPACT
+• Significant media ATTENTION
+```
+
+### 📦 REQUIRED OUTPUTS
+**Strategic direction • Resource authorisation • Stakeholder approval**
 
 ---
 
 \newpage
 
-# **CARD IC1: MULTI-TEAM COORDINATION**
-## **INCIDENT COORDINATOR**
-**WHEN:** Multiple teams active, resource conflicts, complex incident
+# 🌐 MULTI-TEAM COORDINATION
+## INCIDENT COORDINATOR | CARD IC1
 
-**COORDINATION SETUP (0-5 min):**
-- [ ] Assign communication lead for each team
-- [ ] Establish 15-minute update cycle
-- [ ] Set up central documentation location
-- [ ] Identify resource conflict potential
+### 🚨 WHEN TO USE
+Multiple teams active • Resource conflicts • Complex incident
 
-**PRIORITY MATRIX:**
-1. Safety and regulatory compliance
-2. Evidence preservation and investigation
-3. Operational continuity
-4. Stakeholder communication
+---
 
-**TEAM COORDINATION:**
-- [ ] Technical + Operations: System isolation decisions
-- [ ] Legal + Media: Communication approval
-- [ ] Executive + All: Resource authorisation
-- [ ] All teams: Information sharing
+### 🛠️ COORDINATION SETUP (0-5 minutes)
+```
+□ Assign communication LEAD for each team
+□ Establish 15-minute UPDATE cycle
+□ Set up central DOCUMENTATION location
+□ Identify resource CONFLICT potential
+```
 
-**CONFLICT RESOLUTION:** When teams have competing priorities, apply priority matrix and escalate to executive if needed
+### 📋 PRIORITY MATRIX
+```
+1️⃣ Safety and regulatory compliance
+2️⃣ Evidence preservation and investigation
+3️⃣ Operational continuity
+4️⃣ Stakeholder communication
+```
+
+### 🤝 TEAM COORDINATION
+```
+TECHNICAL + OPERATIONS → System isolation decisions
+LEGAL + MEDIA → Communication approval
+EXECUTIVE + ALL → Resource authorisation
+ALL TEAMS → Information sharing
+```
+
+### ⚔️ CONFLICT RESOLUTION
+**Apply priority matrix → Escalate to EXECUTIVE if needed**
 
 ---
 
 \newpage
 
-# **CARD IC2: EXTERNAL PRESSURE MANAGEMENT**
-## **INCIDENT COORDINATOR**
-**WHEN:** Regulatory deadlines, media pressure, insurer demands, executive escalation
+# 🌍 EXTERNAL PRESSURE MANAGEMENT
+## INCIDENT COORDINATOR | CARD IC2
 
-**PRESSURE POINT MANAGEMENT:**
-- [ ] Map all external deadlines and requirements
-- [ ] Coordinate team priorities against deadlines
-- [ ] Escalate conflicts to executive team
-- [ ] Maintain communication with external parties
+### 🚨 WHEN TO USE
+Regulatory deadlines • Media pressure • Insurer demands • Executive escalation
 
-**RESOURCE ALLOCATION:**
-- Technical team: Investigation vs. restoration balance
-- Legal team: Compliance vs. strategic advice
-- Media team: External vs. internal communication
-- Operations team: Safety vs. capacity
+---
 
-**ESCALATION CRITERIA:**
-- Competing regulatory deadlines
-- Resource shortfalls for critical tasks
-- Team disagreement on priorities
-- External pressure exceeding team capability
+### 📊 PRESSURE POINT MANAGEMENT
+```
+□ Map ALL external deadlines and requirements
+□ Coordinate team priorities against deadlines
+□ Escalate conflicts to EXECUTIVE team
+□ Maintain communication with external parties
+```
 
-**KEY PRINCIPLE:** Coordinate rather than control - teams are experts in their domains
+### 📊 RESOURCE ALLOCATION BALANCE
+```
+TECHNICAL TEAM → Investigation vs. restoration
+LEGAL TEAM → Compliance vs. strategic advice
+MEDIA TEAM → External vs. internal communication
+OPERATIONS TEAM → Safety vs. capacity
+```
+
+### 🚨 ESCALATION CRITERIA
+```
+• Competing regulatory DEADLINES
+• Resource SHORTFALLS for critical tasks
+• Team DISAGREEMENT on priorities
+• External pressure EXCEEDING team capability
+```
+
+### 🎯 KEY PRINCIPLE
+**COORDINATE rather than CONTROL - teams are experts in their domains**
 
 ---
 
 \newpage
 
-# **USAGE INSTRUCTIONS FOR CARDS**
+# 📋 USAGE INSTRUCTIONS FOR CARDS
 
-### **Card Distribution:**
-- Each team gets their relevant cards
-- Incident Coordinator gets all cards for reference
-- Print on cardstock for durability
-- Laminate for repeated use
+## 📦 CARD DISTRIBUTION
+```
+□ Each team gets their relevant cards
+□ Incident Coordinator gets ALL cards for reference
+□ Print on CARDSTOCK for durability
+□ LAMINATE for repeated use
+```
 
-### **When to Use Cards:**
-- **Time pressure situations** (less than 30 minutes to respond)
-- **Multiple simultaneous issues** requiring quick prioritisation
-- **New team members** who need quick reference
-- **High-stress situations** where detailed procedures might be overwhelming
+## ⏰ WHEN TO USE CARDS
+```
+• TIME PRESSURE situations (less than 30 minutes to respond)
+• MULTIPLE SIMULTANEOUS issues requiring quick prioritisation
+• NEW TEAM MEMBERS who need quick reference
+• HIGH-STRESS situations where detailed procedures might be overwhelming
+```
 
-### **Card Maintenance:**
-- Update cards when procedures change
-- Test card effectiveness during drills
-- Gather feedback from teams on card usefulness
-- Add new cards for scenarios not covered
+## 🔧 CARD MAINTENANCE
+```
+□ Update cards when procedures change
+□ Test card effectiveness during drills
+□ Gather feedback from teams on card usefulness
+□ Add new cards for scenarios not covered
+```
 
-### **Integration with Full Procedures:**
-- Cards supplement, don't replace, full procedures
-- Use cards for immediate response, full procedures for comprehensive action
-- Reference full procedures when time permits for complete guidance
-- Use cards to identify which full procedures to follow
+## 🔗 INTEGRATION WITH FULL PROCEDURES
+```
+• Cards SUPPLEMENT, don't replace, full procedures
+• Use cards for IMMEDIATE response, full procedures for comprehensive action
+• Reference full procedures when time permits for complete guidance
+• Use cards to identify which full procedures to follow
+```
 
 ---
 
-**Owner:** All Teams 
-**Reference:** QRC-01 
-**Version:** 1.0 
-**Approved by:** Cyber-Ops Coordination Cell
+**Owner:** All Teams | **Reference:** QRC-01 | **Version:** 2.0 | **Approved by:** Cyber-Ops Coordination Cell
