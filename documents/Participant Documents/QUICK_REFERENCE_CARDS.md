@@ -30,13 +30,13 @@ Unusual system behaviour • Authentication failures • Network issues
 ```
 CHECK FOR TRAPS:
 □ vm-gateway for trap scripts (DO NOT EXECUTE!)
-□ Unauthorised cron jobs in /etc/cron.d/
-□ Scripts in /opt/security/ or /home/ (DOCUMENT ONLY)
+□ Unauthorised cron jobs in /etc/cron.d/ (check 5-min cycles)
+□ Scripts in /opt/security/, /opt/tools/, /home/ (DOCUMENT ONLY)
 
 DANGER SCRIPTS TO WATCH FOR:
-⚠️ restore_feed.sh
-⚠️ remove_malware.sh  
-⚠️ temp_session=true
+⚠️ restore_feed.sh (vm-coretech /home/, vm-opsnode /opt/tools/)
+⚠️ remove_malware.sh (vm-gateway /opt/security/)
+⚠️ temp_session=true (vm-gateway logs)
 ```
 
 ### 📋 HANDOFF PHASE (25-30 minutes)
@@ -82,9 +82,10 @@ Multiple systems failing • Coordinated attacks • Evidence of systematic comp
 
 ### ⚠️ CRITICAL COORDINATION
 ```
-□ Check with OPS before isolating Node-04
+□ Check with OPS before isolating Node-04 (network node)
 □ Report service account failures IMMEDIATELY
 □ Document timeline for LEGAL team
+□ Check /opt/reference/ for hash verification files
 ```
 
 ### 📦 OUTPUTS REQUIRED
@@ -114,7 +115,7 @@ Camera feeds black • Frozen screens • Static display • Visual monitoring l
 ```
 □ Implement full spotter network
 □ Brief ALL crew on manual safety protocols
-□ Calculate reduced operational capacity
+□ Calculate reduced operational capacity (use Downtime Impact Estimator)
 □ Coordinate with TECHNICAL team on restoration
 ```
 
