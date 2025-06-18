@@ -7,7 +7,7 @@ echo "🔄 Resetting Portfall scenario for clean startup..."
 
 # Stop all services
 echo "📦 Stopping Docker services..."
-docker-compose down
+docker compose down
 
 # Clean up agent state
 echo "🧹 Cleaning agent state..."
@@ -18,7 +18,7 @@ chmod 666 agent/scenario_state.json
 
 # Start services with build
 echo "🚀 Starting services..."
-docker-compose up -d --build
+docker compose up -d --build
 
 # Wait for services to be ready
 echo "⏳ Waiting for services to start..."
@@ -26,7 +26,7 @@ sleep 10
 
 # Check service health
 echo "🔍 Checking service status..."
-docker-compose ps
+docker compose ps
 
 echo "✅ Scenario reset complete!"
 echo ""
