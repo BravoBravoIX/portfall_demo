@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Manual Ops SOP.docx
 
 **INSERT LOCATION:** Add as new section after existing manual operations procedures
@@ -9,16 +13,16 @@
 ## Manual Override Authorization Process
 
 ### Purpose
-This procedure establishes clear authorization workflow for manual overrides during system failures, ensuring safety while maintaining operational continuity. Use when automated systems are unreliable or compromised.
+This procedure establishes clear authorisation workflow for manual overrides during system failures, ensuring safety while maintaining operational continuity. Use when automated systems are unreliable or compromised.
 
 ### When to Use
 - CCTV blackout affecting crane operations
 - AIS signal loss requiring manual navigation
-- Automated crane synchronization failures
+- Automated crane synchronisation failures
 - System anomalies creating unsafe conditions
 - Crew refusing to work with automated systems
 
-### Authorization Levels
+### Authorisation Levels
 
 #### LEVEL 1: Immediate Safety Override (No approval required)
 - Imminent danger to personnel
@@ -43,7 +47,7 @@ This procedure establishes clear authorization workflow for manual overrides dur
 - Extended operations suspension
 - Media/regulatory visibility operations
 
-### Authorization Workflow
+### Authorisation Workflow
 
 #### Step 1: Situation Assessment (2 minutes)
 1. **Safety Evaluation**
@@ -57,11 +61,11 @@ This procedure establishes clear authorization workflow for manual overrides dur
    - [ ] Estimate operational capacity under manual mode
    - [ ] Calculate expected timeline for resolution
 
-#### Step 2: Authorization Request
-**For Level 2-4:** Use standard authorization format:
+#### Step 2: Authorisation Request
+**For Level 2-4:** Use standard authorisation format:
 
 **TO:** [Supervisor/Operations Manager/Executive]  
-**SUBJECT:** Manual Override Authorization Request - [System]  
+**SUBJECT:** Manual Override Authorisation Request - [System]  
 **PRIORITY:** [URGENT/HIGH/MEDIUM]
 
 **SITUATION:** [Brief description of technical issue]  
@@ -73,7 +77,7 @@ This procedure establishes clear authorization workflow for manual overrides dur
 
 #### Step 3: Implementation Verification
 1. **Pre-Override Checklist**
-   - [ ] Authorization received and documented
+   - [ ] Authorisation received and documented
    - [ ] Crew briefed on manual procedures
    - [ ] Safety equipment verified operational
    - [ ] Communication channels confirmed working
@@ -86,7 +90,7 @@ This procedure establishes clear authorization workflow for manual overrides dur
 3. **Status Communication**
    - [ ] Technical Team: "Manual override implemented for [system]. Estimated duration: [time]"
    - [ ] Incident Coordinator: "Operations status: Manual mode - [capacity]% capacity"
-   - [ ] Executive (Level 3-4): "Manual operations authorized - safety verified"
+   - [ ] Executive (Level 3-4): "Manual operations authorised - safety verified"
 
 ### Special Circumstances
 
@@ -97,7 +101,7 @@ This procedure establishes clear authorization workflow for manual overrides dur
 
 #### AIS Signal Loss
 - **Immediate:** Switch to radar/visual navigation
-- **Short-term:** Coordinate with harbor master for traffic management
+- **Short-term:** Coordinate with harbour master for traffic management
 - **Extended:** Reduce vessel movement to essential only
 
 #### Crew Safety Concerns
@@ -122,7 +126,7 @@ This procedure establishes clear authorization workflow for manual overrides dur
 ### Communication Templates
 
 #### To Technical Team:
-"Manual override authorized for [system]. Please prioritize [system] restoration. Operations continuing at [X]% capacity."
+"Manual override authorised for [system]. Please prioritise [system] restoration. Operations continuing at [X]% capacity."
 
 #### To Executive Team:
 "Manual operations implemented safely. Impact: [description]. Restoration timeline: [estimate]. Continuous monitoring in place."
@@ -136,7 +140,7 @@ This procedure establishes clear authorization workflow for manual overrides dur
 - [ ] Technical issue resolved and verified
 - [ ] Systems tested in non-operational mode
 - [ ] Crew briefed on return to automation
-- [ ] Manual override authorization formally closed
+- [ ] Manual override authorisation formally closed
 
 #### Restoration Process
 1. **Gradual Transition:** Return one system at a time where possible
@@ -146,7 +150,7 @@ This procedure establishes clear authorization workflow for manual overrides dur
 
 ### Success Criteria
 - Manual operations implemented safely without delay
-- Clear authorization trail documented
+- Clear authorisation trail documented
 - Operational capacity maintained at acceptable level
 - Crew confidence and safety maintained
 - Smooth transition back to automated operations
@@ -155,4 +159,4 @@ This procedure establishes clear authorization workflow for manual overrides dur
 - Use with: CCTV Blackout Response SOP
 - Coordinate with: Safety Risk Assessment Template
 - Reference: Technical Containment Guide (if technical cause suspected)
-- Escalate to: Crisis Decision Authority Matrix (for complex authorization)
+- Escalate to: Crisis Decision Authority Matrix (for complex authorisation)

@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # Document Navigation Guide
 
 ## Document Information
@@ -17,7 +21,7 @@
 
 ## ⚡ HIGH PRIORITY - Use Within 15 Minutes  
 **For investigation and containment:**
-- `Log_Deletion_Investigation.md` - Finding and analyzing deleted log evidence
+- `Log_Deletion_Investigation.md` - Finding and analysing deleted log evidence
 - `AIS_Signal_Validation.md` - Verifying GPS/AIS system integrity
 - `CCTV_Blackout_Response.md` - Technical recovery procedures for camera systems
 - `Network_Diagnostics_SOP.md` - Network analysis and isolation procedures
@@ -28,7 +32,7 @@
 - `Technical Containment Guide.md` - Full system isolation and containment
 - `Node Isolation Procedure.md` - Network node isolation procedures  
 - `Authentication_Failure_Response_SOP.md` - Authentication system troubleshooting
-- `Manual_Override_Authorization.md` - Manual system override procedures
+- `Manual_Override_Authorisation.md` - Manual system override procedures
 - `Forensics Summary Template.md` - Evidence documentation templates
 
 ## 📝 REPORTING - Use for Documentation
@@ -51,8 +55,8 @@
 **For maintaining operations:**
 - `CCTV_Blackout_Response.md` - Manual spotting and safety procedures
 - `Manual Ops SOP.md` - Manual operation procedures when systems down
-- `Authentication_Failure_Response_SOP.md` - Manual authorization procedures
-- `Manual_Override_Authorization.md` - Override procedures and documentation
+- `Authentication_Failure_Response_SOP.md` - Manual authorisation procedures
+- `Manual_Override_Authorisation.md` - Override procedures and documentation
 
 ## 📋 COORDINATION - Use for Planning
 **For incident coordination:**
@@ -131,7 +135,7 @@
 - `Multi_System_Failure_Coordination_Guide.md` - Cross-team coordination oversight
 
 ## 📋 GOVERNANCE - Use for Oversight
-**For organizational governance:**
+**For organisational governance:**
 - `Safety_Risk_Assessment_Template.md` - Risk assessment oversight
 - `Crisis_De_escalation_Criteria_and_Process.md` - De-escalation decision criteria
 - `Inter_Team_Communication_Protocol.md` - Communication governance

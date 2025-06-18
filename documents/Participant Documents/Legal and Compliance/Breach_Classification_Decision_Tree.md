@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Breach Disclosure Checklist.docx
 
 **INSERT LOCATION:** Add as new section at the beginning, before existing checklist items
@@ -15,25 +19,25 @@ This decision tree provides systematic classification of security incidents to d
 
 #### CATEGORY 1: Technical Anomaly (No breach classification)
 - System glitches or configuration errors
-- No evidence of unauthorized access
+- No evidence of unauthorised access
 - No data exposure or system compromise
 - Standard operational procedures sufficient
 
 #### CATEGORY 2: Security Incident (Internal review required)
 - Suspicious activity detected but contained
-- Potential unauthorized access attempts
+- Potential unauthorised access attempts
 - System integrity questions but no confirmed compromise
 - Enhanced monitoring and investigation needed
 
 #### CATEGORY 3: Confirmed Breach (Regulatory review required)
-- Confirmed unauthorized access to systems
+- Confirmed unauthorised access to systems
 - Evidence of data exposure or system manipulation
 - Operational impact from security compromise
 - Formal breach protocols and notifications required
 
-#### CATEGORY 4: Persistent Unauthorized Access (Immediate escalation)
-- Evidence of ongoing unauthorized system access
-- Installation of unauthorized scripts or programs
+#### CATEGORY 4: Persistent Unauthorised Access (Immediate escalation)
+- Evidence of ongoing unauthorised system access
+- Installation of unauthorised scripts or programs
 - Lateral movement between systems
 - Advanced persistent threat characteristics
 
@@ -41,7 +45,7 @@ This decision tree provides systematic classification of security incidents to d
 
 #### Step 1: Initial Evidence Assessment (5 minutes)
 
-**Question 1:** Is there evidence of unauthorized access to systems?
+**Question 1:** Is there evidence of unauthorised access to systems?
 - **NO** → Proceed to Technical Anomaly Assessment
 - **YES** → Proceed to Step 2
 
@@ -49,7 +53,7 @@ This decision tree provides systematic classification of security incidents to d
 - **NO** → Classify as Security Incident (Category 2)
 - **YES** → Proceed to Step 3
 
-**Question 3:** Is there evidence of persistent or ongoing unauthorized access?
+**Question 3:** Is there evidence of persistent or ongoing unauthorised access?
 - **NO** → Classify as Confirmed Breach (Category 3)
 - **YES** → Classify as Persistent Access (Category 4)
 
@@ -57,7 +61,7 @@ This decision tree provides systematic classification of security incidents to d
 **Indicators suggesting Category 1:**
 - [ ] System logs show configuration errors
 - [ ] Network issues correlate with maintenance activities
-- [ ] No authentication failures or unauthorized commands
+- [ ] No authentication failures or unauthorised commands
 - [ ] Vendor systems involved with known issues
 
 **If ANY of these are present, escalate to Category 2:**
@@ -68,10 +72,10 @@ This decision tree provides systematic classification of security incidents to d
 
 #### Step 3: Persistent Access Evaluation
 **Indicators of Category 4 (Persistent Access):**
-- [ ] Unauthorized cron jobs or scheduled tasks detected
+- [ ] Unauthorised cron jobs or scheduled tasks detected
 - [ ] Evidence of lateral movement between systems
-- [ ] Creation of unauthorized user accounts or privileges
-- [ ] Installation of unauthorized software or scripts
+- [ ] Creation of unauthorised user accounts or privileges
+- [ ] Installation of unauthorised software or scripts
 - [ ] Log deletion or tampering evidence
 - [ ] Command execution outside normal parameters
 
@@ -108,7 +112,7 @@ This decision tree provides systematic classification of security incidents to d
 - Consider Maritime Security Authority notification
 - Evaluate customer/partner notification requirements
 
-#### Category 4: Persistent Unauthorized Access
+#### Category 4: Persistent Unauthorised Access
 **Legal Obligations:**
 - Immediate executive escalation
 - External legal counsel engagement
@@ -138,7 +142,7 @@ This decision tree provides systematic classification of security incidents to d
 - **Insurance:** Formal notification within 24 hours
 - **Regulatory:** Assessment complete within 24 hours, notifications within 72 hours
 
-#### Category 4: Persistent Unauthorized Access
+#### Category 4: Persistent Unauthorised Access
 - **Internal:** Immediate executive notification
 - **Legal:** External counsel within 4 hours
 - **Insurance:** Immediate notification
@@ -162,10 +166,10 @@ This decision tree provides systematic classification of security incidents to d
 
 ### Cross-Reference with Specific Incidents
 
-#### Unauthorized Cron Jobs (INJ016A, INJ017A)
+#### Unauthorised Cron Jobs (INJ016A, INJ017A)
 - **Initial Classification:** Category 2 (Security Incident)
 - **Escalate to Category 4 if:** Evidence of system manipulation or ongoing access
-- **Key Evidence:** Purpose of script, authorization for installation, system impact
+- **Key Evidence:** Purpose of script, authorisation for installation, system impact
 
 #### Log Deletion (INJ016B)
 - **Initial Classification:** Category 3 (Confirmed Breach)
@@ -174,13 +178,13 @@ This decision tree provides systematic classification of security incidents to d
 
 #### Authentication Failures (INJ008A)
 - **Initial Classification:** Category 2 (Security Incident)
-- **Escalate to Category 3 if:** Successful unauthorized access confirmed
+- **Escalate to Category 3 if:** Successful unauthorised access confirmed
 - **Key Evidence:** Number of attempts, source, success rate
 
 #### System Configuration Changes (INJ006A)
 - **Initial Classification:** Category 2 (Security Incident)
-- **Escalate to Category 3 if:** Unauthorized modifications confirmed
-- **Key Evidence:** Nature of changes, authorization, operational impact
+- **Escalate to Category 3 if:** Unauthorised modifications confirmed
+- **Key Evidence:** Nature of changes, authorisation, operational impact
 
 ### Decision Documentation Template
 

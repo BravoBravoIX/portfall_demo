@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Signal Anomaly Response.docx
 
 **INSERT LOCATION:** Add as new section after existing signal anomaly procedures
@@ -50,7 +54,7 @@ This procedure provides real-time validation steps for AIS signal integrity and 
 3. **Operational Correlation**
    - [ ] Check if missing vessels are actively loading/unloading
    - [ ] Verify vessel scheduling matches AIS displays
-   - [ ] Confirm harbor pilot communications with "missing" vessels
+   - [ ] Confirm harbour pilot communications with "missing" vessels
 
 #### Phase 3: Pattern Analysis (Next 7 minutes)
 1. **Single vs. Multiple Vessel Analysis**
@@ -89,7 +93,7 @@ This procedure provides real-time validation steps for AIS signal integrity and 
 
 #### For Missing Individual Vessels
 1. **Radio Contact:** Attempt direct VHF contact with vessel
-2. **Harbor Pilot:** Confirm vessel position through pilot services
+2. **Harbour Pilot:** Confirm vessel position through pilot services
 3. **Visual Verification:** Send personnel to physically locate vessel
 4. **AIS Transponder:** Request vessel to reset AIS equipment
 
@@ -97,7 +101,7 @@ This procedure provides real-time validation steps for AIS signal integrity and 
 1. **System Restart:** Consider AIS receiver restart if safe to do so
 2. **Backup Systems:** Switch to backup AIS receiver if available
 3. **Alternative Tracking:** Use radar or CCTV for vessel positions
-4. **Harbor Coordination:** Alert harbor master to tracking limitations
+4. **Harbour Coordination:** Alert harbour master to tracking limitations
 
 #### For All Vessels Missing
 1. **Emergency Mode:** Declare AIS system failure
@@ -113,7 +117,7 @@ This procedure provides real-time validation steps for AIS signal integrity and 
 #### To Technical Team
 - "AIS signal loss correlates with [network/CCTV] issues at [time]. Cross-system investigation recommended. Technical coordination needed."
 
-#### To Harbor Master
+#### To Harbour Master
 - "AIS tracking compromised for [vessels/area]. Implementing [backup procedures]. Request increased radio coordination."
 
 #### To Incident Coordinator
@@ -165,6 +169,6 @@ This procedure provides real-time validation steps for AIS signal integrity and 
 
 ### Related Procedures
 - Use with: Network Diagnostics SOP (for correlation analysis)
-- Coordinate with: Manual Override Authorization (if manual tracking needed)
+- Coordinate with: Manual Override Authorisation (if manual tracking needed)
 - Reference: Technical Containment Guide (if cyber threat suspected)
 - Escalate to: Crisis Communications SOP (if public safety implications)

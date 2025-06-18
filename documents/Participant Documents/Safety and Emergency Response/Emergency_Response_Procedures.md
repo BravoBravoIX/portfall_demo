@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # Emergency Response Procedures
 
 ## Document Information
@@ -9,7 +13,7 @@
 ---
 
 ## Purpose
-This procedure provides immediate response framework for emergency situations, ensuring rapid, coordinated, and effective emergency response to protect personnel and minimize operational impact.
+This procedure provides immediate response framework for emergency situations, ensuring rapid, coordinated, and effective emergency response to protect personnel and minimise operational impact.
 
 ## When to Use These Procedures
 - Personnel injury or medical emergency
@@ -36,7 +40,7 @@ This procedure provides immediate response framework for emergency situations, e
 
 ### Class 3: Security Emergency
 **Definition:** Security threat, criminal activity, or personnel safety threat
-**Examples:** Unauthorized access, threats, violence, suspicious activity
+**Examples:** Unauthorised access, threats, violence, suspicious activity
 **Response Time:** Immediate (0-5 minutes)
 **Authority:** Security personnel or any person observing threat
 
@@ -73,7 +77,7 @@ This procedure provides immediate response framework for emergency situations, e
 
 **External Notification (As Required):**
 - [ ] **911/Emergency Services:** For medical, fire, or police needs
-- [ ] **Harbor Master:** For marine or port-wide emergencies
+- [ ] **Harbour Master:** For marine or port-wide emergencies
 - [ ] **Regulatory Agencies:** For reportable incidents
 - [ ] **Emergency Contacts:** For notifications to families/next of kin
 
@@ -180,7 +184,7 @@ This procedure provides immediate response framework for emergency situations, e
 2. **Response Actions:**
    - **ACTIVE THREAT:** Evacuate, hide, or defend as appropriate
    - **SUSPICIOUS ACTIVITY:** Observe and report, do not confront
-   - **UNAUTHORIZED ACCESS:** Challenge if safe, alert security
+   - **UNAUTHORISED ACCESS:** Challenge if safe, alert security
    - **CRIMINAL ACTIVITY:** Do not intervene, call police immediately
 
 3. **Law Enforcement Coordination:**
@@ -364,7 +368,7 @@ This procedure provides immediate response framework for emergency situations, e
 - Emergency Services: 911
 - Fire Department: [Local number]
 - Police: [Local number]
-- Harbor Master: [Phone number]
+- Harbour Master: [Phone number]
 - Coast Guard: [Phone number]
 - Poison Control: 1-800-222-1222
 
@@ -406,7 +410,7 @@ This procedure provides immediate response framework for emergency situations, e
 **Quarterly Exercises:**
 - Tabletop emergency scenarios
 - Multi-agency coordination exercises
-- Equipment training and familiarization
+- Equipment training and familiarisation
 
 **Annual Activities:**
 - Comprehensive emergency exercise
@@ -418,7 +422,7 @@ This procedure provides immediate response framework for emergency situations, e
 
 ## Success Criteria
 - Rapid and effective response to emergency situations
-- Protection of personnel safety and minimization of injuries
+- Protection of personnel safety and minimisation of injuries
 - Successful coordination with external emergency services
 - Effective communication during emergency response
 - Minimal operational impact through efficient emergency management

@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Legal Risk Escalation Flowchart.docx
 
 **INSERT LOCATION:** Add as new section after existing escalation procedures
@@ -21,8 +25,8 @@ This tracker provides systematic management of overlapping regulatory notificati
 - **Follow-up Reports:** As required during investigation
 
 **Triggers:**
-- Unauthorized access to critical systems
-- Evidence of persistent unauthorized access
+- Unauthorised access to critical systems
+- Evidence of persistent unauthorised access
 - Data exposure affecting operations
 - Cyber attacks affecting multiple systems
 
@@ -114,7 +118,7 @@ This tracker provides systematic management of overlapping regulatory notificati
 2. **Timeline Coordination**
    - [ ] Map all applicable deadlines
    - [ ] Identify deadline conflicts or overlaps
-   - [ ] Prioritize notifications by criticality
+   - [ ] Prioritise notifications by criticality
 
 3. **Internal Coordination**
    - [ ] Brief executive team on compliance requirements
@@ -218,7 +222,7 @@ This tracker provides systematic management of overlapping regulatory notificati
 - **Secondary:** PIC if personal data logs affected
 - **Timeline:** 24 hours for Cybersecurity Act, 72 hours for PIC
 
-#### Unauthorized Access (INJ016A, INJ017A)
+#### Unauthorised Access (INJ016A, INJ017A)
 - **Primary:** Cybersecurity Act for persistent access
 - **Secondary:** All others depending on system impact
 - **Timeline:** 24 hours initial, varying for detailed reports

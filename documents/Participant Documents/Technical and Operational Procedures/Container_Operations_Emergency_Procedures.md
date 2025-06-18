@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # Container Operations Emergency Procedures
 
 ## Document Information
@@ -15,8 +19,8 @@ This procedure provides specific guidance for managing container operations duri
 - Container misrouting incidents (containers to wrong berths)
 - Gantry control system failures requiring manual operation
 - CCTV blackouts affecting container operation safety
-- Container management system failures or unauthorized changes
-- Crane synchronization errors or safety concerns
+- Container management system failures or unauthorised changes
+- Crane synchronisation errors or safety concerns
 
 ---
 
@@ -64,7 +68,7 @@ Immediate Hazard: [Yes/No - Description if yes]
    - [ ] **Route Clearance:** Clear path from current location to correct berth
 
 3. **Safety Considerations:**
-   - [ ] **Load Verification:** Confirm container weight and center of gravity
+   - [ ] **Load Verification:** Confirm container weight and centre of gravity
    - [ ] **Weather Conditions:** Wind speed and direction for safe lifting
    - [ ] **Visual Monitoring:** Spotter assignments for crane operation
    - [ ] **Emergency Procedures:** Ensure emergency stop procedures ready

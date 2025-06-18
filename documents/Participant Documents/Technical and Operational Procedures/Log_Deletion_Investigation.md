@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Technical Containment Guide.docx
 
 **INSERT LOCATION:** Add as new section after existing containment procedures
@@ -15,7 +19,7 @@ This procedure provides systematic investigation steps for suspected or confirme
 - System alerts indicating log file deletion
 - Missing logs during routine security reviews
 - Gaps in log timelines correlating with incidents
-- Evidence of unauthorized access to log files
+- Evidence of unauthorised access to log files
 - System administrators reporting log anomalies
 
 ### Immediate Response (First 10 minutes)
@@ -50,7 +54,7 @@ This procedure provides systematic investigation steps for suspected or confirme
 3. **Chain of Custody Initiation**
    - [ ] Begin forensic evidence log
    - [ ] Assign evidence custodian
-   - [ ] Restrict system access to authorized investigators
+   - [ ] Restrict system access to authorised investigators
 
 ### Investigation Phase (10-45 minutes)
 
@@ -68,7 +72,7 @@ This procedure provides systematic investigation steps for suspected or confirme
 3. **Command History Review**
    - [ ] Check bash/shell history for deletion commands
    - [ ] Review sudo logs for privileged operations
-   - [ ] Analyze cron jobs or scheduled tasks
+   - [ ] Analyse cron jobs or scheduled tasks
 
 #### Deletion Pattern Analysis
 1. **Systematic vs. Targeted Deletion**
@@ -85,7 +89,7 @@ This procedure provides systematic investigation steps for suspected or confirme
 3. **Timeline Correlation**
    - [ ] Compare deletion time with other security events
    - [ ] Check correlation with system anomalies
-   - [ ] Analyze relationship to operational incidents
+   - [ ] Analyse relationship to operational incidents
 
 ### Technical Investigation
 
@@ -98,7 +102,7 @@ This procedure provides systematic investigation steps for suspected or confirme
 2. **File System Metadata Analysis**
    - [ ] Check file creation/modification timestamps
    - [ ] Review file permission changes
-   - [ ] Analyze disk space usage patterns
+   - [ ] Analyse disk space usage patterns
 
 3. **Backup and Archive Review**
    - [ ] Check if deleted logs exist in backups
@@ -114,7 +118,7 @@ This procedure provides systematic investigation steps for suspected or confirme
 2. **External Communication**
    - [ ] Check for data exfiltration attempts
    - [ ] Review outbound network traffic
-   - [ ] Analyze communication to external systems
+   - [ ] Analyse communication to external systems
 
 ### Evidence Recovery and Reconstruction
 
@@ -127,12 +131,12 @@ This procedure provides systematic investigation steps for suspected or confirme
 2. **Application and Service Logs**
    - [ ] Review application-specific logs
    - [ ] Check database audit logs
-   - [ ] Analyze service-specific logging
+   - [ ] Analyse service-specific logging
 
 3. **Network Device Logs**
    - [ ] Review firewall and router logs
    - [ ] Check network switch logs
-   - [ ] Analyze intrusion detection system logs
+   - [ ] Analyse intrusion detection system logs
 
 #### Timeline Reconstruction
 1. **Event Correlation**
@@ -141,7 +145,7 @@ This procedure provides systematic investigation steps for suspected or confirme
    - [ ] Identify gaps requiring investigation
 
 2. **Activity Pattern Analysis**
-   - [ ] Analyze normal vs. anomalous activity patterns
+   - [ ] Analyse normal vs. anomalous activity patterns
    - [ ] Identify unusual system or user behavior
    - [ ] Document potential indicators of compromise
 
@@ -153,16 +157,16 @@ This procedure provides systematic investigation steps for suspected or confirme
    - **Response:** Standard incident procedures, improved controls
 
 2. **Insider Threat**
-   - **Indicators:** Deliberate deletion by authorized user, selective targeting
+   - **Indicators:** Deliberate deletion by authorised user, selective targeting
    - **Response:** HR coordination, enhanced monitoring, possible termination
 
 3. **External Compromise**
-   - **Indicators:** Unauthorized access, systematic deletion, correlation with other attacks
+   - **Indicators:** Unauthorised access, systematic deletion, correlation with other attacks
    - **Response:** Cyber team escalation, potential law enforcement, full investigation
 
 #### Escalation Criteria
 **IMMEDIATE ESCALATION TO CYBER TEAM IF:**
-- [ ] Evidence of unauthorized access to log systems
+- [ ] Evidence of unauthorised access to log systems
 - [ ] Systematic deletion suggesting cover-up of extensive activity
 - [ ] Correlation with other confirmed security incidents
 - [ ] Critical security logs deleted (authentication, privileged access)
@@ -229,7 +233,7 @@ This procedure provides systematic investigation steps for suspected or confirme
 - Preventive measures implemented to reduce future risk
 
 ### Related Procedures
-- Use with: Breach Classification Decision Tree (for incident categorization)
+- Use with: Breach Classification Decision Tree (for incident categorisation)
 - Coordinate with: Network Diagnostics SOP (if network compromise suspected)
 - Reference: Forensics Summary Template (for evidence documentation)
 - Escalate to: Crisis Decision Authority Matrix (for executive decisions)

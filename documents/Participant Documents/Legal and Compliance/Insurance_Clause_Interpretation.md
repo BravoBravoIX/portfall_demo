@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Insurance Communications Template.docx
 
 **INSERT LOCATION:** Add as new section before existing template content
@@ -28,21 +32,21 @@ This guide provides framework for interpreting key insurance policy clauses duri
    - Reduced operational capacity
 
 3. **Covered Cyber Events:**
-   - Unauthorized system access
+   - Unauthorised system access
    - External interference with systems
-   - System manipulation by unauthorized parties
+   - System manipulation by unauthorised parties
 
 **Application to Current Scenarios:**
 - **AIS Anomalies (INJ002A, INJ005A):** Likely covered if external interference suspected
 - **Container Misrouting (INJ010B):** Covered if system manipulation confirmed
-- **System Configuration Changes (INJ006A):** Covered if unauthorized access proven
+- **System Configuration Changes (INJ006A):** Covered if unauthorised access proven
 
 #### Clause 7.4: Cyber Attack with Systemic Risk
 **Policy Language:** "Enhanced coverage provisions apply when cyber attacks create systemic operational risk affecting multiple operational systems."
 
 **Interpretation Framework:**
 1. **Cyber Attack Defined:**
-   - Deliberate unauthorized access
+   - Deliberate unauthorised access
    - System manipulation with malicious intent
    - Coordinated interference with multiple systems
 
@@ -59,7 +63,7 @@ This guide provides framework for interpreting key insurance policy clauses duri
 **Application to Current Scenarios:**
 - **Multi-System Failures:** If network, AIS, and CCTV all affected by same incident
 - **Coordinated Attacks:** Evidence of deliberate multi-system targeting
-- **Persistent Access:** Ongoing unauthorized access affecting multiple systems
+- **Persistent Access:** Ongoing unauthorised access affecting multiple systems
 
 #### Clause 12.3: Vendor System Integration
 **Policy Language:** "Coverage extends to losses arising from cyber events affecting integrated vendor systems, subject to vendor cooperation requirements."
@@ -82,10 +86,10 @@ This guide provides framework for interpreting key insurance policy clauses duri
 
 ### Coverage Determination Process
 
-#### Step 1: Incident Characterization (10 minutes)
+#### Step 1: Incident Characterisation (10 minutes)
 1. **Technical Assessment**
    - [ ] Document specific systems affected
-   - [ ] Identify evidence of unauthorized access
+   - [ ] Identify evidence of unauthorised access
    - [ ] Assess cross-system impact patterns
 
 2. **Operational Impact Assessment**
@@ -216,7 +220,7 @@ This guide provides framework for interpreting key insurance policy clauses duri
 - Maximum coverage obtained under policy terms
 
 ### Related Procedures
-- Use with: Breach Classification Decision Tree (for incident categorization)
+- Use with: Breach Classification Decision Tree (for incident categorisation)
 - Coordinate with: Legal Risk Escalation Flowchart
 - Reference: Legal Precedent Summary Sheet (for coverage disputes)
 - Escalate to: Crisis Decision Authority Matrix (for coverage strategy decisions)

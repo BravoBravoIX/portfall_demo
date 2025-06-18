@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # Quick Reference Action Cards
 
 ## Document Information
@@ -10,7 +14,7 @@
 # TECHNICAL TEAM QUICK REFERENCE CARDS
 
 ## CARD T1: SYSTEM ANOMALY INVESTIGATION
-**WHEN:** Unusual system behavior, authentication failures, network issues
+**WHEN:** Unusual system behaviour, authentication failures, network issues
 
 **IMMEDIATE (0-5 min):**
 - [ ] Preserve evidence FIRST (hash all logs)
@@ -19,7 +23,7 @@
 
 **INVESTIGATION (5-25 min):**
 - [ ] Check vm-gateway for trap scripts (DO NOT EXECUTE)
-- [ ] Look for unauthorized cron jobs in /etc/cron.d/
+- [ ] Look for unauthorised cron jobs in /etc/cron.d/
 - [ ] Document but don't run scripts in /opt/security/, /home/
 
 **HANDOFF (25-30 min):**
@@ -89,7 +93,7 @@
 - [ ] Alert all operators to authentication issues
 
 **MANUAL OVERRIDE (2-15 min):**
-- [ ] Implement manual authorization procedures
+- [ ] Implement manual authorisation procedures
 - [ ] Use alternative verification methods
 - [ ] Enhanced spotting for crane operations
 - [ ] Document all manual overrides
@@ -106,7 +110,7 @@
 # LEGAL TEAM QUICK REFERENCE CARDS
 
 ## CARD L1: CYBER INCIDENT ESCALATION
-**WHEN:** Evidence of unauthorized access, system compromise, data breach
+**WHEN:** Evidence of unauthorised access, system compromise, data breach
 
 **IMMEDIATE ASSESSMENT (0-10 min):**
 - [ ] Criminal activity suspected? → Escalate to executive immediately
@@ -243,7 +247,7 @@
 **COORDINATION REQUIREMENTS:**
 - [ ] Legal team: Approve major legal positions
 - [ ] Media team: Approve public statements
-- [ ] Technical team: Resource prioritization decisions
+- [ ] Technical team: Resource prioritisation decisions
 - [ ] Operations team: Business continuity support
 
 **ESCALATION TRIGGERS:**
@@ -252,7 +256,7 @@
 - Major customer/partner impact
 - Significant media attention
 
-**OUTPUTS:** Strategic direction, resource authorization, stakeholder communication approval
+**OUTPUTS:** Strategic direction, resource authorisation, stakeholder communication approval
 
 ---
 
@@ -276,7 +280,7 @@
 **TEAM COORDINATION:**
 - [ ] Technical + Operations: System isolation decisions
 - [ ] Legal + Media: Communication approval
-- [ ] Executive + All: Resource authorization
+- [ ] Executive + All: Resource authorisation
 - [ ] All teams: Information sharing
 
 **CONFLICT RESOLUTION:** When teams have competing priorities, apply priority matrix and escalate to executive if needed
@@ -318,7 +322,7 @@
 
 ### **When to Use Cards:**
 - **Time pressure situations** (less than 30 minutes to respond)
-- **Multiple simultaneous issues** requiring quick prioritization
+- **Multiple simultaneous issues** requiring quick prioritisation
 - **New team members** who need quick reference
 - **High-stress situations** where detailed procedures might be overwhelming
 

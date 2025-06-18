@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Crisis Communications SOP.docx
 
 **INSERT LOCATION:** Add as new section after existing crisis communication procedures
@@ -9,12 +13,12 @@
 ## Internal Information Leak Response Procedures
 
 ### Purpose
-This procedure provides immediate response protocols when internal documents, communications, or information appear in public forums, media, or unauthorized channels. Use when confidential organizational information is discovered outside authorized channels.
+This procedure provides immediate response protocols when internal documents, communications, or information appear in public forums, media, or unauthorised channels. Use when confidential organisational information is discovered outside authorised channels.
 
 ### When to Use
 - Internal emails or memos discovered on public forums
 - HR documents or communications leaked to media
-- Vendor correspondence appearing in unauthorized locations
+- Vendor correspondence appearing in unauthorised locations
 - Confidential operational information shared externally
 - Employee communications leaked to industry forums
 
@@ -32,9 +36,9 @@ This procedure provides immediate response protocols when internal documents, co
    - [ ] Assess distribution scope and audience reach
 
 3. **Authenticity Verification**
-   - [ ] Confirm information is genuine organizational content
+   - [ ] Confirm information is genuine organisational content
    - [ ] Check for potential alterations or fabrications
-   - [ ] Verify source documents exist in organizational systems
+   - [ ] Verify source documents exist in organisational systems
 
 #### Step 2: Immediate Containment
 1. **Internal Notifications**
@@ -96,7 +100,7 @@ This procedure provides immediate response protocols when internal documents, co
 
 3. **CORRECTION STRATEGY**
    - **When appropriate:** Information is inaccurate or misleading
-   - **Response:** Correct misinformation while minimizing leak confirmation
+   - **Response:** Correct misinformation while minimising leak confirmation
    - **Example:** "Reports contain inaccuracies about our operational procedures"
 
 4. **ACKNOWLEDGMENT STRATEGY**
@@ -111,8 +115,8 @@ This procedure provides immediate response protocols when internal documents, co
    - **Tertiary:** This does not affect our operational capabilities/commitments
 
 2. **Supporting Messages**
-   - Emphasize normal business operations continuing
-   - Highlight organizational commitment to transparency where appropriate
+   - Emphasise normal business operations continuing
+   - Highlight organisational commitment to transparency where appropriate
    - Reinforce stakeholder relationship commitments
 
 ### Communication Protocols
@@ -132,7 +136,7 @@ This procedure provides immediate response protocols when internal documents, co
 "We are investigating reports of unauthorized disclosure of internal communications. We take information security seriously and will take appropriate action based on our investigation findings."
 
 2. **Clarification Statement (if misinformation present)**
-"Recent reports mischaracterize routine operational discussions. We remain committed to [relevant organizational commitments] and continue normal operations."
+"Recent reports mischaracterize routine operational discussions. We remain committed to [relevant organisational commitments] and continue normal operations."
 
 3. **Investigation Statement (for serious breaches)**
 "We are conducting a thorough investigation into unauthorized disclosure of internal communications. We have engaged appropriate specialists and will take all necessary steps to prevent future incidents."
@@ -203,7 +207,7 @@ This procedure provides immediate response protocols when internal documents, co
 ### Success Criteria
 - Rapid identification and assessment of leaked information
 - Appropriate response strategy implemented effectively
-- Damage to organizational reputation minimized
+- Damage to organisational reputation minimised
 - Stakeholder relationships maintained or restored
 - Prevention measures implemented to reduce future risk
 

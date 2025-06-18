@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Crisis Communications SOP.docx
 
 **INSERT LOCATION:** Add as new section after existing crisis communication procedures
@@ -9,14 +13,14 @@
 ## Rapid Response Media Protocol (15-30 Minute Deadlines)
 
 ### Purpose
-This procedure provides streamlined decision-making and response protocols for urgent media requests with extremely tight deadlines. Use when reporters demand immediate responses, live broadcasts are imminent, or breaking news requires rapid organizational response.
+This procedure provides streamlined decision-making and response protocols for urgent media requests with extremely tight deadlines. Use when reporters demand immediate responses, live broadcasts are imminent, or breaking news requires rapid organisational response.
 
 ### When to Use
 - Live TV interview requests with 15-30 minute deadlines
 - Breaking news stories requiring immediate comment
 - Social media crises demanding rapid response
 - Reporter deadlines that cannot be extended
-- News segments proceeding with or without organization input
+- News segments proceeding with or without organisation input
 
 ### Rapid Decision Framework
 
@@ -35,7 +39,7 @@ This procedure provides streamlined decision-making and response protocols for u
 3. **Response Option Assessment**
    - **PARTICIPATE:** Provide spokesperson and statement
    - **STATEMENT ONLY:** Written response, no interview
-   - **DECLINE:** No participation, organization statement if needed
+   - **DECLINE:** No participation, organisation statement if needed
 
 #### 10-Minute Decision Process
 
@@ -61,7 +65,7 @@ This procedure provides streamlined decision-making and response protocols for u
 "We are currently addressing a technical issue affecting some of our systems. Safety remains our top priority, and we are working to resolve this matter promptly. We will provide updates as appropriate."
 
 2. **Operational Disruption Response:**
-"We are managing an operational situation while maintaining our commitment to safety and service. Our teams are working to minimize any impacts and restore normal operations."
+"We are managing an operational situation while maintaining our commitment to safety and service. Our teams are working to minimise any impacts and restore normal operations."
 
 3. **Investigation Response:**
 "We are investigating the current situation and working with relevant authorities as appropriate. We take these matters seriously and will provide updates when we have confirmed information."
@@ -133,7 +137,7 @@ This procedure provides streamlined decision-making and response protocols for u
 #### DO:
 - Stay calm and speak clearly
 - Acknowledge the seriousness of the situation
-- Emphasize safety as top priority
+- Emphasise safety as top priority
 - Provide specific timelines when possible
 - Show empathy for any impacts
 - Redirect to positive actions being taken
@@ -157,7 +161,7 @@ This procedure provides streamlined decision-making and response protocols for u
 
 #### EXECUTIVE NOTIFICATION (not necessarily involvement):
 - Local media coverage with moderate impact
-- Social media activity requiring organizational response
+- Social media activity requiring organisational response
 - Industry publication coverage
 - Stakeholder inquiries about media coverage
 
@@ -178,7 +182,7 @@ This procedure provides streamlined decision-making and response protocols for u
 
 ### Success Criteria
 - Response delivered within reporter's deadline
-- Key organizational messages communicated effectively
+- Key organisational messages communicated effectively
 - No contradictory statements made
 - Follow-up plan established if needed
 - Crisis escalation prevented or managed

@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Node Isolation Procedure.docx
 
 **INSERT LOCATION:** Add as new section after existing content
@@ -36,9 +40,9 @@ This procedure provides step-by-step guidance for investigating network anomalie
 
 #### Phase 2: Detailed Investigation (Next 10 minutes)
 1. **Traffic Analysis**
-   - [ ] Analyze packet queue origins and destinations
+   - [ ] Analyse packet queue origins and destinations
    - [ ] Check for unusual connection patterns
-   - [ ] Review bandwidth utilization trends
+   - [ ] Review bandwidth utilisation trends
    - [ ] Identify any automated traffic spikes
 
 2. **Cross-System Correlation**

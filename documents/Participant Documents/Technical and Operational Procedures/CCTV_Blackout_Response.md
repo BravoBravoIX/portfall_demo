@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # ADDITION TO: Technical Containment Guide.docx
 
 **INSERT LOCATION:** Add as new section after existing containment procedures
@@ -164,7 +168,7 @@ This procedure provides immediate and extended response protocols for CCTV syste
 #### With Network Team
 - Coordinate if CCTV loss correlates with network issues
 - Share timing information for cross-system analysis
-- Prioritize network restoration if CCTV depends on it
+- Prioritise network restoration if CCTV depends on it
 
 #### With Cyber Security (if applicable)
 - Escalate if CCTV failure appears deliberate
@@ -203,7 +207,7 @@ This procedure provides immediate and extended response protocols for CCTV syste
 - Smooth transition back to CCTV monitoring
 
 ### Related Procedures
-- Use with: Manual Override Authorization (for modified operations)
+- Use with: Manual Override Authorisation (for modified operations)
 - Coordinate with: Safety Risk Assessment Template
 - Reference: Network Diagnostics SOP (if network correlation identified)
 - Escalate to: Crisis Decision Authority Matrix (for operations halt decisions)

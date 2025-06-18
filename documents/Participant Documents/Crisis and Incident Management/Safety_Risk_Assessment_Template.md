@@ -1,3 +1,7 @@
+# SOUTHGATE TERMINAL
+## Port Operations Security Documentation
+---
+
 # Safety Risk Assessment Template
 
 ## Document Information
@@ -243,14 +247,14 @@ Signature: _________________________ Date/Time: _________________________
 Name: _________________________ Position: _________________________
 Signature: _________________________ Date/Time: _________________________
 
-**Executive Authorization (if required):**
+**Executive Authorisation (if required):**
 Name: _________________________ Position: _________________________
 Signature: _________________________ Date/Time: _________________________
 
 ---
 
 ## Related Documents
-- Manual Override Authorization Process
+- Manual Override Authorisation Process
 - CCTV Blackout Response SOP
 - Crisis Decision Authority Matrix
 - Incident Reporting Guide (Technical)
