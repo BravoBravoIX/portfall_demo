@@ -11,7 +11,7 @@
     "manual": false
   },
   {
-    "time_offset": 1,
+    "time_offset": 2,
     "event_id": "INJ001A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -27,7 +27,7 @@
     "manual": false
   },
   {
-    "time_offset": 1,
+    "time_offset": 2,
     "event_id": "INJ001B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -43,7 +43,7 @@
     "manual": false
   },
   {
-    "time_offset": 1,
+    "time_offset": 2,
     "event_id": "INJ001C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -59,7 +59,7 @@
     "manual": false
   },
   {
-    "time_offset": 2,
+    "time_offset": 4,
     "event_id": "INJ001E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -75,7 +75,7 @@
     "manual": false
   },
   {
-    "time_offset": 2,
+    "time_offset": 4,
     "event_id": "INJ001F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -91,7 +91,7 @@
     "manual": false
   },
   {
-    "time_offset": 2,
+    "time_offset": 4,
     "event_id": "INJ002A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -106,7 +106,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ002B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -122,7 +122,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ002C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -138,7 +138,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ002D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -154,7 +154,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ003A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -168,7 +168,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ003B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -184,7 +184,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ003C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -200,7 +200,7 @@
     "manual": false
   },
   {
-    "time_offset": 10,
+    "time_offset": 26,
     "event_id": "INJ003D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -216,7 +216,7 @@
     "manual": false
   },
   {
-    "time_offset": 10,
+    "time_offset": 26,
     "event_id": "INJ003E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -232,7 +232,7 @@
     "manual": false
   },
   {
-    "time_offset": 4,
+    "time_offset": 12,
     "event_id": "INJ003F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -248,7 +248,7 @@
     "manual": false
   },
   {
-    "time_offset": 4,
+    "time_offset": 12,
     "event_id": "INJ003G",
     "target": "VM-UI",
     "action_type": "payload",
@@ -264,7 +264,7 @@
     "manual": false
   },
   {
-    "time_offset": 5,
+    "time_offset": 14,
     "event_id": "INJ004A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -279,7 +279,7 @@
     "manual": false
   },
   {
-    "time_offset": 5,
+    "time_offset": 14,
     "event_id": "INJ004B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -295,7 +295,25 @@
     "manual": false
   },
   {
-    "time_offset": 5,
+    "time_offset": 14,
+    "event_id": "INJ004B1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "vendor",
+        "change": "access_log",
+        "user": "automated_scraper_bot",
+        "ip": "185.220.101.42",
+        "status": "Blocked",
+        "message": "Automated scraping detected on vendor support forums"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 14,
     "event_id": "INJ004C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -311,7 +329,25 @@
     "manual": false
   },
   {
-    "time_offset": 6,
+    "time_offset": 14,
+    "event_id": "INJ004C1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "vendor",
+        "change": "access_log",
+        "user": "vendor_gateway_service",
+        "ip": "203.45.67.89",
+        "status": "Failed",
+        "message": "Gateway routing failures - vendor system timeout"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 16,
     "event_id": "INJ004D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -327,7 +363,7 @@
     "manual": false
   },
   {
-    "time_offset": 6,
+    "time_offset": 16,
     "event_id": "INJ004E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -343,7 +379,23 @@
     "manual": false
   },
   {
-    "time_offset": 6,
+    "time_offset": 16,
+    "event_id": "INJ004E1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "vendor",
+        "change": "risk_alert",
+        "level": "High",
+        "message": "Vendor email correspondence leaked externally - security breach"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 16,
     "event_id": "INJ004F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -359,7 +411,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ005A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -373,7 +425,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ005B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -388,7 +440,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ005C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -404,7 +456,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ005D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -420,7 +472,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ005E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -436,7 +488,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ005F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -452,7 +504,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ005G",
     "target": "VM-UI",
     "action_type": "payload",
@@ -468,7 +520,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ006A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -482,7 +534,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ006C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -498,7 +550,7 @@
     "manual": true
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ006D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -514,7 +566,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ006E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -530,7 +582,7 @@
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 10,
     "event_id": "INJ006F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -546,7 +598,7 @@
     "manual": false
   },
   {
-    "time_offset": 4,
+    "time_offset": 12,
     "event_id": "INJ007B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -561,7 +613,7 @@
     "manual": false
   },
   {
-    "time_offset": 4,
+    "time_offset": 12,
     "event_id": "INJ007C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -577,7 +629,7 @@
     "manual": false
   },
   {
-    "time_offset": 4,
+    "time_offset": 12,
     "event_id": "INJ007D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -593,7 +645,25 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
+    "event_id": "INJ007D1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "vendor",
+        "change": "access_log",
+        "user": "unknown_vendor_account",
+        "ip": "192.168.1.100", 
+        "status": "Failed",
+        "message": "Unauthorized vendor access attempt during incident response"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 20,
     "event_id": "INJ008A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -609,7 +679,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ008B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -625,7 +695,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ008C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -640,7 +710,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 20,
     "event_id": "INJ009A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -656,7 +726,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ009B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -672,7 +742,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ009C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -688,7 +758,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ009D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -704,7 +774,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ010A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -719,7 +789,7 @@
     "manual": false
   },
   {
-    "time_offset": 4,
+    "time_offset": 12,
     "event_id": "INJ010B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -735,7 +805,7 @@
     "manual": false
   },
   {
-    "time_offset": 9,
+    "time_offset": 24,
     "event_id": "INJ010C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -751,7 +821,7 @@
     "manual": false
   },
   {
-    "time_offset": 9,
+    "time_offset": 24,
     "event_id": "INJ010D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -766,7 +836,7 @@
     "manual": true
   },
   {
-    "time_offset": 9,
+    "time_offset": 24,
     "event_id": "INJ010E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -782,7 +852,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ010F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -798,7 +868,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ010G",
     "target": "VM-UI",
     "action_type": "payload",
@@ -814,7 +884,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ011A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -830,7 +900,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ011B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -845,7 +915,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ011C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -861,7 +931,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ011D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -877,7 +947,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ011E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -892,7 +962,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 22,
     "event_id": "INJ011F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -908,7 +978,7 @@
     "manual": false
   },
   {
-    "time_offset": 11,
+    "time_offset": 30,
     "event_id": "INJ012A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -924,7 +994,7 @@
     "manual": false
   },
   {
-    "time_offset": 11,
+    "time_offset": 30,
     "event_id": "INJ012B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -940,7 +1010,7 @@
     "manual": false
   },
   {
-    "time_offset": 12,
+    "time_offset": 32,
     "event_id": "INJ012C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -956,7 +1026,7 @@
     "manual": false
   },
   {
-    "time_offset": 12,
+    "time_offset": 32,
     "event_id": "INJ012D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -972,7 +1042,7 @@
     "manual": false
   },
   {
-    "time_offset": 13,
+    "time_offset": 34,
     "event_id": "INJ012E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -988,7 +1058,7 @@
     "manual": false
   },
   {
-    "time_offset": 13,
+    "time_offset": 34,
     "event_id": "INJ012F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1004,7 +1074,7 @@
     "manual": false
   },
   {
-    "time_offset": 14,
+    "time_offset": 36,
     "event_id": "INJ013",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1020,7 +1090,7 @@
     "manual": false
   },
   {
-    "time_offset": 14,
+    "time_offset": 36,
     "event_id": "INJ014",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1036,7 +1106,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ015",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1052,7 +1122,23 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
+    "event_id": "INJ015C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "vendor",
+        "change": "risk_alert",
+        "level": "High",
+        "message": "Unauthorized vendor access detected during incident response"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 38,
     "event_id": "INJ016A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1068,7 +1154,7 @@
     "manual": false
   },
   {
-    "time_offset": 11,
+    "time_offset": 30,
     "event_id": "INJ016B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1084,7 +1170,7 @@
     "manual": false
   },
   {
-    "time_offset": 11,
+    "time_offset": 30,
     "event_id": "INJ016C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1100,7 +1186,7 @@
     "manual": false
   },
   {
-    "time_offset": 11,
+    "time_offset": 30,
     "event_id": "INJ017A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1116,7 +1202,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ017B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1132,7 +1218,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ017C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1148,7 +1234,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ019A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1164,7 +1250,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ019B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1179,7 +1265,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ019C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1195,7 +1281,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ020A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1211,7 +1297,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ020B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1227,7 +1313,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ021A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1242,7 +1328,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ021B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1258,7 +1344,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ021C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1274,7 +1360,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ021D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1290,7 +1376,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ013R",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1306,7 +1392,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ013S",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1322,7 +1408,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 38,
     "event_id": "INJ013T",
     "target": "VM-UI",
     "action_type": "payload",

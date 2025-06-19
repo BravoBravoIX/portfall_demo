@@ -81,6 +81,21 @@ export function GlobalStateProvider({ children }) {
     auth: 'healthy'
   });
 
+  // Add global vendor state
+  const [vendorAccessLogs, setVendorAccessLogs] = useState([
+    { id: 1, timestamp: '09:12:15', user: 'vendor_user@trustedvendor.com', ip: '203.55.142.19', status: 'Success', details: '' },
+    { id: 2, timestamp: '09:13:02', user: 'vendor_user', ip: '', status: 'Failed', details: 'invalid token' },
+    { id: 3, timestamp: '09:15:22', user: 'vendor_patch_agent', ip: '203.55.142.19', status: 'Success', details: 'Patch upload started' }
+  ]);
+  const [vendorPatches, setVendorPatches] = useState([
+    { id: 1, version: 'v1.2.3', timestamp: '08:30:00', status: 'Applied', system: 'AIS Control Panel', user: 'system_auto' },
+    { id: 2, version: 'v0.9.8', timestamp: '09:15:22', status: 'Pending', system: 'Container Management', user: 'vendor_patch_agent' }
+  ]);
+  const [vendorAlerts, setVendorAlerts] = useState([
+    { id: 1, level: 'Medium', timestamp: '09:20:33', message: 'Unusual patch activity detected', seen: true }
+  ]);
+  const [vendorTimeline, setVendorTimeline] = useState([]);
+
   // Initialize state on component mount
   useEffect(() => {
     console.log('Initializing state');
@@ -106,6 +121,21 @@ export function GlobalStateProvider({ children }) {
         network: 'healthy',
         auth: 'healthy'
       });
+
+      // Reset vendor state  
+      setVendorAccessLogs([
+        { id: 1, timestamp: '09:12:15', user: 'vendor_user@trustedvendor.com', ip: '203.55.142.19', status: 'Success', details: '' },
+        { id: 2, timestamp: '09:13:02', user: 'vendor_user', ip: '', status: 'Failed', details: 'invalid token' },
+        { id: 3, timestamp: '09:15:22', user: 'vendor_patch_agent', ip: '203.55.142.19', status: 'Success', details: 'Patch upload started' }
+      ]);
+      setVendorPatches([
+        { id: 1, version: 'v1.2.3', timestamp: '08:30:00', status: 'Applied', system: 'AIS Control Panel', user: 'system_auto' },
+        { id: 2, version: 'v0.9.8', timestamp: '09:15:22', status: 'Pending', system: 'Container Management', user: 'vendor_patch_agent' }
+      ]);
+      setVendorAlerts([
+        { id: 1, level: 'Medium', timestamp: '09:20:33', message: 'Unusual patch activity detected', seen: true }
+      ]);
+      setVendorTimeline([]);
 
       console.log('Container and system health state initialization complete, starting in normal (green) state');
     } catch (error) {
@@ -219,6 +249,11 @@ export function GlobalStateProvider({ children }) {
     // Handle system health log events
     if (message.command === 'update_dashboard' && message.parameters?.dashboard === 'logs') {
       handleSystemHealthEvent(message.parameters);
+    }
+    
+    // Handle vendor dashboard events
+    if (message.command === 'update_dashboard' && message.parameters?.dashboard === 'vendor') {
+      handleVendorEvent(message.parameters, message.receivedAt);
     }
     
     // Add message to injects list
@@ -414,6 +449,94 @@ export function GlobalStateProvider({ children }) {
     }));
   }, []);
 
+  // Vendor event handler
+  const handleVendorEvent = useCallback((parameters, receivedAt) => {
+    const { change, message, level, user, ip, status, version, system } = parameters || {};
+    
+    // Format timestamp for display
+    const timestamp = new Date(receivedAt).toLocaleTimeString([], { 
+      hour: '2-digit', 
+      minute: '2-digit', 
+      second: '2-digit', 
+      hour12: false 
+    });
+    
+    // Handle access log entries
+    if (change === 'access_log') {
+      const newLog = {
+        id: Date.now() + Math.random(),
+        timestamp,
+        user: user || 'unknown_user',
+        ip: ip || '',
+        status: status || 'Unknown',
+        details: message || ''
+      };
+      
+      setVendorAccessLogs(prev => [newLog, ...prev].slice(0, 50));
+      
+      // Add to timeline
+      setVendorTimeline(prev => [{
+        id: Date.now() + Math.random(),
+        timestamp,
+        event: `Access log: ${user} - ${status}`,
+        details: message || ''
+      }, ...prev].slice(0, 50));
+    }
+    
+    // Handle patch updates
+    if (change === 'patch') {
+      const newPatch = {
+        id: Date.now() + Math.random(),
+        version: version || 'unknown',
+        timestamp,
+        status: status || 'Pending',
+        system: system || 'Unknown System',
+        user: user || 'unknown_user'
+      };
+      
+      setVendorPatches(prev => [newPatch, ...prev].slice(0, 20));
+      
+      // Add to timeline
+      setVendorTimeline(prev => [{
+        id: Date.now() + Math.random(),
+        timestamp,
+        event: `Patch ${version} - ${status}`,
+        details: `For ${system} by ${user}`
+      }, ...prev].slice(0, 50));
+    }
+    
+    // Handle risk alerts
+    if (change === 'risk_alert') {
+      const newAlert = {
+        id: Date.now() + Math.random(),
+        level: level || 'Low',
+        timestamp,
+        message: message || 'Unspecified risk alert',
+        seen: false
+      };
+      
+      setVendorAlerts(prev => [newAlert, ...prev].slice(0, 20));
+      
+      // Add to timeline
+      setVendorTimeline(prev => [{
+        id: Date.now() + Math.random(),
+        timestamp,
+        event: `${level} risk alert`,
+        details: message || ''
+      }, ...prev].slice(0, 50));
+    }
+    
+    // Handle direct timeline events
+    if (change === 'timeline_event') {
+      setVendorTimeline(prev => [{
+        id: Date.now() + Math.random(),
+        timestamp,
+        event: message || 'Unspecified event',
+        details: ''
+      }, ...prev].slice(0, 50));
+    }
+  }, []);
+
   // Get overall system status based on all dashboard states
   const getOverallSystemStatus = useCallback(() => {
     // Check AIS status
@@ -492,6 +615,23 @@ export function GlobalStateProvider({ children }) {
     });
   }, []);
 
+  const resetVendorState = useCallback(() => {
+    console.log('Resetting vendor state');
+    setVendorAccessLogs([
+      { id: 1, timestamp: '09:12:15', user: 'vendor_user@trustedvendor.com', ip: '203.55.142.19', status: 'Success', details: '' },
+      { id: 2, timestamp: '09:13:02', user: 'vendor_user', ip: '', status: 'Failed', details: 'invalid token' },
+      { id: 3, timestamp: '09:15:22', user: 'vendor_patch_agent', ip: '203.55.142.19', status: 'Success', details: 'Patch upload started' }
+    ]);
+    setVendorPatches([
+      { id: 1, version: 'v1.2.3', timestamp: '08:30:00', status: 'Applied', system: 'AIS Control Panel', user: 'system_auto' },
+      { id: 2, version: 'v0.9.8', timestamp: '09:15:22', status: 'Pending', system: 'Container Management', user: 'vendor_patch_agent' }
+    ]);
+    setVendorAlerts([
+      { id: 1, level: 'Medium', timestamp: '09:20:33', message: 'Unusual patch activity detected', seen: true }
+    ]);
+    setVendorTimeline([]);
+  }, []);
+
   return (
     <GlobalStateContext.Provider value={{ 
       injects, 
@@ -524,7 +664,14 @@ export function GlobalStateProvider({ children }) {
       systemHealthAlerts,
       systemHealthStatus,
       getOverallSystemStatus,
-      resetSystemHealthState
+      resetSystemHealthState,
+      
+      // Vendor state
+      vendorAccessLogs,
+      vendorPatches,
+      vendorAlerts,
+      vendorTimeline,
+      resetVendorState
     }}>
       {children}
     </GlobalStateContext.Provider>

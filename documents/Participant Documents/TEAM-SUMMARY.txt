@@ -1,0 +1,1006 @@
+# SOUTHGATE TERMINAL SCENARIO - 40 MINUTE DRILL
+## COMPREHENSIVE Team-by-Team Guidance with Facilitator Questions
+
+---
+
+## **CRITICAL FACILITATOR GUIDANCE - WHAT TEAMS CAN ACTUALLY DO**
+
+### **Teams CAN Actually Do:**
+✅ **MONITOR:** Use their simulation dashboards, alerts, and interfaces  
+✅ **INVESTIGATE:** Technical team can SSH to VMs using provided credentials  
+✅ **RESEARCH:** Access all provided documents and reference materials  
+✅ **COMMUNICATE:** Coordinate with other teams through facilitators  
+✅ **DOCUMENT:** Record decisions, findings, and rationale  
+
+### **Teams CANNOT Actually Do (Discussion & Documentation Only):**
+📝 **IMPLEMENT OPERATIONS:** Cannot halt operations, isolate systems, deploy personnel  
+📝 **EXTERNAL COMMUNICATIONS:** Cannot send actual media statements, regulatory notifications  
+📝 **FINANCIAL ACTIONS:** Cannot make actual payments, insurance claims, vendor decisions  
+📝 **LEGAL ACTIONS:** Cannot send actual legal notifications or make binding determinations  
+
+### **How Decisions Work:**
+1. **Teams discuss and decide** based on available information  
+2. **Teams document** their decisions and rationale  
+3. **Teams communicate** decisions to other teams/facilitators  
+4. **Facilitators implement** operational changes in the simulation  
+5. **Teams see results** on their dashboards and through new injects  
+
+### **Critical Documentation Requirements:**
+Each team must maintain a **Decision Log** documenting:
+- **Decision made:** What was decided and when
+- **Rationale:** Why this decision was made (evidence, factors considered)
+- **Coordination:** Which teams were consulted or informed
+- **Implementation:** How the decision should be implemented (for facilitator action)
+- **Success criteria:** How to measure if the decision was effective
+
+---
+
+## **PHASE 1: INITIAL ANOMALIES (0-10 minutes) - Time Offset 0-4**
+
+**PHASE SUMMARY:** The incident begins with seemingly routine network issues that quickly reveal deeper problems. Technical teams detect packet routing delays and suspicious Node-04 activity while Legal receives critical insurance coverage questions that will block all media activities. Initial symptoms appear isolated but evidence suggests coordinated interference. The key challenge is distinguishing between technical glitches and deliberate attack indicators while maintaining normal operations.
+
+---
+
+### **Technical Team**
+**Key Events & Decision Points:**
+- **Time 2min:** Network routing delays to manifest system (INJ001A)
+- **Time 2min:** Packet queue spike from Node-04 - potential malicious activity (INJ001B)
+- **Time 26min:** Password rotation reminder for admin accounts (INJ003D)
+
+**Critical Decisions:**
+- Investigate Node-04 vs. escalate to external gateway
+- Determine if AIS anomalies correlate with network issues
+- Decision: Initiate forensic log capture or continue investigation
+
+**Actions Required:**
+- Investigate Node-04 traffic patterns first
+- Check correlation with AIS anomalies
+- Prepare logs for potential forensic capture
+
+**Team Coordination Required:**
+- **WITH OPERATIONS:** Brief them on potential Node-04 isolation impact before taking action
+- **WITH INCIDENT COORDINATOR:** Report findings and evidence preservation status
+- **FROM OPERATIONS:** Get confirmation if AIS anomalies are affecting operational systems
+
+**Key Evidence to Collect:**
+- Node-04 traffic logs and patterns
+- Correlation timeline between network and AIS issues
+- Hash verification of all logs before investigation
+- Documentation of any suspicious connection attempts
+
+**Documentation Requirements:**
+- Investigation timeline with decision points
+- Evidence preservation procedures followed
+- Coordination communications with Operations team
+- Technical assessment of malicious vs. technical failure
+
+**Facilitator Questions to Guide Team:**
+- "You've received reports of packet routing delays. What's your first priority - Node-04 investigation or external gateway diagnostics?"
+- "The network team is asking if this correlates with AIS anomalies. How do you determine if these are related incidents?"
+- "At what point do you escalate to forensic log capture vs. continue standard troubleshooting?"
+- "What evidence would convince you this is malicious vs. technical failure?"
+- "Operations will be affected by your decisions. How and when do you coordinate with them?"
+
+**Documents to Reference:**
+- `Technical_Team_Playbook.md` - Section 3.1 (Network Monitoring)
+- `QUICK_REFERENCE_CARDS.md` - Card T1 (System Anomaly Investigation)
+
+---
+
+### **Operations Team**
+**Key Events & Decision Points:**
+- **Time 2min:** Network monitoring alerts affecting operations (INJ001B)
+- **Time 4min:** **DASHBOARD ALERT:** Ship_Alpha disappears from AIS tracking (INJ002A)
+- **Time 10min:** Coffee machine electrical hazard at Berth 3 (INJ002C)
+
+**Critical Decisions:**
+- Continue operations with network degradation vs. implement precautionary measures
+- **URGENT:** Investigate Ship_Alpha AIS disappearance - system fault or vessel issue?
+- Address electrical safety hazard
+
+**Actions Required:**
+- Monitor operational impacts of network issues
+- **IMMEDIATE:** Verify Ship_Alpha status and investigate AIS tracking failure
+- Coordinate with tech team on system status
+- Address safety concerns immediately
+
+**Team Coordination Required:**
+- **WITH TECHNICAL:** Get regular updates on network restoration timeline and AIS system status
+- **WITH TECHNICAL:** Coordinate on Ship_Alpha tracking investigation - system vs. vessel issue
+- **WITH EXECUTIVE:** Brief on operational impact and any precautionary measures being considered
+- **WITH INCIDENT COORDINATOR:** Report operational status and safety concerns
+
+**Key Evidence to Collect:**
+- Ship_Alpha last known position and AIS tracking timeline
+- Impact assessment of network issues on operational systems
+- Safety incident documentation for electrical hazard
+- Operational capacity assessment under degraded conditions
+
+**Documentation Requirements:**
+- Operational impact log with timestamps
+- Ship_Alpha tracking investigation and status verification
+- Safety hazard reporting and response actions
+- Decision rationale for continuing vs. implementing precautionary measures
+- Communication log with Technical team
+
+**Facilitator Questions to Guide Team:**
+- "Ship_Alpha has just disappeared from your AIS tracking. Is this a system failure or vessel emergency?"
+- "How do you verify Ship_Alpha's actual status while dealing with network issues?"
+- "Network issues are starting to affect operations. Do you continue normal operations or implement precautionary measures?"
+- "How do you balance operational tempo with the emerging technical issues?"
+- "There's an electrical safety issue at Berth 3. How do you prioritize this against the network problems?"
+- "What information do you need from Technical team to make safe operational decisions?"
+- "Should you brief Executive leadership at this early stage or handle this at the operational level?"
+
+**Documents to Reference:**
+- `Operations_Team_Playbook.md` - Section 3.1 (Service Disruption)
+
+---
+
+### **Legal Team**
+**Key Events & Decision Points:**
+- **Time 2min:** HR Code of Conduct reminder (INJ001C) - routine
+- **⚡ Time 2min:** **CRITICAL - Insurance clause 7.4 review required** (INJ001F)
+- **Time 10min:** Expired Cyber Incident Contingency Plan identified (INJ002B)
+
+**Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
+- **URGENT:** Determine whether clause 7.4 applies to AIS visibility anomalies
+- **DEADLINE:** Make media clearance decision - document written legal clearance or hold
+- Review contingency plan compliance status and document gaps
+
+**Actions Required:**
+- **RESEARCH:** Use insurance documents to analyze clause 7.4 applicability (can actually access documents)
+- **DOCUMENT:** Media clearance decision with legal rationale
+- **COMMUNICATE:** Media clearance decision to Media team
+- **DOCUMENT:** Contingency plan compliance assessment and recommendations
+
+**Facilitator Questions to Guide Team:**
+- "Nick Menon is asking about clause 7.4 and AIS visibility anomalies. Does this trigger enhanced insurance coverage?"
+- "The email says 'no media activity without written legal clearance.' What's your decision on media clearance?"
+- "You've discovered the Cyber Incident Contingency Plan expired in March. How does this affect your current response?"
+- "What criteria determine whether clause 7.4 applies vs. standard operational coverage?"
+- "How quickly can you provide the media clearance decision that everyone is waiting for?"
+
+**Team Coordination Required:**
+- **WITH MEDIA:** Provide written clearance decision based on insurance clause 7.4 analysis
+- **WITH EXECUTIVE:** Brief on insurance coverage implications and potential claim impacts
+- **WITH INCIDENT COORDINATOR:** Report legal assessment timeline and clearance decisions
+- **FROM OPERATIONS:** Get operational impact details to assess coverage criteria
+
+**Documents to Reference:**
+- **`Insurance_Clause_Interpretation.md` - Clause 7.4 analysis (PRIORITY)**
+- `Legal_Team_Playbook.md` - Section 2.1 (Regulatory Landscape)
+
+---
+
+### **Media Team**
+**Key Events & Decision Points:**
+- **Time 4min:** MarineTracker visibility spike for Ship_Alpha (INJ001E)
+- **Time 10min:** PR photos request for Ship_Alpha (INJ002D)
+
+**Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
+- Prepare holding statement vs. keep quiet strategy - document approach
+- Communications writer coordination strategy
+- **BLOCKED:** Media activity on hold pending legal clearance
+
+**Actions Required:**
+- **MONITOR:** Use media dashboard to track external mentions (can actually do this)
+- **DRAFT:** Prepare holding statements (document only - not send)
+- **WAIT:** For legal clearance before recommending any external communications
+- **DOCUMENT:** Media strategy and prepared responses
+
+**Facilitator Questions to Guide Team:**
+- "External Affairs reports MarineTracker is flagging increased visibility for Ship_Alpha. Do you prepare a holding line or keep quiet?"
+- "You want to take action but Legal says no media activity without written clearance. What do you do while waiting?"
+- "Internal teams are asking for PR photos of Ship_Alpha. How do you handle this request?"
+- "How do you balance being prepared for media interest vs. not drawing unnecessary attention?"
+
+**Team Coordination Required:**
+- **WITH LEGAL:** Await written clearance before any external communications
+- **WITH EXECUTIVE:** Coordinate on CEO messaging and approval for any statements
+- **WITH INCIDENT COORDINATOR:** Report external media activity and visibility concerns
+- **FROM LEGAL:** Receive insurance clause determination and media clearance decision
+
+**Documents to Reference:**
+- `Media_Team_Playbook.md` - Section 3.1 (Initial Response)
+- `Media_Statement_Templates.docx`
+
+---
+
+### **Executive Team**
+**Key Events & Decision Points:**
+- **Time 2min:** HR compliance reminder (INJ001C)
+- **Time 4min:** Insurance coverage concern from Nick Menon (INJ001F)
+
+**Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
+- Monitor situation vs. early intervention strategy - document approach
+- Support Legal team's insurance review - provide resources and direction
+
+**Actions Required:**
+- **MONITOR:** Maintain situational awareness through team briefings
+- **COORDINATE:** Support Legal team's insurance analysis with resources
+- **DOCUMENT:** Strategic decisions and intervention thresholds
+
+**Facilitator Questions to Guide Team:**
+- "Early reports suggest network issues and insurance concerns. Do you intervene now or monitor the situation?"
+- "Nick Menon is raising insurance coverage questions. How do you support Legal's review process?"
+- "At what point do these initial issues warrant executive attention vs. letting teams handle it?"
+- "What information do you need to make informed decisions about escalation?"
+
+**Team Coordination Required:**
+- **WITH OPERATIONS:** Receive briefings on operational impact and safety concerns
+- **WITH LEGAL:** Get insurance coverage updates and clearance decisions
+- **WITH MEDIA:** Coordinate on external messaging strategy and CEO availability
+- **WITH INCIDENT COORDINATOR:** Approve escalation decisions and resource allocation
+
+**Documents to Reference:**
+- `Executive_Team_Playbook.md` - Section 2.1 (Escalation Criteria)
+
+---
+
+### **Incident Coordinator**
+**Actions Required:**
+- Establish 15-minute update cycles
+- Set up central documentation
+- Monitor for resource conflicts
+
+**Facilitator Questions to Guide Team:**
+- "Multiple teams are starting to report issues. How do you establish coordination without overwhelming them?"
+- "What communication rhythm do you set up for the incident response?"
+- "How do you balance information gathering with letting teams focus on their response?"
+
+**Team Coordination Required:**
+- **WITH ALL TEAMS:** Collect status updates and decision documentation
+- **WITH TECHNICAL:** Coordinate evidence preservation and forensic requirements
+- **WITH OPERATIONS:** Monitor safety status and operational capacity
+- **WITH LEGAL:** Coordinate regulatory reporting and insurance notifications
+- **WITH MEDIA:** Monitor external communications and media impact
+- **WITH EXECUTIVE:** Report overall incident status and escalation recommendations
+
+**Documents to Reference:**
+- `Incident_Coordinator_Guide.md` - Section 3.1 (Initial Setup)
+- `QUICK_REFERENCE_CARDS.md` - Card IC1 (Multi-Team Coordination)
+
+---
+
+## **PHASE 2: ESCALATION BEGINS (10-20 minutes) - Time Offset 10-16**
+
+**PHASE SUMMARY:** The situation escalates dramatically as CCTV systems fail and multiple operational impacts become apparent. The Dockmaster issues a 10-minute ultimatum to restore systems or halt operations, while media pressure increases with ABC requesting a live interview. Technical teams discover unauthorized configuration changes and face a critical decision about isolating Node-04, which would eliminate CCTV capability entirely. Staff stress becomes visible as the incident's scope expands.
+
+---
+
+### **Technical Team**
+**Key Events & Decision Points:**
+- **Time 10min:** **SYSTEM ALERT:** Container configuration manipulation detected (INJ006A)
+- **Time 10min:** Network config rollback performed by Harjit Mann (INJ006D)
+- **Time 12min:** Node-04 isolation warning - will knock out CCTV relay (INJ003G)
+- **Time 14min:** **VENDOR ALERT:** Automated scraper blocked on vendor forums (INJ004B1)
+- **Time 14min:** **VENDOR ALERT:** Gateway routing failures - vendor system timeout (INJ004C1)
+- **Time 16min:** **VENDOR ALERT:** Vendor email correspondence leaked externally (INJ004E1)
+- **Time 20min:** **VENDOR ALERT:** Unauthorized vendor access attempt during incident response (INJ007D1)
+
+**Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
+- **MAJOR:** Recommend Node-04 isolation vs. preserve CCTV - coordinate with Operations team
+- Validate Harjit's unauthorized config changes - approve or disapprove in team discussion
+- **VENDOR SECURITY:** Assess multiple vendor system compromises and access attempts
+- **COORDINATION:** Brief Operations team before any isolation recommendations
+
+**Actions Required:**
+- **INVESTIGATE:** Use VM access to examine systems (can actually do this)
+- **DO NOT** execute any trap scripts found (document their existence only)
+- **DOCUMENT:** All decisions, findings, and coordination communications
+- **COMMUNICATE:** Node-04 isolation recommendation to Operations team
+- **INVESTIGATE:** Unauthorized vendor access attempts via dashboard monitoring
+
+**Facilitator Questions to Guide Team:**
+- "Container configuration manipulation has been detected. What does this tell you about the nature of this incident?"
+- "Harjit performed an unauthorized network config rollback. Do you approve this action in your team discussion? Document your decision."
+- "You're seeing multiple vendor system alerts - scrapers blocked, gateway failures, email leaks. Are these related to your internal breach?"
+- "Unauthorized vendor access attempts are happening during your incident response. Coincidence or coordinated attack?"
+- "You can recommend Node-04 isolation, but it will knock out CCTV. What's your recommendation to Operations team? Document your rationale."
+- "Operations is facing safety issues. How do you balance technical investigation with their operational needs?"
+- "You've found trap scripts in the system. What's your approach - document them for evidence or something else? Do NOT execute them."
+- "How do you communicate your Node-04 isolation recommendation to the Operations team?"
+
+**Team Coordination Required:**
+- **WITH OPERATIONS:** Coordinate Node-04 isolation decision and CCTV impact assessment
+- **WITH INCIDENT COORDINATOR:** Report system compromise findings and evidence preservation
+- **WITH LEGAL:** Brief on unauthorized access evidence and vendor security breaches
+- **FROM OPERATIONS:** Get operational safety requirements before recommending isolation
+
+**Documents to Reference:**
+- `Technical_Team_Playbook.md` - Section 3.2 (System Compromise)
+- `QUICK_REFERENCE_CARDS.md` - Card T2 (Multi-System Failure)
+
+---
+
+### **Operations Team**
+**Key Events & Decision Points:**
+- **Time 10min:** **SYSTEM FAILURE:** CCTV blackout initiated across multiple zones (INJ003A)
+- **Time 10min:** CCTV blind zone on west perimeter (INJ003B)
+- **Time 12min:** **MAJOR DECISION POINT:** Dockmaster threatens operations halt (INJ003F)
+- **Time 12min:** **CRITICAL:** Two containers misrouted to wrong berth (INJ010B)
+- **Time 12min:** Crane sync issues at Bravo Berth (INJ007C)
+- **Time 16min:** Staff stress visible, teams coping poorly (INJ004D)
+
+**Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
+- **10-MINUTE DEADLINE:** Recommend halting container movement vs. continuing with manual procedures
+- Manual procedures vs. operations halt - document decision rationale
+- Continue with crane sync issues vs. escalate to Technical team
+- **URGENT:** Container misrouting crisis response plan and client communication strategy
+
+**Actions Required:**
+- **MONITOR:** Use operational dashboards to assess CCTV and crane status (can actually do this)
+- **DOCUMENT:** Manual procedures decision and safety assessment
+- **COMMUNICATE:** Operations halt recommendation to Executive team for approval
+- **COORDINATE:** With Technical team on crane sync issues and system status
+- **DOCUMENT:** Container recovery plan and client communication strategy
+
+**Team Coordination Required:**
+- **WITH TECHNICAL:** Coordinate on CCTV restoration timeline and Node-04 isolation impact
+- **WITH EXECUTIVE:** Escalate container misrouting crisis and operations halt decision
+- **WITH LEGAL:** Brief on container misrouting for potential contract penalties
+- **WITH INCIDENT COORDINATOR:** Report operational capacity and safety status
+
+**Key Evidence to Collect:**
+- CCTV failure documentation and safety impact assessment
+- Container misrouting incident details and system override logs
+- Manual procedures implementation and crew confidence levels
+- Client communication and penalty clause documentation
+
+**Documentation Requirements:**
+- Operations halt decision timeline and rationale
+- Container misrouting incident report with recovery actions
+- Manual safety procedures implementation log
+- Coordination communications with Executive team on major decisions
+
+**Facilitator Questions to Guide Team:**
+- "CCTV systems are failing across multiple areas. Can you maintain safe operations with manual procedures? Document your assessment."
+- "The Dockmaster says restore CCTV in 10 minutes or halt operations. What's your recommendation to Executive team? Document your rationale."
+- "Two containers have been misrouted and the client is citing penalty clauses. How do you handle this crisis? What's your response plan?"
+- "This operations halt decision needs Executive approval. What recommendation do you make and how do you present it?"
+- "Crane synchronization issues are spreading to Bravo Berth. Do you continue operations or escalate to Technical? Document your decision."
+- "Staff are showing visible stress and asking if management knows what they're doing. How do you address this? What do you communicate to Executive?"
+
+**Documents to Reference:**
+- `Operations_Team_Playbook.md` - Section 3.3 (CCTV Failure)
+- `QUICK_REFERENCE_CARDS.md` - Card O1 (CCTV Blackout Response)
+- `Manual_Safety_Procedures.pdf`
+
+---
+
+### **Legal Team**
+**Key Events & Decision Points:**
+- **Time 10min:** PPE policy update (INJ003C)
+- **Time 16min:** **CRITICAL:** Vendor email leak detected (INJ004E)
+
+**Critical Decisions:**
+- **URGENT:** Content review of leaked vendor correspondence
+- Establish what was said, who had access, whether legal privilege compromised
+- Continue insurance clause 7.4 analysis while managing new crisis
+
+**Actions Required:**
+- Continue insurance clause 7.4 analysis from Phase 1
+- **IMMEDIATE:** Rapid content review of vendor email leak
+- Monitor for escalation triggers
+
+**Team Coordination Required:**
+- **WITH MEDIA:** Coordinate on vendor leak response and media strategy
+- **WITH INCIDENT COORDINATOR:** Brief on legal privilege and evidence integrity concerns
+- **WITH EXECUTIVE:** Report vendor leak exposure risk and reputational impact
+
+**Key Evidence to Collect:**
+- Insurance coverage determination (Clause 7.4 vs standard coverage)
+- Vendor email leak scope and access log
+- Legal privilege assessment for leaked correspondence
+- Documentation of who had access to vendor communications
+
+**Documentation Requirements:**
+- Insurance coverage analysis and final determination
+- Vendor email leak investigation report
+- Legal privilege assessment and exposure analysis
+- Media clearance decision and rationale
+
+**Facilitator Questions to Guide Team:**
+- "You're still working on the clause 7.4 analysis while new issues emerge. How do you prioritize?"
+- "Vendor correspondence has leaked externally. What's your immediate response to assess legal privilege exposure?"
+- "Have you reached a decision on media clearance that the Media team is waiting for?"
+- "The situation is escalating. Does this change your insurance coverage assessment?"
+- "How do you balance the urgent vendor leak investigation with the ongoing insurance analysis?"
+
+**Documents to Reference:**
+- Continue with `Insurance_Clause_Interpretation.md`
+- `Legal_Team_Playbook.md` - Section 3.2 (Evidence Integrity)
+
+---
+
+### **Media Team**
+**Key Events & Decision Points:**
+- **Time 10min:** **URGENT:** ABC interview slot - 30 minutes notice (INJ006C)
+- **Time 12min:** SatNav spoofing inquiry from freelance journalist (INJ007D)
+- **Time 14min:** Media scraping vendor channels detected (INJ004B)
+
+**Critical Decisions:**
+- **30-MINUTE DEADLINE:** CEO interview vs. decline ABC slot
+- Coordinate response to satellite spoofing questions
+- Prepare holding statement for vendor scraping
+
+**Actions Required:**
+- **URGENT:** CEO availability decision for ABC
+- Develop aligned position on satellite spoofing
+- **STILL BLOCKED:** Awaiting legal clearance
+
+**Facilitator Questions to Guide Team:**
+- "ABC wants a live interview in 30 minutes. Do you accept, decline, or try to get the CEO ready?"
+- "A journalist is asking about satellite spoofing - a term that hasn't come from your communications. How do you respond?"
+- "You're detecting media scraping of vendor channels. What does this mean for your strategy?"
+- "You're still waiting for legal clearance. How do you handle these urgent media requests?"
+- "If you decline the ABC interview, what fills that slot instead?"
+
+**Team Coordination Required:**
+- **WITH LEGAL:** Get updated clearance status for urgent ABC interview request
+- **WITH EXECUTIVE:** Coordinate CEO availability and approval for live interview
+- **WITH INCIDENT COORDINATOR:** Report media pressure escalation and external inquiry details
+- **FROM LEGAL:** Receive guidance on responding to satellite spoofing inquiries
+
+**Documents to Reference:**
+- `Media_Team_Playbook.md` - Section 3.2 (Crisis Communication)
+- `QUICK_REFERENCE_CARDS.md` - Card M1 (Immediate Media Pressure)
+
+---
+
+### **Executive Team**
+**Key Events & Decision Points:**
+- **Time 14min:** Vendor payment delay question - $142k at stake (INJ004C)
+- **Time 16min:** Staff coping inquiry from HR (INJ004D)
+
+**Critical Decisions:**
+- Pause vendor payments vs. breach contract risk
+- Staff communication and support
+
+**Actions Required:**
+- Joint sign-off decision on vendor payments
+- Consider formal comms to reassure staff
+
+**Facilitator Questions to Guide Team:**
+- "Finance wants to delay $142k in vendor payments pending investigation. Do you approve this risk?"
+- "HR reports visible staff stress and questions about leadership capability. How do you respond?"
+- "Operations is threatening to halt container movement. Do you intervene or support their decision?"
+- "The Media team needs CEO availability for ABC in 30 minutes. What's your decision?"
+
+**Team Coordination Required:**
+- **WITH OPERATIONS:** Approve operations halt decision and address staff stress concerns
+- **WITH LEGAL:** Get status on vendor leak investigation and insurance coverage
+- **WITH MEDIA:** Decide CEO availability for ABC interview and approve media strategy
+- **WITH INCIDENT COORDINATOR:** Approve vendor payment delay and resource allocation decisions
+
+**Documents to Reference:**
+- `Executive_Team_Playbook.md` - Section 3.1 (Major Incident)
+
+---
+
+## **PHASE 3: CRISIS INTENSIFIES (20-30 minutes) - Time Offset 20-26**
+
+**PHASE SUMMARY:** The incident reveals its true scope as all AIS ship tracking fails and unauthorized access across multiple systems is confirmed. Insurers are demanding answers by 1:00 PM while operational capacity drops to 70% due to manual overrides. WorkSafe regulations may be triggered, board members are making informal inquiries, and an internal HR memo has leaked online. The "sabotage suspected" headline appears as media pressure intensifies. This is the confirmation phase where the coordinated nature of the attack becomes undeniable.
+
+---
+
+### **Technical Team**
+**Key Events & Decision Points:**
+- **Time 20min:** **CRITICAL FAILURE:** Complete AIS system collapse - all ships disappear (INJ005A)
+- **Time 20min:** **SYSTEM ALERT:** Ping loss detected from scheduler.vm (INJ005B)
+- **Time 20min:** **SECURITY BREACH:** Unauthorized access detected on scheduler.vm (INJ005E)
+- **Time 20min:** **SYSTEM ALERT:** Service account authentication failures (INJ008A/B)
+- **Time 22min:** **SECURITY ALERT:** Suspicious cron job detected on audit.vm (INJ009D)
+
+**Critical Decisions:**
+- **CRITICAL:** Evidence of coordinated attack confirmed
+- Service account lockouts spreading
+- Multiple VM compromises detected
+
+**Actions Required:**
+- **PRESERVE EVIDENCE FIRST** - do not execute scripts
+- Package evidence for authorities
+- Report all findings to incident coordinator
+
+**Facilitator Questions to Guide Team:**
+- "All AIS ship tracking has failed and you're seeing unauthorized access across multiple VMs. What does this tell you about the incident scope?"
+- "Service account authentication is failing across systems. Is this isolated to one area or systemic?"
+- "You've found suspicious cron jobs and evidence of persistence. Do you clean them or preserve them for forensics?"
+- "Gantry maintenance is getting nervous about manual controls. How do you balance investigation with operational support?"
+- "At what point do you recommend involving law enforcement given the evidence you're seeing?"
+
+**Team Coordination Required:**
+- **WITH OPERATIONS:** Coordinate on manual control safety and crane maintenance concerns
+- **WITH INCIDENT COORDINATOR:** Report evidence of coordinated attack and law enforcement recommendation
+- **WITH LEGAL:** Brief on system compromise evidence and forensic requirements
+- **FROM OPERATIONS:** Get safety status for gantry and crane operations under manual control
+
+**Documents to Reference:**
+- `Technical_Team_Playbook.md` - Section 3.4 (Major Compromise)
+- Focus on evidence preservation protocols
+- **Both T1 and T2 reference cards**
+
+---
+
+### **Operations Team**
+**Key Events & Decision Points:**
+- **Time 20min:** **TOTAL SYSTEM FAILURE:** All ships disappear from AIS displays (INJ005A)
+- **Time 20min:** 3 berths lose AIS visibility completely (INJ005D)
+- **Time 22min:** Manual overrides triggered, 30% capacity reduction (INJ009C)
+- **Time 24min:** **POTENTIAL SHUTDOWN:** If sync errors spread (INJ009C)
+
+**Critical Decisions:**
+- **MAJOR:** Foreman refusing work until fallback systems verified
+- Manual override vs. suspend all automated lift operations
+- Escalation to comprehensive diagnostics
+
+**Actions Required:**
+- **DECISION POINT:** Manual procedures adequate vs. operations halt
+- Coordinate with tech on isolated vs. systemic issue
+- **SAFETY FIRST:** No operations without crew confidence
+
+**Facilitator Questions to Guide Team:**
+- "You've lost AIS signals across Berths 2-4 and the foreman is refusing to resume work. What's your decision?"
+- "Manual overrides have reduced capacity by 30% and are stressing the remaining automated systems. Do you continue?"
+- "If synchronization errors spread to other berths, you'd need to suspend all automated operations. How do you prevent this?"
+- "Three container lifts were aborted mid-task. What safety protocols do you implement?"
+- "The crew are questioning if they're safe to operate equipment. How do you restore confidence?"
+
+**Team Coordination Required:**
+- **WITH TECHNICAL:** Get system status updates and forensic investigation timeline
+- **WITH EXECUTIVE:** Escalate operations halt decision and crew safety concerns
+- **WITH INCIDENT COORDINATOR:** Report operational capacity and safety protocol implementation
+- **WITH LEGAL:** Brief on WorkSafe implications and regulatory notification requirements
+
+**Documents to Reference:**
+- `Operations_Team_Playbook.md` - Section 3.4 (Full Manual Mode)
+- Continue using `QUICK_REFERENCE_CARDS.md` - Card O1
+
+---
+
+### **Legal Team**
+**Key Events & Decision Points:**
+- **Time 20min:** **DEADLINE:** Insurers want answers by 1300 hours (INJ005C)
+- **Time 20min:** WorkSafe Class B hazard protocols may apply (INJ009A)
+- **Time 22min:** Board inquiries about vendor negligence (INJ009B)
+- **Time 24min:** Port Authority notification question (INJ010E)
+
+**Critical Decisions:**
+- **1:00 PM DEADLINE:** Clause 4.7 vs. Clause 7.4 applicability
+- Whether legal threshold crossed for data inaccuracy
+- Board briefing preparation within 24-48 hours
+- Maritime Operations Agreement Section 12.3 notification
+
+**Actions Required:**
+- **URGENT:** Insurance classification decision
+- Prepare vendor relationship timeline
+- **DECISION:** Port Authority notification protocol
+
+**Facilitator Questions to Guide Team:**
+- "Insurers are pushing for answers by 1:00 PM about clause 4.7 vs. 7.4. What's your final determination?"
+- "The gantry incidents might trigger WorkSafe Class B hazard protocols. Do you make preliminary notifications?"
+- "Board members are asking about vendor negligence and gateway firmware delays. How do you prepare this timeline?"
+- "Legal intern asks about Port Authority notification under Section 12.3. Is this required for the container misrouting?"
+- "You have multiple notification deadlines converging. How do you prioritize them?"
+
+**Team Coordination Required:**
+- **WITH EXECUTIVE:** Brief on board inquiries and vendor negligence timeline
+- **WITH MEDIA:** Coordinate response strategy for leaked HR memo and legal privilege concerns
+- **WITH INCIDENT COORDINATOR:** Report regulatory notification requirements and insurance determinations
+- **WITH OPERATIONS:** Get operational impact details for WorkSafe and Port Authority notifications
+
+**Documents to Reference:**
+- `Insurance_Clause_Interpretation.md` - **Both Clause 4.7 and 7.4**
+- `Legal_Team_Playbook.md` - Section 3.2 (Cyber Incident)
+- `Breach_Classification_Decision_Tree.pdf`
+
+---
+
+### **Media Team**
+**Key Events & Decision Points:**
+- **Time 14min:** **MEDIA ALERT:** Anonymous internal post published criticizing incident response (INJ004A)
+- **Time 20min:** **BREAKING NEWS:** "Exclusive: Gantry Systems Experiencing Unexplained Glitches at Southgate" (INJ008C)
+- **Time 22min:** Radio station requests comment (INJ010F)
+- **Time 22min:** **CRISIS:** HR memo leaked online (INJ011A)
+- **Time 22min:** **BREAKING NEWS:** "Sabotage suspected in Southgate systems blackout" (INJ011B)
+- **Time 22min:** **SOCIAL MEDIA:** Union retweet: "We warned them. Safety matters." #Southgate #PortSafety (INJ011E)
+- **Time 24min:** **BREAKING NEWS:** "Breaking: Unrest Reported at Southgate Port" (INJ010D)
+
+**Critical Decisions:**
+- **URGENT:** Response to anonymous internal post criticizing response
+- **ESCALATION:** Counter "gantry glitches" narrative in media
+- Radio interview vs. holding line
+- **CRISIS:** Response to leaked HR memo and privilege concerns
+- **MAJOR:** Counter "sabotage suspected" and "unrest reported" headlines
+- **SOCIAL MEDIA:** Address union criticism and hashtag campaigns
+
+**Actions Required:**
+- **IMMEDIATE:** Counter multiple breaking news narratives
+- Prepare response strategy for leaked memo
+- **ESCALATION:** Major media attention confirmed across multiple outlets
+- Verify leak source and access
+- **SOCIAL MEDIA:** Monitor hashtag spread and sentiment
+
+**Facilitator Questions to Guide Team:**
+- "An anonymous internal post is criticizing your incident response. How do you respond without validating the criticism?"
+- "Breaking news headline: 'Gantry Systems Experiencing Unexplained Glitches.' How do you counter this technical narrative?"
+- "Coast FM wants comment about delays and system issues. Do you provide a holding line or more proactive messaging?"
+- "An internal HR memo about 'unclear leadership structure during blackout' has leaked online. What's your response strategy?"
+- "The headline 'Sabotage suspected in Southgate systems blackout' is now published. How do you counter this narrative?"
+- "Unions are retweeting 'We warned them. Safety matters.' with #Southgate hashtags. How do you address this?"
+- "Now there's a 'Breaking: Unrest Reported at Southgate Port' headline. How do you manage this escalating narrative?"
+- "Multiple breaking news stories are running simultaneously. How do you prioritize your response?"
+
+**Team Coordination Required:**
+- **WITH LEGAL:** Coordinate response to leaked HR memo and legal privilege concerns
+- **WITH EXECUTIVE:** Get approval for counter-narratives and crisis communication strategy
+- **WITH INCIDENT COORDINATOR:** Report media escalation and external pressure levels
+- **FROM EXECUTIVE:** Receive guidance on addressing board inquiries and liability concerns
+
+**Documents to Reference:**
+- `Media_Team_Playbook.md` - Section 3.3 (Peak Crisis)
+- `QUICK_REFERENCE_CARDS.md` - Card M2 (Social Media Crisis)
+
+---
+
+### **Executive Team**
+**Key Events & Decision Points:**
+- **Time 22min:** Board inquiries about liability (INJ009B)
+
+**Critical Decisions:**
+- Board briefing timeline
+- Resource allocation for legal timeline preparation
+
+**Actions Required:**
+- Prepare for formal board briefing
+- Support legal team's vendor analysis
+
+**Facilitator Questions to Guide Team:**
+- "Board members are making informal inquiries about vendor negligence and liability exposure. How do you manage this?"
+- "Legal needs to prepare a vendor relationship timeline within 24-48 hours. What resources do you provide?"
+- "The 'sabotage suspected' headline is now public. Does this change your strategic approach?"
+- "Multiple teams are reporting escalating issues. At what point do you declare a major incident?"
+
+**Team Coordination Required:**
+- **WITH LEGAL:** Support vendor timeline preparation and board briefing materials
+- **WITH MEDIA:** Coordinate strategic response to public sabotage narrative
+- **WITH OPERATIONS:** Assess major incident declaration criteria and resource needs
+- **WITH INCIDENT COORDINATOR:** Approve major incident declaration and resource allocation
+
+**Documents to Reference:**
+- `Executive_Team_Playbook.md` - Section 3.2 (Crisis Decisions)
+- `Board_Escalation_Protocol.pdf`
+
+---
+
+### **Incident Coordinator**
+**Key Events & Decision Points:**
+- Coordinate evidence preservation across all compromised systems
+- Manage multiple regulatory notification deadlines
+- Coordinate law enforcement engagement recommendation
+
+**Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
+- Law enforcement engagement timing and approach
+- Evidence package preparation and chain of custody
+- Regulatory notification prioritization and sequencing
+
+**Actions Required:**
+- **COORDINATE:** Evidence preservation across Technical and Legal teams
+- **DOCUMENT:** All team decisions and coordination communications
+- **PREPARE:** Comprehensive incident timeline for regulatory submission
+- **ESCALATE:** Law enforcement recommendation to Executive team
+
+**Team Coordination Required:**
+- **WITH TECHNICAL:** Coordinate evidence preservation and forensic investigation
+- **WITH LEGAL:** Coordinate regulatory notifications and insurance determinations
+- **WITH OPERATIONS:** Monitor safety protocols and operational capacity
+- **WITH MEDIA:** Track external pressure and narrative management
+- **WITH EXECUTIVE:** Report overall incident status and law enforcement recommendation
+- **WITH ALL TEAMS:** Collect final evidence packages and decision documentation
+
+**Facilitator Questions to Guide Team:**
+- "Technical has found evidence of coordinated attack across multiple systems. Do you recommend law enforcement engagement?"
+- "You have multiple regulatory deadlines converging - insurance at 1:00 PM, WorkSafe notifications. How do you coordinate these?"
+- "The media narrative is escalating to 'sabotage suspected.' How does this affect your coordination strategy?"
+- "What evidence package do you need from each team for potential law enforcement handover?"
+
+**Documents to Reference:**
+- `Incident_Coordinator_Guide.md` - Section 3.3 (Major Incident)
+- `Evidence_Chain_of_Custody.pdf`
+
+---
+
+## **PHASE 4: PEAK CRISIS & RESOLUTION (30-40 minutes) - Time Offset 30-38**
+
+**PHASE SUMMARY:** The crisis reaches its peak as evidence destruction begins (auth logs being deleted), TV crews arrive at the facility, and the CFO blocks all public statements until insurance coverage is definitively clarified. The dock supervisor formally requests to halt night shift operations due to crew safety concerns while InsurePort demands immediate access to all logs. Multiple final deadlines converge: CEO comment for evening news, ministerial submission, and breach notification approval. The incident concludes with coordination of recovery efforts and preparation of comprehensive reporting for regulatory authorities.
+
+---
+
+### **Technical Team**
+**Key Events & Decision Points:**
+- **Time 30min:** **CRITICAL ALERT:** Log deletion detected - svc_admin deleting auth logs (INJ016B)
+- **Time 30min:** **SECURITY ALERT:** Additional cron job detected on audit.vm (INJ017A)
+- **Time 30min:** Crane crew confused about control state (INJ016C)
+- **Time 38min:** **HIGH RISK ALERT:** Unauthorized vendor access detected during incident response (INJ015C)
+- **Time 38min:** **SECURITY ALERT:** Unscheduled cron job on scheduler.node detected (INJ016A)
+
+**Critical Decisions:**
+- **EVIDENCE DESTRUCTION:** Auth logs being deleted
+- **SAFETY CRITICAL:** Crane control state unclear
+- **10-MINUTE DEADLINE:** Clarify control state or halt cranes
+
+**Actions Required:**
+- **IMMEDIATE:** Secure remaining evidence
+- **URGENT:** Clarify crane control safety
+- Support final forensic report
+
+**Facilitator Questions to Guide Team:**
+- "svc_admin is actively deleting authentication logs. What's your immediate response to preserve remaining evidence?"
+- "Crane crews are confused about whether systems are in manual or automatic control. How do you clarify this safety-critical issue?"
+- "You have 10 minutes to confirm control state or Operations will halt all crane activity. What's your approach?"
+- "Additional cron jobs are still being detected. How does this affect your incident scope assessment?"
+- "What evidence package do you prepare for potential law enforcement involvement?"
+
+**Team Coordination Required:**
+- **WITH OPERATIONS:** Coordinate crane control safety clarification and manual procedures
+- **WITH INCIDENT COORDINATOR:** Report evidence destruction and final forensic findings
+- **WITH LEGAL:** Brief on remaining evidence availability and system recovery status
+- **FROM OPERATIONS:** Get final safety requirements for crane operations and night shift
+
+**Documents to Reference:**
+- Continue evidence preservation focus
+- `System_Recovery_Checklist.pdf`
+
+---
+
+### **Operations Team**
+**Key Events & Decision Points:**
+- **Time 30min:** Crane crew safety concerns (INJ016C)
+- **Time 32min:** **MAJOR:** Dock supervisor requests night shift halt (INJ012D)
+- **Time 38min:** **SYSTEM ALERT:** CCTV crane error flashing on Berth3_Crane02 (INJ019B)
+- **Time 38min:** **SYSTEM RECOVERY:** CCTV crane error cleared (INJ021A)
+
+**Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
+- **10-MINUTE DEADLINE:** Recommend crane operations halt vs. continue with clarification
+- **7:00 PM DEADLINE:** Recommend night shift pause to Executive team 
+- **IMMEDIATE:** Document response to CCTV crane error on Berth3_Crane02
+- Assess crew morale and safety state - document concerns
+
+**Actions Required:**
+- **MONITOR:** Use dashboards to track crane control and CCTV status (can actually do this)
+- **DOCUMENT:** Safety assessment and crane operations recommendation
+- **COMMUNICATE:** Night shift halt recommendation to Executive team for approval
+- **ASSESS:** Crew confidence levels and document safety concerns
+- **COORDINATE:** With Technical team on crane control system status
+
+**Facilitator Questions to Guide Team:**
+- "Crane crews are unclear about control state and hesitant to resume operations. Do you halt crane activity as a safety precaution?"
+- "CCTV shows a crane error flashing on Berth3_Crane02. What's your immediate response?"
+- "The crane error just cleared itself. Do you trust the system or maintain manual oversight?"
+- "The dock supervisor says crews are on edge, exhausted, and questioning if they're safe to operate equipment. What's your response?"
+- "Ravi Jindal formally requests authority to pause night shift operations by 7:00 PM. Do you approve this?"
+- "Workers are asking if management knows what they're doing. How do you address this confidence crisis?"
+- "How do you balance commercial pressures with the supervisor's safety concerns?"
+
+**Team Coordination Required:**
+- **WITH TECHNICAL:** Get crane control system status and safety confirmation
+- **WITH EXECUTIVE:** Escalate night shift halt recommendation and crew safety concerns
+- **WITH INCIDENT COORDINATOR:** Report operational capacity and recovery timeline
+- **WITH LEGAL:** Brief on operational impact for regulatory reporting
+
+**Documents to Reference:**
+- `Operations_Team_Playbook.md` - Section 4 (Recovery)
+- `Restart_Procedures.pdf`
+
+---
+
+### **Legal Team**
+**Key Events & Decision Points:**
+- **Time 30min:** **URGENT:** Insurer demands all logs (INJ012A)
+- **Time 30min:** External counsel log retention compliance (INJ011D)
+- **Time 36min:** **BLOCKING:** CFO blocks public statements (INJ013)
+- **Time 38min:** Breach notification draft ready (INJ019A)
+- **Time 38min:** Legal intern asks about "persistence" classification (INJ017B)
+- **Time 38min:** **FINAL:** Department of Infrastructure formal request (INJ013T)
+
+**Critical Decisions:**
+- **END OF BUSINESS DEADLINE:** Insurer compliance
+- **BLOCKING ISSUE:** Coverage clarification before any statements
+- **CEO SIGN-OFF:** Breach notification approval
+- "Persistent unauthorized access" classification
+- **TODAY:** Ministerial submission deadline
+
+**Actions Required:**
+- **URGENT:** Insurance coverage written confirmation
+- **PRIORITY:** CEO breach notification approval
+- **DEADLINE:** Government reporting requirements
+
+**Facilitator Questions to Guide Team:**
+- "InsurePort demands immediate access to all logs by end of business today. How do you comply while protecting privilege?"
+- "The CFO is blocking all public statements until insurance coverage is definitively clarified. How quickly can you provide this?"
+- "Your breach notification draft is ready and needs CEO sign-off. What are the key sections requiring approval?"
+- "The legal intern asks if the override cron script qualifies as 'persistent unauthorized access.' How do you classify this?"
+- "Department of Infrastructure wants the complete incident report by close of business. How do you coordinate this with other deadlines?"
+
+**Team Coordination Required:**
+- **WITH EXECUTIVE:** Get CFO insurance coverage clarification and CEO breach notification approval
+- **WITH MEDIA:** Coordinate final public statement strategy after insurance confirmation
+- **WITH INCIDENT COORDINATOR:** Coordinate ministerial submission and regulatory reporting
+- **WITH ALL TEAMS:** Collect final documentation for comprehensive incident report
+
+**Documents to Reference:**
+- `Legal_Team_Playbook.md` - Section 4 (Post-Incident)
+- `Notification_Requirements_Matrix.xlsx`
+- `Investigation_Cooperation_Guide.pdf`
+
+---
+
+### **Media Team**
+**Key Events & Decision Points:**
+- **Time 30min:** Channel 8 final interview request (INJ012B)
+- **Time 34min:** **IMMEDIATE:** TV crew at main entrance (INJ012E)
+- **Time 38min:** Container images circulating on Twitter (INJ020A)
+- **Time 38min:** **FINAL DEADLINE:** CEO comment for evening news (INJ020B)
+
+**Critical Decisions:**
+- **20-MINUTE DEADLINE:** Channel 8 interview vs. proceed without
+- **15-MINUTE DEADLINE:** TV crew response options
+- **30-MINUTE DEADLINE:** Final CEO comment opportunity
+- **URGENT:** Counter container images narrative
+
+**Actions Required:**
+- **IMMEDIATE:** TV crew management decision
+- **URGENT:** Visual evidence damage control
+- **FINAL CALL:** CEO participation decision
+
+**Facilitator Questions to Guide Team:**
+- "Channel 8 will go live in 20 minutes with or without your participation. Do you provide a spokesperson or let them proceed alone?"
+- "Fiona Marks is at the main entrance with a full camera crew. Do you arrange immediate interview, provide written statement, or ask them to leave?"
+- "Images of misrouted containers are circulating on Twitter with #SouthgateFailure. How do you counter this visual evidence?"
+- "This is your final opportunity for CEO comment before evening news closes. What's your recommendation?"
+- "They'll proceed with footage, eyewitness accounts, and industry expert analysis if you don't participate. Does this change your decision?"
+
+**Team Coordination Required:**
+- **WITH EXECUTIVE:** Get final CEO participation decision and strategic guidance
+- **WITH LEGAL:** Coordinate timing with insurance coverage clarification
+- **WITH INCIDENT COORDINATOR:** Report final media pressure and external narrative status
+- **FROM EXECUTIVE:** Receive approval for CEO interview participation and key messaging
+
+**Documents to Reference:**
+- `Media_Team_Playbook.md` - Section 4 (Sustained Response)
+- `Crisis_Communication_Checklist.pdf`
+
+---
+
+### **Executive Team**
+**Key Events & Decision Points:**
+- **Time 22min:** Staff leave balance system glitch affecting morale (INJ010G)
+- **Time 32min:** Dock supervisor night shift request (INJ012D)
+- **Time 34min:** TV crew management decision (INJ012E)
+- **Time 36min:** **BLOCKING:** CFO insurance clarification demand (INJ013)
+- **Time 38min:** **FINAL:** Breach notification approval (INJ019A)
+
+**Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
+- **MORALE:** Staff communication strategy for leave balance system glitch
+- **SAFETY:** Approve or deny Operations team's night shift halt recommendation
+- **MEDIA:** TV crew interview strategy - provide CEO or decline
+- **FINANCIAL:** Insurance coverage confirmation requirements
+- **REGULATORY:** Approve or request changes to breach notification draft
+
+**Actions Required:**
+- **COMMUNICATE:** Staff communication strategy about leave balance (document approach)
+- **DECISION:** Approve/deny Operations night shift halt recommendation
+- **COORDINATE:** Insurance liaison to expedite coverage clarification
+- **REVIEW:** Breach notification draft and document approval decision
+- **STRATEGIC:** TV crew response strategy and CEO participation decision
+
+**Team Coordination Required:**
+- **WITH OPERATIONS:** Support night shift halt decision and crew morale concerns
+- **WITH LEGAL:** Expedite insurance coverage clarification for CFO
+- **WITH MEDIA:** Final decision on TV crew interview and CEO participation
+- **WITH INCIDENT COORDINATOR:** Approve breach notification and regulatory submission
+
+**Key Evidence to Collect:**
+- Staff morale impact assessment and leave system status
+- Night shift safety assessment and crew confidence levels
+- Insurance coverage written confirmation
+- CEO approval documentation for breach notification
+
+**Documentation Requirements:**
+- Executive decision log for operational halt approval
+- Insurance coverage clarification and CFO approval
+- Media strategy decisions and CEO participation
+- Regulatory submission approvals and sign-offs
+
+**Facilitator Questions to Guide Team:**
+- "Staff leave balances are showing as zero and causing morale problems. How do you address this quickly?"
+- "The dock supervisor formally requests authority to pause night shift due to crew safety concerns. Do you approve this operational halt?"
+- "TV crews are at the main entrance demanding immediate access. What's your media strategy decision?"
+- "The CFO is blocking all public statements until insurance coverage is clarified. How do you resolve this quickly?"
+- "The breach notification draft needs your sign-off with potential legal and financial implications. Do you approve it?"
+- "Multiple final deadlines are converging. How do you prioritize between media, regulatory, and operational demands?"
+
+**Team Coordination Required:**
+- **WITH OPERATIONS:** Support night shift halt decision and crew morale concerns
+- **WITH LEGAL:** Expedite insurance coverage clarification for CFO
+- **WITH MEDIA:** Final decision on TV crew interview and CEO participation
+- **WITH INCIDENT COORDINATOR:** Approve breach notification and regulatory submission
+
+**Documents to Reference:**
+- `Executive_Team_Playbook.md` - Section 4 (Recovery)
+- `Stakeholder_Briefing_Template.pptx`
+
+---
+
+### **Incident Coordinator**
+**Key Events & Decision Points:**
+- **Time 38min:** Final log preparation requirements (INJ021B)
+- **Time 38min:** **2-HOUR DEADLINE:** Ministerial submission (INJ021C)
+
+**Critical Decisions:**
+- Final incident summary compilation
+- Log export and documentation chain
+
+**Actions Required:**
+- **DEADLINE:** Briefing Template V5 completion
+- **COORDINATION:** Government submission preparation
+
+**Team Coordination Required:**
+- **WITH ALL TEAMS:** Collect final decisions, timestamps, and documentation
+- **WITH EXECUTIVE:** Coordinate breach notification approval and ministerial submission
+- **WITH LEGAL:** Ensure regulatory reporting requirements are met
+- **WITH TECHNICAL:** Collect evidence package and forensic summary
+
+**Key Evidence to Collect:**
+- Complete incident timeline with decision points and responsible parties
+- Cross-team coordination documentation
+- Evidence packages from Technical team
+- Final decisions and outcomes from all teams
+
+**Documentation Requirements:**
+- Briefing Template V5 with all required sections complete
+- Incident timeline with proper incident ID codes
+- Decision traceability and responsible party documentation
+- Lessons learned framework preparation
+
+**Facilitator Questions to Guide Team:**
+- "You need to prepare the final incident summary for ministerial submission in 2 hours. What are your priorities?"
+- "Multiple teams have critical actions and decisions happening simultaneously. How do you coordinate without overwhelming them?"
+- "The government wants a complete timeline with decision points and responsible parties. How do you extract this from all teams?"
+- "What format and detail level is appropriate for ministerial review vs. operational debrief?"
+- "How do you ensure all teams are properly documenting their decisions for the final report?"
+
+**Documents to Reference:**
+- `Incident_Coordinator_Guide.md` - Section 4 (Closure)
+- `Incident_Report_Template.docx`
+
+---
+
+## **CRITICAL SUCCESS FACTORS & DECISION TIMELINE:**
+
+### **Major Decision Points:**
+1. **Phase 1 (4min):** Legal insurance clause 7.4 analysis
+2. **Phase 2 (12min):** Operations halt vs. manual procedures (extended deadline)
+3. **Phase 2 (10min):** Node-04 isolation vs. CCTV impact  
+4. **Phase 3 (20min):** Insurance classification deadline
+5. **Phase 4 (30min):** Crane safety halt (extended deadline)
+6. **Phase 4 (32min):** Night shift operations decision
+7. **Phase 4 (36min):** CFO blocks statements until insurance clarity
+8. **Phase 4 (38min):** Final media deadlines and CEO decisions
+
+### **Interdependencies:**
+- **Legal → Media:** No media activity without insurance clearance
+- **Technical → Operations:** Node-04 isolation affects CCTV
+- **CFO → All Teams:** Insurance clarity blocks final statements
+- **Operations → Executive:** Safety decisions require leadership support
+
+### **Key Facilitator Reminders:**
+- **Phase 1:** Focus on insurance analysis and media clearance blocking
+- **Phase 2:** Operations halt ultimatum and ABC interview pressure
+- **Phase 3:** Multiple failure confirmations and insurer deadline
+- **Phase 4:** Evidence destruction, TV crews, and final approvals
+
+---
+
+**Document Control:** Team Summary v2.0 | Generated for Southgate Terminal Drill | All facilitators should coordinate decision timing
