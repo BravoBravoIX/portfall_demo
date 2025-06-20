@@ -11,7 +11,7 @@
     "manual": false
   },
   {
-    "time_offset": 1,
+    "time_offset": 3,
     "event_id": "INJ001A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -21,13 +21,13 @@
         "from_name": "Routing Coordinator",
         "subject": "Delayed Packet Routing to Manifest System",
         "to": ["tech@simrange.local"],
-        "body": "Hi team,\n\nWe've started observing consistent delays in packet routing to the ship manifest system over the past 15 minutes. This appears to be affecting manifest visibility across multiple terminals. We need to confirm whether this is isolated to our local switch or symptomatic of a larger upstream network degradation.\n\nPlease investigate Node-04 traffic first. If no fault found, escalate to the external gateway diagnostics.\n\nAppreciate prompt triage and a summary of findings within the next 10 minutes.\n\nRegards,\nPort Routing Coordinator"
+        "body": "Hi team,\n\nWe've started observing consistent delays in packet routing to the ship manifest system over the past 15 minutes. Doesn't seem too major. \n\nLet us know if you hear anything.\n\nAppreciate prompt triage and a summary of findings within the next 10 minutes.\n\nRegards,\nPort Routing Coordinator"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 1,
+    "time_offset": 6,
     "event_id": "INJ001B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -37,7 +37,7 @@
         "from_name": "Network Monitoring Team",
         "subject": "Packet queue spike – urgent trace?",
         "to": ["tech@simrange.local", "ops@simrange.local"],
-        "body": "Hi team,\n\nWe're registering a substantial and sustained spike in the outbound packet queue originating from Node-04. Initial analysis suggests this may not be standard load-related behaviour.\n\nPlease advise urgently:\n- Is this related to any known reconfiguration or traffic redirection?\n- Does this coincide with the AIS anomalies reported earlier?\n- Do we need to initiate a trace to identify potential malicious external connections?\n\nIf confirmed abnormal, suggest escalating to cyber team and preparing logs for forensic capture.\n\nRegards,\nNetwork Monitoring Team"
+        "body": "Hi team,\n\nWe're registering a substantial and sustained spike in the outbound packet queue originating from Node-04. Initial analysis suggests this may not be standard load-related behaviour.\n\nPlease advise urgently:\n- Is this related to any known reconfiguration or traffic redirection?\n- Are we seeing any unusual patterns in other systems?\n- Do we need to initiate a trace to identify potential malicious external connections?\n\nIf confirmed abnormal, suggest escalating to cyber team and preparing logs for forensic capture.\n\nRegards,\nNetwork Monitoring Team"
       }
     },
     "manual": false
@@ -59,7 +59,7 @@
     "manual": false
   },
   {
-    "time_offset": 11,
+    "time_offset": 5,
     "event_id": "INJ001E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -69,13 +69,13 @@
         "from_name": "Angela Poole, Head of External Affairs",
         "subject": "MarineTracker Visibility Spike",
         "to": ["media@simrange.local"],
-        "body": "Hi Media Team,\n\nMarineTracker has started flagging increased visibility metrics for Ship_Alpha, even though its position hasn't changed significantly.\n\nNot sure if this is a legitimate public interest spike or some automated scraping event, but in either case we should prepare a holding line and be ready to respond if it escalates.\n\nLoop in comms writers. Let's keep this one quiet unless something further develops.\n\nRegards,\nAngela Poole\nHead of External Affairs"
+        "body": "Hi Media Team,\n\n Online site, MarineTracker has started flagging increased visibility metrics for Ship_Alpha, even though its position hasn't changed significantly.\n\nNot sure if this is a legitimate public interest spike or some automated scraping event, but in either case we should prepare a holding line and be ready to respond if it escalates.\n\nLoop in comms writers. Let's keep this one quiet unless something further develops.\n\nRegards,\nAngela Poole\nHead of External Affairs"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 3,
+    "time_offset": 15,
     "event_id": "INJ001F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -85,7 +85,7 @@
         "from_name": "Nick Menon, Group Risk & Insurance",
         "subject": "Insurance Visibility Concern",
         "to": ["legal@simrange.local"],
-        "body": "Hi Legal team,\n\nComms team should hold all external responses until we validate whether clause 7.4 of the policy still applies in the context of AIS-based visibility anomalies.\n\nIf this ends up in the media and we haven't confirmed our position, we risk invalidating cover. Please liaise with underwriters if in doubt.\n\nNo media activity without written legal clearance.\n\nRegards,\nNick Menon\nGroup Risk & Insurance"
+        "body": "Hi Legal team,\n\nComms team should hold any external query responses until we validate whether clause 7.4 of the policy still applies in the context of AIS-based visibility anomalies.\n\nIf this ends up in the media and we haven't confirmed our position, we risk invalidating cover. Please liaise with underwriters if in doubt.\n\nNo media activity without written legal clearance.\n\nRegards,\nNick Menon\nGroup Risk & Insurance"
       }
     },
     "manual": false
@@ -106,7 +106,7 @@
     "manual": false
   },
   {
-    "time_offset": 18,
+    "time_offset": 3,
     "event_id": "INJ002B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -122,7 +122,7 @@
     "manual": false
   },
   {
-    "time_offset": 18,
+    "time_offset": 11,
     "event_id": "INJ002C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -138,7 +138,7 @@
     "manual": false
   },
   {
-    "time_offset": 18,
+    "time_offset": 25,
     "event_id": "INJ002D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -148,7 +148,7 @@
         "from_name": "Media Team",
         "subject": "PR Photos of Ship_Alpha",
         "to": ["media@simrange.local"],
-        "body": "Hi team,\n\nQuick question for the archives team — do we still have the PR folder with last year's Ship_Alpha arrival shots? With all the current media attention around the vessel, we might need some stock imagery for our communications drafts.\n\nIf you have access to those files, could you let me know what's available? Ideally we'd want high-resolution images showing the ship in normal operations at our terminal.\n\nThanks,\nMedia Team"
+        "body": "Hi team,\n\nQuick question for the archives team — do we still have the PR folder with last year's Ship_Alpha arrival shots? With potential media attention around the vessel, we might need some stock imagery for our communications drafts.\n\nIf you have access to those files, could you let me know what's available? Ideally we'd want high-resolution images showing the ship in normal operations at our terminal.\n\nThanks,\nMedia Team"
       }
     },
     "manual": false
@@ -168,7 +168,7 @@
     "manual": false
   },
   {
-    "time_offset": 18,
+    "time_offset": 15,
     "event_id": "INJ003B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -184,7 +184,7 @@
     "manual": false
   },
   {
-    "time_offset": 18,
+    "time_offset": 8,
     "event_id": "INJ003C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -200,7 +200,7 @@
     "manual": false
   },
   {
-    "time_offset": 46,
+    "time_offset": 36,
     "event_id": "INJ003D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -232,7 +232,7 @@
     "manual": false
   },
   {
-    "time_offset": 22,
+    "time_offset": 25,
     "event_id": "INJ003F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -258,7 +258,7 @@
         "from_name": "Harjit Mann, Tech Support Analyst",
         "subject": "Node-04 Isolation Warning",
         "to": ["tech@simrange.local"],
-        "body": "Hi team,\n\nFYI, if we proceed with isolating Node-04, it will knock out the CCTV relay for the west quadrant. That includes feeds supporting lanes 1 through 3 and the inbound gate.\n\nI suggest checking in with Ops before pulling the plug unless we're confident we've got coverage via manual watch or alternate feeds. Let me know if I should coordinate that directly.\n\nHarjit"
+        "body": "Hi team,\n\nFYI, if we proceed with isolating Node-04, it will knock out any remaining CCTV relay for the west quadrant. That includes feeds supporting lanes 1 through 3 and the inbound gate.\n\nI suggest checking in with Ops before pulling the plug unless we're confident we've got coverage via manual watch or alternate feeds. Let me know if I should coordinate that directly.\n\nHarjit"
       }
     },
     "manual": false
@@ -313,7 +313,7 @@
     "manual": false
   },
   {
-    "time_offset": 24,
+    "time_offset": 35,
     "event_id": "INJ004C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -329,7 +329,7 @@
     "manual": false
   },
   {
-    "time_offset": 24,
+    "time_offset": 25,
     "event_id": "INJ004C1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -347,7 +347,7 @@
     "manual": false
   },
   {
-    "time_offset": 26,
+    "time_offset": 36,
     "event_id": "INJ004D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -411,7 +411,7 @@
     "manual": false
   },
   {
-    "time_offset": 36,
+    "time_offset": 30,
     "event_id": "INJ005A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -488,7 +488,7 @@
     "manual": false
   },
   {
-    "time_offset": 36,
+    "time_offset": 37,
     "event_id": "INJ005F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -504,7 +504,7 @@
     "manual": false
   },
   {
-    "time_offset": 36,
+    "time_offset": 37,
     "event_id": "INJ005G",
     "target": "VM-UI",
     "action_type": "payload",
@@ -520,7 +520,7 @@
     "manual": false
   },
   {
-    "time_offset": 18,
+    "time_offset": 25,
     "event_id": "INJ006A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -534,7 +534,7 @@
     "manual": false
   },
   {
-    "time_offset": 18,
+    "time_offset": 40,
     "event_id": "INJ006C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -550,7 +550,7 @@
     "manual": true
   },
   {
-    "time_offset": 18,
+    "time_offset": 40,
     "event_id": "INJ006D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -566,7 +566,7 @@
     "manual": false
   },
   {
-    "time_offset": 18,
+    "time_offset": 20,
     "event_id": "INJ006E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -582,7 +582,7 @@
     "manual": false
   },
   {
-    "time_offset": 18,
+    "time_offset": 21,
     "event_id": "INJ006F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -623,7 +623,7 @@
         "from_name": "Operations Coordinator",
         "subject": "Crane Sync Issue – Bravo Berth",
         "to": ["ops@simrange.local"],
-        "body": "Hi Operations team,\n\nWe've lost telemetry synchronization on the Bravo Berth crane systems — all indicators are frozen mid-cycle and showing inconsistent readings. No container drop has occurred yet, but our crew have switched to fallback manual mode as a precaution.\n\nThis may be related to the earlier GPS distortions we reported, as the timing correlates with those anomalies. The crane positioning system relies on the same satellite timing signals that were affected.\n\nPlease review the situation and advise if this needs immediate escalation to the technical team or if we should continue with manual operations for the remainder of the shift.\n\nAwaiting your guidance.\n\nOperations Coordination"
+        "body": "Hi Operations team,\n\nWe've lost synchronisation on the Bravo Berth crane systems — all indicators are frozen mid-cycle and showing inconsistent readings. No container drop has occurred yet, but our crew have switched to fallback manual mode as a precaution.\n\nThis may be related to the earlier GPS distortions we reported, as the timing correlates with those anomalies. The crane positioning system relies on the same satellite timing signals that were affected.\n\nPlease review the situation and advise if this needs immediate escalation to the technical team or if we should continue with manual operations for the remainder of the shift.\n\nAwaiting your guidance.\n\nOperations Coordination"
       }
     },
     "manual": false
@@ -657,7 +657,7 @@
         "user": "unknown_vendor_account",
         "ip": "192.168.1.100", 
         "status": "Failed",
-        "message": "Unauthorized vendor access attempt during incident response"
+        "message": "Unauthorised vendor access attempt during incident response"
       }
     },
     "manual": false
@@ -679,7 +679,7 @@
     "manual": false
   },
   {
-    "time_offset": 36,
+    "time_offset": 37,
     "event_id": "INJ008B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -710,7 +710,7 @@
     "manual": false
   },
   {
-    "time_offset": 36,
+    "time_offset": 38,
     "event_id": "INJ009A",
     "target": "VM-UI",
     "action_type": "payload",
@@ -789,7 +789,7 @@
     "manual": false
   },
   {
-    "time_offset": 22,
+    "time_offset": 41,
     "event_id": "INJ010B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -852,7 +852,7 @@
     "manual": false
   },
   {
-    "time_offset": 40,
+    "time_offset": 42,
     "event_id": "INJ010F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -868,7 +868,7 @@
     "manual": false
   },
   {
-    "time_offset": 40,
+    "time_offset": 42,
     "event_id": "INJ010G",
     "target": "VM-UI",
     "action_type": "payload",
@@ -915,7 +915,7 @@
     "manual": false
   },
   {
-    "time_offset": 40,
+    "time_offset": 43,
     "event_id": "INJ011C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -962,7 +962,7 @@
     "manual": false
   },
   {
-    "time_offset": 40,
+    "time_offset": 43,
     "event_id": "INJ011F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1084,7 +1084,7 @@
         "from_name": "Chief Financial Officer",
         "subject": "Brief Approval – Insurance Clarification",
         "to": ["ceo@simrange.local", "legal@simrange.local"],
-        "body": "Hi team,\n\nBefore we authorize the final public briefing statement, I need urgent clarification on our insurance coverage applicability in this scenario. I've been reviewing multiple policy definitions with our brokers, and there's a concerning ambiguity.\n\nIf this event gets classified as a cyberattack with systemic operational risk, we might fall outside our standard operational disruption clause and into the cyber liability provisions, which have different coverage limits and deductibles.\n\nGiven the potential financial exposure and the media attention this is receiving, we cannot proceed with final endorsement of any public statement until this coverage question is definitively settled.\n\nPlease coordinate with our insurance liaison immediately and get written confirmation of coverage scope.\n\nRegards,\nChief Financial Officer"
+        "body": "Hi team,\n\nBefore we authorise the final public briefing statement, I need urgent clarification on our insurance coverage applicability in this scenario. I've been reviewing multiple policy definitions with our brokers, and there's a concerning ambiguity.\n\nIf this event gets classified as a cyberattack with systemic operational risk, we might fall outside our standard operational disruption clause and into the cyber liability provisions, which have different coverage limits and deductibles.\n\nGiven the potential financial exposure and the media attention this is receiving, we cannot proceed with final endorsement of any public statement until this coverage question is definitively settled.\n\nPlease coordinate with our insurance liaison immediately and get written confirmation of coverage scope.\n\nRegards,\nChief Financial Officer"
       }
     },
     "manual": false
@@ -1180,23 +1180,7 @@
         "from_name": "Dock Supervisor",
         "subject": "Crane Crew Unsure of Safety State",
         "to": ["ops@simrange.local", "tech@simrange.local"],
-        "body": "Hi Operations and Tech teams,\n\nFollowing the detection of the unauthorized cron job, our crane team is now unclear whether the system is operating under manual or automatic control. The indicator lights are showing inconsistent states, which is creating confusion about the actual operational mode.\n\nThe crew are hesitant to resume container drops without formal clearance that the system is safe and properly configured. Given the potential safety implications, we need rapid clarification about the control state.\n\nIf we don't get confirmation within the next 10 minutes, I'll need to halt all crane activity as a safety precaution.\n\nUrgent response needed.\n\nRegards,\nDock Supervisor"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 56,
-    "event_id": "INJ017A",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "logs",
-        "change": "cronjob_detected",
-        "source": "audit.vm",
-        "task": "/usr/bin/override_crane.sh"
+        "body": "Hi Operations and Tech teams,\n\nFollowing the detection of the unauthorised cron job, our crane team is now unclear whether the system is operating under manual or automatic control. The indicator lights are showing inconsistent states, which is creating confusion about the actual operational mode.\n\nThe crew are hesitant to resume container drops without formal clearance that the system is safe and properly configured. Given the potential safety implications, we need rapid clarification about the control state.\n\nIf we don't get confirmation within the next 10 minutes, I'll need to halt all crane activity as a safety precaution.\n\nUrgent response needed.\n\nRegards,\nDock Supervisor"
       }
     },
     "manual": false
@@ -1376,7 +1360,7 @@
     "manual": false
   },
   {
-    "time_offset": 66,
+    "time_offset": 56,
     "event_id": "INJ013R",
     "target": "VM-UI",
     "action_type": "payload",

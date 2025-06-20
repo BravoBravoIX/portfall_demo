@@ -33,7 +33,7 @@ class StateTracker:
         if self.start_time is None:
             return 0
         elapsed = time.time() - self.start_time
-        return int(elapsed)
+        return int(elapsed / 60)  # Convert seconds to minutes
 
     def mark_injected(self, event_id):
         self.injected_events.append(event_id)

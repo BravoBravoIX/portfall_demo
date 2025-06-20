@@ -140,7 +140,7 @@ Each team must maintain a **Decision Log** documenting:
 ### **Legal Team**
 **Key Events & Decision Points:**
 - **Time 1min:** HR Code of Conduct reminder (INJ001C) - routine
-- **⚡ Time 3min:** **CRITICAL - Insurance clause 7.4 review required** (INJ001F)
+- **⚡ Time 12min:** **CRITICAL - Insurance clause 7.4 review required** (INJ001F)
 - **Time 18min:** Expired Cyber Incident Contingency Plan identified (INJ002B)
 
 **Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
@@ -980,7 +980,7 @@ Each team must maintain a **Decision Log** documenting:
 ## **CRITICAL SUCCESS FACTORS & DECISION TIMELINE:**
 
 ### **Major Decision Points:**
-1. **Phase 1 (3min):** Legal insurance clause 7.4 analysis
+1. **Phase 1 (12min):** Legal insurance clause 7.4 analysis
 2. **Phase 2 (22min):** Operations halt vs. manual procedures
 3. **Phase 2 (18min):** Node-04 isolation vs. CCTV impact  
 4. **Phase 3 (36min):** Insurance classification deadline
