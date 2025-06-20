@@ -1,4 +1,4 @@
-# SOUTHGATE TERMINAL SCENARIO - 40 MINUTE DRILL
+# SOUTHGATE TERMINAL SCENARIO - 75 MINUTE DRILL
 ## COMPREHENSIVE Team-by-Team Guidance with Facilitator Questions
 
 ---
@@ -35,7 +35,7 @@ Each team must maintain a **Decision Log** documenting:
 
 ---
 
-## **PHASE 1: INITIAL ANOMALIES (0-10 minutes) - Time Offset 0-4**
+## **PHASE 1: INITIAL ANOMALIES (0-15 minutes)**
 
 **PHASE SUMMARY:** The incident begins with seemingly routine network issues that quickly reveal deeper problems. Technical teams detect packet routing delays and suspicious Node-04 activity while Legal receives critical insurance coverage questions that will block all media activities. Initial symptoms appear isolated but evidence suggests coordinated interference. The key challenge is distinguishing between technical glitches and deliberate attack indicators while maintaining normal operations.
 
@@ -43,9 +43,9 @@ Each team must maintain a **Decision Log** documenting:
 
 ### **Technical Team**
 **Key Events & Decision Points:**
-- **Time 2min:** Network routing delays to manifest system (INJ001A)
-- **Time 2min:** Packet queue spike from Node-04 - potential malicious activity (INJ001B)
-- **Time 26min:** Password rotation reminder for admin accounts (INJ003D)
+- **Time 1min:** Network routing delays to manifest system (INJ001A)
+- **Time 1min:** Packet queue spike from Node-04 - potential malicious activity (INJ001B)
+- **Time 46min:** Password rotation reminder for admin accounts (INJ003D)
 
 **Critical Decisions:**
 - Investigate Node-04 vs. escalate to external gateway
@@ -89,9 +89,9 @@ Each team must maintain a **Decision Log** documenting:
 
 ### **Operations Team**
 **Key Events & Decision Points:**
-- **Time 2min:** Network monitoring alerts affecting operations (INJ001B)
-- **Time 4min:** **DASHBOARD ALERT:** Ship_Alpha disappears from AIS tracking (INJ002A)
-- **Time 10min:** Coffee machine electrical hazard at Berth 3 (INJ002C)
+- **Time 1min:** Network monitoring alerts affecting operations (INJ001B)
+- **Time 5min:** **DASHBOARD ALERT:** Ship_Alpha disappears from AIS tracking (INJ002A)
+- **Time 18min:** Coffee machine electrical hazard at Berth 3 (INJ002C)
 
 **Critical Decisions:**
 - Continue operations with network degradation vs. implement precautionary measures
@@ -139,9 +139,9 @@ Each team must maintain a **Decision Log** documenting:
 
 ### **Legal Team**
 **Key Events & Decision Points:**
-- **Time 2min:** HR Code of Conduct reminder (INJ001C) - routine
-- **⚡ Time 2min:** **CRITICAL - Insurance clause 7.4 review required** (INJ001F)
-- **Time 10min:** Expired Cyber Incident Contingency Plan identified (INJ002B)
+- **Time 1min:** HR Code of Conduct reminder (INJ001C) - routine
+- **⚡ Time 3min:** **CRITICAL - Insurance clause 7.4 review required** (INJ001F)
+- **Time 18min:** Expired Cyber Incident Contingency Plan identified (INJ002B)
 
 **Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
 - **URGENT:** Determine whether clause 7.4 applies to AIS visibility anomalies
@@ -175,8 +175,8 @@ Each team must maintain a **Decision Log** documenting:
 
 ### **Media Team**
 **Key Events & Decision Points:**
-- **Time 4min:** MarineTracker visibility spike for Ship_Alpha (INJ001E)
-- **Time 10min:** PR photos request for Ship_Alpha (INJ002D)
+- **Time 11min:** MarineTracker visibility spike for Ship_Alpha (INJ001E)
+- **Time 18min:** PR photos request for Ship_Alpha (INJ002D)
 
 **Critical Decisions (DISCUSSION & DOCUMENTATION ONLY):**
 - Prepare holding statement vs. keep quiet strategy - document approach
@@ -263,7 +263,7 @@ Each team must maintain a **Decision Log** documenting:
 
 ---
 
-## **PHASE 2: ESCALATION BEGINS (10-20 minutes) - Time Offset 10-16**
+## **PHASE 2: ESCALATION BEGINS (15-35 minutes)**
 
 **PHASE SUMMARY:** The situation escalates dramatically as CCTV systems fail and multiple operational impacts become apparent. The Dockmaster issues a 10-minute ultimatum to restore systems or halt operations, while media pressure increases with ABC requesting a live interview. Technical teams discover unauthorized configuration changes and face a critical decision about isolating Node-04, which would eliminate CCTV capability entirely. Staff stress becomes visible as the incident's scope expands.
 
@@ -479,7 +479,7 @@ Each team must maintain a **Decision Log** documenting:
 
 ---
 
-## **PHASE 3: CRISIS INTENSIFIES (20-30 minutes) - Time Offset 20-26**
+## **PHASE 3: CRISIS INTENSIFIES (35-55 minutes)**
 
 **PHASE SUMMARY:** The incident reveals its true scope as all AIS ship tracking fails and unauthorized access across multiple systems is confirmed. Insurers are demanding answers by 1:00 PM while operational capacity drops to 70% due to manual overrides. WorkSafe regulations may be triggered, board members are making informal inquiries, and an internal HR memo has leaked online. The "sabotage suspected" headline appears as media pressure intensifies. This is the confirmation phase where the coordinated nature of the attack becomes undeniable.
 
@@ -711,7 +711,7 @@ Each team must maintain a **Decision Log** documenting:
 
 ---
 
-## **PHASE 4: PEAK CRISIS & RESOLUTION (30-40 minutes) - Time Offset 30-38**
+## **PHASE 4: PEAK CRISIS & RESOLUTION (55-75 minutes)**
 
 **PHASE SUMMARY:** The crisis reaches its peak as evidence destruction begins (auth logs being deleted), TV crews arrive at the facility, and the CFO blocks all public statements until insurance coverage is definitively clarified. The dock supervisor formally requests to halt night shift operations due to crew safety concerns while InsurePort demands immediate access to all logs. Multiple final deadlines converge: CEO comment for evening news, ministerial submission, and breach notification approval. The incident concludes with coordination of recovery efforts and preparation of comprehensive reporting for regulatory authorities.
 
@@ -980,14 +980,14 @@ Each team must maintain a **Decision Log** documenting:
 ## **CRITICAL SUCCESS FACTORS & DECISION TIMELINE:**
 
 ### **Major Decision Points:**
-1. **Phase 1 (4min):** Legal insurance clause 7.4 analysis
-2. **Phase 2 (12min):** Operations halt vs. manual procedures (extended deadline)
-3. **Phase 2 (10min):** Node-04 isolation vs. CCTV impact  
-4. **Phase 3 (20min):** Insurance classification deadline
-5. **Phase 4 (30min):** Crane safety halt (extended deadline)
-6. **Phase 4 (32min):** Night shift operations decision
-7. **Phase 4 (36min):** CFO blocks statements until insurance clarity
-8. **Phase 4 (38min):** Final media deadlines and CEO decisions
+1. **Phase 1 (3min):** Legal insurance clause 7.4 analysis
+2. **Phase 2 (22min):** Operations halt vs. manual procedures
+3. **Phase 2 (18min):** Node-04 isolation vs. CCTV impact  
+4. **Phase 3 (36min):** Insurance classification deadline
+5. **Phase 4 (56min):** Crane safety halt
+6. **Phase 4 (60min):** Night shift operations decision
+7. **Phase 4 (64min):** CFO blocks statements until insurance clarity
+8. **Phase 4 (66min):** Final media deadlines and CEO decisions
 
 ### **Interdependencies:**
 - **Legal → Media:** No media activity without insurance clearance

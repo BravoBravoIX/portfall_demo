@@ -62,7 +62,7 @@ services:
     environment:
       - REDIS_HOST=portfall-redis
       - MQTT_BROKER=mqtt-broker
-      - GMAIL_ENABLED=true
+      - GMAIL_ENABLED=false
       - GMAIL_USER=portfall.controller@gmail.com
       - GMAIL_APP_PASSWORD=zknpipwlksmvjlak
     depends_on:
