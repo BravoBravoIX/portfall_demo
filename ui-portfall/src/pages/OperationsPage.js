@@ -34,10 +34,6 @@ export default function OperationsPage() {
           <Mail className="me-2" size={18} strokeWidth={1.5} />
           <span>Operational communications and coordination</span>
         </li>
-        <li className="list-group-item d-flex align-items-center">
-          <FileText className="me-2" size={18} strokeWidth={1.5} />
-          <span>Standard operating procedures and response protocols</span>
-        </li>
       </ul>
       
       <p>This system is designed to support frontline operational decision-making. You are expected to monitor critical systems, report anomalies, and implement tactical response measures.</p>
@@ -79,12 +75,6 @@ export default function OperationsPage() {
       description: "Track and manage shipping container logistics"
     },
     ...createGoogleActions(),
-    {
-      link: "/policies",
-      iconName: "fileText",
-      title: "Standard Procedures",
-      description: "Access operational protocols and procedures"
-    },
     {
       link: "/media",
       iconName: "newspaper",

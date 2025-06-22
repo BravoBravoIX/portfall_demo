@@ -9,6 +9,7 @@ class EmailService {
       'legal@simrange.local': 'portfall.legal@gmail.com',
       'tech@simrange.local': 'portfall.technical@gmail.com',
       'ceo@simrange.local': 'portfall.executive@gmail.com',
+      'executive@simrange.local': 'portfall.executive@gmail.com',
       'ops@simrange.local': 'portfall.operations@gmail.com',
       'incident@simrange.local': 'portfall.incident@gmail.com',
       // Add more mappings as needed

@@ -4,27 +4,27 @@ export default function InvestigationLinksCard() {
   const vmSystems = [
     {
       name: 'Gateway VM',
-      hostname: 'vm-secure1.southgate.local',
+      hostname: '3.26.144.91',
       description: 'Network gateway and authentication logs',
       status: 'operational',
       logs: ['/var/log/auth.log', '/var/log/syslog'],
-      credentials: 'support / Trust3dV3ndor'
+      credentials: 'gateway / Trust3dV3ndor'
     },
     {
       name: 'CoreTech VM', 
-      hostname: 'vm-coretech.southgate.local',
+      hostname: '3.26.42.67',
       description: 'Core infrastructure and crane systems',
       status: 'operational',
       logs: ['/var/log/cron.log', '/var/log/system.log'],
-      credentials: 'admin / CT2024secure'
+      credentials: 'coretech / CT2024secure'
     },
     {
       name: 'OpsNode VM',
-      hostname: 'vm-opsnode.southgate.local', 
+      hostname: '3.25.181.28', 
       description: 'Container management and routing',
       status: 'operational',
       logs: ['/var/log/docker.log', '/var/log/routing.log'],
-      credentials: 'operator / OpsN0de2024'
+      credentials: 'opsnode / OpsN0de2024'
     }
   ];
 

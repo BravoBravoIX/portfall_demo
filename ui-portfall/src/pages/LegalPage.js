@@ -53,12 +53,6 @@ export default function LegalPage() {
   const actions = [
     ...createGoogleActions(),
     {
-      link: "/policies",
-      iconName: "fileText",
-      title: "Review Policies",
-      description: "Access legal frameworks and response procedures"
-    },
-    {
       link: "/media",
       iconName: "newspaper",
       title: "Monitor Media",

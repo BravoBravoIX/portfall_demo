@@ -28,7 +28,7 @@ export default function IncidentCoordinatorPage() {
         </li>
         <li className="list-group-item d-flex align-items-center">
           <Newspaper className="me-2" size={18} strokeWidth={1.5} />
-          <span>Media coverage and external perception of the incident</span>
+          <span>Media coverage of the incident</span>
         </li>
         <li className="list-group-item d-flex align-items-center">
           <ClipboardList className="me-2" size={18} strokeWidth={1.5} />
@@ -61,19 +61,7 @@ export default function IncidentCoordinatorPage() {
   );
 
   const actions = [
-    ...createGoogleActions(),
-    {
-      link: "/policies",
-      iconName: "fileText",
-      title: "Response Protocols",
-      description: "Review incident response plans and decision frameworks"
-    },
-    {
-      link: "/media",
-      iconName: "newspaper",
-      title: "External Perception",
-      description: "Monitor media coverage and public communications"
-    }
+    ...createGoogleActions()
   ];
 
   return (

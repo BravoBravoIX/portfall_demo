@@ -22,7 +22,7 @@ export default function CCTVPage() {
 
       {/* Status + Log */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <CameraStatusCard />
+        <CameraStatusCard cameras={cameras} />
         <CCTVEventLogCard />
       </div>
 

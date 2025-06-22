@@ -8,7 +8,7 @@
       "command": "start_scenario",
       "parameters": {}
     },
-    "manual": false
+    "manual": true
   },
   {
     "time_offset": 2,

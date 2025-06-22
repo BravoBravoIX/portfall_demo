@@ -26,14 +26,32 @@ class MQTTHandler:
                 time.sleep(5)
 
     def subscribe(self, topic, callback):
-        self.client.subscribe(topic)
+        print(f"[MQTT] Subscribing to topic '{topic}'")
+        result = self.client.subscribe(topic)
+        if result[0] == 0:
+            print(f"[MQTT] Successfully subscribed to '{topic}'")
+        else:
+            print(f"[MQTT] Failed to subscribe to '{topic}', result code: {result[0]}")
         self.subscriptions[topic] = callback
+        print(f"[MQTT] Registered handler for topic '{topic}'")
 
     def publish(self, topic, payload):
         self.client.publish(topic, json.dumps(payload))
 
     def _on_message(self, client, userdata, msg):
         topic = msg.topic
-        payload = json.loads(msg.payload.decode('utf-8'))
-        if topic in self.subscriptions:
-            self.subscriptions[topic](payload)
+        try:
+            payload = json.loads(msg.payload.decode('utf-8'))
+            print(f"[MQTT] Received message on topic '{topic}': {payload}")
+            if topic in self.subscriptions:
+                print(f"[MQTT] Calling handler for topic '{topic}'")
+                self.subscriptions[topic](payload)
+            else:
+                print(f"[MQTT] No handler registered for topic '{topic}'")
+        except Exception as e:
+            print(f"[MQTT] Error processing message: {e}")
+    
+    def disconnect(self):
+        self.client.loop_stop()
+        self.client.disconnect()
+        print(f"Disconnected from MQTT broker")

@@ -8,7 +8,7 @@
       "command": "start_scenario",
       "parameters": {}
     },
-    "manual": true
+    "manual": false
   },
   {
     "_comment": "========== SCENARIO START =========="
@@ -365,23 +365,6 @@
     "manual": false
   },
   {
-    "time_offset": 35,
-    "event_id": "MEDIA-T35-TWEET",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "media",
-        "change": "publish_tweet",
-        "content": "Why are ships disappearing from tracking systems at #Southgate?! Multiple vessels just vanished from radar. What's going on?? @MarineTracker",
-        "source": "@localwatch",
-        "media_id": "1"
-      }
-    },
-    "manual": false
-  },
-  {
     "time_offset": 36,
     "event_id": "P2-2-EMAIL8",
     "target": "VM-UI",
@@ -452,7 +435,7 @@
     "_comment": "========== PHASE 3-1 (T+50 to T+56) =========="
   },
   {
-    "time_offset": 50,
+    "time_offset": 40,
     "event_id": "P3-1-EMAIL1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -484,7 +467,7 @@
     "manual": false
   },
   {
-    "time_offset": 54,
+    "time_offset": 42,
     "event_id": "P3-1-EMAIL3",
     "target": "VM-UI",
     "action_type": "payload",
@@ -503,7 +486,7 @@
     "_comment": "========== PHASE 3-2 (T+58 to T+62) =========="
   },
   {
-    "time_offset": 58,
+    "time_offset": 44,
     "event_id": "P3-2-EMAIL4",
     "target": "VM-UI",
     "action_type": "payload",
@@ -519,7 +502,7 @@
     "manual": false
   },
   {
-    "time_offset": 60,
+    "time_offset": 48,
     "event_id": "P3-2-EMAIL5",
     "target": "VM-UI",
     "action_type": "payload",
@@ -538,7 +521,7 @@
     "_comment": "========== PHASE 3-3 (T+64 to T+68) =========="
   },
   {
-    "time_offset": 64,
+    "time_offset": 50,
     "event_id": "P3-3-EMAIL6",
     "target": "VM-UI",
     "action_type": "payload",
@@ -554,7 +537,7 @@
     "manual": false
   },
   {
-    "time_offset": 65,
+    "time_offset": 54,
     "event_id": "P3-3-EMAIL7",
     "target": "VM-UI",
     "action_type": "payload",
@@ -570,7 +553,7 @@
     "manual": false
   },
   {
-    "time_offset": 67,
+    "time_offset": 55,
     "event_id": "P3-3-EMAIL8",
     "target": "VM-UI",
     "action_type": "payload",
@@ -586,7 +569,7 @@
     "manual": false
   },
   {
-    "time_offset": 68,
+    "time_offset": 57,
     "event_id": "P3-3-EMAIL9",
     "target": "VM-UI",
     "action_type": "payload",
@@ -605,7 +588,7 @@
     "_comment": "========== PHASE 4-1 (T+80 to T+85) =========="
   },
   {
-    "time_offset": 80,
+    "time_offset": 58,
     "event_id": "P4-1-EMAIL1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -736,7 +719,7 @@
     "manual": false
   },
   {
-    "time_offset": 88,
+    "time_offset": 68,
     "event_id": "P4-2-EMAIL6",
     "target": "VM-UI",
     "action_type": "payload",
@@ -752,7 +735,7 @@
     "manual": false
   },
   {
-    "time_offset": 89,
+    "time_offset": 69,
     "event_id": "P4-2-EMAIL7",
     "target": "VM-UI",
     "action_type": "payload",
@@ -768,7 +751,7 @@
     "manual": false
   },
   {
-    "time_offset": 89,
+    "time_offset": 69,
     "event_id": "P4-2-EMAIL21",
     "target": "VM-UI",
     "action_type": "payload",
@@ -784,7 +767,7 @@
     "manual": false
   },
   {
-    "time_offset": 90,
+    "time_offset": 70,
     "event_id": "P4-2-EMAIL22",
     "target": "VM-UI",
     "action_type": "payload",
@@ -803,7 +786,7 @@
     "_comment": "========== PHASE 4-3 (T+92 to T+95) =========="
   },
   {
-    "time_offset": 92,
+    "time_offset": 72,
     "event_id": "P4-3-EMAIL8",
     "target": "VM-UI",
     "action_type": "payload",
@@ -819,7 +802,7 @@
     "manual": false
   },
   {
-    "time_offset": 92,
+    "time_offset": 72,
     "event_id": "P4-3-EMAIL9",
     "target": "VM-UI",
     "action_type": "payload",
@@ -835,7 +818,7 @@
     "manual": false
   },
   {
-    "time_offset": 93,
+    "time_offset": 73,
     "event_id": "P4-3-EMAIL10",
     "target": "VM-UI",
     "action_type": "payload",
@@ -851,7 +834,7 @@
     "manual": false
   },
   {
-    "time_offset": 93,
+    "time_offset": 73,
     "event_id": "P4-3-EMAIL11",
     "target": "VM-UI",
     "action_type": "payload",
@@ -867,7 +850,7 @@
     "manual": false
   },
   {
-    "time_offset": 93,
+    "time_offset": 73,
     "event_id": "P4-3-EMAIL12",
     "target": "VM-UI",
     "action_type": "payload",
@@ -883,7 +866,7 @@
     "manual": false
   },
   {
-    "time_offset": 94,
+    "time_offset": 74,
     "event_id": "P4-3-EMAIL13",
     "target": "VM-UI",
     "action_type": "payload",
@@ -899,7 +882,7 @@
     "manual": false
   },
   {
-    "time_offset": 94,
+    "time_offset": 74,
     "event_id": "P4-3-EMAIL14",
     "target": "VM-UI",
     "action_type": "payload",
@@ -915,7 +898,7 @@
     "manual": false
   },
   {
-    "time_offset": 94,
+    "time_offset": 74,
     "event_id": "P4-3-EMAIL15",
     "target": "VM-UI",
     "action_type": "payload",
@@ -931,7 +914,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 75,
     "event_id": "P4-3-EMAIL16",
     "target": "VM-UI",
     "action_type": "payload",
@@ -947,7 +930,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 75,
     "event_id": "P4-3-EMAIL17",
     "target": "VM-UI",
     "action_type": "payload",
@@ -963,7 +946,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 75,
     "event_id": "P4-3-EMAIL23",
     "target": "VM-UI",
     "action_type": "payload",
@@ -979,7 +962,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 75,
     "event_id": "P4-3-EMAIL24",
     "target": "VM-UI",
     "action_type": "payload",
@@ -995,7 +978,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 75,
     "event_id": "P4-3-EMAIL25",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1011,7 +994,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 75,
     "event_id": "P4-3-EMAIL26",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1022,58 +1005,6 @@
         "subject": "ACTION: Tag All Deviations & Prepare Logs for Export",
         "to": ["ops@simrange.local", "tech@simrange.local", "legal@simrange.local", "media@simrange.local", "executive@simrange.local"],
         "body": "Colleagues,\n\nReminder that the ministerial request (INJ013T) requires a fully tagged incident timeline. Please:\n\n1. Ensure every major decision and deviation is logged with timestamp & policy reference.\n2. Push final logs (tech, ops, gateway) to vm-audit by 17:30.\n3. Confirm in Slack once complete so I can freeze the master record.\n\nFailure to tag will compromise the final score — let's finish strong.\n\nJordan"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 95,
-    "event_id": "MEDIA-T75-NEWS",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "media",
-        "change": "publish_news",
-        "headline": "BREAKING: Sabotage at Southgate? Port operations in chaos as systems fail",
-        "source": "ABC News",
-        "media_id": "2"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 105,
-    "event_id": "MEDIA-T105-UNREST",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "media",
-        "change": "publish_news",
-        "headline": "BREAKING: Unrest Reported at Southgate Port - Workers demand answers",
-        "source": "Channel 7",
-        "media_id": "3"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 100,
-    "event_id": "MEDIA-T110-INTERVIEW",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "media",
-        "change": "air_interview",
-        "interviewee": "CEO",
-        "title": "CEO Interview on Southgate Incident",
-        "source": "Channel 7",
-        "media_id": "4"
       }
     },
     "manual": false
@@ -1139,28 +1070,12 @@
     "payload": {
       "command": "update_dashboard",
       "parameters": {
-        "dashboard": "logs",
-        "change": "log_auth_failure",
-        "source": "vm-gateway",
-        "user": "root",
-        "message": "Multiple failed root login attempts from 198.51.100.17"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 28,
-    "event_id": "TECH-P2-VENDOR1B",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "logs",
-        "change": "log_auth_success",
-        "source": "vm-gateway",
-        "user": "ghost",
-        "message": "Unauthorized user 'ghost' successfully authenticated"
+        "dashboard": "vendor",
+        "change": "access_log",
+        "user": "vendor_gateway_service",
+        "ip": "203.45.67.89",
+        "status": "Failed",
+        "message": "Gateway routing failures - vendor system timeout"
       }
     },
     "manual": false
@@ -1179,38 +1094,6 @@
         "ip": "192.168.1.100",
         "status": "Failed",
         "message": "Unauthorized vendor access attempt during incident response"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 30,
-    "event_id": "TECH-P2-CCTV2",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "cctv",
-        "change": "stream_failure",
-        "berths": [4, 5, 7],
-        "message": "CCTV streams failing for berths 4, 5, 7 - camera feeds lost"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 32,
-    "event_id": "TECH-P2-CCTV3",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "logs",
-        "change": "system_alert",
-        "source": "vm-opsnode",
-        "message": "RF interference pattern detected on CCTV frequencies"
       }
     },
     "manual": false
@@ -1242,8 +1125,8 @@
       "parameters": {
         "dashboard": "logs",
         "change": "unauthorised_access",
-        "source": "vm-gateway",
-        "ip": "198.51.100.17"
+        "source": "scheduler.vm",
+        "ip": "103.22.14.3"
       }
     },
     "manual": false
@@ -1258,24 +1141,8 @@
       "parameters": {
         "dashboard": "logs",
         "change": "log_auth_failure",
-        "source": "vm-coretech",
-        "user": "svc_scheduler"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 40,
-    "event_id": "TECH-P3-LOGS2B",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "logs",
-        "change": "log_auth_failure",
-        "source": "vm-coretech",
-        "user": "svc_ais"
+        "source": "coretech.vm",
+        "user": "svc_gantry"
       }
     },
     "manual": false
@@ -1290,24 +1157,8 @@
       "parameters": {
         "dashboard": "logs",
         "change": "cronjob_detected",
-        "source": "vm-coretech",
-        "task": "/etc/cron.d/ais-maintenance"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 45,
-    "event_id": "TECH-P3-AIS4",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "logs",
-        "change": "system_alert",
-        "source": "vm-coretech",
-        "message": "AIS configuration tampering detected - filter coordinates modified"
+        "source": "audit.vm",
+        "task": "/usr/bin/override_crane.sh"
       }
     },
     "manual": false
@@ -1321,7 +1172,10 @@
       "command": "update_dashboard",
       "parameters": {
         "dashboard": "container",
-        "change": "log_config_manipulation"
+        "change": "log_misroute",
+        "containers": ["CON-44891", "CON-44902"],
+        "from_berth": "3",
+        "to_berth": "7"
       }
     },
     "manual": false
@@ -1355,8 +1209,8 @@
       "parameters": {
         "dashboard": "logs",
         "change": "cronjob_detected",
-        "source": "vm-gateway",
-        "task": "/etc/cron.d/vendor-sync"
+        "source": "audit.vm",
+        "task": "/usr/local/bin/.sync"
       }
     },
     "manual": false
@@ -1371,56 +1225,8 @@
       "parameters": {
         "dashboard": "logs",
         "change": "cronjob_detected",
-        "source": "vm-opsnode",
-        "task": "/etc/cron.d/cctv-maintenance"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 72,
-    "event_id": "TECH-P4-CCTV4",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "logs",
-        "change": "system_alert",
-        "source": "vm-opsnode",
-        "message": "Service account svc_cctv executing disruption tools"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 73,
-    "event_id": "TECH-P4-CCTV5",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "logs",
-        "change": "system_alert",
-        "source": "vm-opsnode",
-        "message": "Media archive corruption detected - camera recordings damaged"
-      }
-    },
-    "manual": false
-  },
-  {
-    "time_offset": 74,
-    "event_id": "TECH-P4-VENDOR3",
-    "target": "VM-UI",
-    "action_type": "payload",
-    "payload": {
-      "command": "update_dashboard",
-      "parameters": {
-        "dashboard": "logs",
-        "change": "system_alert",
-        "source": "vm-gateway",
-        "message": "Vendor session detected with elevated privileges - unauthorized changes made"
+        "source": "scheduler.node",
+        "task": "/usr/bin/manual_override.sh"
       }
     },
     "manual": false

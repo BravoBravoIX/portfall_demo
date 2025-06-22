@@ -62,13 +62,7 @@ export default function MediaCommunicationsPage() {
       title: "Media Center",
       description: "Monitor coverage and manage press releases"
     },
-    ...createGoogleActions(),
-    {
-      link: "/policies",
-      iconName: "fileText",
-      title: "PR Guidelines",
-      description: "Review crisis communication protocols and templates"
-    }
+    ...createGoogleActions()
   ];
 
   return (

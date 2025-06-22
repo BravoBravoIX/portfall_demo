@@ -1,15 +1,11 @@
 import React from 'react';
 
-export default function CameraStatusCard() {
-  // Sample camera status data
-  const cameras = [
-    { id: 1, name: 'Camera 1 – North Gate', status: 'Online', lastPing: '5s ago', recording: true },
-    { id: 2, name: 'Camera 2 – Dockside', status: 'Online', lastPing: '3s ago', recording: true },
-    { id: 3, name: 'Camera 3 – Admin Building', status: 'Online', lastPing: '7s ago', recording: true },
-    { id: 4, name: 'Camera 4 – Storage Yard', status: 'Online', lastPing: '4s ago', recording: true },
-    { id: 5, name: 'Camera 5 – Engine Room', status: 'Offline', lastPing: '4h ago', recording: false },
-    { id: 6, name: 'Camera 6 – Crew Quarters', status: 'Degraded', lastPing: '15s ago', recording: true },
-  ];
+export default function CameraStatusCard({ cameras }) {
+  // Convert cameras object to array format
+  const cameraList = Object.entries(cameras || {}).map(([name, data]) => ({
+    ...data,
+    name
+  }));
 
   return (
     <div className="bg-white shadow rounded-lg overflow-hidden">
@@ -27,13 +23,14 @@ export default function CameraStatusCard() {
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
-            {cameras.map((camera) => (
+            {cameraList.map((camera) => (
               <tr key={camera.id}>
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{camera.name}</td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                   <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
                     camera.status === 'Online' ? 'bg-green-100 text-green-800' : 
-                    camera.status === 'Degraded' ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'
+                    camera.status === 'Degraded' ? 'bg-yellow-100 text-yellow-800' : 
+                    camera.status === 'Interference' ? 'bg-red-100 text-red-800' : 'bg-red-100 text-red-800'
                   }`}>
                     {camera.status}
                   </span>

@@ -52,12 +52,6 @@ export default function ExecutivePage() {
   const actions = [
     ...createGoogleActions(),
     {
-      link: "/policies",
-      iconName: "fileText",
-      title: "Review Policies",
-      description: "Access crisis playbooks and legal templates"
-    },
-    {
       link: "/media",
       iconName: "newspaper",
       title: "Monitor Media",

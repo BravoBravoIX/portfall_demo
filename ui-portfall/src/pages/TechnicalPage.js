@@ -31,10 +31,6 @@ export default function TechnicalPage() {
           <span>Technical team communications and incident reporting</span>
         </li>
         <li className="list-group-item d-flex align-items-center">
-          <FileText className="me-2" size={18} strokeWidth={1.5} />
-          <span>Cybersecurity policies and incident response procedures</span>
-        </li>
-        <li className="list-group-item d-flex align-items-center">
           <Newspaper className="me-2" size={18} strokeWidth={1.5} />
           <span>Public reporting on technical aspects of the incident</span>
         </li>
@@ -73,12 +69,6 @@ export default function TechnicalPage() {
       description: "Access vendor systems and technical documentation"
     },
     ...createGoogleActions(),
-    {
-      link: "/policies",
-      iconName: "fileText",
-      title: "Security Policies",
-      description: "Access cybersecurity procedures and protocols"
-    },
     {
       link: "/media",
       iconName: "newspaper",
