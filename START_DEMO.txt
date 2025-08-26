@@ -1,0 +1,77 @@
+====================================
+PORTFALL DEMO - QUICK START COMMANDS
+====================================
+
+STEP 1: START ALL SERVICES
+---------------------------
+cd /Users/brettburford/Development/CyberOps/portfall-demo
+docker-compose down
+docker-compose up -d
+
+Wait 60 seconds for all services to start.
+
+STEP 2: VERIFY SERVICES RUNNING
+--------------------------------
+docker-compose ps
+
+Should show 9 services running:
+- ui-portfall (Port 3000)
+- nginx-ui-proxy (Port 8080) 
+- mqtt-broker (Ports 1883, 9001)
+- log-agent (Port 8000)
+- redis (Port 6379)
+- backend (Port 8081)
+- mailhog (Port 8025)
+- smtp-server (Port 25)
+- agent (Scenario Engine)
+
+STEP 3: ACCESS APPLICATION
+--------------------------
+Open browser to: http://localhost:3000
+
+Login: Use any email/username and any 4-digit PIN
+Example: admin@demo.com / PIN: 1234
+
+STEP 4: START SCENARIO
+----------------------
+Method 1 (Recommended): Use the scenario start button in UI
+Method 2 (Backup): Command line
+curl -X POST http://localhost:8000/scenario -H "Content-Type: application/json" -d '{"scenario_active": true}'
+
+STEP 5: DEMO NAVIGATION BOOKMARKS
+----------------------------------
+Main Dashboard: http://localhost:3000
+AIS Tracking: http://localhost:3000/ais
+CCTV Surveillance: http://localhost:3000/cctv  
+Container Operations: http://localhost:3000/containers
+Email System: http://localhost:3000/email
+Executive View: http://localhost:3000/executive
+Technical Team: http://localhost:3000/technical
+Legal Team: http://localhost:3000/legal
+Media Dashboard: http://localhost:3000/media
+Operations: http://localhost:3000/operations
+Incident Coordinator: http://localhost:3000/incident-coordinator
+
+TROUBLESHOOTING
+---------------
+If port 3000 is busy:
+sudo lsof -ti:3000 | xargs kill -9
+docker-compose down
+docker-compose up -d
+
+If services won't start:
+docker-compose down -v
+docker-compose up -d --build
+
+Check logs if issues:
+docker-compose logs [service-name]
+
+DEMO TIMING
+-----------
+- Start scenario and let it run continuously
+- Switch between dashboards every 60-90 seconds
+- Key events happen at T+2, T+20, T+50, T+80
+- Total demo runtime: ~15 minutes
+- Scenario completes at T+110 (~18 minutes)
+
+====================================
