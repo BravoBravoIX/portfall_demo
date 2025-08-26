@@ -15,7 +15,7 @@ STEP 2: VERIFY SERVICES RUNNING
 docker-compose ps
 
 Should show 9 services running:
-- ui-portfall (Port 3000)
+- ui-portfall (Port 3010)
 - nginx-ui-proxy (Port 8080) 
 - mqtt-broker (Ports 1883, 9001)
 - log-agent (Port 8000)
@@ -27,7 +27,7 @@ Should show 9 services running:
 
 STEP 3: ACCESS APPLICATION
 --------------------------
-Open browser to: http://localhost:3000
+Open browser to: http://localhost:3010
 
 Login: Use any email/username and any 4-digit PIN
 Example: admin@demo.com / PIN: 1234
@@ -35,7 +35,7 @@ Example: admin@demo.com / PIN: 1234
 STEP 4: START SCENARIO
 ----------------------
 Method 1 (Recommended): Via UI
-- Go to http://localhost:3000/injects 
+- Go to http://localhost:3010/injects 
 - Click "Start Scenario" button
 
 Method 2 (Command Line - Backup):
@@ -46,22 +46,22 @@ curl -X POST http://localhost:8000/scenario -H "Content-Type: application/json" 
 
 STEP 5: DEMO NAVIGATION BOOKMARKS
 ----------------------------------
-Main Dashboard: http://localhost:3000
-AIS Tracking: http://localhost:3000/ais
-CCTV Surveillance: http://localhost:3000/cctv  
-Container Operations: http://localhost:3000/containers
-Email System: http://localhost:3000/email
-Executive View: http://localhost:3000/executive
-Technical Team: http://localhost:3000/technical
-Legal Team: http://localhost:3000/legal
-Media Dashboard: http://localhost:3000/media
-Operations: http://localhost:3000/operations
-Incident Coordinator: http://localhost:3000/incident-coordinator
+Main Dashboard: http://localhost:3010
+AIS Tracking: http://localhost:3010/ais
+CCTV Surveillance: http://localhost:3010/cctv  
+Container Operations: http://localhost:3010/containers
+Email System: http://localhost:3010/email
+Executive View: http://localhost:3010/executive
+Technical Team: http://localhost:3010/technical
+Legal Team: http://localhost:3010/legal
+Media Dashboard: http://localhost:3010/media
+Operations: http://localhost:3010/operations
+Incident Coordinator: http://localhost:3010/incident-coordinator
 
 TROUBLESHOOTING
 ---------------
-If port 3000 is busy:
-sudo lsof -ti:3000 | xargs kill -9
+If port 3010 is busy:
+sudo lsof -ti:3010 | xargs kill -9
 docker-compose down
 docker-compose up -d
 

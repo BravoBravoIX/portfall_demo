@@ -2,7 +2,7 @@ services:
   ui-portfall:
     build: ./ui-portfall
     ports:
-      - "3000:80"
+      - "3010:80"
 
   nginx-ui-proxy:
     image: nginx:latest

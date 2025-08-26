@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Stop services: `docker-compose down`
 
 ## Important URLs
-- Main UI (Dashboard): http://localhost:3000
+- Main UI (Dashboard): http://localhost:3010
 - NGINX UI Proxy: http://localhost:8080
 - MailHog UI: http://localhost:8025 
 - API endpoints:

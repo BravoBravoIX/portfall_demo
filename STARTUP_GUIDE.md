@@ -28,15 +28,15 @@ docker-compose ps
 - `portfall-demo-agent-1` (Scenario Engine)
 
 ### 3. Access Application
-**Main Dashboard:** http://localhost:3000
+**Main Dashboard:** http://localhost:3010
 - **Login:** Use any credentials (demo mode)
 - **Default PIN:** Any 4-digit number
 
 ### 4. Launch Scenario
 **Method 1: Via UI (Recommended)**
-1. Go to http://localhost:3000
+1. Go to http://localhost:3010
 2. Login with any credentials  
-3. Navigate to http://localhost:3000/injects
+3. Navigate to http://localhost:3010/injects
 4. Click "Start Scenario" button
 
 **Method 2: Via MQTT Command (Backup)**
@@ -64,17 +64,17 @@ curl -X POST http://localhost:8000/scenario \
 ## Demo Navigation Guide
 
 ### Essential URLs (Bookmark These)
-- **Main Dashboard:** http://localhost:3000
-- **AIS Tracking:** http://localhost:3000/ais
-- **CCTV Surveillance:** http://localhost:3000/cctv
-- **Container Operations:** http://localhost:3000/containers
-- **Email Communications:** http://localhost:3000/email
-- **Executive View:** http://localhost:3000/executive
-- **Technical Team:** http://localhost:3000/technical
-- **Legal Team:** http://localhost:3000/legal
-- **Media Dashboard:** http://localhost:3000/media
-- **Operations Team:** http://localhost:3000/operations
-- **Incident Coordinator:** http://localhost:3000/incident-coordinator
+- **Main Dashboard:** http://localhost:3010
+- **AIS Tracking:** http://localhost:3010/ais
+- **CCTV Surveillance:** http://localhost:3010/cctv
+- **Container Operations:** http://localhost:3010/containers
+- **Email Communications:** http://localhost:3010/email
+- **Executive View:** http://localhost:3010/executive
+- **Technical Team:** http://localhost:3010/technical
+- **Legal Team:** http://localhost:3010/legal
+- **Media Dashboard:** http://localhost:3010/media
+- **Operations Team:** http://localhost:3010/operations
+- **Incident Coordinator:** http://localhost:3010/incident-coordinator
 
 ### Supporting Services (Reference Only)
 - **Email Testing:** http://localhost:8025 (MailHog)
@@ -98,7 +98,7 @@ curl -X POST http://localhost:8000/scenario \
    docker-compose ps
    
    # Test main dashboard
-   curl -s http://localhost:3000 | head -n 5
+   curl -s http://localhost:3010 | head -n 5
    
    # Test API
    curl -s http://localhost:8000/scenario
@@ -117,7 +117,7 @@ curl -X POST http://localhost:8000/scenario \
 
 ### During Demo
 1. **Launch Scenario:**
-   - Go to http://localhost:3000/injects
+   - Go to http://localhost:3010/injects
    - Login with any credentials
    - Click "Start Scenario" button (or use MQTT command as backup)
 

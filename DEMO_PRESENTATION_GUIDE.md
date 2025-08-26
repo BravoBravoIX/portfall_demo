@@ -53,7 +53,7 @@ Incident Coord     → Multi-team coordination, timeline tracking, decision logg
 **"Let me show you how this actually works..."**
 
 1. **Start Fresh Scenario**
-   - Show scenario control interface at http://localhost:3000
+   - Show scenario control interface at http://localhost:3010
    - Launch new scenario from T+0
    - **Talk Track**: "Everything is driven by our JSON scenario file with 100+ realistic events scheduled across 4 crisis phases"
 
