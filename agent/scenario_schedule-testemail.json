@@ -1,0 +1,27 @@
+[
+  {
+  "time_offset": 1,
+  "event_id": "TEST-INJ001B",
+  "target": "VM-UI",
+  "action_type": "payload",
+  "payload": {
+    "command": "send_email",
+    "parameters": {
+      "from_name": "Test",
+      "subject": "Test",
+      "to": [
+          "media@simrange.local",
+          "legal@simrange.local",
+          "tech@simrange.local",
+          "ceo@simrange.local",
+          "ops@simrange.local",
+          "incident@simrange.local"
+      ],
+      "body": "Test"
+      }
+    },
+    "manual": false
+  }
+]
+
+

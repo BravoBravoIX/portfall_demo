@@ -1,0 +1,42 @@
+NOISE EMAIL EVENTS MISSING "manual": false FIELD
+================================================
+
+Based on analysis of scenario_schedule.json, the following noise email events (N-INJ and IC-INJ prefixes) are missing the "manual": false field:
+
+N-INJ Events:
+-------------
+1. Line 1430: N-INJ002C (time_offset: 4) - "New Coffee Machine for Berth 3?"
+2. Line 1445: N-INJ003D (time_offset: 8) - "Password Rotation Reminder for Group Admins"
+3. Line 1460: N-INJ003E (time_offset: 9) - "Staff Leave Report is Broken Again… Anyone Else?"
+4. Line 1475: N-INJ004D (time_offset: 31) - "Wellbeing Check-In Reminder"
+5. Line 1491: N-INJ004F (time_offset: 32) - "Hot Day – Hydrate!"
+6. Line 1512: N-INJ005F (time_offset: 34) - "Friday Coffee Club Cancelled"
+7. Line 1527: N-INJ005G (time_offset: 35) - "New Parking Policy (Effective Monday)"
+8. Line 1549: N-INJ006E (time_offset: 37) - "Did We Install That New Video Wall?"
+9. Line 1564: N-INJ006F (time_offset: 38) - "Dog Photos Due Today!"
+10. Line 1586: N-INJ001C (time_offset: 2) - "Code of Conduct Acknowledgment Overdue"
+11. Line 1601: N-INJ002D (time_offset: 5) - "Do we have old PR photos of Ship_Alpha?"
+12. Line 1616: N-INJ003C (time_offset: 7) - "Staff policy 4.7 updated – Non-critical PPE"
+13. Line 1631: N-INJ003D (time_offset: 8) - "Password Rotation Reminder for Group Admins" (duplicate)
+14. Line 1646: N-INJ003E (time_offset: 9) - "Staff Leave Report is Broken Again… Anyone Else?" (duplicate)
+15. Line 1661: N-INJ004D (time_offset: 31) - "Wellbeing Check-In Reminder" (duplicate)
+16. Line 1676: N-INJ004F (time_offset: 32) - "Hot Day – Hydrate!" (duplicate)
+17. Line 1698: N-INJ005F (time_offset: 34) - "Friday Coffee Club Cancelled" (duplicate)
+18. Line 1713: N-INJ005G (time_offset: 35) - "New Parking Policy (Effective Monday)" (duplicate)
+19. Line 1735: N-INJ006E (time_offset: 37) - "Did We Install That New Video Wall?" (duplicate)
+20. Line 1750: N-INJ006F (time_offset: 38) - "Dog Photos Due Today!" (duplicate)
+
+IC-INJ Events:
+--------------
+1. Line 1772: IC-INJ001B (time_offset: 1) - "Incident Coordination – Role Reminder & Support"
+
+SUMMARY:
+--------
+Total noise events found: 21 (20 N-INJ + 1 IC-INJ)
+All of these events are missing the "manual": false field
+
+Note: There appear to be duplicate entries for several N-INJ events (N-INJ003D, N-INJ003E, N-INJ004D, N-INJ004F, N-INJ005F, N-INJ005G, N-INJ006E, N-INJ006F).
+
+RECOMMENDATION:
+--------------
+Add "manual": false field to all these noise events to maintain consistency with other events in the scenario schedule.

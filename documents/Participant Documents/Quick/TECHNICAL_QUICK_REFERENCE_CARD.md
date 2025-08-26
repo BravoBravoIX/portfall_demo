@@ -51,6 +51,13 @@ find /tmp /opt /home -type f -name "*.sh" -mtime -1
 3. **vm-opsnode**: Safety systems (CCTV)
 4. **vm-audit**: Evidence collection system
 
+### VM-AUDIT ACCESS
+```bash
+# Login for evidence transfer
+ssh audit@3.106.187.171
+# Password: secure2024
+```
+
 ---
 
 ## PHASE 2 (15-35 Minutes) - Threat Identification
@@ -147,6 +154,12 @@ cat /proc/meminfo | grep -E "^Mem|^Swap"
 2. Document chain of custody
 3. Prepare for transfer to vm-audit
 4. Brief incident coordinator on findings
+
+**Transfer to Audit System:**
+```bash
+# Login: ssh audit@3.106.187.171 (password: secure2024)
+scp /tmp/evidence_* audit@3.106.187.171:/incident/archive/$(hostname)/
+```
 
 ---
 

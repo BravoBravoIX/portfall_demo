@@ -14,10 +14,10 @@
     "_comment": "========== SCENARIO START =========="
   },
   {
-    "_comment": "========== PHASE 1-1 (T+2 to T+5) =========="
+    "_comment": "========== PHASE 1-1 (T+0 to T+1) =========="
   },
   {
-    "time_offset": 2,
+    "time_offset": 0,
     "event_id": "P1-1-EMAIL1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -33,7 +33,7 @@
     "manual": false
   },
   {
-    "time_offset": 2,
+    "time_offset": 0,
     "event_id": "P1-1-EMAIL2",
     "target": "VM-UI",
     "action_type": "payload",
@@ -49,7 +49,7 @@
     "manual": false
   },
   {
-    "time_offset": 2,
+    "time_offset": 0,
     "event_id": "P1-1-EMAIL3",
     "target": "VM-UI",
     "action_type": "payload",
@@ -65,7 +65,7 @@
     "manual": false
   },
   {
-    "time_offset": 2,
+    "time_offset": 0,
     "event_id": "P1-1-EMAIL4",
     "target": "VM-UI",
     "action_type": "payload",
@@ -81,7 +81,7 @@
     "manual": false
   },
   {
-    "time_offset": 2,
+    "time_offset": 0,
     "event_id": "P1-1-EMAIL5",
     "target": "VM-UI",
     "action_type": "payload",
@@ -97,10 +97,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 1-2 (T+6 to T+9) =========="
+    "_comment": "========== PHASE 1-2 (T+1 to T+1) =========="
   },
   {
-    "time_offset": 6,
+    "time_offset": 1,
     "event_id": "P1-2-EMAIL6",
     "target": "VM-UI",
     "action_type": "payload",
@@ -116,7 +116,7 @@
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 1,
     "event_id": "P1-2-EMAIL7",
     "target": "VM-UI",
     "action_type": "payload",
@@ -132,7 +132,7 @@
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 1,
     "event_id": "P1-2-EMAIL8",
     "target": "VM-UI",
     "action_type": "payload",
@@ -148,7 +148,7 @@
     "manual": false
   },
   {
-    "time_offset": 9,
+    "time_offset": 1,
     "event_id": "P1-2-EMAIL9",
     "target": "VM-UI",
     "action_type": "payload",
@@ -164,10 +164,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 1-3 (T+11 to T+15) =========="
+    "_comment": "========== PHASE 1-3 (T+2 to T+2) =========="
   },
   {
-    "time_offset": 11,
+    "time_offset": 2,
     "event_id": "P1-3-EMAIL10",
     "target": "VM-UI",
     "action_type": "payload",
@@ -183,7 +183,7 @@
     "manual": false
   },
   {
-    "time_offset": 12,
+    "time_offset": 2,
     "event_id": "P1-3-EMAIL11",
     "target": "VM-UI",
     "action_type": "payload",
@@ -199,7 +199,7 @@
     "manual": false
   },
   {
-    "time_offset": 13,
+    "time_offset": 2,
     "event_id": "P1-3-EMAIL12",
     "target": "VM-UI",
     "action_type": "payload",
@@ -215,7 +215,7 @@
     "manual": false
   },
   {
-    "time_offset": 14,
+    "time_offset": 2,
     "event_id": "P1-3-EMAIL13",
     "target": "VM-UI",
     "action_type": "payload",
@@ -231,7 +231,7 @@
     "manual": false
   },
   {
-    "time_offset": 15,
+    "time_offset": 2,
     "event_id": "P1-3-EMAIL14",
     "target": "VM-UI",
     "action_type": "payload",
@@ -247,10 +247,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 2-1 (T+20 to T+30) =========="
+    "_comment": "========== PHASE 2-1 (T+3 to T+4) =========="
   },
   {
-    "time_offset": 20,
+    "time_offset": 3,
     "event_id": "P2-1-EMAIL1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -266,7 +266,7 @@
     "manual": false
   },
   {
-    "time_offset": 22,
+    "time_offset": 3,
     "event_id": "P2-1-EMAIL2",
     "target": "VM-UI",
     "action_type": "payload",
@@ -282,7 +282,7 @@
     "manual": false
   },
   {
-    "time_offset": 24,
+    "time_offset": 3,
     "event_id": "P2-1-EMAIL3",
     "target": "VM-UI",
     "action_type": "payload",
@@ -298,7 +298,7 @@
     "manual": false
   },
   {
-    "time_offset": 26,
+    "time_offset": 4,
     "event_id": "P2-1-EMAIL4",
     "target": "VM-UI",
     "action_type": "payload",
@@ -314,10 +314,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 2-2 (T+30 to T+38) =========="
+    "_comment": "========== PHASE 2-2 (T+4 to T+5) =========="
   },
   {
-    "time_offset": 30,
+    "time_offset": 4,
     "event_id": "P2-2-EMAIL5",
     "target": "VM-UI",
     "action_type": "payload",
@@ -333,7 +333,7 @@
     "manual": false
   },
   {
-    "time_offset": 32,
+    "time_offset": 5,
     "event_id": "P2-2-EMAIL6",
     "target": "VM-UI",
     "action_type": "payload",
@@ -349,7 +349,7 @@
     "manual": false
   },
   {
-    "time_offset": 34,
+    "time_offset": 5,
     "event_id": "P2-2-EMAIL7",
     "target": "VM-UI",
     "action_type": "payload",
@@ -365,7 +365,7 @@
     "manual": false
   },
   {
-    "time_offset": 35,
+    "time_offset": 5,
     "event_id": "MEDIA-T35-TWEET",
     "target": "VM-UI",
     "action_type": "payload",
@@ -382,7 +382,7 @@
     "manual": false
   },
   {
-    "time_offset": 36,
+    "time_offset": 5,
     "event_id": "P2-2-EMAIL8",
     "target": "VM-UI",
     "action_type": "payload",
@@ -398,10 +398,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 2-3 (T+38 to T+45) =========="
+    "_comment": "========== PHASE 2-3 (T+5 to T+6) =========="
   },
   {
-    "time_offset": 38,
+    "time_offset": 5,
     "event_id": "P2-3-EMAIL9",
     "target": "VM-UI",
     "action_type": "payload",
@@ -417,7 +417,7 @@
     "manual": false
   },
   {
-    "time_offset": 41,
+    "time_offset": 6,
     "event_id": "P2-3-EMAIL10",
     "target": "VM-UI",
     "action_type": "payload",
@@ -433,7 +433,7 @@
     "manual": false
   },
   {
-    "time_offset": 45,
+    "time_offset": 6,
     "event_id": "P2-3-EMAIL11",
     "target": "VM-UI",
     "action_type": "payload",
@@ -449,10 +449,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 3-1 (T+50 to T+56) =========="
+    "_comment": "========== PHASE 3-1 (T+7 to T+8) =========="
   },
   {
-    "time_offset": 50,
+    "time_offset": 7,
     "event_id": "P3-1-EMAIL1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -468,7 +468,7 @@
     "manual": false
   },
   {
-    "time_offset": 52,
+    "time_offset": 7,
     "event_id": "P3-1-EMAIL2",
     "target": "VM-UI",
     "action_type": "payload",
@@ -484,7 +484,7 @@
     "manual": false
   },
   {
-    "time_offset": 54,
+    "time_offset": 8,
     "event_id": "P3-1-EMAIL3",
     "target": "VM-UI",
     "action_type": "payload",
@@ -500,10 +500,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 3-2 (T+58 to T+62) =========="
+    "_comment": "========== PHASE 3-2 (T+8 to T+9) =========="
   },
   {
-    "time_offset": 58,
+    "time_offset": 8,
     "event_id": "P3-2-EMAIL4",
     "target": "VM-UI",
     "action_type": "payload",
@@ -519,7 +519,7 @@
     "manual": false
   },
   {
-    "time_offset": 60,
+    "time_offset": 9,
     "event_id": "P3-2-EMAIL5",
     "target": "VM-UI",
     "action_type": "payload",
@@ -535,10 +535,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 3-3 (T+64 to T+68) =========="
+    "_comment": "========== PHASE 3-3 (T+9 to T+10) =========="
   },
   {
-    "time_offset": 64,
+    "time_offset": 9,
     "event_id": "P3-3-EMAIL6",
     "target": "VM-UI",
     "action_type": "payload",
@@ -554,7 +554,7 @@
     "manual": false
   },
   {
-    "time_offset": 65,
+    "time_offset": 9,
     "event_id": "P3-3-EMAIL7",
     "target": "VM-UI",
     "action_type": "payload",
@@ -570,7 +570,7 @@
     "manual": false
   },
   {
-    "time_offset": 67,
+    "time_offset": 10,
     "event_id": "P3-3-EMAIL8",
     "target": "VM-UI",
     "action_type": "payload",
@@ -586,7 +586,7 @@
     "manual": false
   },
   {
-    "time_offset": 68,
+    "time_offset": 10,
     "event_id": "P3-3-EMAIL9",
     "target": "VM-UI",
     "action_type": "payload",
@@ -602,10 +602,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 4-1 (T+80 to T+85) =========="
+    "_comment": "========== PHASE 4-1 (T+11 to T+12) =========="
   },
   {
-    "time_offset": 80,
+    "time_offset": 11,
     "event_id": "P4-1-EMAIL1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -621,7 +621,7 @@
     "manual": false
   },
   {
-    "time_offset": 81,
+    "time_offset": 12,
     "event_id": "P4-1-EMAIL2",
     "target": "VM-UI",
     "action_type": "payload",
@@ -637,7 +637,7 @@
     "manual": false
   },
   {
-    "time_offset": 82,
+    "time_offset": 12,
     "event_id": "P4-1-EMAIL3",
     "target": "VM-UI",
     "action_type": "payload",
@@ -653,7 +653,7 @@
     "manual": false
   },
   {
-    "time_offset": 83,
+    "time_offset": 12,
     "event_id": "P4-1-EMAIL18",
     "target": "VM-UI",
     "action_type": "payload",
@@ -669,7 +669,7 @@
     "manual": false
   },
   {
-    "time_offset": 84,
+    "time_offset": 12,
     "event_id": "P4-1-EMAIL19",
     "target": "VM-UI",
     "action_type": "payload",
@@ -685,7 +685,7 @@
     "manual": false
   },
   {
-    "time_offset": 85,
+    "time_offset": 12,
     "event_id": "P4-1-EMAIL20",
     "target": "VM-UI",
     "action_type": "payload",
@@ -701,10 +701,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 4-2 (T+87 to T+90) =========="
+    "_comment": "========== PHASE 4-2 (T+12 to T+13) =========="
   },
   {
-    "time_offset": 87,
+    "time_offset": 12,
     "event_id": "P4-2-EMAIL4",
     "target": "VM-UI",
     "action_type": "payload",
@@ -720,7 +720,7 @@
     "manual": false
   },
   {
-    "time_offset": 87,
+    "time_offset": 12,
     "event_id": "P4-2-EMAIL5",
     "target": "VM-UI",
     "action_type": "payload",
@@ -736,7 +736,7 @@
     "manual": false
   },
   {
-    "time_offset": 88,
+    "time_offset": 13,
     "event_id": "P4-2-EMAIL6",
     "target": "VM-UI",
     "action_type": "payload",
@@ -752,7 +752,7 @@
     "manual": false
   },
   {
-    "time_offset": 89,
+    "time_offset": 13,
     "event_id": "P4-2-EMAIL7",
     "target": "VM-UI",
     "action_type": "payload",
@@ -768,7 +768,7 @@
     "manual": false
   },
   {
-    "time_offset": 89,
+    "time_offset": 13,
     "event_id": "P4-2-EMAIL21",
     "target": "VM-UI",
     "action_type": "payload",
@@ -784,7 +784,7 @@
     "manual": false
   },
   {
-    "time_offset": 90,
+    "time_offset": 13,
     "event_id": "P4-2-EMAIL22",
     "target": "VM-UI",
     "action_type": "payload",
@@ -800,10 +800,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 4-3 (T+92 to T+95) =========="
+    "_comment": "========== PHASE 4-3 (T+13 to T+14) =========="
   },
   {
-    "time_offset": 92,
+    "time_offset": 13,
     "event_id": "P4-3-EMAIL8",
     "target": "VM-UI",
     "action_type": "payload",
@@ -819,7 +819,7 @@
     "manual": false
   },
   {
-    "time_offset": 92,
+    "time_offset": 13,
     "event_id": "P4-3-EMAIL9",
     "target": "VM-UI",
     "action_type": "payload",
@@ -835,7 +835,7 @@
     "manual": false
   },
   {
-    "time_offset": 93,
+    "time_offset": 13,
     "event_id": "P4-3-EMAIL10",
     "target": "VM-UI",
     "action_type": "payload",
@@ -851,7 +851,7 @@
     "manual": false
   },
   {
-    "time_offset": 93,
+    "time_offset": 13,
     "event_id": "P4-3-EMAIL11",
     "target": "VM-UI",
     "action_type": "payload",
@@ -867,7 +867,7 @@
     "manual": false
   },
   {
-    "time_offset": 93,
+    "time_offset": 13,
     "event_id": "P4-3-EMAIL12",
     "target": "VM-UI",
     "action_type": "payload",
@@ -883,7 +883,7 @@
     "manual": false
   },
   {
-    "time_offset": 94,
+    "time_offset": 13,
     "event_id": "P4-3-EMAIL13",
     "target": "VM-UI",
     "action_type": "payload",
@@ -899,7 +899,7 @@
     "manual": false
   },
   {
-    "time_offset": 94,
+    "time_offset": 13,
     "event_id": "P4-3-EMAIL14",
     "target": "VM-UI",
     "action_type": "payload",
@@ -915,7 +915,7 @@
     "manual": false
   },
   {
-    "time_offset": 94,
+    "time_offset": 13,
     "event_id": "P4-3-EMAIL15",
     "target": "VM-UI",
     "action_type": "payload",
@@ -931,7 +931,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 14,
     "event_id": "P4-3-EMAIL16",
     "target": "VM-UI",
     "action_type": "payload",
@@ -947,7 +947,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 14,
     "event_id": "P4-3-EMAIL17",
     "target": "VM-UI",
     "action_type": "payload",
@@ -963,7 +963,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 14,
     "event_id": "P4-3-EMAIL23",
     "target": "VM-UI",
     "action_type": "payload",
@@ -979,7 +979,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 14,
     "event_id": "P4-3-EMAIL24",
     "target": "VM-UI",
     "action_type": "payload",
@@ -995,7 +995,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 14,
     "event_id": "P4-3-EMAIL25",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1011,7 +1011,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 14,
     "event_id": "P4-3-EMAIL26",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1027,7 +1027,7 @@
     "manual": false
   },
   {
-    "time_offset": 95,
+    "time_offset": 14,
     "event_id": "MEDIA-T75-NEWS",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1044,7 +1044,7 @@
     "manual": false
   },
   {
-    "time_offset": 105,
+    "time_offset": 15,
     "event_id": "MEDIA-T105-UNREST",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1061,7 +1061,7 @@
     "manual": false
   },
   {
-    "time_offset": 100,
+    "time_offset": 14,
     "event_id": "MEDIA-T110-INTERVIEW",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1082,10 +1082,10 @@
     "_comment": "========== TECHNICAL DASHBOARD ALERTS =========="
   },
   {
-    "_comment": "========== PHASE 1 (T+0 to T+20) =========="
+    "_comment": "========== PHASE 1 (T+0 to T+3) =========="
   },
   {
-    "time_offset": 5,
+    "time_offset": 1,
     "event_id": "TECH-P1-AIS1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1100,7 +1100,7 @@
     "manual": false
   },
   {
-    "time_offset": 10,
+    "time_offset": 1,
     "event_id": "TECH-P1-AIS2",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1115,10 +1115,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 2 (T+20 to T+50) =========="
+    "_comment": "========== PHASE 2 (T+3 to T+7) =========="
   },
   {
-    "time_offset": 20,
+    "time_offset": 3,
     "event_id": "TECH-P2-CCTV1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1132,7 +1132,7 @@
     "manual": false
   },
   {
-    "time_offset": 25,
+    "time_offset": 4,
     "event_id": "TECH-P2-VENDOR1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1149,7 +1149,7 @@
     "manual": false
   },
   {
-    "time_offset": 28,
+    "time_offset": 4,
     "event_id": "TECH-P2-VENDOR1B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1166,7 +1166,7 @@
     "manual": false
   },
   {
-    "time_offset": 30,
+    "time_offset": 4,
     "event_id": "TECH-P2-VENDOR2",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1184,7 +1184,7 @@
     "manual": false
   },
   {
-    "time_offset": 30,
+    "time_offset": 4,
     "event_id": "TECH-P2-CCTV2",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1200,7 +1200,7 @@
     "manual": false
   },
   {
-    "time_offset": 32,
+    "time_offset": 5,
     "event_id": "TECH-P2-CCTV3",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1216,10 +1216,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 3 (T+50 to T+80) =========="
+    "_comment": "========== PHASE 3 (T+7 to T+11) =========="
   },
   {
-    "time_offset": 40,
+    "time_offset": 6,
     "event_id": "TECH-P3-AIS3",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1233,7 +1233,7 @@
     "manual": false
   },
   {
-    "time_offset": 40,
+    "time_offset": 6,
     "event_id": "TECH-P3-LOGS1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1249,7 +1249,7 @@
     "manual": false
   },
   {
-    "time_offset": 40,
+    "time_offset": 6,
     "event_id": "TECH-P3-LOGS2",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1265,7 +1265,7 @@
     "manual": false
   },
   {
-    "time_offset": 40,
+    "time_offset": 6,
     "event_id": "TECH-P3-LOGS2B",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1281,7 +1281,7 @@
     "manual": false
   },
   {
-    "time_offset": 42,
+    "time_offset": 6,
     "event_id": "TECH-P3-LOGS3",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1297,7 +1297,7 @@
     "manual": false
   },
   {
-    "time_offset": 45,
+    "time_offset": 6,
     "event_id": "TECH-P3-AIS4",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1313,7 +1313,7 @@
     "manual": false
   },
   {
-    "time_offset": 50,
+    "time_offset": 7,
     "event_id": "TECH-P3-CONTAINER1",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1327,10 +1327,10 @@
     "manual": false
   },
   {
-    "_comment": "========== PHASE 4 (T+80 to T+110) =========="
+    "_comment": "========== PHASE 4 (T+11 to T+15) =========="
   },
   {
-    "time_offset": 60,
+    "time_offset": 9,
     "event_id": "TECH-P4-LOGS4",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1346,7 +1346,7 @@
     "manual": false
   },
   {
-    "time_offset": 60,
+    "time_offset": 9,
     "event_id": "TECH-P4-LOGS5",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1362,7 +1362,7 @@
     "manual": false
   },
   {
-    "time_offset": 70,
+    "time_offset": 10,
     "event_id": "TECH-P4-LOGS6",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1378,7 +1378,7 @@
     "manual": false
   },
   {
-    "time_offset": 72,
+    "time_offset": 10,
     "event_id": "TECH-P4-CCTV4",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1394,7 +1394,7 @@
     "manual": false
   },
   {
-    "time_offset": 73,
+    "time_offset": 10,
     "event_id": "TECH-P4-CCTV5",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1410,7 +1410,7 @@
     "manual": false
   },
   {
-    "time_offset": 74,
+    "time_offset": 11,
     "event_id": "TECH-P4-VENDOR3",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1426,7 +1426,7 @@
     "manual": false
   },
   {
-    "time_offset": 4,
+    "time_offset": 1,
     "event_id": "N-INJ002C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1436,13 +1436,13 @@
         "from_name": "Dock Supervisor",
         "subject": "New Coffee Machine for Berth 3?",
         "to": ["ops@simrange.local"],
-        "body": "Hi Ops,\n\nJust flagging that the coffee machine in the Berth 3 control hut is leaking again. We’ve tried cleaning out the seals, but it’s still shorting out intermittently. Crew morale is already tense today and a functioning coffee machine could genuinely help.\n\nCould we fast-track a replacement request through Facilities? It doesn’t have to be fancy.\n\nCheers,\nIan"
+        "body": "Hi Ops,\n\nJust flagging that the coffee machine in the Berth 3 control hut is leaking again. We've tried cleaning out the seals, but it's still shorting out intermittently. Crew morale is already tense today and a functioning coffee machine could genuinely help.\n\nCould we fast-track a replacement request through Facilities? It doesn't have to be fancy.\n\nCheers,\nIan"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 8,
+    "time_offset": 1,
     "event_id": "N-INJ003D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1458,7 +1458,7 @@
     "manual": false
   },
   {
-    "time_offset": 9,
+    "time_offset": 1,
     "event_id": "N-INJ003E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1468,13 +1468,13 @@
         "from_name": "HR",
         "subject": "Staff Leave Report is Broken Again… Anyone Else?",
         "to": ["ceo@simrange.local", "legal@simrange.local"],
-        "body": "Hey team,\n\nJust checking if anyone else is having trouble with the staff leave reporting tool? Trying to approve a shift trade, but the dropdowns are blank and the export report crashed again.\n\nIT said it was fixed last month, but clearly not. If you’ve got a workaround, let me know.\n\nThanks,\nEmma – HR Ops"
+        "body": "Hey team,\n\nJust checking if anyone else is having trouble with the staff leave reporting tool? Trying to approve a shift trade, but the dropdowns are blank and the export report crashed again.\n\nIT said it was fixed last month, but clearly not. If you've got a workaround, let me know.\n\nThanks,\nEmma – HR Ops"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 31,
+    "time_offset": 4,
     "event_id": "N-INJ004D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1484,13 +1484,13 @@
         "from_name": "HR – People & Culture",
         "subject": "Wellbeing Check-In Reminder",
         "to": ["legal@simrange.local", "ceo@simrange.local"],
-        "body": "Hi leaders,\n\nWith a busy week and teams under pressure, we’d like to remind everyone to complete the Q2 wellbeing check-in.\n\nIt takes under 3 minutes and provides a quick pulse on team morale and individual stress factors. Leadership participation is important to set the tone.\n\nThanks for your support,\nSarah – HR Lead"
+        "body": "Hi leaders,\n\nWith a busy week and teams under pressure, we'd like to remind everyone to complete the Q2 wellbeing check-in.\n\nIt takes under 3 minutes and provides a quick pulse on team morale and individual stress factors. Leadership participation is important to set the tone.\n\nThanks for your support,\nSarah – HR Lead"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 32,
+    "time_offset": 5,
     "event_id": "N-INJ004F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1513,7 +1513,7 @@
     "manual": false
   },
   {
-    "time_offset": 34,
+    "time_offset": 5,
     "event_id": "N-INJ005F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1523,13 +1523,13 @@
         "from_name": "Social Committee",
         "subject": "Friday Coffee Club Cancelled",
         "to": ["ops@simrange.local"],
-        "body": "Hi Ops,\n\nUnfortunately, due to the current operational tempo and cross-shift coverage demands, we’re cancelling this Friday’s coffee club meetup.\n\nWe’ll reschedule for next week when things settle. If your team wants to coordinate a mini-morning tea independently, feel free to use the boardroom slot.\n\nCheers,\nTash"
+        "body": "Hi Ops,\n\nUnfortunately, due to the current operational tempo and cross-shift coverage demands, we're cancelling this Friday's coffee club meetup.\n\nWe'll reschedule for next week when things settle. If your team wants to coordinate a mini-morning tea independently, feel free to use the boardroom slot.\n\nCheers,\nTash"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 35,
+    "time_offset": 5,
     "event_id": "N-INJ005G",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1552,7 +1552,7 @@
     "manual": false
   },
   {
-    "time_offset": 37,
+    "time_offset": 5,
     "event_id": "N-INJ006E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1562,13 +1562,13 @@
         "from_name": "Logistics Desk",
         "subject": "Did We Install That New Video Wall?",
         "to": ["ceo@simrange.local", "media@simrange.local"],
-        "body": "Hi,\n\nA member of the ABC media team asked about the new digital wall display in the terminal entryway. I wasn’t sure if that install got pushed back again.\n\nDo we have confirmation if it’s live yet, or should we prepare a holding line?\n\n– Chloe, Logistics"
+        "body": "Hi,\n\nA member of the ABC media team asked about the new digital wall display in the terminal entryway. I wasn't sure if that install got pushed back again.\n\nDo we have confirmation if it's live yet, or should we prepare a holding line?\n\n– Chloe, Logistics"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 38,
+    "time_offset": 5,
     "event_id": "N-INJ006F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1585,13 +1585,13 @@
           "ops@simrange.local",
           "incident@simrange.local"
         ],
-        "body": "Hi everyone,\n\nDon’t forget to send in your dog photos today for the weekly morale slideshow!\n\nWe’ve got 27 entries so far, but Tech and Ops are seriously underrepresented. The winner gets a $25 coffee voucher and office-wide bragging rights.\n\nSubmit to comms@simrange.local before 4pm today.\n\nWoof!\n– The Comms Team 🐾"
+        "body": "Hi everyone,\n\nDon't forget to send in your dog photos today for the weekly morale slideshow!\n\nWe've got 27 entries so far, but Tech and Ops are seriously underrepresented. The winner gets a $25 coffee voucher and office-wide bragging rights.\n\nSubmit to comms@simrange.local before 4pm today.\n\nWoof!\n– The Comms Team 🐾"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 2,
+    "time_offset": 0,
     "event_id": "N-INJ001C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1607,7 +1607,7 @@
     "manual": false
   },
   {
-    "time_offset": 5,
+    "time_offset": 1,
     "event_id": "N-INJ002D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1617,13 +1617,13 @@
         "from_name": "Media Team",
         "subject": "Do we have old PR photos of Ship_Alpha?",
         "to": ["media@simrange.local"],
-        "body": "Hi,\n\nCan someone check the shared archive for any photos from Ship_Alpha’s arrival in December last year? We’re prepping fallback content for our social feed, and this vessel was featured in the safety campaign.\n\nWe might also get external queries if things keep trending.\n\nThanks,\nAlison – Comms"
+        "body": "Hi,\n\nCan someone check the shared archive for any photos from Ship_Alpha's arrival in December last year? We're prepping fallback content for our social feed, and this vessel was featured in the safety campaign.\n\nWe might also get external queries if things keep trending.\n\nThanks,\nAlison – Comms"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 7,
+    "time_offset": 1,
     "event_id": "N-INJ003C",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1639,7 +1639,7 @@
     "manual": false
   },
   {
-    "time_offset": 9,
+    "time_offset": 1,
     "event_id": "N-INJ003E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1649,13 +1649,13 @@
         "from_name": "HR",
         "subject": "Staff Leave Report is Broken Again… Anyone Else?",
         "to": ["ceo@simrange.local", "legal@simrange.local"],
-        "body": "Hey team,\n\nJust checking if anyone else is having trouble with the staff leave reporting tool? Trying to approve a shift trade, but the dropdowns are blank and the export report crashed again.\n\nIT said it was fixed last month, but clearly not. If you’ve got a workaround, let me know.\n\nThanks,\nEmma – HR Ops"
+        "body": "Hey team,\n\nJust checking if anyone else is having trouble with the staff leave reporting tool? Trying to approve a shift trade, but the dropdowns are blank and the export report crashed again.\n\nIT said it was fixed last month, but clearly not. If you've got a workaround, let me know.\n\nThanks,\nEmma – HR Ops"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 31,
+    "time_offset": 4,
     "event_id": "N-INJ004D",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1665,13 +1665,13 @@
         "from_name": "HR – People & Culture",
         "subject": "Wellbeing Check-In Reminder",
         "to": ["legal@simrange.local", "ceo@simrange.local"],
-        "body": "Hi leaders,\n\nWith a busy week and teams under pressure, we’d like to remind everyone to complete the Q2 wellbeing check-in.\n\nIt takes under 3 minutes and provides a quick pulse on team morale and individual stress factors. Leadership participation is important to set the tone.\n\nThanks for your support,\nSarah – HR Lead"
+        "body": "Hi leaders,\n\nWith a busy week and teams under pressure, we'd like to remind everyone to complete the Q2 wellbeing check-in.\n\nIt takes under 3 minutes and provides a quick pulse on team morale and individual stress factors. Leadership participation is important to set the tone.\n\nThanks for your support,\nSarah – HR Lead"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 32,
+    "time_offset": 5,
     "event_id": "N-INJ004F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1694,7 +1694,7 @@
     "manual": false
   },
   {
-    "time_offset": 34,
+    "time_offset": 5,
     "event_id": "N-INJ005F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1704,13 +1704,13 @@
         "from_name": "Social Committee",
         "subject": "Friday Coffee Club Cancelled",
         "to": ["ops@simrange.local"],
-        "body": "Hi Ops,\n\nUnfortunately, due to the current operational tempo and cross-shift coverage demands, we’re cancelling this Friday’s coffee club meetup.\n\nWe’ll reschedule for next week when things settle. If your team wants to coordinate a mini-morning tea independently, feel free to use the boardroom slot.\n\nCheers,\nTash"
+        "body": "Hi Ops,\n\nUnfortunately, due to the current operational tempo and cross-shift coverage demands, we're cancelling this Friday's coffee club meetup.\n\nWe'll reschedule for next week when things settle. If your team wants to coordinate a mini-morning tea independently, feel free to use the boardroom slot.\n\nCheers,\nTash"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 35,
+    "time_offset": 5,
     "event_id": "N-INJ005G",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1733,7 +1733,7 @@
     "manual": false
   },
   {
-    "time_offset": 37,
+    "time_offset": 5,
     "event_id": "N-INJ006E",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1743,13 +1743,13 @@
         "from_name": "Logistics Desk",
         "subject": "Did We Install That New Video Wall?",
         "to": ["ceo@simrange.local", "media@simrange.local"],
-        "body": "Hi,\n\nA member of the ABC media team asked about the new digital wall display in the terminal entryway. I wasn’t sure if that install got pushed back again.\n\nDo we have confirmation if it’s live yet, or should we prepare a holding line?\n\n– Chloe, Logistics"
+        "body": "Hi,\n\nA member of the ABC media team asked about the new digital wall display in the terminal entryway. I wasn't sure if that install got pushed back again.\n\nDo we have confirmation if it's live yet, or should we prepare a holding line?\n\n– Chloe, Logistics"
       }
     },
     "manual": false
   },
   {
-    "time_offset": 38,
+    "time_offset": 5,
     "event_id": "N-INJ006F",
     "target": "VM-UI",
     "action_type": "payload",
@@ -1766,13 +1766,13 @@
           "ops@simrange.local",
           "incident@simrange.local"
         ],
-        "body": "Hi everyone,\n\nDon’t forget to send in your dog photos today for the weekly morale slideshow!\n\nWe’ve got 27 entries so far, but Tech and Ops are seriously underrepresented. The winner gets a $25 coffee voucher and office-wide bragging rights.\n\nSubmit to comms@simrange.local before 4pm today.\n\nWoof!\n– The Comms Team 🐾"
+        "body": "Hi everyone,\n\nDon't forget to send in your dog photos today for the weekly morale slideshow!\n\nWe've got 27 entries so far, but Tech and Ops are seriously underrepresented. The winner gets a $25 coffee voucher and office-wide bragging rights.\n\nSubmit to comms@simrange.local before 4pm today.\n\nWoof!\n– The Comms Team 🐾"
       }
     },
     "manual": false
   },
 {
-  "time_offset": 1,
+  "time_offset": 0,
   "event_id": "IC-INJ001B",
   "target": "VM-UI",
   "action_type": "payload",
@@ -1784,11 +1784,9 @@
       "to": [
         "incident@simrange.local"
       ],
-      "body": "Hi team,\n\nAs the situation develops today, please remember your core role as the central nervous system of our response effort.\n\nOther teams — Technical, Operations, Legal, Media — will likely look to you for structure and momentum. Your job isn’t to have all the answers, but to ensure the right questions are being asked and followed through. That might mean nudging teams to act, initiating structured check-ins, logging key decisions, and tracking how our posture evolves.\n\nIf you haven't already, consider appointing a lead IC and setting up a basic rhythm (check-ins, shared log, status summaries). It’s early — but setting the tone now makes a huge difference later.\n\nYou’re not alone. Reach out if you need escalation support or clarification on chain of command.\n\n– Exec Liaison"
-      }
-    },
-    "manual": false
-  }
+      "body": "Hi team,\n\nAs the situation develops today, please remember your core role as the central nervous system of our response effort.\n\nOther teams — Technical, Operations, Legal, Media — will likely look to you for structure and momentum. Your job isn't to have all the answers, but to ensure the right questions are being asked and followed through. That might mean nudging teams to act, initiating structured check-ins, logging key decisions, and tracking how our posture evolves.\n\nIf you haven't already, consider appointing a lead IC and setting up a basic rhythm (check-ins, shared log, status summaries). It's early — but setting the tone now makes a huge difference later.\n\nYou're not alone. Reach out if you need escalation support or clarification on chain of command.\n\n– Exec Liaison"
+    }
+  },
+  "manual": false
+}
 ]
-
-
