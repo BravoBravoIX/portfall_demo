@@ -35,19 +35,28 @@ docker-compose ps
 ### 4. Launch Scenario
 **Method 1: Via UI (Recommended)**
 1. Go to http://localhost:3000
-2. Login with any credentials
-3. Navigate to "Scenario Control" or use scenario start button
-4. Click "Start Scenario"
+2. Login with any credentials  
+3. Navigate to http://localhost:3000/injects
+4. Click "Start Scenario" button
 
-**Method 2: Via API (Backup)**
+**Method 2: Via MQTT Command (Backup)**
+```bash
+# Start scenario via MQTT (primary method)
+mosquitto_pub -h localhost -t "scenario/control" -m '{"command":"start"}'
+
+# Stop scenario
+mosquitto_pub -h localhost -t "scenario/control" -m '{"command":"stop"}'
+
+# Reset scenario
+mosquitto_pub -h localhost -t "scenario/control" -m '{"command":"reset"}'
+```
+
+**Method 3: Via API (Alternative)**
 ```bash
 # Start scenario via API
 curl -X POST http://localhost:8000/scenario \
   -H "Content-Type: application/json" \
   -d '{"scenario_active": true}'
-
-# Or use MQTT directly
-mosquitto_pub -h localhost -t "scenario/control" -m '{"command":"start"}'
 ```
 
 ---
@@ -108,9 +117,9 @@ mosquitto_pub -h localhost -t "scenario/control" -m '{"command":"start"}'
 
 ### During Demo
 1. **Launch Scenario:**
-   - Go to http://localhost:3000
+   - Go to http://localhost:3000/injects
    - Login with any credentials
-   - Start scenario (either via UI button or curl command above)
+   - Click "Start Scenario" button (or use MQTT command as backup)
 
 2. **Navigate Between Views:**
    - Use browser bookmarks for quick switching

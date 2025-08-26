@@ -34,8 +34,14 @@ Example: admin@demo.com / PIN: 1234
 
 STEP 4: START SCENARIO
 ----------------------
-Method 1 (Recommended): Use the scenario start button in UI
-Method 2 (Backup): Command line
+Method 1 (Recommended): Via UI
+- Go to http://localhost:3000/injects 
+- Click "Start Scenario" button
+
+Method 2 (Command Line - Backup):
+mosquitto_pub -h localhost -t "scenario/control" -m '{"command":"start"}'
+
+Method 3 (Alternative):
 curl -X POST http://localhost:8000/scenario -H "Content-Type: application/json" -d '{"scenario_active": true}'
 
 STEP 5: DEMO NAVIGATION BOOKMARKS
