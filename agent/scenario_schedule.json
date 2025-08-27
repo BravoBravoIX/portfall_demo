@@ -229,8 +229,8 @@
       "parameters": {
         "dashboard": "media",
         "change": "publish_tweet",
-        "content": "Anyone else experiencing GPS drift issues near Southgate Port? My navigation system is showing weird readings #maritime #GPS #portfall",
-        "source": "@MaritimeWatch_UK",
+        "content": "Why are ships disappearing from tracking systems at #Southgate?! Multiple vessels just vanished from radar. What's going on?? @MarineTracker",
+        "source": "@localwatch",
         "media_id": "1"
       }
     },
@@ -350,6 +350,23 @@
     "manual": false
   },
   {
+    "time_offset": 10,
+    "event_id": "MEDIA-T105-UNREST",
+    "target": "VM-UI",
+    "action_type": "payload",
+    "payload": {
+      "command": "update_dashboard",
+      "parameters": {
+        "dashboard": "media",
+        "change": "publish_news",
+        "headline": "BREAKING: Unrest Reported at Southgate Port - Workers demand answers",
+        "source": "Channel 7",
+        "media_id": "3"
+      }
+    },
+    "manual": false
+  },
+  {
     "time_offset": 12,
     "event_id": "MEDIA-T75-NEWS",
     "target": "VM-UI",
@@ -359,8 +376,8 @@
       "parameters": {
         "dashboard": "media",
         "change": "publish_news",
-        "headline": "Southgate Port Experiences Major System Disruption - Reports of shipping disruptions and safety concerns at major UK port facility",
-        "source": "Maritime Industry News",
+        "headline": "BREAKING: Sabotage at Southgate? Port operations in chaos as systems fail",
+        "source": "ABC News",
         "media_id": "2"
       }
     },
@@ -407,10 +424,11 @@
       "command": "update_dashboard",
       "parameters": {
         "dashboard": "media",
-        "change": "publish_news",
-        "headline": "BBC Maritime requests CEO interview regarding port security incident",
-        "source": "BBC Maritime",
-        "media_id": "3"
+        "change": "air_interview",
+        "interviewee": "CEO",
+        "title": "CEO Interview on Southgate Incident",
+        "source": "Channel 7",
+        "media_id": "4"
       }
     },
     "manual": false
