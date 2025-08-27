@@ -340,7 +340,7 @@ export default function useEmailMessages(userEmail = null) {
   };
   
   return {
-    emails: filteredEmails, // Return filtered emails instead of all emails
+    emails: user?.roles?.includes('admin') ? emails : filteredEmails, // Show all emails for admin
     allEmails: emails, // Still provide access to all emails if needed
     folders,
     selectedFolder,

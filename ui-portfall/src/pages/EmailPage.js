@@ -21,8 +21,8 @@ export default function EmailPage() {
     currentUserEmail
   } = useEmailMessages(user?.config?.email);
   
-  // Toggle for debug panel
-  const [showMonitor, setShowMonitor] = useState(true);
+  // Toggle for debug panel - auto-show for admin
+  const [showMonitor, setShowMonitor] = useState(user?.roles?.includes('admin'));
   
   return (
     <div className="p-4 space-y-4">

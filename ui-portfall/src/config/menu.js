@@ -13,7 +13,8 @@ export const MENU_ITEMS = [
   { name: 'Containers',  path: '/containers',  roles: ['admin', 'operations'], icon: 'box' },
   { name: 'Vendor',      path: '/vendor',      roles: ['admin', 'technical'], icon: 'users' },
   
-  // Admin-only item
+  // Admin-only items
+  { name: 'Email',       path: '/email',       roles: ['admin'], icon: 'mail' },
   { name: 'Injects',     path: '/injects',     roles: ['admin'], icon: 'bolt' },
   
   // Team pages (for development and testing)
