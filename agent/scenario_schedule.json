@@ -54,8 +54,8 @@
       "command": "update_dashboard",
       "parameters": {
         "dashboard": "ais",
-        "change": "hide_single_ship",
-        "ship_name": "Ship_Alpha"
+        "change": "hide_ship",
+        "target_ships": ["Ship_Alpha"]
       }
     },
     "manual": false
@@ -103,8 +103,7 @@
       "command": "update_dashboard",
       "parameters": {
         "dashboard": "cctv",
-        "change": "camera_outage",
-        "camera_id": "BERTH_1_CAM_01"
+        "change": "trigger_blackout"
       }
     },
     "manual": false
@@ -150,8 +149,8 @@
       "command": "update_dashboard",
       "parameters": {
         "dashboard": "ais",
-        "change": "hide_single_ship",
-        "ship_name": "Ship_Beta"
+        "change": "hide_ship",
+        "target_ships": ["Ship_Beta"]
       }
     },
     "manual": false
@@ -165,8 +164,9 @@
       "command": "update_dashboard",
       "parameters": {
         "dashboard": "cctv",
-        "change": "camera_outage",
-        "camera_id": "BERTH_3_CAM_02"
+        "change": "stream_failure",
+        "berths": [3, 4, 5],
+        "message": "CCTV streams failing for berths 3, 4, 5 - camera feeds lost"
       }
     },
     "manual": false
@@ -213,10 +213,8 @@
     "payload": {
       "command": "update_dashboard",
       "parameters": {
-        "dashboard": "containers",
-        "change": "routing_error",
-        "container_id": "CONT_7832",
-        "error": "Scheduled for Berth 1, routed to Berth 5"
+        "dashboard": "container",
+        "change": "log_config_manipulation"
       }
     },
     "manual": false
@@ -230,11 +228,10 @@
       "command": "update_dashboard",
       "parameters": {
         "dashboard": "media",
-        "change": "add_social_post",
-        "platform": "twitter",
-        "user": "@MaritimeWatch_UK",
+        "change": "publish_tweet",
         "content": "Anyone else experiencing GPS drift issues near Southgate Port? My navigation system is showing weird readings #maritime #GPS #portfall",
-        "timestamp": "T+35"
+        "source": "@MaritimeWatch_UK",
+        "media_id": "1"
       }
     },
     "manual": false
@@ -361,10 +358,10 @@
       "command": "update_dashboard",
       "parameters": {
         "dashboard": "media",
-        "change": "add_news_article",
-        "headline": "Southgate Port Experiences Major System Disruption",
+        "change": "publish_news",
+        "headline": "Southgate Port Experiences Major System Disruption - Reports of shipping disruptions and safety concerns at major UK port facility",
         "source": "Maritime Industry News",
-        "summary": "Reports of shipping disruptions and safety concerns at major UK port facility"
+        "media_id": "2"
       }
     },
     "manual": false
@@ -410,10 +407,10 @@
       "command": "update_dashboard",
       "parameters": {
         "dashboard": "media",
-        "change": "add_media_alert",
-        "type": "interview_request",
+        "change": "publish_news",
+        "headline": "BBC Maritime requests CEO interview regarding port security incident",
         "source": "BBC Maritime",
-        "message": "CEO interview requested regarding port security incident"
+        "media_id": "3"
       }
     },
     "manual": false
