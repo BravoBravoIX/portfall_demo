@@ -238,16 +238,16 @@
   },
   {
     "time_offset": 8,
-    "event_id": "TECH-P3-LOGS1",
+    "event_id": "TECH-P3-EMAIL1",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
-      "command": "update_dashboard",
+      "command": "send_email",
       "parameters": {
-        "dashboard": "technical",
-        "change": "add_log_entry",
-        "message": "FORENSIC EVIDENCE: Suspicious cron job detected - /usr/bin/route_modifier scheduled every 15min",
-        "severity": "HIGH"
+        "from_name": "Maya Singh (Forensic Analyst)",
+        "subject": "URGENT: Malicious Cron Job Detected - Immediate Investigation Required",
+        "to": ["technical@simrange.local"],
+        "body": "Technical Team,\n\nForensic analysis has detected a suspicious cron job on our scheduler system:\n\n/usr/bin/route_modifier - executing every 15 minutes\n\nThis appears to be manipulating our routing tables and is likely the source of our container routing errors.\n\nIMMEDIATE ACTIONS REQUIRED:\n1. Isolate the affected scheduler system\n2. Capture forensic evidence of the cron job\n3. Determine scope of routing table manipulation\n4. Report findings to Incident Coordinator\n\nThis is a HIGH PRIORITY security incident.\n\nMaya Singh\nForensic Analysis Team"
       }
     },
     "manual": false
@@ -300,16 +300,16 @@
   },
   {
     "time_offset": 10,
-    "event_id": "TECH-P3-LOGS2",
+    "event_id": "TECH-P3-EMAIL2",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
-      "command": "update_dashboard",
+      "command": "send_email",
       "parameters": {
-        "dashboard": "technical",
-        "change": "add_log_entry",
-        "message": "FORENSIC EVIDENCE: Malicious script found in /var/scripts/network_disrupt.sh - modifies routing tables",
-        "severity": "CRITICAL"
+        "from_name": "David Kim (Security Officer)",
+        "subject": "CRITICAL: Malicious Script Discovered - Network Disruption Tool Found",
+        "to": ["technical@simrange.local", "executive@simrange.local"],
+        "body": "CRITICAL SECURITY ALERT\n\nTechnical and Executive Teams,\n\nWe have discovered a malicious script on our systems:\n\n/var/scripts/network_disrupt.sh - actively modifying routing tables\n\nThis script is designed to disrupt network operations and confirms we are under active cyber attack.\n\nIMMEDIATE EXECUTIVE DECISIONS NEEDED:\n1. TECH: Quarantine all affected network nodes immediately\n2. TECH: Begin emergency system restoration procedures\n3. EXEC: Consider declaring cyber incident to authorities\n4. EXEC: Activate crisis communications protocols\n\nThis is a CRITICAL THREAT to port operations.\n\nDavid Kim\nChief Security Officer"
       }
     },
     "manual": false
@@ -335,16 +335,16 @@
   },
   {
     "time_offset": 11,
-    "event_id": "TECH-P4-LOGS4",
+    "event_id": "TECH-P4-EMAIL1",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
-      "command": "update_dashboard",
+      "command": "send_email",
       "parameters": {
-        "dashboard": "technical",
-        "change": "add_log_entry",
-        "message": "CONTAINMENT: Malicious processes terminated. Restoring systems from clean backups.",
-        "severity": "INFO"
+        "from_name": "Marcus Chen (Chief Technical Officer)",
+        "subject": "CONTAINMENT SUCCESSFUL: Malicious Processes Terminated",
+        "to": ["technical@simrange.local", "executive@simrange.local", "operations@simrange.local"],
+        "body": "CONTAINMENT UPDATE\n\nTechnical, Executive and Operations Teams,\n\nI can confirm that our emergency response has been successful:\n\n✓ All malicious processes have been terminated\n✓ Systems are being restored from clean backup images\n✓ Network routing tables have been reset to baseline\n✓ Container scheduling is returning to normal operation\n\nNEXT PHASE ACTIONS:\n1. OPS: Monitor all systems for normal operation\n2. EXEC: Prepare incident summary for stakeholders\n3. TECH: Continue forensic analysis for incident report\n\nThe immediate threat has been contained. Systems recovery in progress.\n\nMarcus Chen\nChief Technical Officer"
       }
     },
     "manual": false
@@ -401,16 +401,16 @@
   },
   {
     "time_offset": 13,
-    "event_id": "TECH-P4-LOGS5",
+    "event_id": "TECH-P4-EMAIL2",
     "target": "VM-UI",
     "action_type": "payload",
     "payload": {
-      "command": "update_dashboard",
+      "command": "send_email",
       "parameters": {
-        "dashboard": "technical",
-        "change": "add_log_entry",
-        "message": "FORENSIC COMPLETE: Attack vector identified. Threat contained. Systems hardened.",
-        "severity": "INFO"
+        "from_name": "Elena Vasquez (Incident Commander)",
+        "subject": "INCIDENT RESOLVED: Forensic Analysis Complete - Systems Secured",
+        "to": ["technical@simrange.local", "executive@simrange.local", "legal@simrange.local", "operations@simrange.local"],
+        "body": "FINAL INCIDENT STATUS\n\nAll Teams,\n\nI can now confirm that our cyber security incident has been fully resolved:\n\n✓ FORENSIC ANALYSIS COMPLETE: Attack vector identified and documented\n✓ THREAT CONTAINED: All malicious code removed from systems\n✓ SYSTEMS HARDENED: Additional security measures implemented\n✓ OPERATIONS RESTORED: All port systems operating normally\n\nINCIDENT SUMMARY:\n- Coordinated cyber attack via compromised vendor credentials\n- Malicious cron jobs disrupting AIS, CCTV, and container routing\n- Full system compromise prevented by rapid technical response\n- No data exfiltration detected\n\nFINAL ACTIONS:\n- LEGAL: Prepare incident report for regulators\n- EXEC: Client and stakeholder communications\n- TECH: Submit forensic evidence to authorities\n\nExcellent work by all teams in containing this threat.\n\nElena Vasquez\nIncident Commander"
       }
     },
     "manual": false
